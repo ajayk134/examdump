@@ -1,0 +1,1263 @@
+{
+  "E20-575__1339f17663439a2f": {
+    "Question #: 1": {
+      "Title": "Exam E20-575 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is determined by setting the priority level on a Consistency Group (CG)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Amount of time before sending an automated notification stating a watermark has been reached"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Amount of bandwidth allocated to the CG in relation to all other CGs using the same primary RPA"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. CG(s) that requires the most resources from the primary RPA, regardless of other system activity"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Order in which the CG will begin replication in the event a failover occurs"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam E20-575 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which RecoverPoint CLI command can be used to show a summarization of the errors and warnings for either one site or the entire RecoverPoint system?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. get_rpa_states"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. get_events_log"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. get_system_status"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. get_clusters_topology"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.emc.com/thread/221561"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.emc.com/thread/221561"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam E20-575 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A physical RecoverPoint cluster is connected to a single VMAX array. When running SAN diagnostics form the boxmgmt menu, what is the minimum number of"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WWPN can be seen in the storage ports section of the diagnostic test?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam E20-575 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A storage administrator has one production site and one remote site. The administrator configured the RecoverPoint with VNX (SE) cluster at both sites. The current environment has two Consistency Groups configured with two copies each; one production copy and one remote copy. Based on the company's growing business requirements, the administrator has been asked to keep a local copy of the production data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which action should occur in order to meet this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add a copy into the existing Consistency Group for a local replication"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Delete and reconfigure the existing Consistency Group for a local and remote replication"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. RecoverPoint with VNX (SE) does not support more than two copies in a single Consistency Group"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Upgrade the RecoverPoint with VNX (SE) license to RecoverPoint/EX and then reconfigure the Consistency Group"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam E20-575 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In Unisphere for RecoverPoint, which wizard will allow an administrator to manage and monitor all correctly accessed copies undergoing testing, failover, and production recovery?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Protect Volumes"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Test a Copy"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Manage Protection"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Manage Recovery"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/TechnicalDocument/RPVMs4.3_administrators_guide.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/TechnicalDocument/RPVMs4.3_administrators_guide.pdf"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam E20-575 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A RecoverPoint administrator is adding a new user to the system using Unisphere. Which pre-defined user is used to add a new user?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. admin"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. boxmgmt"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. security-admin"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. security"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam E20-575 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A storage administrator has created a new Consistency Group with a remote copy. After enabling the new group, the administrator notices several other"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Consistency Groups are experiencing high load alerts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is possible cause for the high load conditions?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Initialization is consuming all the WAN bandwidth"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Journal pool for the new Consistency Group is undersized"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Journal pool for the new Consistency Group has poor performing storage"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Not enough licensed replication storage is available for the new Consistency Group"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam E20-575 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A RecoverPoint administrator needs to add a local copy to three existing Consistency Groups. The RecoverPoint system currently contains 100 Consistency"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Groups. Each group has one remote copy with 80 replication sets. Each cluster contains eight physical RPAs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, the administrator is unable to add all the local copies. What is a cause for this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Consistency Group copy cannot have 1024 volumes within the copy"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Cluster has the maximum number of RPAs and cannot be expanded"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Addition of the local volumes will exceed the 16K volume limit per cluster"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. RecoverPoint system needs to be converted to a RP/EX system to support the extra volumes"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam E20-575 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During the Write phase of RecoverPoint replication, when does the write splitter send an acknowledgement back to the host that initiated the write?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. As soon as the splitter received the write"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. After the splitter has received an acknowledgement from the RPAs"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. After the Distribution phase has completed"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. After the splitter has received an acknowledgement form the production LUN"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.emc.com/thread/169861?tstart=0"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.emc.com/thread/169861?tstart=0"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam E20-575 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A RecoverPoint administrator is planning to use RecoverPoint to protect their applications. The administrator needs to protect 8192 production volumes. The"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RecoverPoint system has two physical clusters using VNX arrays."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is a possible Consistency Group configuration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 4096 Consistency Groups, each with 1 remote copy and 1 local copy"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 4096 replication sets, each with 1 remote copy and 1 local copy"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 8192 Consistency Groups, each with 1 remote copy and 1 local copy"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 8192 replication sets, each with 1 remote copy and 1 local copy"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam E20-575 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To determine whether physical or virtual RPAs are in use on a specific cluster, what is a correct sequence of steps to determine the type of RPAs for that cluster when using Unisphere?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Click on RPA clusters> Cluster name> RPAs"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Click on Protection> Cluster name > RPA details"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Click on Dashboard> RPAs >RPA type"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Click on Admin> System Analysis Tools> RPAs"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam E20-575 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Where are incoming writes sent to during the Write phase of the RecoverPoint workflow?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Production Journal"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Consistency Groups' assigned RPA"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Remote clusters' primary RPA"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Copy Journal"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.emc.com/thread/169861?tstart=0"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.emc.com/thread/169861?tstart=0"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam E20-575 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "For which type of EMC storage array(s) is the RecoverPoint/BK used for in local backups?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Data Domain"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VNX/VNXe, Unity"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Avamar"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. NetWorker"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam E20-575 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which Consistency Group setting is directly affected by the maximum Journal lag setting?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Deduplication"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. RPO"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Compression"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. RTO"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/TechnicalDocument/RPVMs4.3_administrators_guide.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(14)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/TechnicalDocument/RPVMs4.3_administrators_guide.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(14)"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam E20-575 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A storage administrator wants to protect their distributed VPLEX volumes using the RecoverPoint, MetroPoint feature. The administrator wants to know if they need to be aware of any special considerations. What information should be provided to the administrator?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set the RecoverPoint Group Policy to enable group writes across RPAs"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. RecoverPoint does not support replication of distributed VPLEX devices"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All VPLEX devices at both sites can be protected using MetroPoint, regardless of whether they are local or distributed"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Both VPLEX clusters must have a RecoverPoint cluster connected in order to create a MetroPoint Consistency Group"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam E20-575 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which RecoverPoint feature allows for the creation of a consistent point-in-time image across multiple Consistency Groups?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Group Sets"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Bookmarks"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Journal Consolidation"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Snapshot Pruning"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam E20-575 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which factor affects the time it takes a Consistency Group to complete the first-time initialization?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Performance of the Journal volumes at the remote copy"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Number of RPAs at the remote copy cluster"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Distance between the production and remote copy clusters"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Number of RPAs at the production cluster"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

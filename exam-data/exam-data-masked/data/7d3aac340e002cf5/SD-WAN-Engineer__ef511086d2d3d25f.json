@@ -1,0 +1,1310 @@
+{
+  "SD-WAN-Engineer__ef511086d2d3d25f": {
+    "Question #: 1": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When identifying devices for IoT classification purposes, which two methods does Prisma SD-WAN use to discover devices that are not directly connected to the branch ION? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. LLDP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CDP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SNMP"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Syslog"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "User-ID integration is configured for a Prisma SD-WAN deployment. Branch- 1 has the user-to-IP mappings available, and User-1 is mapped to IP-1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To which two use cases can User-ID based zone-based firewall policies be applied? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. User-1 accessing a SaaS application on direct internet and source User-ID based zone-based firewall rules on Branch-1 ION"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. User-1 accessing a private application within Branch-1, and source User-ID based zone-based firewall rules on Branch-1 ION"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. User-1 accessing a private application in data center via SD-WAN overlay, and destination User-ID based zone-base firewall rules DC ION"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. User-1 accessing a private application in Branch-2 via SD-WAN overlay, and destination User-ID based zone-based firewall rules on Branch-2 ION"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A site has two internet circuits: Circuit A with 500 Mbps capacity and Circuit B with 100 Mbps capacity."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which path policy configuration will ensure traffic is automatically shifted from a saturated circuit to the circuit with available bandwidth?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Circuit A as an active, Circuit B as a backup"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Circuit B as an active, Circuit A as a backup"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Both circuits under active path"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Circuit B as an L3 failure path"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Site templates are to be used for the large-scale deployment of 100 Prisma SD-WAN branch sites across different regions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements align with the capabilities and best practices for Prisma SD-WAN site templates? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The use of Jinja conditional statements within a site template is not supported, thereby limiting dynamic customization options."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Mandatory variables for any site template include the site name, ION software version, and at least one ION serial number /device name pair."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Site templates offer the capability to pre-stage device configurations by creating a device shell."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Once a site has been deployed using a template, its configuration can be updated or modified by applying an updated version of the template."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which modes can a Prisma SD-WAN branch be deployed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Testing, Control, POV"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Production, Control, Disabled"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Disabled, Analytics, Control"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. POV, Production, Analytics"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two requirements for implementing user/group-based path policies? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Cloud Identity Engine"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Internal host detection"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Autonomous Digital Experience Manager (ADEM)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Data center ION"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A multinational company is deploying Prisma SD-WAN across North America, Europe, and Asia. The data centers in the North America region have served all regions, but regional policies are now being enforced that mandate each of the regions to build their own data centers and branch sites to only connect to their respective regional data centers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can this regionalization be achieved so that new or existing branch sites only build tunnels to the regional DC IONs?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a new cluster for each regional DC ION and move the sites from the existing cluster to the new cluster."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Disable to auto-tunnel feature globally on the Prisma SD-WAN portal and manually create all necessary tunnels exclusively between IONs within their designated regions."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Remove the circuit labels and apply new circuit labels for in-region circuits only."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Assign WAN interfaces to distinct Virtual Routing and Forwarding (VRF) instances for each region on the DC IONs, ensuring that branches only connect to the WAN interfaces/VRFs designated for their region."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "By default, how many days will Prisma SD-WAN VPNs stay operational before the keys expire when an ION device loses connection with the controller?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 5"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 7"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the number and structure of Prisma SD-WAN QoS queues supported per WAN interface?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 12 queues"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4 classes"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3 application criteria within each class"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 16 queues"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4 classes"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4 application criteria with each class"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 8 queues"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "1 priority queue"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "7 non-priority queues"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 8 queues"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2 classes"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4 application criteria within each class"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which IONs can support Branch Gateway?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 3102V, 3200, 1200S, 5200"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1200, 3200, 9200, 7108V"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3104V, 1200S, 5200, 7108V"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 9200, 3200, 5200, 7116V"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A network engineer isle to ping and traceroute from SD-WAN branch IP 192.168.1.123 to servers in primary data center \u2013 DC1, but is unable to ping or traceroute to a server 10.2.2.22 in the newly configured secondary data center, DC2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The DC2 ION device is advertising the branch IP subnet 192.168.1.0/24 to the DC2 core via eBGP Core Peer. The DC2 data center site has site prefix 10.2.2.0/23 configured."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which configuration will resolve the issue in this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The default 0.0.0.0/0 static route to the DC2 ION pointing to the DC2 next hop."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Reconfigure eBGP Core Peer to iBGP Core Peer."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Reconfigure eBGP Core Peer as Edge Peer type."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove site prefix 10.2.2.0/23 from DC2 site configuration."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A network administrator for an organization using Prisma SD-WAN needs to identity the top applications specifically associated with the primary data center site."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which WAN Clarity report approach will be most effective in this use case?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Traffic Distribution: Top Applications report, when viewed in the context of the primary data center site, to list applications by their consumption directly related to that site\u2019s traffic."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Application Performance report, globally aggregated across all sites, to see which applications have the highest overall bandwidth usage, then correlate these with known data center services"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Hotspots: Undefined Domains report, specifically filtered for the data center site, to identify high-bandwidth FQDNs that might represent applications hosted in the data center"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Utilization Quadrant report, focusing on the WAN circuits directly connected to the data center, to infer high application bandwidth from periods of high circuit use."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two potential causes when a secondary public circuit has been added to the branch site, but the Prisma SD-WAN tunnel is not forming to the data center? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Interface role is not selected as \u201cinternet.\u201d"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Circuit label is missing from interface type."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DNS is not configured."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Interface scope is set to \u201clocal.\u201d"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is valid when integrating Prisma SD-WAN with Prisma Access remote networks?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Security policies for remote networks are configured in Prisma Access and pushed to Prisma SD-WAN for enforcement on the branch ION devices."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Easy onboarding automatically recommends the closest preconfigured remote network security processing nodes and can be overridden manually."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A branch with multiple internet circuits will automatically connect to Prisma Access on each circuit and will be used in an active/standby manner for internet-bound traffic."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Bandwidth must be allocated to each Prisma Access remote network compute location, and this bandwidth is shared between all branches that terminate on this remote network node."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a data center (DC) with two ION devices, all of the remote branch Prisma SD-WAN VPNs are active only on DC ION-1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why are no VPNs active on DC ION-2?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The BGP core peer is down."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The static route to core as a next hop is missing."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The ION device is behind a NAT."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The DC and branches are in a different domain."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Based on the HA topology image below, which two statements describe the end-state when power is removed from the ION 1200-S labeled \u201cActive\u201d, assuming that the ION labeled \u201cStandby\u201d becomes the active ION? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/sd-wan-engineer/image3.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Both the connection to ISP A and the connection to LTE/5G will be usable."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The VRRP Virtual IP address assigned to any SVIs will be moved to the newly active ION."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The newly active ION will send a gratuitous ARP to the LAN for the IP address of any SVIs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The connection to ISP A will be usable, but the connection to LTE/5G will not."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the default action for real-time media applications if link performance is poor?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Drop the flow."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Move flows."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Apply Forward Error Correction (FEC)."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Raise an alarm."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When an ION device has been claimed, the cloud-based controller generates and communicates with the device by which method?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Manufacturer Installed Certificate (MIC)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Existing customer public key infrastructure (KPI)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Self-signed certificate"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Customer Installed Certificate (CIC)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam SD-WAN-Engineer topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which troubleshooting step should be taken when users at a branch site are experiencing a maximum throughput of 200 Mbps for Direct Internet Access (DIA) traffic on a 1Gbps internet connection?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Ensure QoS policy is applies to the site."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Ensure the WAN interface is set to 1 Gbps or auto mode."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Ensure performance policy is applied to the site."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Ensure the circuit configuration at the site level is properly set."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

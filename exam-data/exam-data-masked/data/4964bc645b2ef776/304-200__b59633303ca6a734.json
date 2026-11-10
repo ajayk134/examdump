@@ -1,0 +1,516 @@
+{
+  "304-200__b59633303ca6a734": {
+    "Question #: 1": {
+      "Title": "Exam 304-200 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following KVM parameters is identical to the KVM parameter -hdb file.img?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. -drive bus=ide1,type=slave,image=file.img"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. -drive image=file.img,if=ide,device=hdb"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. -drive bus=hd,busid=b,src=file.img"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. -drive file=file.img,index=1,media=disk,if=ide"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. -drive type=loop,src=file.img,dst=disk:hdb"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 304-200 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SIMULATION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command in the KVM monitor ejects the first IDE CDROM drive? (Specify the KVM monitor command INCLUDING ALL REQUIRED PARAMETERS.)"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: eject ide1-cd0 -or- eject -f ide1-cd0"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 3": {
+      "Title": "Exam 304-200 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When used with KVM, which of the following block device image formats support snapshots?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. qcow"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. dmg"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. qed"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. qcow2"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. raw"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 304-200 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SIMULATION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command is used to perform all central management and configuration operations regarding OpenVZ containers? (Specify ONLY the command without any path or parameters.)"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: vzctl -or- virsh"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 5": {
+      "Title": "Exam 304-200 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What action does the virsh restore command perform?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It restores a virtual machine that was stopped by a kernel panic."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It restores a virtual machine from a state file."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It reverts a virtual machine, including its storage devices, to a previously saved state."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It wakes up a virtual machine that was hibernated by the operating system running inside the virtual machine."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 304-200 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SIMULATION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When using direct Linux booting to start Linux within a KVM virtual machine, which KVM parameter is used to specify parameters for the Linux Kernel? (Specify"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ONLY the option name without any values or parameters.)"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: append -or- -append"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 7": {
+      "Title": "Exam 304-200 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SIMULATION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command in the KVM monitor restores a snapshot? (Specify ONLY the command without any path or parameters.)"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: loadvm"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 8": {
+      "Title": "Exam 304-200 topic 1 question 67 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following restrictions is true when using KVM with the User Network?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Virtual Machines must use a SOCKS proxy to connect to the internet."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Virtual Machines can communicate with the host system and with other virtual machines using User Network."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Virtual Machines can only communicate with other virtual machines but not with the host system."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Virtual Machines cannot use ICMP."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Virtual Machines are restricted to only use IPv6 and not IPv4."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 304-200 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the effect of running the virsh vcpupin CLUSNODE-2 4 2 command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It sets the affinity of virtual CPU 4 of virtual machine CLUSNODE-2 to physical processor 2."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It reduces the number of virtual CPUs in CLUSNODE-2 from 4 to 2."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It increases the number of virtual CPUs in CLUSNODE-2 from 2 to 4."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It sets the affinity for all virtual CPUs of virtual machine CLUSNODE-2 to the physical processors 2 and 4."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 304-200 topic 3 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When using DRBD in a Pacemaker cluster, which configuration objects must be managed in order to use the DRBD device as storage for other cluster services?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Choose TWO correct answers.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A security resource in order to permit other cluster services to access the data on the DRBD device."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A health resource in order to check the integrity of the file system."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A file system resource to mount the device."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A replication resource that synchronizes the DRBD device's data to all nodes that may take over the device after a failover."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A constraint to ensure the device is mounted before the dependent services are started."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

@@ -1,0 +1,1193 @@
+{
+  "NSE5_FMG-5.4__e9bd77c5ca755cdb": {
+    "Question #: 1": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When installation is performed from the FortiManager, what is the recovery logic used between FortiManager and FortiGate for an FGFM tunnel?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. After 15 minutes, FortiGate will unset all CLI commands that were part of the installation that caused the tunnel to go down."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiGate will reject the CLI commands that will cause the tunnel to go down."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiManager will revert and install a previous configuration revision on the managed FortiGate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiManager will not push the CLI commands as a part of the installation that will cause the tunnel to go down."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the following exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02605/0000300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When using Install Config option to install configuration changes to managed FortiGate, which of the following statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Will not create new revision in the revision history."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Provides the option to preview configuration changes prior to installing them."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Installs device-level changes to FortiGate without launching the Install Wizard."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Once installed, the install process cannot be canceled and changes will be installed on the managed device."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the following exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02605/0000400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following statements are true if both FortiManager and FortiGate are behind the NAT devices? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiGate can announce itself to FortiManager only if the FortiManager IP address is configured on FortiGate under central management."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. If the FGFM tunnel is torn down, FortiManager will try to re-establish the FGFM tunnel."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiGate is discovered by FortiManager through the FortiGate NATed IP address."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. During discovery, the FortiManager NATed IP address is not set by default on FortiGate."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the purpose of the Policy Check feature on FortiManager?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. To find and merge duplicate policies in the policy package."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To find and provide recommendation to combine multiple separate policy packages into one common policy package."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. To find and delete disabled firewall policies in the policy package."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. To find and provide recommendation for optimizing policies in a policy package."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The policy check tool allows you to check all policy packages within an ADOM to ensure consistency and eliminate conflicts that may prevent your devices from passing traffic. This allows you to optimize your policy sets and potentially reduce the size of your databases. The check will verify:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Object duplication: two objects that have identical definitions"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Object shadowing: a higher priority object completely encompasses another object of the same type"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Object overlap: one object partially overlaps another object of the same type"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. Object orphaning: an object has been defined but has not been used anywhere."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.fortinet.com/uploaded/files/2905/FortiManager-5.4.0-Administration-Guide.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The policy check tool allows you to check all policy packages within an ADOM to ensure consistency and eliminate conflicts that may prevent your devices from passing traffic. This allows you to optimize your policy sets and potentially reduce the size of your databases. The check will verify:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Object duplication: two objects that have identical definitions"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Object shadowing: a higher priority object completely encompasses another object of the same type"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Object overlap: one object partially overlaps another object of the same type"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. Object orphaning: an object has been defined but has not been used anywhere."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.fortinet.com/uploaded/files/2905/FortiManager-5.4.0-Administration-Guide.pdf"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the following exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02605/0000500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following statements is true regarding the object named ALL?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiManager updated the object ALL using FortiManager's value in its database."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiManager updated the object ALL using FortiGate's value in its database."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiManager created the object ALL as a unique entity in its database, which can be only used by this managed FortiGate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiManager installed the object ALL with the updated value."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following conditions trigger FortiManager to create a new revision history? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. When FortiManager installs device-level changes to a managed device."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. When configuration revision is reverted to previous revision in the revision history."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When changes to device-level database is made on FortiManager."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When FortiManager is auto-updated with configuration changes made directly on a managed device."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true regarding an FGFM keepalive message? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It includes the configuration checksum of FortiGate."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The keepalive interval for keepalive messages is configured on FortiGate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is sent only by FortiGate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is used between FortiManager HA cluster members to make sure cluster members are in sync."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator would like to authorize a newly-installed AP using AP Manager. What steps does the administrator need to perform to authorize an AP?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Authorize the new AP using AP Manager and wait until the change is updated on the FortiAP. Changes to the AP's state do not require installation."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Changes to the AP's state must be performed directly on the managed FortiGate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Authorize the new AP using AP Manager and install the policy package changes on the managed FortiGate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Authorize the new AP using AP Manager and install the device level settings on the managed FortiGate."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has assigned a global policy package to custom ADOM1. What will happen if the administrator tries to create a new policy package in custom"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ADOM1?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. When a new policy package is created, you need to reapply the global policy package to the ADOM."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. When creating a new policy package, can select the option to assign the global policies to the new package."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When a new policy package is created, it automatically assigns the global policies to the new package."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When a new policy package is created, you must assign the global policy package from the global ADOM."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the following exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02605/0000900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What of the following statements are true regarding the output? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configuration changes have been installed to FortiGate and represents FortiGate configuration has been changed."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The latest revision history for the managed FortiGate does match with the FortiGate running configuration."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The latest revision history for the managed FortiGate does not match with the device-level database."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configuration changes directly made on the FortiGate have been automatically updated to device-level database."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to delete an address object that is currently referenced in a firewall policy. Which one of the following statements is true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiManager will replace the deleted address object with the all address object in the referenced firewall policy."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiManager will disable the status of the referenced firewall policy."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiManager will not allow the administrator to delete a referenced address object."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiManager will replace the deleted address object with the none address object in the referenced firewall policy."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How are the points calculated when using FortiMeter to deploy FortiOS-VM? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Based on the number of sessions on the mgmt interface of FortiOS-VM."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Based on the FortiGuard service option enabled for FortiOS-VM."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Based on the traffic usage on port1 and port2 on FortiOS-VM."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Based on the amount of traffic (per GB) passing through the FortiOS-VM."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Point calculations are based off of traffic passing through the FortiOS-VM interfaces. Points are used per terabyte of traffic and there is an increased point cost as you increase the FortiGuard services in use."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 4 pts/TB for a FortiOS-VM tagged as \"FW\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 10 pts/TB for a FortiOS-VM tagged as \"FW + URL\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 25 pts/TB for a FortiOS-VM tagged as \"UTM\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.fortinet.com/uploaded/files/4057/fortinetvm_on-demand_1.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Point calculations are based off of traffic passing through the FortiOS-VM interfaces. Points are used per terabyte of traffic and there is an increased point cost as you increase the FortiGuard services in use."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 4 pts/TB for a FortiOS-VM tagged as \"FW\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 10 pts/TB for a FortiOS-VM tagged as \"FW + URL\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 25 pts/TB for a FortiOS-VM tagged as \"UTM\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.fortinet.com/uploaded/files/4057/fortinetvm_on-demand_1.pdf"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the following exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02605/0001600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator has created a firewall address object, Training, which is used in the Local-FortiGate policy package. When the install operation is performed, which IP/Netmask will be installed on the Local-FortiGate, for the Training firewall address object?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 192.168.0.1/24"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It will create firewall address group on Local-FortiGate with 192.168.0.1/24 and 10.0.1.0/24 object values."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Local-FortiGate will automatically choose an IP/Netmask based on its network interface settings."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 10.0.1.0/24"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the following exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02605/0002400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator is importing a new device to FortiManager and has selected the shown options. What will happen if the administrator makes the changes and installs the modified policy package on this managed FortiGate?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The unused objects that are not tied to the firewall policies will be installed on FortiGate."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The unused objects that are not tied to the firewall policies will remain as read-only locally on FortiGate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The unused objects that are not tied to the firewall policies in policy package will be deleted from the FortiManager database."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The unused objects that are not tied to the firewall policies locally on FortiGate will be deleted."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam NSE5_FMG-5.4 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are included in the FortiManager backup? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Global database"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiGuard database"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Logs"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. All devices"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

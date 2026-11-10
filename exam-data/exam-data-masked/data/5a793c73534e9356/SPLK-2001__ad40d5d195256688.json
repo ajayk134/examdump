@@ -1,0 +1,5491 @@
+{
+  "SPLK-2001__ad40d5d195256688": {
+    "Question #: 1": {
+      "Title": "Exam SPLK-2001 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suppose the following query in a Simple XML dashboard returns a table including hyperlinks:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<search>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<query>index news sourcetype web_proxy | table sourcetype title link"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</query>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</search>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following is a valid dynamic drilldown element to allow a user of the dashboard to visit the hyperlinks contained in the link field?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <option name \u05d2\u20aclink.openSearch.viewTarget\">$row.link$</option>"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <drilldown> <link target=\u05d2\u20ac blank\">$$row.link$$</link> </drilldown>"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <drilldown> <link target=\"_blank\">$row.link|n$</link> </drilldown>"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <drilldown> <link target \u05d2\u20ac_blank\">http://localhost:8000/debug/refresh</link> </drilldown>"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/BuildandeditdashboardswithSimplifiedXML"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/BuildandeditdashboardswithSimplifiedXML"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam SPLK-2001 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When updating a knowledge object via REST, which of the following are valid values for the sharing Access Control List property?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. App"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. User"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Global"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Nobody"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam SPLK-2001 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are ways to get a list of search jobs? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Access Activity > Jobs with Splunk Web."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use Splunk REST to query the /services/search/jobs endpoint."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use Splunk REST to query the /services/saved/searches endpoint."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use Splunk REST to query the /services/search/sid/results endpoint."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Search/SupervisejobswiththeJobspage"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Search/SupervisejobswiththeJobspage"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam SPLK-2001 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are benefits from using Simple XML Extensions? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add custom layouts."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add custom graphics."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add custom behaviors."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Limit Splunk license consumption based on host."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/visualizedata/usewebframework/modifydashboards/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/visualizedata/usewebframework/modifydashboards/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam SPLK-2001 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How can indexer acknowledgement be enabled for HTTP Event Collector (HEC)? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. No need to do anything, it is turned on by default."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. When a REST request is sent to create a token, the property for indexer acknowledgement must be set to 1."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When a new HEC token is created in Splunk Web, select the checkbox labeled \u05d2\u20acEnable indexer acknowledgement\u05d2\u20ac."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When the Global Settings for HEC are updated in Splunk Web, select the checkbox labeled \u05d2\u20acEnable indexer acknowledgement\u05d2\u20ac."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Data/UsetheHTTPEventCollector"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Data/UsetheHTTPEventCollector"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam SPLK-2001 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After updating a dashboard in myApp, a Splunk admin moves myApp to a different Splunk instance. After logging in to the new instance, the dashboard is not seen. What could have happened? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The dashboard's permissions were set to private."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. User role permissions are different on the new instance."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The admin deleted the myApp/local directory before packaging."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Changes were placed in: $SPLUNK_HOME/etc/apps/search/default/data/ui/nav"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam SPLK-2001 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements define a namespace?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The namespace is a combination of the user and the app."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The namespace is a combination of the user, the app, and the role."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The namespace is a combination of the user, the app, the role, and the sharing level."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The namespace is a combination of the user, the app, the role, the sharing level, and the permissions."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam SPLK-2001 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are characteristics of an add-on? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Requires navigation file."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Occupies a unique namespace within Splunk."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Can depend on add-ons for correct operation."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Contains technology or components not intended for reuse by other apps."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam SPLK-2001 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements describe oneshot searches? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Are always executed asynchronously."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Can specify csv as an output format."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Stream all results upon search completion."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Can use auto_cancel to set a timeout limit."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam SPLK-2001 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following options would be the best way to identify processor bottlenecks of a search?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Using the REST API."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Using the search job inspector."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Using the Splunk Monitoring Console."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Searching the Splunk logs using index=\u05d2\u20ac internal\u05d2\u20ac."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam SPLK-2001 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is true of a namespace?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The namespace is a type of token filter."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The namespace includes an app attribute which cannot be a wildcard."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The namespace filters the knowledge objects returned by the REST API."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The namespace does not filter knowledge objects returned by the REST API."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam SPLK-2001 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What must be done when calling the serviceNS endpoint?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Authenticate with an admin user."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Specify the user and app context in the URI."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Authenticate with the user of the required context."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Pass the user and app context in the request payload."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam SPLK-2001 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming permissions are set appropriately, which REST endpoint path can be used by someone with a power user role to access information about mySearch, a saved search owned by someone with a user role?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. /servicesNS/-/data/saved/searches/mySearch"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. /servicesNS/object/saved/searches/mySearch"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /servicesNS/search/saved/searches/mySearch"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /servicesNS/-/search/saved/searches/mySearch"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam SPLK-2001 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Using Splunk Web to modify config settings for a shared object, a revised config file with those changes is placed in which directory?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. $SPLUNK_HOME/etc/apps/myApp/local"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. $SPLUNK_HOME/etc/system/default/"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. $SPLUNK_HOME/etc/system/local"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. $SPLUNK_HOME/etc/apps/myApp/default"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Admin/Howtoeditaconfigurationfile"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Admin/Howtoeditaconfigurationfile"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam SPLK-2001 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What application security best practices should be adhered to while developing an app for Splunk? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Review the OWASP Top Ten List."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Store passwords in clear text in .conf files."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Review the OWASP Secure Coding Practices Quick Reference Guide."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Ensure that third-party libraries that the app depends on have no outstanding CVE vulnerabilities."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam SPLK-2001 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "There is a global search named `global_search` defined on a form as shown below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<search id=`global_search`>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<query>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "index-_internal source-*splunkd.log | stats count by component, log_level"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</query>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</search>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following would be a valid post-processing search? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. | tstats count"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. sourcetype=mysourcetype"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. stats sum(count) AS count by log level"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. search log_level=error | stats sum(count) AS count by component"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/Savedsearches"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/Savedsearches"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam SPLK-2001 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In order to successfully accelerate a report, which criteria must the search meet? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Cannot use event sampling."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use a transforming command."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use a standard Splunk visualization."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Commands before the first transforming command must be streamable."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Knowledge/Manageacceleratedsearchsummaries"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Knowledge/Manageacceleratedsearchsummaries"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam SPLK-2001 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statements are true regarding HEC (HTTP Event Collector) tokens? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Multiple tokens can be created for use with different sourcetypes and indexes."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The edit token http admin role capability is required to create a token."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. To create a token, send a POST request to services/collector endpoint."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Tokens can be edited using the data/inputs/http/{tokenName} endpoint."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam SPLK-2001 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which type of command is tstats?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Generating"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Transforming"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Centralized streaming"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Distributable streaming"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchReference/Tstats"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchReference/Tstats"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam SPLK-2001 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is an example of a Splunk KV store use case? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Stores checkpoint data for modular inputs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Tracks workflow in an incident-review system."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Indexes metrics data from remote HTTP sources."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Stores application state as a user interacts with an app."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam SPLK-2001 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How can hiding or showing a panel by clicking on a chart or a table on the same form be performed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. By using vent drilldown."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. By using workflow action."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. By using contextual drilldown."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. By using visualization drilldown."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam SPLK-2001 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following two files defining app navigation, which navigation options will be displayed to the end user? (Select all that apply.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$SPLUNK_HOME/etc/apps/app_name/default/data/ui/nav/default.xml"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<nav search_view=`search` color=`#65A637`>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<view name=`search` default=`\u02dctrue' />"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<view name=`datasets` />"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<view name=`reports` />"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<view name=`dashboards` />"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</nav>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$SPLUNK_HOME/etc/apps/app_name/local/data/ui/nav/default/xml"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<nav search_view=`search` color=`#65A637`>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<view name=`search` default=`\u02dctrue' />"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<view name=`datasets` />"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<view name=`dashboards` />"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</nav>"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Search"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Reports"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Datasets"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Dashboards"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam SPLK-2001 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is an example of a valid syntax for specifying an absolute time range modifier in a search?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. earliest=01/01/2019:00:00:00"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. earliest=01/01/2019T00:00:00"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. earliest=2019-01-01 00:00:00"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. earliest=2019-01-01T00:00:00"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Search/Specifytimemodifiersinyoursearch"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Search/Specifytimemodifiersinyoursearch"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam SPLK-2001 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are true of auto-refresh for dashboard panels? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Applies to inline searches and saved searches."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enabling auto-refresh for a report requires editing XML."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Post-processing searches are refreshed when their base searches are refreshed."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Each post-processing search using the same base search can have a different refresh time."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam SPLK-2001 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When added to an app's default.meta file, which of the following makes one of its views available to other apps?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. export = app"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. export = none"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. export = view"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. export = system"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/setpermissionsforobjects/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/setpermissionsforobjects/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam SPLK-2001 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When output_mode is not used, which element of a feed is a human readable name for a returned entry?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Author"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Title"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Link"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Id"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam SPLK-2001 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which Splunk REST endpoint is used to create a KV store collection?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. /storage/collections"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. /storage/kvstore/create"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /storage/collections/config"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /storage/kvstore/collections"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/usetherestapitomanagekv/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/usetherestapitomanagekv/"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 28": {
+      "Title": "Exam SPLK-2001 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A KV store collection can be associated with a namespace for which of the following users?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Nobody"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Users in the admin role."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Users in the admin and power roles."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Users in the admin, power, and splunk-system-user roles."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam SPLK-2001 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are types of event handlers? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Search"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set token"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Form input"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Visualization"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/EventHandlerReference"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/EventHandlerReference"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam SPLK-2001 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following describes a Splunk custom visualization?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A visualization with custom colors."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Any visualization available in Splunk."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A visualization in Splunk modified by the user."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A visualization that uses the Splunk Custom Visualization API."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/AdvancedDev/CustomVizTutorial"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/AdvancedDev/CustomVizTutorial"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 31": {
+      "Title": "Exam SPLK-2001 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Searching `index=_internal metrics | head 3` from Splunk Web returned the following events:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "04-12-2018 18:39:43.514 +0200 INFO Metrics `\" group=thruput, name=thruput, instantaneous_kbps=0.9651774014563425, instantaneous_eps=5.645638802094809, average_kbps=1.198995639527069, total_k_processed=2676, kb=29.91796875, ev=175, load_average=3.85888671875"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "04-12-2018 18:39:43.514 +0200 INFO Metrics `\" group_thruput, name_syslog_output, instantaneous_kbps=0, instantaneous_eps_0, average_kbps=0, total_k_processed=0, kb=0, ev=0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "04-12-2018 18:39:43.513 +0200 INFO Metrics `\" group_thruput, name_index_thruput, instantaneous_kbps=0.9651773703189551, instantaneous_eps=4.87137960922438, average_kbps=1.1985932324065556, total_k_processed=2675, kb=29.91796875, ev=151"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When the same search is required from a REST API call, which fields will be given? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. _raw"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. name"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. sourcetype"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. instantaneous_kbps"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam SPLK-2001 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are reserved field names in a KV Store? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. _key"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. _time"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. _user"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. _source"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/aboutkvstorecollections/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/aboutkvstorecollections/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam SPLK-2001 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following endpoints is used to authenticate with the Splunk REST API?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. /services/auth/login"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. /services/session/login"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /services/auth/session/login"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /servicesNS/authentication/login"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 34": {
+      "Title": "Exam SPLK-2001 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of these URLs could be used to construct a REST request to search the employee KV store collection to find records with a rating greater than or equal to"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 and less than 5?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'http://localhost:8089/servicesNS/nobody/search/storage/collections/data/employees?query={$and:[{rating:{$gte:2}}, {rating:{$lt:5}}]}&output_mode-json'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 'http://localhost:8089/servicesNS/nobody/search/storage/collections/data/employees?query={$and:[{rating:$gte:2}}, {rating:{$lt:5}}]}&output_mode=json'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 'http://localhost:8089/servicesNS/nobody/search/storage/collections/data/employees?query={%22rating%22:{%22$gte% 22:2}},{%22$and%22},{%22rating%22:{%22$lt%22:5}}}&output_mode=json'"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 'http://localhost:8089/servicesNS/nobody/search/storage/collections/data/employees?query={%22$and%22:[{%22rating%22: {%22$gte%22:2}},{%22rating%22:{%22$lt%22:5}}]}&output_mode=json'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam SPLK-2001 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following log files contains logs that are most relevant to Splunk Web?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. audit.log"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. metrics.log"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. splunkd.log"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. web_service.log"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Troubleshooting/WhatSplunklogsaboutitself"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Troubleshooting/WhatSplunklogsaboutitself"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 36": {
+      "Title": "Exam SPLK-2001 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Place content to set on page load inside which of the following Simple XML tags?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <set></set>"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <eval></eval>"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <init></init>"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <value></value>"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/tokens"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/tokens"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam SPLK-2001 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following Simple XML elements configure panel link buttons? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <title>Open In Search</title>"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <option name=\u05d2\u20aclink.visible\u05d2\u20ac>true</option>"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <option name=\u05d2\u20actrellis.enabled\u05d2\u20ac>false</option>"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <option name=\u05d2\u20acrefresh.link.visible\u05d2\u20ac>false</option>"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/SplunkCloud/latest/Viz/DrilldownLinkToURL"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/SplunkCloud/latest/Viz/DrilldownLinkToURL"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 38": {
+      "Title": "Exam SPLK-2001 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are requirements for arguments sent to the data/indexes endpoint? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Be url-encoded."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Specify the datatype."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Include the bucket path."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Include the name argument."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 39": {
+      "Title": "Exam SPLK-2001 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When using the Splunk REST API, which of the following containers is/are included in the Atom Feed response? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <feed>"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <entry>"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <content>"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <namespace>"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 40": {
+      "Title": "Exam SPLK-2001 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are valid request arguments for the REST search endpoints? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. latest_time=rt"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. latest_time=now"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. earliest_time=-5h@h"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. earliest_time=rt_10m@m"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.splunk.com/t5/Getting-Data-In/How-to-create-Search-via-REST-api-in-verbose-mode/td-p/406400"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.splunk.com/t5/Getting-Data-In/How-to-create-Search-via-REST-api-in-verbose-mode/td-p/406400"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 41": {
+      "Title": "Exam SPLK-2001 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Consider the following Python code snippet used in a Splunk add-on: if not os.path.exists(full_path): self.doAction(full_path, header) else: f = open(full_path) oldORnew = f.readline"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "().split(`,`) f.close()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An attacker could create a denial of service by causing an error in either the open() or readline() commands. What type of vulnerability is this?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CWE-693: Protection Mechanism Failure"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CWE-562: Return of Stack Variable Address"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. CWE-404: Improper Resource Shutdown or Release"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. CWE-636: Not Failing Securely ('Failing Open')"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/testvalidate/securitybestpractices/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/testvalidate/securitybestpractices/"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 42": {
+      "Title": "Exam SPLK-2001 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following formats are valid for a Splunk REST URI?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. host:port/endpoint"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. scheme://host/servicesNS/*/"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. $SPLUNK HOME/services/endpoint"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. scheme://host:port/services/endpoint"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 43": {
+      "Title": "Exam SPLK-2001 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which HTTP Event Collector (HEC) endpoint should be used to collect data in the following format?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "{`message`:`Hello World`, `foo`:`bar`, `pony`:`buttercup`}"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. data/inputs/http/{name}"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. services/collector/raw"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. services/collector"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. data/inputs/http"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 44": {
+      "Title": "Exam SPLK-2001 topic 1 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The response message from a successful Splunk REST call includes an <entry> element. What is contained in an <entry> element?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A dictionary of <eai:acl> elements."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Metadata encapsulating the <content> element."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A response code indicating success or failure."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. An individual element in an <entries> collection."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/RESTUM/RESTusing"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 45": {
+      "Title": "Exam SPLK-2001 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user wants to add the token $token_name$ to a dashboard for use in a drilldown. Which token filter encodes URL values?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. $$token_name$$"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. $token_name|h$"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. $token_name|n$"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. $token_name|u$"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/tokens"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/tokens"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 46": {
+      "Title": "Exam SPLK-2001 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is a security best practice?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Enable XSS."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Eliminate all escape characters."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Ensure the app passes App Certification."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Ensure components have no Common Vulnerabilities and Exposures (CVE) vulnerabilities."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 47": {
+      "Title": "Exam SPLK-2001 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which event handler uses the <selection> element to support pan and zoom functionality?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Visualization event handler"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Form input event handler"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Condition event handler"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Search event handler"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/EventHandlerReference"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/EventHandlerReference"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 48": {
+      "Title": "Exam SPLK-2001 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What predefined drilldown tokens are available specifically for trellis layouts? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. trellis.Xaxis"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. trellis.Yaxis"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. trellis.name"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. trellis.value"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 49": {
+      "Title": "Exam SPLK-2001 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How can event logs be collected from a remote Windows machine using a standard Splunk installation and no customization? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. By configuring a WMI input."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. By using HTTP event collector."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. By using a Windows heavy forwarder."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. By using a Windows universal forwarder."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 50": {
+      "Title": "Exam SPLK-2001 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To delete the record with a _key value of smith from the sales collection, a DELETE request should be sent to which REST endpoint?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. /storage/collections/sales/smith"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. /storage/kvstore/data/sales/smith"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /storage/collections/data/sales/smith"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /storage/kvstore/collections/sales/smith"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 51": {
+      "Title": "Exam SPLK-2001 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Log files related to Splunk REST calls can be found in which indexes? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. _audit"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. _internal"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. _thefishbucket"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. _blocksignature"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Troubleshooting/Whatdatagetslogged"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Troubleshooting/Whatdatagetslogged"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 52": {
+      "Title": "Exam SPLK-2001 topic 1 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A fellow Splunk administrator is reviewing an app that has been downloaded from splunkbase and deployed in an organization. The admin has e-mailed the following configuration snippet with a brief note that says `fix the permissions`."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In what configuration file should the snippet be placed?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "access = read : [ * ], write : [ admin ]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "export - system"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Assume that $APP_HOME refers to the path that the app is installed, e.g. $SPLUNK_HOME/etc/apps/<app name>)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. $APP_HOME/default/app.conf"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. $APP_HOME/local/default.meta"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. $APP_HOME/metadata/local.meta"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. $SPLUNK_HOME/etc/system/local/server.conf"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 53": {
+      "Title": "Exam SPLK-2001 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given a dashboard with a Simple XML extension in myApp, what is the XML reference for the file myJS.js located in myOtherApp in the location shown below?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$SPLUNK_HOME/etc/apps/myOtherApp/appserver/static/javascript/"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <dashboard script=\u05d2\u20acmyJs.js\u05d2\u20ac>"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <dashboard script=\u05d2\u20acmyOtherApp/myJS.js\u05d2\u20ac>"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <dashboard script=\u05d2\u20acmyOtherApp:javascript/myJS.js\u05d2\u20ac>"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <dashboard script=\u05d2\u20acmyOtherApp:appserver/static/javascript/myJS.js\u05d2\u20ac>"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/visualizedata/usewebframework/modifydashboards/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/visualizedata/usewebframework/modifydashboards/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 54": {
+      "Title": "Exam SPLK-2001 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are security best practices for Splunk app development? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Store passwords in clear text in .conf files."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Implement security in software development lifecycle."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Manually test application with the controls listed in the OWASP Security Testing Guide."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use a dynamic scanner such as OWASP ZAP to scan web application components for vulnerabilities."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/testvalidate/securitybestpractices/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/testvalidate/securitybestpractices/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 55": {
+      "Title": "Exam SPLK-2001 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which items below are configured in inputs.conf? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A modular input written in Python."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A file input monitoring a JSON file."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A custom search command written in Python."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. An HTTP Event Collector as receiver of data from an app."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 56": {
+      "Title": "Exam SPLK-2001 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements describe an HEC token? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Maps to a Splunk user."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Can be used to download data."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Is a GUID (globally unique identifier)."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Can be created in Splunk Web or using REST endpoints."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 57": {
+      "Title": "Exam SPLK-2001 topic 1 question 57 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following ensures that quotation marks surround the value referenced by the token?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. $token_name|s$"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. \u05d2\u20ac$token_name$\u05d2\u20ac"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ($token_name$)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. \\\u05d2\u20ac$token_name$\\\u05d2\u20ac"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/tokens"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Viz/tokens"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 58": {
+      "Title": "Exam SPLK-2001 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is an intended use of HTTP Event Collector tokens?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A cookie."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. An HTTP header field."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A JSON field in the HTTP request."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A password in conjunction with login."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Data/FormateventsforHTTPEventCollector"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Data/FormateventsforHTTPEventCollector"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 59": {
+      "Title": "Exam SPLK-2001 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When the search/jobs REST endpoint is called to execute a search, what can be done to reduce the results size in the results? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use a generating search."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Remove unneeded fields."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Truncate the data, using selective functions."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Summarize data, using analytic commands."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 60": {
+      "Title": "Exam SPLK-2001 topic 1 question 60 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is a customization option for the Open in Search panel link button?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Display the refresh time."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Show the Export Results button."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Show link buttons at the bottom of a panel."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Define an alternative search or target view to use."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 61": {
+      "Title": "Exam SPLK-2001 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following are valid parent elements for the event action shown below? (Select all that apply.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<set token=`Token Name`>sourcetype=$click.value|s$</set>"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <eval>"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <change>"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <change> <condition>"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <drilldown> <condition>"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 62": {
+      "Title": "Exam SPLK-2001 topic 1 question 62 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a DELETE request, what would omitting the value of _key from the REST endpoint do?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Clean the KV store, deleting all content."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Produce the syntax error \u05d2\u20acKey value missing\u05d2\u20ac."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Cause all records in a collection to be deleted."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Mean that the _key value must be passed as an argument."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 63": {
+      "Title": "Exam SPLK-2001 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is a way to monitor app performance? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Using Splunk logs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Using the search job inspector."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Using the Monitoring Console."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Using the storage/collections/config REST endpoint."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 64": {
+      "Title": "Exam SPLK-2001 topic 1 question 64 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which files within an app contain permissions information? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. local/metadata.conf"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. metadata/local.meta"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. default/metadata.conf"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. metadata/default.meta"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/devtools/customsearchcommands/manageaccesstocustom/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/devtools/customsearchcommands/manageaccesstocustom/"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 65": {
+      "Title": "Exam SPLK-2001 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When using the Splunk Web Framework to create a global search, which is the correct post-process syntax for the base search shown below? var searchmain = new SearchManager{{ id: `base-search`, search: `index= internal | head 10 | fields `*`, preview: true, cache: true"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}};"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. var mypostproc1 = new PostProcessManager {{ id: \u05d2\u20acpost1\u05d2\u20ac, managerid: \u05d2\u20acbase-search\u05d2\u20ac, search: \u05d2\u20ac| stats count by sourcetype\u05d2\u20ac }};"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. var mypostproc1 = new PostProcessManager{{ id: \u05d2\u20acpost1\u05d2\u20ac, managerid: \u05d2\u20acbase\u05d2\u20ac, search: \u05d2\u20ac| stats count by sourcetype\u05d2\u20ac }};"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. var mypostproc1 = new PostProcess{{ id: \u05d2\u20acpost1\u05d2\u20ac, managerid: \u05d2\u20acbase-search\u05d2\u20ac, search: \u05d2\u20ac| search stats count by sourcetype\u05d2\u20ac }};"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You cannot create global searches in the Splunk Web Framework."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 66": {
+      "Title": "Exam SPLK-2001 topic 1 question 66 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A dashboard is taking too long to load. Several searches start with the same SPL. How can the searches be optimized in this dashboard? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Convert searches to include NOT expressions."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Restrict the time range of the search as much as possible."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Replace | stats command with | transaction command wherever possible."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Convert the common SPL into a Global Search and convert the other searches to post-processing searches."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 67": {
+      "Title": "Exam SPLK-2001 topic 1 question 67 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following search commands can be used to perform statistical queries on indexed fields in TSIDX files?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. stats"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. tstats"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. tscollect"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. transaction"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchReference/Tstats"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/SearchReference/Tstats"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 68": {
+      "Title": "Exam SPLK-2001 topic 1 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following will unset a token named my_token?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <unset>$my_token$</unset>"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <unset token=\u05d2\u20acmy_token\u05d2\u20ac></unset>"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <set token=\u05d2\u20acmy_token\u05d2\u20ac>false</token>"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <set token=\u05d2\u20acmy_token\u05d2\u20ac>disabled</set>"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.splunk.com/t5/Dashboards-Visualizations/Unset-a-token-if-it-is-equal-to-a-value/m-p/353512"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://community.splunk.com/t5/Dashboards-Visualizations/Unset-a-token-if-it-is-equal-to-a-value/m-p/353512"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 69": {
+      "Title": "Exam SPLK-2001 topic 1 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Data can be added to a KV store collection in which of the following format(s)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. JSON"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. JSON, XML"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. JSON, XML, CSV"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. JSON, XML, CSV, TXT"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/usingconfigurationfiles/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://dev.splunk.com/enterprise/docs/developapps/manageknowledge/kvstore/usingconfigurationfiles/"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 70": {
+      "Title": "Exam SPLK-2001 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "For a KV store, a lookup stanza in the transforms.conf file must contain which of the following? (Select all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. collection"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. fields_list"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. external_type"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. internal_type"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Knowledge/ConfigureKVstorelookups"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.splunk.com/Documentation/Splunk/8.1.2/Knowledge/ConfigureKVstorelookups"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    }
+  }
+}

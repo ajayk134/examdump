@@ -1,0 +1,4100 @@
+{
+  "NSE7_LED-7.0__a9f5d7816dc308d9": {
+    "Question #: 1": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image1.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image2.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the FortiGate user group configuration and the Windows AD LDAP group membership information shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FortiGate is configured to authenticate SSL VPN users against Windows AD using LDAP. The administrator configured the SSL VPN user group for SSL VPN users. However, the administrator noticed that both the t and student and jsmith users can connect to SSL VPN."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which change can the administrator make on FortiGate to restrict the SSL VPN service to the student user only?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In the SSL VPN user group configuration, set Group Name to CN=SSLVPN,CN=Users,DC=trainingAD,DC=training,DC=lab."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In the SSL VPN user group configuration, change Name to CN=SSLVPN,CN=Users,DC=trainingAD,DC=training,DC=lab."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. In the SSL VPN user group configuration, set Group Name to CN=Domain Users,CN=Users,DC=trainingAD,DC=training,DC=lab."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. In the SSL VPN user group configuration, change Type to Fortinet Single Sign-On (FSSO)."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image3.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image4.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the firewall policy configuration and SSID settings."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator has configured a guest wireless network on FortiGate using the external captive portal. The administrator has verified that the external captive portal URL is correct. However, wireless users are not able to see the captive portal login page."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the configuration shown in the exhibit and the SSID settings, which configuration change should the administrator make to fix the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Disable the user group from the SSID configuration."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable the captive-portal-exempt option in the firewall policy with the ID 11."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Apply a guest.portal user group in the firewall policy with the ID 11."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Include the wireless client subnet range in the Exempt Source section."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about the MAC-based 802.1X security mode available on FortiSwitch are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiSwitch authenticates a single device, and opens the port to other devices connected to the port."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiSwitch authenticates each device connected to the port."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It cannot be used in conjunction with MAC authentication bypass."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiSwitch can grant different access levels to each device connected to the port."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A wireless network in a school provides guest access using a captive portal to allow unregistered users to self-register and access the network. The administrator is requested to update the existing configuration to provide captive portal authentication through a secure connection (HTTPS)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two changes must the administrator make to enforce HTTPS authentication? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a new SSID with the HTTPS captive portal URL."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable HTTP redirect in the user authentication settings."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Disable HTTP administrative access on the guest SSID to enforce HTTPS connection."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Update the captive portal URL to use HTTPS on FortiGate and FortiAuthenticator."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image5.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The exhibits show the wireless network (VAP) SSID profiles defined on FortiManager and an AP profile assigned to a group of APs that are supported by FortiGate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "None of the APs are broadcasting the SSIDs defined by the AP profile."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which changes do you need to make to enable the SSIDs to broadcast?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In the SSIDs section, enable Tunnel."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable one channel in the Channels section."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable multiple channels in the Channels section and enable Radio Resource Provision."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. In the SSIDs section, enable Manual and assign the networks manually."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 5,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image6.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the IPsec VPN phase 1 configuration shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator wants to use certificate-based authentication for an IPsec VPN user."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three configuration changes must you make on FortiGate to perform certificate-based authentication for the IPsec VPN user? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a PKI user for the IPsec VPN user, and then configure the IPsec VPN tunnel to accept the PKI user as peer certificate."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In the Authentication section of the IPsec VPN tunnel, in the Method drop-down list, select Signature, and then select the certificate that FortiGate will use for IPsec VPN."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. In the IKE section of the IPsec VPN tunnel, in the Mode field, select Main (ID protection)."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Import the CA that signed the user certificate."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Enable XAUTH on the IPsec VPN tunnel."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABD",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "BDE",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are investigating a report of poor wireless performance in a network that you manage. The issue is related to an AP interface in the 5 GHz range. You are monitoring the channel utilization over time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the recommended maximum utilization value that an interface should not exceed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 85%"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 95%"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 75%"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 65%"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 7,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which CLI command should an administrator use to view the certificate verification process in real time?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. diagnose debug application foauthd -1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. diagnose debug application radiusd -1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. diagnose debug application authd -1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. diagnose debug application fnbamd -1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about the guest portal on FortiAuthenticator are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Each remote user on FortiAuthenticator can sponsor up to 10 guest accounts."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Administrators must approve all guest accounts before they can be used."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The guest portal provides pre and post-log in services."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Administrators can use one or more incoming parameters to configure a mapping rule for the guest portal."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image7.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image8.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the wireless configuration shown in the exhibits, an AP is deployed in a remote site and has a wireless network (VAP) called Corporate deployed to it."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The network is a tunnelled network; however, clients connecting to a wireless network require access to a local printer. Clients are trying to print to a printer on the remote site, but are unable to do so."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which configuration change is required to allow clients connected to the Corporate SSID to print locally?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure split-tunneling in the vap configuration."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure split-tunneling in the wtp-profile configuration."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Disable the Block Intra-SSID Traffic (Intra-vap-privacy) setting on the SSID (VAP) profile."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure the printer as a wireless client on the Corporate wireless network."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which EAP method requires the use of a digital certificate on both the server end and the client end?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. EAP-TTLS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. PEAP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. EAP-GTC"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. EAP-TLS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image9.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the FortiManager configuration and FortiGate CLI output shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator is testing the NAC feature. The test device is connected to a managed FortiSwitch device (S224EPTF19005867) on port2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After applying the NAC policy on port2 and generating traffic on the test device, the test device is not matching the NAC policy; therefore, the test device remains in the onboarding VLAN."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Based on the information shown in the exhibit, which two scenarios are likely to cause this issue? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Management communication between FortiGate and FortiSwitch is down."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The MAC address configured on the NAC policy is incorrect."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The device operating system detected by FortiGate is not Linux."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Device detection is not enabled on VLAN 4089."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two pieces of information can the diagnose test authserver ldap command provide? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It displays whether the admin bind user credentials are correct."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It displays whether the user credentials are correct."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It displays the LDAP codes returned by the LDAP server."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It displays the LDAP groups found for the user."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 7,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are setting up an SSID (VAP) to perform RADIUS-authenticated dynamic VLAN allocation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three RADIUS attributes must be supplied by the RADIUS server to enable successful VLAN allocation? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Tunnel-Private-Group-ID"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Tunnel-Pvt-Group-ID"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Tunnel-Preference"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Tunnel-Type"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Tunnel-Medium-Type"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BDE",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image10.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the FortiManager information shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements about the FortiManager status are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiSwitch manager is working in per-device management mode."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiSwitch is not authorized."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiSwitch manager is working in central management mode."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiSwitch is authorized and offline."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is testing the connectivity for a new VLAN. The devices in the VLAN are connected to a FortiSwitch device that is managed by FortiGate. Quarantine is disabled on FortiGate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While testing, the administrator noticed that devices can ping FortiGate and FortiGate can ping the devices. The administrator also noticed that inter-VLAN communication works. However, intra-VLAN communication does not work."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which scenario is likely to cause this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The native VLAN configured on the ports is incorrect."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The FortiSwitch MAC address table is missing entries."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The FortiGate ARP table is missing entries."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Access VLAN is enabled on the VLAN."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image11.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "By default, FortiOS creates the following DHCP server scope for the FortiLink interface as shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the objective of the vci-string setting?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. To ignore DHCP requests coming from FortiSwitch and FortiExtender devices"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To reserve IP addresses for FortiSwitch and FortiExtender devices"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. To restrict the IP address assignment to FortiSwitch and FortiExtender devices"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. To restrict the IP address assignment to devices that have FortiSwitch or FortiExtender as their hostname"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has configured an SSID in bridge mode for corporate employees. All APs are online and provisioned using default AP profiles. Employees are unable to locate the SSID to connect."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two configurations can the administrator verify? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Verify that the broadcast SSID option is enabled in the SSID configuration."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Verify that the Block Intra-SSID Traffic (Intra-vap-privacy) option in the SSID configuration is disabled."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Verify that the SSID to an AP group that should be broadcasting the SSID is applied."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Verify that the SSID is manually applied on AP profiles for both 2.4 GHz and 5 GHz radios."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the purpose of enabling Windows Active Directory Domain Authentication on FortiAuthenticator?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It enables FortiAuthenticator to use Windows administrator credentials to perform an LDAP lookup for a user search."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It enables FortiAuthenticator to use a Windows CA certificate when authenticating RADIUS users."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It enables FortiAuthenticator to import users from Windows AD."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It enables FortiAuthenticator to register itself as a Windows trusted device to proxy authentication using Kerberos."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image12.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the LDAP server configuration shown in the exhibit. Note that the Username setting has been expanded to display its full content."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On the Windows AD server 10.0.1.10, the administrator used dsquery, which returned the following output:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ">dsquery user -samid student"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\"CN=student,CN=Users,DC=trainingAD,DC=training,DC=lab\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "According to the output, which FortiGate LDAP setting is configured incorrectly?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Common Name Identifier"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Bind Type"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Distinguished Name"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Username"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image13.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the FortiGate configuration, FortiAnalyzer logs, and FortiGate widget shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator is testing the Security Fabric quarantine automation. The administrator added FortiAnalyzer to the Security Fabric, and configured an automation stitch to automatically quarantine compromised devices. The test device (10.0.2.1) is connected to a managed FortiSwitch device."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After trying to access a malicious website from the test device, the administrator verifies that FortiAnalyzer has a log for the test connection. However, the device is not getting quarantined by FortiGate, as shown in the quarantine widget."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two scenarios are likely to cause this issue? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The web filtering rating service is not working."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiAnalyzer does not have a valid threat detection services license."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The device does not have FortiClient installed."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiAnalyzer does not consider the malicious website an indicator of compromise (IOC)."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 5,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "BC",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image14.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image15.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the troubleshooting outputs shown in the exhibits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Users have been reporting issues with the speed of their wireless connection in a particular part of the wireless network. The interface that is having issues is the 2.4 GHz interface that is currently configured on channel 6."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The administrator of the wireless network has investigated and surveyed the local RF environment using the tools available at the AP and FortiGate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which configuration would improve the wireless connection?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Change the AP 2.4 GHz channel to 11"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Change the AP 2.4 GHz channel to 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Change the AP 2.4 GHz channel to 9."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Change the AP 2.4 GHz channel to 13."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image16.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the debug output shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements about the RADIUS debug output are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The user student belongs to the SSLVPN group."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. User authentication failed."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The RADIUS server sent a vendor-specific attribute in the RADIUS response."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. User authentication succeeded using MSCHAP."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about FortiSwitch manager are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Per-device management is the default management mode on FortiManager."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiManager obtains the FortiSwitch status information by querying the FortiGate REST API every three minutes."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. If the administrator makes any changes on FortiSwitch manager, they must also install those changes on FortiGate so that those changes are applied on the managed switches."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Any switch discovered or authorized on FortiGate must be added manually on FortiSwitch manager."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 25": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about MAC address quarantine by redirect mode are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The quarantined device is moved to the quarantine VLAN."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The device MAC address is added to the QuarantinedDevices firewall address group."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is the default mode for MAC address quarantine."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The quarantined device is kept in the current VLAN."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 26": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image17.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the FortiSwitch security policy shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If the security profile shown in the exhibit is assigned to all ports on a FortiSwitch device for 802.1X authentication, which statement about the switch is correct?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiSwitch cannot authenticate multiple devices connected to the same port."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiSwitch will try to authenticate non-802.1X devices using the device MAC address as the username and password."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiSwitch will assign non-802.1X devices to the onboarding VLAN."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. All EAP messages will be terminated on FortiSwitch."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 27": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are configuring a FortiGate wireless network to support automated wireless client quarantine using IOC."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two configurations must you put in place for a wireless client to be quarantined successfully? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure the wireless network to be in tunnel mode."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure the FortiGate device in the Security Fabric with a FortiAnalyzer device."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure a firewall policy to allow communication."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure the wireless network to be in bridge mode."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 28": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image18.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the RADIUS server configuration shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator has configured a RADIUS server on FortiGate that points to FortiAuthenticator. FortiAuthenticator is acting as an authentication proxy and is configured to relay all authentication requests to a remote Windows AD server using LDAP."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While testing the configuration, the administrator noticed that the diagnose test authserver command worked with PAP; however, authentication requests failed when using MSCHAP2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two solutions can the administrator implement to get MSCHAP2 authentication to work? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. On FortiAuthenticator, enable Windows Active Directory Domain Authentication to add FortiAuthenticator to the Windows domain."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. On FortiGate, configure the NAS IP setting on the RADIUS server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. On FortiAuthenticator, change the back-end authentication server from LDAP to RADIUS."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. On FortiGate, update the Secret setting on the RADIUS server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Where can FortiGate learn the FortiManager IP address or FQDN for zero-touch provisioning?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. From an LDAP server using a simple bind operation"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. From a TFTP server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. From a DHCP server using options 240 and 241"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. From a DNS server using A or AAAA records"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 5,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which FortiSwitch VLANs are automatically created on FortiGate when the first FortiSwitch device is discovered?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. default, quarantine, rspan, voice, video, onboarding, and nac_segment"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. access, quarantine, rspan, voice, video, and onboarding"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. default, quarantine, rspan, voice, video, and nac_segment"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. fortilink, quarantine, erspan, voice, video, and onboarding"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 31": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit showing a network topology and SSID settings."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image19.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FortiGate is configured to use an external captive portal. However, wireless users are not able to see the captive portal login page."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which configuration change should the administrator make to fix the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Enable NAT in the firewall policy with the ID 13."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add the FortiAuthenticator and WindowsAD address objects as exempt destinations/services."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable the captive-portal-exempt option in the firewall policy with the ID 12."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove the guest.portal user group in the firewall policy with the ID 12."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image20.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the network diagram and packet capture shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The packet capture was taken between FortiGate and FortiAuthenticator, and shows a RADIUS Access-Request packet sent by FortiSwitch to FortiAuthenticator through FortiGate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why does the User-Name attribute in the RADIUS Access-Request packet contain the client MAC address?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The client is performing AD machine authentication."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiSwitch is authenticating the client using MAC authentication bypass."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The client is performing user authentication."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiSwitch is sending a RADIUS accounting message to FortiAuthenticator."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 33": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image21.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the FortiGate RSSO configuration shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FortiGate is configured to receive RADIUS accounting messages on port3 to authenticate RSSO users. The users are located behind port3, and the internet link is connected to port1. FortiGate is processing incoming RADIUS accounting messages successfully, and RSSO users are getting associated with the RSSO Group user group. However, all the users are able to access the internet, and the administrator wants to restrict internet access to RSSO users only."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which configuration change should the administrator make to fix the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Change the RADIUS Attribute Value setting to match the name of the RADIUS attribute containing the group membership information of the RSSO users."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add RSSO Group to the firewall policy."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable Security Fabric Connection on port3."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a second firewall policy from port3 to port1, and select the target destination subnets."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 34": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image22.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A device connected to port2 on FortiSwitch cannot access the network. The port is assigned a security policy to enforce 802.1X authentication. While troubleshooting the issue, the administrator obtains the debug output shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two scenarios are likely to cause this issue? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The device is not configured for 802.1X authentication."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The device has been quarantined for 3600 seconds."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The device has been assigned the guest VLAN."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The device does not support 802.1X authentication."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 35": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit showing certificate values."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image23.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Wireless guest users are unable to authenticate because they are getting a certificate error while loading the captive portal login page. This URL string is the HTTPS POST URL guest wireless users see when attempting to access the network using the web browser: https://fac.trainingad.training.com/guests/login/? login&post=https://auth.trainingad.training.lab:1003/fgtauth&magic=000a038293d1f411&usermac=b8:27:eb:d8:50:02&apmac=70:4c:a5:9d:0d:28&apip=10.10.100.2&userip=10.0.3.1&ssid=Guest03&apname=PS221ETF18000148&bssid=70:4c:a5:9d:0d:30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two settings are the likely causes of the issue? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The external server FQDN is incorrect."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The wireless user\u2019s browser is missing a CA certificate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The FortiGate authentication interface address is using HTTPS."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The user address is not in DDNS form."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AC",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 36": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When you configure a FortiAP wireless interface for auto TX power control, which statement describes how it configures its transmission power?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Every 30 seconds, the AP will measure the signal strength of the AP using the client. The AP will adjust its signal strength up or down until the AP signal is detected at -70 dBm."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Every 30 seconds, FortiGate measures the signal strength of adjacent AP interfaces. It will adjust its own AP power to match the adjacent AP signal strength."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Every 30 seconds, FortiGate measures the signal strength of adjacent FortiAP interfaces. It will adjust the adjacent AP power to be detectable at -70 dBm."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Every 30 seconds, FortiGate measures the signal strength of the weakest associated client. The AP will then configure its radio power to match the detected signal strength of the client."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 37": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image24.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the sections of the configuration shown in the output."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What action will FortiGate take when verifying the student certificate through OCSP?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Reject the student certificate if the OCSP server replies that the student certificate status is unknown"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Not verify the OCSP server certificate"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the OCSP URL included in the student certificate to verify the student certificate"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Consider the student certificate status as valid if the OCSP server is unreachable"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 38": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has deployed multiple dual-band wireless APs in a wireless network. APs are installed at measured distances to ensure fast roaming for the clients. Multiple 2.4 GHz-only wireless clients are connecting to the network, and subsequent monitoring shows that individual AP 2.4 GHz interfaces are being overloaded with wireless connections."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which configuration change would best resolve the overloading issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure load balancing AP handoff on both AP interfaces on all APs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure a client limit on all AP 2.4 GHz interfaces."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure load balancing AP handoff on only the 2.4 GHz interfaces of all APs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure load balancing frequency handoff on both AP interfaces."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 39": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about FortiSwitch trunks are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Trunks do not support tagged Ethernet frames."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. By default, when connecting two FortiSwitch devices to each other, a trunk is automatically created between the switches."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A trunk is a link aggregation group interface."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. LACP is not supported."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 40": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about MAC address quarantine by VLAN mode are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The quarantined device is moved to the quarantine VLAN."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The device MAC address is added to the QuarantinedDevices firewall address group."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is the default mode for MAC address quarantine."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The quarantined device is kept in the current VLAN."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 41": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is deploying APs that are connecting over an IPsec network. All APs have been configured to connect to FortiGate manually. FortiGate can discover the Aps and authorize them. However, FortiGate is unable to establish CAPWAP tunnels to manage the APs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which configuration setting can the administrator perform to resolve the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Upgrade the FortiAP firmware image to ensure compatibility with the FortiOS version."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Assign a custom AP profile for the remote APs with the set mpls-connection option enabled."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Decrease the CAPWAP tunnel MTU size for APs to prevent fragmentation."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable CAPWAP administrative access on the IPsec interface."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 42": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To troubleshoot configuration push issues on a managed FortiSwitch, which FortiGate process should an administrator enable debug for?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. httpsd"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. cu_acd"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. fortilinkd"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. flcfgd"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 43": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about the use of digital certificates are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In a chain of trust, the root CA is signed by another certificate."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To validate the signature on a certificate, an endpoint does not need to know the CA of that certificate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A chain of trust may include one or more intermediate CAs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. An intermediate CA can sign other certificates."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 44": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image25.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image26.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the WTP profile configuration shown in the exhibit, the AP profile is assigned to two FAP-320 APs that are installed in an open plan office."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The first AP has 32 clients associated with the 5 GHz radios and 22 clients associated with the 2.4 GHz radio. The second AP has 12 clients associated with the 5 GHz radios and 20 clients associated with the 2.4 GHz radio."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A dual-band-capable client enters the office near the first AP and the first AP measures the new client at -33 dBm signal strength. The second AP measures the new client at -43 dBm signal strength."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If the new client attempts to connect to the corporate wireless network, with which AP radio will the client be associated?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The first AP 2.4 GHz interface."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The second AP 2.4 GHz interface."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The second AP 5 GHz interface."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The first AP 5 GHz interface."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 45": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image27.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator wants to telnet into the S224EPTF19005867 switch over the FortiGate FortiLink interface."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which configuration change should the administrator make?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. On the default local-access profile, add telnet to the list of allowed protocols for internal-allowaccess."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. On the default local-access profile, add telnet to the list of allowed protocols for mgmt-allowaccess."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Factory reset the switch to enable telnet access."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable telnet access on the FortiLink interface."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 46": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which CLI command should an administrator use on FortiGate to view the RSSO authentication process in real time?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. diagnose debug application fnbamd -1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. diagnose debug application authd -1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. diagnose debug application radiusd -1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. diagnose debug application foauthd -1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 47": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three FortiOS tools can you use to troubleshoot RADIUS authentication issues? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You can enable debug for the fssod process to view RADIUS authentication details."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. You can use the diagnose test authserver radius command to verify RADIUS server configuration, user credentials, and user group membership."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You can check the Firewall Users widget to view the list of active RADIUS users."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You can enable debug for the fnbamd process to view RADIUS authentication details."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. You can use the diagnose test application radiusd command to verify the RADIUS server configuration, user credentials, and user group membership."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 48": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image28.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the IPsec VPN phase 1 configuration shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator wants to use certificate-based authentication for an IPsec VPN user."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three configuration changes must you make on FortiGate to perform certificate-based authentication for the IPsec VPN user? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a PKI user for the IPsec VPN user, and then configure the IPsec VPN tunnel to accept the PKI user as peer certificate."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In the IKE section of the IPsec VPN tunnel, in the Mode field, select Main (ID protection)."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Import the CA that signed the user certificate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable XAUTH on the IPsec VPN tunnel."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. In the Authentication section of the IPsec VPN tunnel, in the Method drop-down list, select Signature, and then select the certificate that FortiGate will use for IPsec VPN."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ACE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACE",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "CDE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 49": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement correctly describes the guest portal behavior on FortiAuthenticator?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All self-registered and sponsored accounts are listed on the local Users GUI page on FortiAuthenticator."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiAuthenticator uses POST parameters and a RADIUS client configuration to map the request to a guest portal for authentication."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Sponsored accounts cannot authenticate using guest portals."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. All guest accounts must be activated using SMS or email activation codes."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 50": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is deploying a new FortiGate device using zero-touch provisioning. Before deployment, the administrator added the FortiGate serial number on FortiManager and configured all the FortiGate settings."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FortiGate has a factory default configuration. However, when the administrator connects FortiGate to the network, FortiManager does not start the installation automatically."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two scenarios are likely to cause this issue? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The serial number added on FortiManager does not match the FortiGate serial number."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The DHCP server that serves FortiGate is not configured with options 240 and 241."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The pre-shared key set on FortiManager does not match the one set on FortiGate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Zero-touch provisioning is disabled on FortiManager."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 51": {
+      "Title": "Exam NSE7_LED-7.0 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-led-7-0/image29.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the FortiSwitch security policy shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A device that does not support 802.1X authentication is connected to a port using the Port-Security security policy."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What action does the FortiSwitch take on the port?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiSwitch assigns the port to the onboarding VLAN."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiSwitch shuts down the port."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiSwitch assigns the port to the quarantine VLAN."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiSwitch authenticates the device using the device MAC address as username and password."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    }
+  }
+}

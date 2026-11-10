@@ -1,0 +1,3816 @@
+{
+  "1z0-599__733dab8a7f0eb205": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-599 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "WebLogic 12c, the Maven plug-in has been enhanced with which Maven goal?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. wls:unzip, wls:install-domain, wls:start-domain, wls:wlst, wls:appc"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. wls:install, wls:install-domain, wls:start-domain, wls:wlst, wls:appc"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. wls:unzip, wls:create-domain, wls:start-domain, wls:wlst, wls:appc"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. wls:install, wls:create-domain, wls:start-server, wls:wlst, wls:appc:"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "wls-maven-pluginDelivered in WebLogic Server 12c, provides enhanced functionality to install, start and stop servers, create domains, execute WLST scripts, and compile and deploy applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Developing Applications for Oracle WebLogic Server, Using the WebLogic Development Maven Plug-In"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "wls-maven-pluginDelivered in WebLogic Server 12c, provides enhanced functionality to install, start and stop servers, create domains, execute WLST scripts, and compile and deploy applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Developing Applications for Oracle WebLogic Server, Using the WebLogic Development Maven Plug-In"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-599 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true regarding the WebLogic domain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A WebLogic domain can have more than one Administration server."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A WebLogic domain has at least one WebLogic server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A WebLogic domain can have at the most one cluster."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A WebLogic domain can cross multiple physical machines."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Each WebLogic domain is associated with a different Node Manager."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-599 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to capture WebLogic internal events correlated with JVM events for viewing offline. What three actions must you take to enable this within WebLogic?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Run WebLogic in a JRockit JVM and ensure the Flight Recorder is enabled."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure the WebLogic Diagnostic Framework Event Volume to Low, Medium, or High depending on the type of events you want to capture."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure the WebLogic Diagnostic Framework bridge to send events to the JRockit Flight Recording."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Take a dump from the default recording or create a new recording for the time period you want to capture."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: You can enable JFR at runtime to take JRA recordings from the JRockit Management Console. You also have the option of turning off the JFR and recordings at the JRockit JVM level from the java command line using:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$ java -XX:-FlightRecorder"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In most environments, there is little performance impact when the Diagnostic Volume is set to Low and the most performance impact if Diagnostic Volume is set to High. The volume of diagnostic data produced by WebLogic Server needs to be weighed against potential performance loss."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* WLDF provides the Diagnostic Volume attribute to set the amount of code coverage that is enabled and the amount of data provided in the events that are generated for the covered code"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following code example sets the volume to Medium:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ". . ."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "connect()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "edit()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "startEdit()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cd(\"Servers/myserver\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cd(\"ServerDiagnosticConfig\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cd(\"myserver\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cmo.setWLDFDiagnosticVolume(\"Medium\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "save()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "activate()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: Integrated with the WebLogic Diagnostic Image and Watch and Notification system"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Enables capture based on system state, event capture during event; no need to replicate"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Watch for stuck thread count, heap size increase, available memory, etc."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Set up notifications: capture WLDF image"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Diagnostic image capture spurs JFR file generation; JFR file included in diagnostic image"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Includes full JFR data from all event generators"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* WebLogic Diagnostic Framework (WLDF) provides specific integration points with JRockit Mission Control Flight Recorder. WebLogic Server events are propagated to the Flight Recorder for inclusion in a common data set for runtime or post-incident analysis."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Oracle Fusion Middleware Performance and Tuning for Oracle WebLogic Server, Tuning WebLogic Diagnostic Framework and JRockit Flight"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Recorder Integration -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: JRockit Flight Recorder & WebLogic Diagnostic FrameWork (WLDF) Integration"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: You can enable JFR at runtime to take JRA recordings from the JRockit Management Console. You also have the option of turning off the JFR and recordings at the JRockit JVM level from the java command line using:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$ java -XX:-FlightRecorder"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In most environments, there is little performance impact when the Diagnostic Volume is set to Low and the most performance impact if Diagnostic Volume is set to High. The volume of diagnostic data produced by WebLogic Server needs to be weighed against potential performance loss."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* WLDF provides the Diagnostic Volume attribute to set the amount of code coverage that is enabled and the amount of data provided in the events that are generated for the covered code"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following code example sets the volume to Medium:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ". . ."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "connect()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "edit()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "startEdit()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cd(\"Servers/myserver\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cd(\"ServerDiagnosticConfig\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cd(\"myserver\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cmo.setWLDFDiagnosticVolume(\"Medium\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "save()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "activate()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: Integrated with the WebLogic Diagnostic Image and Watch and Notification system"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Enables capture based on system state, event capture during event; no need to replicate"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Watch for stuck thread count, heap size increase, available memory, etc."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Set up notifications: capture WLDF image"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Diagnostic image capture spurs JFR file generation; JFR file included in diagnostic image"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Includes full JFR data from all event generators"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* WebLogic Diagnostic Framework (WLDF) provides specific integration points with JRockit Mission Control Flight Recorder. WebLogic Server events are propagated to the Flight Recorder for inclusion in a common data set for runtime or post-incident analysis."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Oracle Fusion Middleware Performance and Tuning for Oracle WebLogic Server, Tuning WebLogic Diagnostic Framework and JRockit Flight"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Recorder Integration -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: JRockit Flight Recorder & WebLogic Diagnostic FrameWork (WLDF) Integration"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-599 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which new key architectural element introduced in WebLogic Server l2c should you take advantage of when designing Disaster Recovery Centers with active - passive mode?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. MAN Clusters, because they would allow you to synchronously replicate state in low latency networks"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. WAN Clusters, because they would allow you to asynchronously replicate state in nonlow latency networks."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Transaction Log in the database, because you could avoid synchronizing two replication technologies (database and file)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Data Guard, because it is the most effective way to replicate a state across locations"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. GoldenGate, because it is the most effective way to replicate a state across locations"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: E \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Oracle GoldenGate"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle GoldenGate is Oracles strategic product for data distribution and data integration. It is a highperformance software application that uses log-based bidirectional data replication for real-time capture, transformation, routing, and delivery of database transactions across heterogeneous systems."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Oracle Active Data Guard"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle Active Data Guard 11g is an option of Oracle Database Enterprise Edition that extends basic Data Guard functionality. It allows a physical standby database to be open as read-only while changes are applied to it from the primary database. This increases performance and return on investment by offloading ad-hoc queries, Web-based access, reporting, and backups from the primary database while also providing disaster protection."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Disaster recovery (DR) procedures ensure rapid recovery or continuation of a technology infrastructure after a natural or human-induced disaster. Oracle WebLogic Server 12c supports advanced disaster recovery and business continuity. Organizations can store transaction logs in an Oracle database instead of a file system, providing a highly available storage mechanism to improve the speed and reliability of disaster recovery operations. This permits them to utilize Oracle Active Data Guard or Oracle"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GoldenGate replication technology to move DR state information across data centers. Oracles enhanced DR architecture enables more effective recovery scenarios. Support for Oracle Exalogic and Oracle Exadata engineered systems ensures tremendous scalability for IT operations of any size."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Oracle WebLogic Server 12c places transaction logs on the database tier to improve the speed, reliability and availability of disaster recovery operations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02327/0002500001.jpg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "* Oracle GoldenGate"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle GoldenGate is Oracles strategic product for data distribution and data integration. It is a highperformance software application that uses log-based bidirectional data replication for real-time capture, transformation, routing, and delivery of database transactions across heterogeneous systems."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Oracle Active Data Guard"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle Active Data Guard 11g is an option of Oracle Database Enterprise Edition that extends basic Data Guard functionality. It allows a physical standby database to be open as read-only while changes are applied to it from the primary database. This increases performance and return on investment by offloading ad-hoc queries, Web-based access, reporting, and backups from the primary database while also providing disaster protection."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Disaster recovery (DR) procedures ensure rapid recovery or continuation of a technology infrastructure after a natural or human-induced disaster. Oracle WebLogic Server 12c supports advanced disaster recovery and business continuity. Organizations can store transaction logs in an Oracle database instead of a file system, providing a highly available storage mechanism to improve the speed and reliability of disaster recovery operations. This permits them to utilize Oracle Active Data Guard or Oracle"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GoldenGate replication technology to move DR state information across data centers. Oracles enhanced DR architecture enables more effective recovery scenarios. Support for Oracle Exalogic and Oracle Exadata engineered systems ensures tremendous scalability for IT operations of any size."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Oracle WebLogic Server 12c places transaction logs on the database tier to improve the speed, reliability and availability of disaster recovery operations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02327/0002500001.jpg"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-599 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify four features of WebLogic that provide value above and beyond a simple Java EE container."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Active GridLink for RAC"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. support for enterprise Web Services standards beyond Java EE specification"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Integration with Enterprise Manager"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. market leading performance"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Java EE6 Specification Support"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Java SE 7 support"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABEF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Java EE Enterprise Web Services is supported."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: New or enhanced WebLogic 12c features include"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JAVA EE 6 support all kinds of JEE6 specifications are implemented like :"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JSF 2.0,Java Servlets 3.0 JPA 2.0 and EJB 3.1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Managed Beans 1.0 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F: WebLogic 12c also supports supports Java SE 7 (and Java SE 6)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Java language optimizations and Internationalization"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Client and server support -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SSL/TLS 1.2 in JSSE to support JAVA Socket Transport security"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Converged Java VM:JRockit and HotSpot are incorporated with the best features from both. Oracles Publisher Seminar 2011 during OOW"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "not C:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02327/0002900001.jpg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "B: Java EE Enterprise Web Services is supported."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: New or enhanced WebLogic 12c features include"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JAVA EE 6 support all kinds of JEE6 specifications are implemented like :"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JSF 2.0,Java Servlets 3.0 JPA 2.0 and EJB 3.1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Managed Beans 1.0 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F: WebLogic 12c also supports supports Java SE 7 (and Java SE 6)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Java language optimizations and Internationalization"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Client and server support -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SSL/TLS 1.2 in JSSE to support JAVA Socket Transport security"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Converged Java VM:JRockit and HotSpot are incorporated with the best features from both. Oracles Publisher Seminar 2011 during OOW"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "not C:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02327/0002900001.jpg"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABCD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-599 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which is the correct WebLogic Server distribution version to download if you want to install WebLogic Server 12c to run in 64 bit mode on a 64 bit Linux X86?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Linux x86 with 64 bit JVM"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ZIP distribution for Linux"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Linux x86 with 32 bit JVM"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Generic distribution"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Network installer"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Follow the on-screen instructions to access the table of WebLogic Server installers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. After accessing the installer table, click the File1 link for the Generic Package or OS-specific Package installer, as appropriate for your operating environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For example, if your operating system is Linux x86, click the File1 link under the Linux (32-bit JVM) column, on the Oracle WebLogic Server 12cR1 + Oracle"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Coherence row."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E24329_01/web.1211/e24493/getst.htm#GETST149"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "1. Follow the on-screen instructions to access the table of WebLogic Server installers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. After accessing the installer table, click the File1 link for the Generic Package or OS-specific Package installer, as appropriate for your operating environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For example, if your operating system is Linux x86, click the File1 link under the Linux (32-bit JVM) column, on the Oracle WebLogic Server 12cR1 + Oracle"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Coherence row."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E24329_01/web.1211/e24493/getst.htm#GETST149"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-599 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which WebLogic edition bundles JRockit Real Time?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. WebLogic Server Standard Edition"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. WebLogic Server Enterprise Edition"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. WebLogic Server Suite"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. WebLogic Server Grid Edition"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. WebLogic Server Cloud Edition"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The JRockit JVM is included in all Oracle WebLogic products Oracle WebLogic Server Standard Edition, Oracle WebLogic Enterprise Edition, WebLogic Suite, and Oracle WebLogic Application Grid. JRockit will also be used across the Oracle Fusion Middleware and Oracle Applications product families, with the certification process happening over the coming months. For current status, see the certification matrices available from Oracle Metalink."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.oracle.com/technetwork/middleware/jrockit/downloads/faq-085599.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The JRockit JVM is included in all Oracle WebLogic products Oracle WebLogic Server Standard Edition, Oracle WebLogic Enterprise Edition, WebLogic Suite, and Oracle WebLogic Application Grid. JRockit will also be used across the Oracle Fusion Middleware and Oracle Applications product families, with the certification process happening over the coming months. For current status, see the certification matrices available from Oracle Metalink."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.oracle.com/technetwork/middleware/jrockit/downloads/faq-085599.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-599 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which four actions can you perform using the WebLogic Admin Console?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Stop and start Managed Servers using the Node Manager."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Stop and start Coherence Servers using the Node Manager."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a WebLogic Domain Template."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create and target JDBC connection pools."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Create and target WebLogic Diagnostic Framework Diagnostic Modules."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Change Java command-line parameters at run time."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABDF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the Administration Console to:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (A) Configure, start, and stop WebLogic Server instances"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Configure WebLogic Server clusters"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (D) Configure WebLogic Server services, such as database connectivity (JDBC) and messaging (JMS)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Configure security parameters, including managing users, groups, and roles"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Configure and deploy your applications"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Monitor server and application performance"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* View server and domain log files"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* View application deployment descriptors"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (F) Edit selected run-time application deployment descriptor elements"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (B) Control (start, stop, and restart) standalone Coherence cache servers"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (B) Create and configure Coherence clusters"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C: The separate Domain Template Builder is used for creating Domain Templates."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Use the Administration Console to:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (A) Configure, start, and stop WebLogic Server instances"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Configure WebLogic Server clusters"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (D) Configure WebLogic Server services, such as database connectivity (JDBC) and messaging (JMS)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Configure security parameters, including managing users, groups, and roles"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Configure and deploy your applications"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Monitor server and application performance"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* View server and domain log files"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* View application deployment descriptors"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (F) Edit selected run-time application deployment descriptor elements"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (B) Control (start, stop, and restart) standalone Coherence cache servers"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (B) Create and configure Coherence clusters"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C: The separate Domain Template Builder is used for creating Domain Templates."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABDE",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-599 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer needs to analyze an application that was developed for Oracle Application Server 10gR2 or 10gR3 (OC4J) in order to prepare to upgrade the infrastructure to WebLogic 12c. The customer wants understand the changes required to be made to the application and how to configure WebLogic in to support the newly upgraded application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three actions would you recommend for upgrading the customer's application and server configuration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use Oracle Upgrade Manager to create a new WebLogic domain template from an OAS/OC4J installation and redeploy the application."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use SmartUpgrade to analyze the OAS/OC4J server configuration and create WebLogic configuration files."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use SmartUpgrade to analyze the application archive (EAR/WAR/JAR) Source Directory or IDeveloper project and generate a report that describes the areas of the application that need to be updated."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the Configuration Wizard to extend an existing WebLogic domain with OAS/OC4J support libraries and redeploy the application."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Use SmartUpgrade to generate application artifacts and deployment descriptors that can be deployed to WebLogic."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Oracle WebLogic SmartUpgrade is part of the Oracle Fusion Middleware 11g upgrade tools that were designed to maximize the automation of the upgrade process, minimize the application downtime and allows for rapid and seamless uptake of the Oracle Fusion Middleware 11g features and capabilities."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SmartUpgrade : (B) When generating an upgrade report into an existing project, an Oracle Application Server configuration home could be specified to be included as part of the report. Additionally, both the server home and OracleAS enterprise archives can be localized into the JDevelopoer project file system by checking \"Copy OC4J Deployment Archives Into Project\"."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SmartUpgrade : (E) The advisory reports and the configuration artifacts will be generated. The generated artifacts will be located at the JDeveloper project mywork directory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* You can add product component functionality or additional applications and services to an existing WebLogic domain by extending it using the Configuration"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Wizard. For example, if you created a base WebLogic domain and you want to add the Avitek Medical Records Examples functionality, you can extend the domain by using the medrec.jar template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Configuration Wizard simplifies the task of extending an existing WebLogic domain by using extension templates. Oracle provides various sample extension templates, as well as extension templates for various Fusion Middleware products. You can also create your own extension templates using WLST or the unpack command."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Oracle WebLogic SmartUpgrade is part of the Oracle Fusion Middleware 11g upgrade tools that were designed to maximize the automation of the upgrade process, minimize the application downtime and allows for rapid and seamless uptake of the Oracle Fusion Middleware 11g features and capabilities."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SmartUpgrade : (B) When generating an upgrade report into an existing project, an Oracle Application Server configuration home could be specified to be included as part of the report. Additionally, both the server home and OracleAS enterprise archives can be localized into the JDevelopoer project file system by checking \"Copy OC4J Deployment Archives Into Project\"."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SmartUpgrade : (E) The advisory reports and the configuration artifacts will be generated. The generated artifacts will be located at the JDeveloper project mywork directory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* You can add product component functionality or additional applications and services to an existing WebLogic domain by extending it using the Configuration"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Wizard. For example, if you created a base WebLogic domain and you want to add the Avitek Medical Records Examples functionality, you can extend the domain by using the medrec.jar template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Configuration Wizard simplifies the task of extending an existing WebLogic domain by using extension templates. Oracle provides various sample extension templates, as well as extension templates for various Fusion Middleware products. You can also create your own extension templates using WLST or the unpack command."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCE",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-599 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are configuring a JMS server with a need for load balancing the messages. To achieve the load balance you should _______and _______."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. use regular queues and topics"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. use distributed queues and topics"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. not use subdeployments"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. disable server affinity"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. use message paging"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Load Balancing for JMS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WebLogic Server JMS supports server affinity for distributed JMS destinations and client connections. (B, not A)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "By default, a WebLogic Server cluster uses the round-robin method to load balance objects. To use a load balancing algorithm that provides server affinity for JMS objects (not D), you must configure the desired method for the cluster as a whole."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Using Clusters for Oracle WebLogic Server 12c , Load Balancing for JMS"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Load Balancing for JMS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WebLogic Server JMS supports server affinity for distributed JMS destinations and client connections. (B, not A)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "By default, a WebLogic Server cluster uses the round-robin method to load balance objects. To use a load balancing algorithm that provides server affinity for JMS objects (not D), you must configure the desired method for the cluster as a whole."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Using Clusters for Oracle WebLogic Server 12c , Load Balancing for JMS"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-599 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify three reasons that explain why assigning more than one managed serve achieve better performance than running one managed server with more resources?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Thread management inside the JVM process might be less effective than context switching between processes on the OS level. It is better to combine both these technologies to achieve full saturation of resources."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Current CPUs are multicore units. So starting managed servers in the amount of physical cores and pinning them 1:1 to cores will always get the best performance."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. By a combination of prioritization of processes on the OS level and Work Manager in WLS, one could tune the whole environment more precisely."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Assigning more than one managed server to hardware will never bring better performance."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. More instances means more connections to databases, so one could serve more concurrent calls on the database level. This is primarily why this approach will give better performance numbers."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Depending on the profile of the application, having more JVMs with smaller heaps will lead to more predictable response times than fewer JVMs with a large"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CEF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Two or more Managed Servers can be configured as a WebLogic Server cluster to increase application scalability and availability. In a WebLogic Server cluster, most resources and services are deployed identically to each Managed Server (as opposed to a single Managed Server), enabling failover and load balancing. A single domain can contain multiple WebLogic Server clusters, as well as multiple Managed Servers that are not configured as clusters. The key difference between clustered and non-clustered Managed Servers is support for failover and load balancing. These features are available only in a cluster of Managed"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* A WebLogic Server cluster provides these benefits:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scalability -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The capacity of an application deployed on a WebLogic Server cluster can be increased dynamically to meet demand. You can add server instances to a cluster without interruption of servicethe application continues to run without impact to clients and end users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "High-Availability -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In a WebLogic Server cluster, application processing can continue when a server instance fails. You \"cluster\" application components by deploying them on multiple server instances in the clusterso, if a server instance on which a component is running fails, another server instance on which that component is deployed can continue application processing."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Two or more Managed Servers can be configured as a WebLogic Server cluster to increase application scalability and availability. In a WebLogic Server cluster, most resources and services are deployed identically to each Managed Server (as opposed to a single Managed Server), enabling failover and load balancing. A single domain can contain multiple WebLogic Server clusters, as well as multiple Managed Servers that are not configured as clusters. The key difference between clustered and non-clustered Managed Servers is support for failover and load balancing. These features are available only in a cluster of Managed"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* A WebLogic Server cluster provides these benefits:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scalability -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The capacity of an application deployed on a WebLogic Server cluster can be increased dynamically to meet demand. You can add server instances to a cluster without interruption of servicethe application continues to run without impact to clients and end users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "High-Availability -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In a WebLogic Server cluster, application processing can continue when a server instance fails. You \"cluster\" application components by deploying them on multiple server instances in the clusterso, if a server instance on which a component is running fails, another server instance on which that component is deployed can continue application processing."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACF",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-599 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A WebLogic team is developing an enterprise application from their desktop WebLogic environment. All development systems are connected to the same eight data sources for testing."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "As a WebLogic Administrator supporting this team, which two actions should you perform to free the developers from creating and configuring all the data sources on their desktop WebLogic environment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Provide the team with a WebLogic domain template with the testing data sources configured."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Provide the development team with a preconfigured domain archive file."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Provide the development team with the [datasource] -jdbc.xml file to overwrite their local copy."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create the data sources on behalf each of the developer."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Provide the development team with WLST scripts to create and configure the testing data sources."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: E \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WebLogic Administrators typically use the Administration Console or the WebLogic Scripting Tool (WLST) to create and deploy (target) JDBC modules."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (not A) Domain templatedefines the full set of resources within a domain, including infrastructure components, applications, services, security options, and general environment and operating system options."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Extension templatedefines the applications and services that you can add to an existing domain, including product component functionality and resources such as JDBC or JMS."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (not B) Each domain describes its configuration in an XML document that is located in the domains configuration directory. At run time, each WebLogic Server instance in a given domain creates an in-memory representation of the configuration described in this document."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/config/config.xml. This file specifies the name of the domain and the configuration of each server instance, cluster, resource, and service in the domain. The file includes references to additional XML files that are stored in subdirectories of"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/config directory. These included files are used to describe major subsystems of WebLogic Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Configuring WebLogic JDBC Resource"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "WebLogic Administrators typically use the Administration Console or the WebLogic Scripting Tool (WLST) to create and deploy (target) JDBC modules."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (not A) Domain templatedefines the full set of resources within a domain, including infrastructure components, applications, services, security options, and general environment and operating system options."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Extension templatedefines the applications and services that you can add to an existing domain, including product component functionality and resources such as JDBC or JMS."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (not B) Each domain describes its configuration in an XML document that is located in the domains configuration directory. At run time, each WebLogic Server instance in a given domain creates an in-memory representation of the configuration described in this document."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/config/config.xml. This file specifies the name of the domain and the configuration of each server instance, cluster, resource, and service in the domain. The file includes references to additional XML files that are stored in subdirectories of"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/config directory. These included files are used to describe major subsystems of WebLogic Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Configuring WebLogic JDBC Resource"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-599 topic 1 question 64 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two IDEs are supported development environments for WebLogic Server 12c in version 12.1.1?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Websphere Developer Studio"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. NetBeans"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. InteliJ IDIA"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. JDeveloper"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Eclipse"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. WebLogic Workshop"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Oracle Enterprise Pack for Eclipse 12c (12.1.1.2.1)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Eclipse Based Enterprise Application Development"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle Enterprise Pack for Eclipse (OEPE) 12.1.1.2.1 for Eclipse Juno provides tools that make it easier to develop applications utilizing specific Oracle Fusion"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Middleware technologies and Oracle Database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Support for IDEs. WebLogic already supported JDeveloper 11.1.1.5, but will come out with the 11.1.1.6 later on. Also suported are Eclipse and NetBeans 7.1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IDE. The JDeveloper 11.1.1.6 and IntelliJIdea IDE will be supported in a later timeframe."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "E: Oracle Enterprise Pack for Eclipse 12c (12.1.1.2.1)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Eclipse Based Enterprise Application Development"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle Enterprise Pack for Eclipse (OEPE) 12.1.1.2.1 for Eclipse Juno provides tools that make it easier to develop applications utilizing specific Oracle Fusion"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Middleware technologies and Oracle Database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Support for IDEs. WebLogic already supported JDeveloper 11.1.1.5, but will come out with the 11.1.1.6 later on. Also suported are Eclipse and NetBeans 7.1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IDE. The JDeveloper 11.1.1.6 and IntelliJIdea IDE will be supported in a later timeframe."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "DE",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-599 topic 1 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two options best describe how the Maven Plugin for WebLogic enables WebLogic to be effectively used in a Continuous Integration environment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. execution of unit and integration tests"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. management of the life cycle of a WebLogic domain including creation, configuration, and server life-cycle management"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. deployment and undeployment of applications"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Java profiling"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Apache Maven is a software tool for building and managing Java-based projects. WebLogic Server provides support for Maven through the provisioning of plug- ins that enable you to perform various operations on WebLogic Server from within a Maven environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Continuous Integration is a software engineering practice which attempts to improve quality and reduce time to deliver software by applying small, frequent quality control efforts. It is characterized by these key practices:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use of a version control system -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All developers commit to the HEAD (main code line) every day"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The product is built on every commit"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The build must be automated and fast"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Automated deployment to a production-like environment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Automated testing -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Results of all builds are published (so everyone can see who broke the build)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Deliverables are easily available (for developers, testers, other stakeholders)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Apache Maven is a software tool for building and managing Java-based projects. WebLogic Server provides support for Maven through the provisioning of plug- ins that enable you to perform various operations on WebLogic Server from within a Maven environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Continuous Integration is a software engineering practice which attempts to improve quality and reduce time to deliver software by applying small, frequent quality control efforts. It is characterized by these key practices:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use of a version control system -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All developers commit to the HEAD (main code line) every day"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The product is built on every commit"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The build must be automated and fast"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Automated deployment to a production-like environment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Automated testing -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Results of all builds are published (so everyone can see who broke the build)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Deliverables are easily available (for developers, testers, other stakeholders)"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-599 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You deploy two different applications to the WebLogic container. One application use Xerces parser version A and the other application uses Xerces parser version B. Both these versions are different from the parser version that the WebLogic server uses internally. You want to use the Filtering Classloader feature to solve this problem. What action would you take to generate proper filtering Classloader entries?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Modify the applications to use the same version that WebLogic uses internally."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Based on available examples of Filtering Classloader entries, try to modify get the proper entries."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Deploy and use the Classloader Analyzing Tool to resolve all conflicts with conflicting libraries. This tool will generate all proper entries."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Split the application into separate WebLogic containers and use different WLS versions of Xerces but identical that applications require."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Look for a WebLogic release that uses the same version of Xerces that the applications use."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* The FilteringClassLoader provides a mechanism for you to configure deployment descriptors to explicitly specify that certain packages should always be loaded from the application, rather than being loaded by the system classloader. This allows you to use alternate versions of applications such as Xerces and Ant."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* To configure the FilteringClassLoader to specify a certain package is loaded from an application, add a prefer-application-packages descriptor element to the weblogic-application.xml which details the list of packages to be loaded from the application. The following example specifies that org.apache.log4j.* and antlr.* packages are loaded from the application, not the system classloader:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<prefer-application-packages>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<package-name>org.apache.log4j.*</package-name>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<package-name>antlr.*</package-name>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</prefer-application-packages>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Understanding WebLogic Server Application Classloading"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* The FilteringClassLoader provides a mechanism for you to configure deployment descriptors to explicitly specify that certain packages should always be loaded from the application, rather than being loaded by the system classloader. This allows you to use alternate versions of applications such as Xerces and Ant."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* To configure the FilteringClassLoader to specify a certain package is loaded from an application, add a prefer-application-packages descriptor element to the weblogic-application.xml which details the list of packages to be loaded from the application. The following example specifies that org.apache.log4j.* and antlr.* packages are loaded from the application, not the system classloader:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<prefer-application-packages>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<package-name>org.apache.log4j.*</package-name>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<package-name>antlr.*</package-name>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</prefer-application-packages>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Understanding WebLogic Server Application Classloading"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam 1z0-599 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When you use WebLogic Management Pack EE, which three operations are enabled compared to managing WebLogic Server only through web console?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. management of many WebLogic Server Domains from a single web console"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. tracking changes in the configuration of WebLogic Domain"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. automation of provisioning process in the new environment"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. checking compliance with the licenses that a customer has"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. visual creation of JDBC DataSource object to Oracle RAC"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The WebLogic Server Management Pack EE greatly improves application performance by providing unique functionality to automatically detect performance bottlenecks; quickly diagnose these performance problems, and identify their root cause. Key application performance management features of the pack include the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (A) Manage multiple farms and WebLogic Domains centrally"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Monitor Oracle Coherence Cluster including all nodes within a cluster, all caches, services, connection managers and connections"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Monitor middleware availability and performance out-of-box; track such data historically, and receive notifications of potential problems"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Obtain real-time, in-depth JVM diagnostics without instrumentation overhead"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Trace transactions across containers as well as to the database"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (E) Analyze call paths and dependencies via graphical, architecture views"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (E) Automatically discover and model dependencies between Java components, frameworks, and web services"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Weblogic Server Management Pack Enterprise Edition"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The WebLogic Server Management Pack EE greatly improves application performance by providing unique functionality to automatically detect performance bottlenecks; quickly diagnose these performance problems, and identify their root cause. Key application performance management features of the pack include the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (A) Manage multiple farms and WebLogic Domains centrally"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Monitor Oracle Coherence Cluster including all nodes within a cluster, all caches, services, connection managers and connections"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Monitor middleware availability and performance out-of-box; track such data historically, and receive notifications of potential problems"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Obtain real-time, in-depth JVM diagnostics without instrumentation overhead"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Trace transactions across containers as well as to the database"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (E) Analyze call paths and dependencies via graphical, architecture views"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (E) Automatically discover and model dependencies between Java components, frameworks, and web services"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Weblogic Server Management Pack Enterprise Edition"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam 1z0-599 topic 1 question 76 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a Java EE messaging application, one MDB is consuming a lot of memory at high traffic."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What configuration should you use to prevent possible out-of-memory error at high traffic and at the same time not losing messages?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure a Work Manager for the MDB with a Maximum Thread Constraint."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure a Work Manager for the MDB with a Minimum Thread Constraint."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure a Work Manager for the MDB with a Maximum Thread Constraint and a Capacity Constraint."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure a Work Manager for the MDB with a Minimum Thread Constraint and a Capacity Constraint."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Configure a Work Manager for the MDB with both a Maximum Thread Constraint and Minimum Thread Constraint."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "*"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* When to Use Work Managers"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Following are guildelines to help you determine when you might want to use Work Managers to customize thread management:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ The default fair share is not sufficient."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This usually ocurrs in situations where one application needs to be given higher priority over another."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ A response time goal is required."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ A minimum thread constraint needs to be specified to avoid server deadlock"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "*"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* When to Use Work Managers"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Following are guildelines to help you determine when you might want to use Work Managers to customize thread management:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ The default fair share is not sufficient."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This usually ocurrs in situations where one application needs to be given higher priority over another."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ A response time goal is required."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ A minimum thread constraint needs to be specified to avoid server deadlock"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam 1z0-599 topic 1 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer is developing a custom application that involves a multistep provisioning process for a new account. There is a custom Java client application that is generating multiple JMS messages as part of the process and sending them to the WebLogic tier where they are processed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three steps must you take to implement the solution to allow for scalability and parallel processing of multiple simultaneous provisioning requests while ensuring messages for an individual process are not delivered out of order?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Update the client application that is creating the JMS messages to use Unit of Work."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure a WebLogic Cluster for Distributed JMS."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Update the client application that is creating the JMS messages to use Unit of Order."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable XA Transactions on the JMS Connection Factory used by the client application."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Enable Load Balancing on the JMS connection factory used by the client application."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: Message Unit-of-Order is a WebLogic Server value-added feature that enables a stand-alone message producer, or a group of producers acting as one, to group messages into a single unit with respect to the processing order. This single unit is called a Unit-of-Order and requires that all messages from that unit be processed sequentially in the order they were created."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D Transactions required for parallel processing."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: Many applications need an even more restricted notion of a group than provided by the Message Unit-of-Order (UOO) feature. If this is the case for your applications, WebLogic JMS provides the Unit-of-Work (UOW) Message Groups, which allows applications to send JMS messages, identifying some of them as a group and allowing a JMS consumer to process them as such. For example, an JMS producer can designate a set of messages that need to be delivered to a single client without interruption, so that the messages can be processed as a unit. Further, the client will not be blocked waiting for the completion of one unit when there is another unit that is already complete."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* WebLogic JMS defines two default connection factories, which you can look up using the following JNDI names: weblogic.jms.ConnectionFactory weblogic.jms.XAConnectionFactory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Using Message Unit-of-Order"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "C: Message Unit-of-Order is a WebLogic Server value-added feature that enables a stand-alone message producer, or a group of producers acting as one, to group messages into a single unit with respect to the processing order. This single unit is called a Unit-of-Order and requires that all messages from that unit be processed sequentially in the order they were created."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D Transactions required for parallel processing."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: Many applications need an even more restricted notion of a group than provided by the Message Unit-of-Order (UOO) feature. If this is the case for your applications, WebLogic JMS provides the Unit-of-Work (UOW) Message Groups, which allows applications to send JMS messages, identifying some of them as a group and allowing a JMS consumer to process them as such. For example, an JMS producer can designate a set of messages that need to be delivered to a single client without interruption, so that the messages can be processed as a unit. Further, the client will not be blocked waiting for the completion of one unit when there is another unit that is already complete."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* WebLogic JMS defines two default connection factories, which you can look up using the following JNDI names: weblogic.jms.ConnectionFactory weblogic.jms.XAConnectionFactory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Using Message Unit-of-Order"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCE",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam 1z0-599 topic 1 question 78 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to migrate an application that was developed for OAS/OC4J to WebLogic. The application uses Oracle Streams Advanced Queuing (AQ). You configured a Foreign JMS Server and Data Source but you are not able to send messages to the AQ destination and see them reach the database. Which two things are missing in this configuration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. nothing, there may be a network connection issue"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a Foreign JMS Connection Factory"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a JMS Bridge to map the JNDI of the Local JMS Destination to the remote AQ destination"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a mapping of the Foreign JMS Connection Factory to the Data Source where AQ is configured and installed."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Oracle AQ Java EE Shared Libraries not deployed and referenced by your application"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* A WebLogic Messaging Bridge communicates with the configured source and target bridge destinations. For each mapping of a source destination to a target destination, you must configure a messaging bridge instance. Each messaging bridge instance defines the source and target destination for the mapping, a message filtering selector, a QOS, transaction semantics, and various reconnection parameters."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In your JMS Foreign Server configuration:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Specify oracle.jms.AQjmsInitialContextFactory as the JNDI Initial Context Factory."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Configure the JDBC data sources needed for your application environment."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "C:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* A WebLogic Messaging Bridge communicates with the configured source and target bridge destinations. For each mapping of a source destination to a target destination, you must configure a messaging bridge instance. Each messaging bridge instance defines the source and target destination for the mapping, a message filtering selector, a QOS, transaction semantics, and various reconnection parameters."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In your JMS Foreign Server configuration:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Specify oracle.jms.AQjmsInitialContextFactory as the JNDI Initial Context Factory."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Configure the JDBC data sources needed for your application environment."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam 1z0-599 topic 1 question 80 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In the area of Performance Management and Diagnostics, which feature is supported in Oracle Enterprise Manager 12C?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Search information in logs across multiple domains"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. View different log information in single console location"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Save current performance data as baseline to be used in comparison with future data"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Provides single dashboard across multi-tier composite application"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E25178_01/fusionapps.1111/e14496/logs_diagnostics.htm"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E25178_01/fusionapps.1111/e14496/logs_diagnostics.htm"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam 1z0-599 topic 1 question 84 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are four benefits of recommended basic architecture?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Good load balancing between Presentation Tier and Object Tier"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Easy administration"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Flexible Load balancing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Optimal performance"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Simple security"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABCD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E13222_01/wls/docs81/cluster/planning.html#1090621v"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E13222_01/wls/docs81/cluster/planning.html#1090621v"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 1z0-599 topic 1 question 85 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Active Cache is the integration of Coherence and WebLogic Server. Which component is NOT part of this integration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Coherence*Web"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Coherence*Extend"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. TopLink Grid with Coherence"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Coherence cluster lifecycle management in WebLogic Server"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Named cache dependency Injection"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/html/E15831_01/activecache.htm"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/html/E15831_01/activecache.htm"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

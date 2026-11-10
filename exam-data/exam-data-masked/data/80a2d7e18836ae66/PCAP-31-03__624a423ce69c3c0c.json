@@ -1,0 +1,8090 @@
+{
+  "PCAP-31-03__624a423ce69c3c0c": {
+    "Question #: 1": {
+      "Title": "Exam PCAP-31-03 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Python packages? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a code designed to initialize a package\u2019s state should be placed inside a file named init.py"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a package\u2019s contents can be stored and distributed as an mp3 file"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. __pycache__ is a folder that stores semi-compiled Python modules"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the sys.path variable is a list of strings"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam PCAP-31-03 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "import sys"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "import math"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "b1 = type(dir(math)) is list"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "b2 = type(sys.path) is list"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(b1 and b2)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. None"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. True"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. False"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 9,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam PCAP-31-03 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Python package named pypack includes a module named pymod.py which contains a function named pyfun()."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following snippets will let you invoke the function? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. from pypack.pymod import pyfun"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyfun()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. import pypack"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pymod.pyfun()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. from pypack import *"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyfun()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. import pypack"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "import pypack.pymod"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pypack.pymod.pyfun()"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam PCAP-31-03 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the code below has been executed successfully, which of the following expressions will always evaluate to True? (Choose two.) import random v1 = random.random() v2 = random.random()"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. len(random.sample([1,2,3],1)) > 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. v1 == v2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. random.choice([1,2,3]) > 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. v1>1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam PCAP-31-03 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "With regards to the directory structure below, select the proper forms of the directives in order to import module_c. (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image1.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. from pypack.upper.lower import module_c"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. import pypack.upper.lower.module_c"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. import upper.module_c"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. import upper.lower.module_c"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 10,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam PCAP-31-03 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which one of the platform module functions should be used to determine the underlying platform name?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. platform.processor()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. platform.uname()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. platform.python_version()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. platform.platform()"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 8,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam PCAP-31-03 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image2.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the code is erroneous and it will not execute"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 0"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam PCAP-31-03 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following snippets will execute without raising any unhandled exceptions? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image3.png"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image4.png"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image5.png"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image6.png"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam PCAP-31-03 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image7.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the code is erroneous and it will not execute"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam PCAP-31-03 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about the following snippet? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image8.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the string what a pity will be seen"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the string it's nice to see you will be seen"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the code will raise an unhandled exception"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the string I feel fine will be seen"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 6,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam PCAP-31-03 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image9.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs error"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the code is erroneous and it will not execute"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs list assignment index out of range"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam PCAP-31-03 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ord(\"0\") - ord(\"9\") == 10"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. len(\"''\") == 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. chr(ord('z') - 1) == 'y'"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. len(''1234'') == 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 4,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "CD",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam PCAP-31-03 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'xYz'.lower() > 'XY'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. '8'+'8' ! = 2 * '8'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. float ('3.14') == str('3.' + '14')"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 121 + 1 == int('1' + 2 * '2')"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam PCAP-31-03 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image10.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 'None'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it raises an exception"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam PCAP-31-03 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "the_list = \"alpha;beta;gamma\".split(\";\")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "the_string = ''.join(the_list)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(the_string.isalpha())"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs True"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs False"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs nothing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it raises an exception"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam PCAP-31-03 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following invocations are valid? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. sort(\"python\")"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. \"python\".find(\"\")"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. \"python\".sort()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. sorted(\"python\")"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam PCAP-31-03 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'in' in 'in'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 'in' in 'Thames'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 'in not' in 'not'"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 't'.upper() in 'Thames'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam PCAP-31-03 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the snippet below has been executed successfully, which of the following expressions will evaluate to True? (Choose two.) string = 'python'[::2] string = string[-1] + string[-2]"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. len(string) == 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. string[0] == 'o'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. string[0] == string[-1]"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. string is None"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam PCAP-31-03 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. an escape sequence can be recognized by the / sign put in front of it"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ASCII is a subset of UNICODE"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. II in ASCII stands for Internal Information"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a code point is a number assigned to a given character"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam PCAP-31-03 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A property that stores information about a given class\u2019s super-classes is named:"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. __bases__"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. __super__"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. __upper__"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. __ancestors__"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam PCAP-31-03 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the code below has been executed successfully, which of the following expressions evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image11.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'var' in Class.__dict__"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 'data' in Object.__dict"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. len(Class.__dict__) == 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 'data' in Class.__dict__"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam PCAP-31-03 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image12.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it raises an exception"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam PCAP-31-03 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the code below has been placed inside a file named code.py and executed successfully, which of the following expressions evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image13.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. str(Object) = 'Object'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. __name__ == '__main__'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. len(ClassB.__bases__) == 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ClassA.__module__ == 'ClassA'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 24": {
+      "Title": "Exam PCAP-31-03 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the following inheritance set is in force, which of the following classes are declared properly? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image14.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. class Class_3(A,C): pass"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. class Class_2(B,C): pass"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. class Class_4(A,B): pass"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. class Class_1(C,B): pass"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 25": {
+      "Title": "Exam PCAP-31-03 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the following piece of code has been executed successfully, which of the expressions evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image15.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A.VarA == 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. isinstance(obj_b,A)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. B.VarA == 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. obj_a is obj_aa"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 26": {
+      "Title": "Exam PCAP-31-03 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following snippet?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image16.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. False upper"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. True upper"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. False lower"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. True lower"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 27": {
+      "Title": "Exam PCAP-31-03 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following lines of code will work flawlessly when put independently inside the add_new() method in order to make the snippet\u2019s output equal to [0, 1, 1]? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image17.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. self.put(self.store[1])"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. self.put(self.get()[-1])"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. self.put(store[1])"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. put(self.store[1])"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 28": {
+      "Title": "Exam PCAP-31-03 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image18.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it raises an exception"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam PCAP-31-03 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Object-Oriented Programming in Python? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. encapsulation allows you to hide a whole class inside a package"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a class is a recipe for an object"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. each object of the same class can have a different set of properties"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the arrows on a class diagram are always directed from a superclass towards its subclass"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam PCAP-31-03 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Python class constructors? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the constructor\u2019s first parameter identifies an object currently being created"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. super-class constructor is invoked implicitly during constructor execution"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the constructor can be invoked directly under strictly defined circumstances"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the constructor cannot use the default values of the parameters"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 3,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "AB",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 31": {
+      "Title": "Exam PCAP-31-03 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image19.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 6"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it raises an exception"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 3"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam PCAP-31-03 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "myli = range (-2,2)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "m = list(filter(lambda x: True if abs(x) < 1 else False, myli)) print(len(m))"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 4"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. an exception is raised"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 16"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 33": {
+      "Title": "Exam PCAP-31-03 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about lambda functions? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. they are called anonymous functions"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. they cannot return the None value as a result"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. they must contain the return keyword"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. they must have a non-zero number of parameters"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 34": {
+      "Title": "Exam PCAP-31-03 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "x =3 % 1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "y = 1 if x > 0 else 0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(y)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the code is erroneus and it will not execute"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs -1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 7,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 35": {
+      "Title": "Exam PCAP-31-03 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code if the file named zero_length_existing_file is a zero-length file located inside the working directory?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image20.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. -1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. an errno value corresponding to file not found"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 0"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 36": {
+      "Title": "Exam PCAP-31-03 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image21.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. an exception is raised"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. -1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 37": {
+      "Title": "Exam PCAP-31-03 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "my_list = [i for i in range(5)]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "m = [my_list[i] for i in range(4, 0, -1) if my_list[i] % 2 != 0] print(m)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the code is erroneus and it will not execute"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs [4, 2, 0]"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs [3, 1]"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs [1, 3]"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 38": {
+      "Title": "Exam PCAP-31-03 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the following code has been executed successfully, select the expressions which evaluate to True (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image22.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a is not None"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a() == 4"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a != b"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. b() == 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 39": {
+      "Title": "Exam PCAP-31-03 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. if invoking open() fails, an exception is raised"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. instd, outstd, errstd are the names of pre-opened streams"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. open() requires a second argument"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. open() is a function which returns an object that represents a physical file"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 40": {
+      "Title": "Exam PCAP-31-03 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code if there is no file named non_existing_file inside the working directory?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image23.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 2 2 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1 2 2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 41": {
+      "Title": "Exam PCAP-31-03 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the math module has been successfully imported, which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. math.ceil(2.5) == math.trunc(2.5)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. math.ceil(2.5) < math.floor(2.5)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. math.floor(2.5) == math.trunc(2.5)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. math.hypot(3,4) == math.sqrt(25)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 42": {
+      "Title": "Exam PCAP-31-03 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "With regards to the directory structure below, select the proper forms of the directives in order to import module_b. (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image24.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. import module_b"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. import pypack.upper.module_b"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. from pypack.upper import module_b"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. import upper.module_b"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 43": {
+      "Title": "Exam PCAP-31-03 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "import sys"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "b1 type (dir(sys)) is str"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "b2 type (sys.path[-1]) is str"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print (b1 and b2)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. True"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. False"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. None"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 44": {
+      "Title": "Exam PCAP-31-03 topic 1 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image25.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the code is erroneous and it will not execute"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 8,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 4,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 45": {
+      "Title": "Exam PCAP-31-03 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image26.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the code is erroneous and it will not execute"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 5,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 46": {
+      "Title": "Exam PCAP-31-03 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image27.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the code is erroneous and it will not execute"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 47": {
+      "Title": "Exam PCAP-31-03 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. '1' + '1' + '1' < '1' * 3'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 121 + 1 != '1' + 2 * '2'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 'AbC'.lower() < 'AB'"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. '3.14' != str(3.1415)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 48": {
+      "Title": "Exam PCAP-31-03 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "the_string = ',,'.join(('alpha', 'omega'))"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "the_list = the_string.split(',')"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(',' in the list)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs False"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it raises an exception"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs True"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs nothing"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 49": {
+      "Title": "Exam PCAP-31-03 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image28.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 123"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it raises an exception"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 6"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 321"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 50": {
+      "Title": "Exam PCAP-31-03 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'dcb' not in 'abcde'[::-1]"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 'True' not in 'False'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. str(1-1) in '0123456789'[:2]"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 'phd' in 'alpha'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 51": {
+      "Title": "Exam PCAP-31-03 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. len(\"\"\""
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "\"\"\") > 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. len('\\'') == 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ord(\"z\") - ord(\"Z\") == ord(\"0\")"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. chr(ord('a') + 1) == 'B'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 52": {
+      "Title": "Exam PCAP-31-03 topic 1 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the following inheritance set is in force, which of the following classes are declared properly? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image29.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. class Class_2(A,B): pass"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. class Class_3(A,C): pass"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. class Class_1(D): pass"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. class Class_4(C,B): pass"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 53": {
+      "Title": "Exam PCAP-31-03 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image30.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 5"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it raises an exception"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 5,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 54": {
+      "Title": "Exam PCAP-31-03 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Python class constructors? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the constructor's first parameter must always be named self"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. there can be only one constructor in a Python class"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the constructor cannot be invoked directly under any circumstances"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the constructor cannot return a result other than None"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "BD",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 55": {
+      "Title": "Exam PCAP-31-03 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Object-Oriented Programming in Python? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. an object is a recipe for a class"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the arrows on a class diagram are always directed from a superclass towards its subclass"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. encapsulation allows you to protect some data from uncontrolled access"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. inheritance is the relation between a superclass and a subclass"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 56": {
+      "Title": "Exam PCAP-31-03 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the code below has been executed successfully, which of the following expressions evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image31.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. len(Object.__dict__) == 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 'var' in Object.__dict__"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 'var' in Class.__dict__"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 'data' in Object.__dict__"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 57": {
+      "Title": "Exam PCAP-31-03 topic 1 question 57 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the code below has been placed inside a file named code.py and executed successfully, which of the following expressions evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image32.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. len(ClassB.__bases__) == 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. __name__ == 'code.py'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. str(Object) == 'Object'"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ClassA.__module__ == '__main__'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 58": {
+      "Title": "Exam PCAP-31-03 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following lines of code will work flawlessly when put independently inside the add_new() method in order to make the snippet's output equal to [0, 1, 2]? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image33.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. self.queue.append(self.queue[-1] + 1)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. self.queue.append(self.get_last() + 1)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. self.queue.append(get_last() + 1)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. queue.append(self.get_last() + 1)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 59": {
+      "Title": "Exam PCAP-31-03 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the following piece of code has been executed successfully, which of the expressions evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image34.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. hasattr(B, 'get')"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. isinstance(obj_b,C)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. obj_c.get() == 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. C._C__VarA == 2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 7,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 60": {
+      "Title": "Exam PCAP-31-03 topic 1 question 60 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image35.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it raises an exception"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 61": {
+      "Title": "Exam PCAP-31-03 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code if the file named non_zero_length_existing_text_file is a non-zero length file located inside the working directory?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image36.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. an errno value corresponding to file not found"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. -1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 62": {
+      "Title": "Exam PCAP-31-03 topic 1 question 62 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image37.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 4"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. an exception is raised"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 63": {
+      "Title": "Exam PCAP-31-03 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "mytu = ('a', 'b', 'c')"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "m = tuple(map(lambda x: chr(ord(x) + 1), mytu))"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(m[-2])"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. an exception is raised"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. b"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. c"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 64": {
+      "Title": "Exam PCAP-31-03 topic 1 question 64 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. if open()'s second argument is 'r', the file must exist or open will fail"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the second open() argument describes the open mode and defaults to 'w'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. if open()'s second argument is 'w' and the invocation succeeds, the previous file's content is lost"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. closing an opened file is performed by the closefile() function"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 65": {
+      "Title": "Exam PCAP-31-03 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code if existing_file is the name of a file located inside the working directory?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image38.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1 2 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 2 3"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 66": {
+      "Title": "Exam PCAP-31-03 topic 1 question 66 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the following code has been executed successfully, select the expressions which evaluate to True. (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image39.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a(2) == 4"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a is not None"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. b(1) == 4"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a == b"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 67": {
+      "Title": "Exam PCAP-31-03 topic 1 question 67 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following lambda definitions are correct? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. lambda(x,y) = x//y - x%y"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. lambda x,y: return x//y - x%y"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. lambda x,y: (x,y)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. lambda x,y: x//y - x%y"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 68": {
+      "Title": "Exam PCAP-31-03 topic 1 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following snippet?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image40.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. False upper"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. True upper"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. False lower"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. True lower"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 69": {
+      "Title": "Exam PCAP-31-03 topic 1 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "myli = [1, 2, 4]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "m = list(map(lambda x: 2**x, myli))"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(m[-1])"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 4"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. an exception is raised"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 16"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 70": {
+      "Title": "Exam PCAP-31-03 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "my_list = [i for i in range(5)]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "m = [my_list[i] for i in range(5) if my_list[i] % 2 != 0]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(m)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the code is erroneus and it will not execute"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs [0, 2, 4]"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs [0, 1, 2, 3, 4]"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs [1, 3]"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 71": {
+      "Title": "Exam PCAP-31-03 topic 1 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Python packages? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a package is a single file whose name ends with the pa extension"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a package is a group of related modules"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the __name__ variable always contains the name of a package"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the pyc extension is used to mark semi-compiled Python packages"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 72": {
+      "Title": "Exam PCAP-31-03 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which one of the platform module functions should be used to determine the underlying OS version?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. platform.processor()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. platform.version()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. platform.python_version()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. platform.python_version_tuple()"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 73": {
+      "Title": "Exam PCAP-31-03 topic 1 question 74 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the following code has been executed successfully, select the expressions which evaluate to True. (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image41.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a() > 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a is not None"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. b() > 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a is b"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 74": {
+      "Title": "Exam PCAP-31-03 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the snippet below has been executed successfully, which of the following expressions will evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "string = 'REPTILE'[:3:]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "string = string[-1] + string[-2::-1]"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. len(string) == 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. string[0] == 'E'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. string[0] < string[-1]"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. string is None"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 75": {
+      "Title": "Exam PCAP-31-03 topic 1 question 76 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following lines of code will work flawlessly when put independently inside the inc() method in order to make the snippet's output equal to 3? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image42.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. put(self.prop + val)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. self.put(self.prop + val)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. self.put(self.get() + val)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. self.put(get() + val)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 76": {
+      "Title": "Exam PCAP-31-03 topic 1 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following lambda function definitions are correct? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. lambda lambda: lambda * lambda"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. lambda x : def fun(x): return x"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. lambda : 3.1415"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. lambda x : None"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 77": {
+      "Title": "Exam PCAP-31-03 topic 1 question 78 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Object-Oriented Programming in Python? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the same class can be used many times to build a number of objects"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. each object of the same class can have a different set of methods"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. if a real-life object can be described with a set of adjectives they may reflect a Python object method"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a subclass is usually more specialized than its superclass"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 78": {
+      "Title": "Exam PCAP-31-03 topic 1 question 79 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "import sys"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "import math"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "b1 = type(dir(math)[01]) is str"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "b2 = type(sys.path[-1]) is str"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(b1 and b2)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. None"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. True"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. False"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 79": {
+      "Title": "Exam PCAP-31-03 topic 1 question 80 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a code point is a point inside the code when execution stops immediately"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. UTF-8 is one of the ways of representing UNICODE code points"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ASCII is the name of a character coding standard"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. an escape sequence can be recognized by the # sign put in front of it"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 80": {
+      "Title": "Exam PCAP-31-03 topic 1 question 81 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Python class constructors? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the constructor is a method named __init__"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. there can be more than one constructor in a Python class"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the constructor must return a value other than None"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the constructor must have at least one parameter"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 81": {
+      "Title": "Exam PCAP-31-03 topic 1 question 82 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following invocations are valid? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. \"python\".index(\"th\")"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. rfind(\"python\",\"r\")"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. \"python\".sort()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. sorted(\"python\")"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 82": {
+      "Title": "Exam PCAP-31-03 topic 1 question 83 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following invocations are valid? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'python'.sorted()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. \"python\".rindex(\"th\")"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. sort(\"python\")"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. \"python\".find(\"\")"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 83": {
+      "Title": "Exam PCAP-31-03 topic 1 question 84 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the code below has been placed inside a file named code.py and executed successfully, which of the following expressions evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image43.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ClassA.__module__ == '_main_'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. len(ClassB.__bases__) == 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. __name__ == '__ main__'"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. str(Object) == 'Object'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 84": {
+      "Title": "Exam PCAP-31-03 topic 1 question 85 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "the_list = \"1,2 3.split()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "the_string = ''.join(the_list)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(the_string.isdigit())"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs False"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs True"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs nothing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it raises an exception"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 85": {
+      "Title": "Exam PCAP-31-03 topic 1 question 86 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following snippets will execute without raising any unhandled exceptions? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image44.png"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image45.png"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image46.png"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image47.png"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 86": {
+      "Title": "Exam PCAP-31-03 topic 1 question 87 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Python module named pymod.py contains a variable named pyvar."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following snippets will let you access the variable? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. from pymod import *"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyvar = 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. import pyvar from pymod"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyvar = 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. from pymod import pyvar"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyvar()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. import pymod"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pymod.pyvar = 1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 87": {
+      "Title": "Exam PCAP-31-03 topic 1 question 88 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image48.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the code is erroneous and it will not execute"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 88": {
+      "Title": "Exam PCAP-31-03 topic 1 question 89 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'in not' in 'not'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 'a' not in 'ABC'.lower()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 'not' not in 'in'"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 't'.upper() in 'Thames'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 89": {
+      "Title": "Exam PCAP-31-03 topic 1 question 90 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image49.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it raises an exception"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 90": {
+      "Title": "Exam PCAP-31-03 topic 1 question 91 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image50.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. outputs list assignment index out of range"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs None"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 'tuple' object does not support item assignment"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the code is erroneous and it will not execute"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 91": {
+      "Title": "Exam PCAP-31-03 topic 1 question 92 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image51.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. False lower"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. False upper"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. True upper"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. True lower"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 92": {
+      "Title": "Exam PCAP-31-03 topic 1 question 93 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "With regards to the directory structure below, select the proper forms of the directives in order to import module_a. (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image52.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. import pypack.module_a"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. import module_a from pypack"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. import module_a"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. from pypack import module_a"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 93": {
+      "Title": "Exam PCAP-31-03 topic 1 question 94 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which one of the platform module functions should be used to determine the Python version?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. platform.python_version()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. platform.processor()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. platform.uname()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. platform.version()"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 94": {
+      "Title": "Exam PCAP-31-03 topic 1 question 95 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about Python packages? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a package can be stored as a tree of sub-directories/sub-folders"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. __pycache__ is the name of a built-in variable"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the __name__ variable content determines the way in which the module was run"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. hashbang is the name of a built-in Python function"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 95": {
+      "Title": "Exam PCAP-31-03 topic 1 question 96 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "import sys"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "import math"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "b1 = type(dir(math)[0]) is str"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "b2 = type(sys.path[-1]) is str"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "print(b1 and b2)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. False"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. True"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. None"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 96": {
+      "Title": "Exam PCAP-31-03 topic 1 question 97 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image53.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 6"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it raises an exception"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 97": {
+      "Title": "Exam PCAP-31-03 topic 1 question 98 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code if the file named existing_text_file is a non-zero length text file located inside the working directory?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image54.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the length of the last line from the file"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the number of lines contained inside the file"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. -1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the length of the first line from the file"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 98": {
+      "Title": "Exam PCAP-31-03 topic 1 question 99 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the code below has been executed successfully, which of the following expressions will always evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "import random"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "random.seed(1)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "v1 = random, random()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "random.seed(1)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "v2 = random.random()"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. v1 >= 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. len(random.sample([1,2,3],2)) > 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. random.choice([1,2,3]) >= 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. v1 = v2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 99": {
+      "Title": "Exam PCAP-31-03 topic 1 question 100 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following snippets will execute without raising any unhandled exceptions? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image55.png"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image56.png"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image57.png"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/pcap-31-03/image58.png"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 100": {
+      "Title": "Exam PCAP-31-03 topic 1 question 101 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. II in ASCII stands for Information Interchange"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a code point is a number assigned to a given character"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ASCII is synonymous with UTF-8"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. \\e is an escape sequence used to mark the end of lines"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 101": {
+      "Title": "Exam PCAP-31-03 topic 1 question 102 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the following inheritance set is in force, which of the following classes are declared properly? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image59.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. class Class_2(B,D): pass"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. class Class_1(C,D): pass"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. class Class_3(A,C): pass"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. class Class_4(D,A): pass"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 102": {
+      "Title": "Exam PCAP-31-03 topic 1 question 103 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the code below has been executed successfully, which of the following expressions evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image60.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'var' in Object.__dict__"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 'var' in Class.__dict__"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. len(Object.__dict__) == 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 'prop' in Class.__dict__"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 103": {
+      "Title": "Exam PCAP-31-03 topic 1 question 104 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image61.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs -2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it outputs 2.0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 0.0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the code is erroneus and it will not execute"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 104": {
+      "Title": "Exam PCAP-31-03 topic 1 question 105 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Python module named pymod.py contains a function named pyfun()."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following snippets will let you invoke the function? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. from pymod import *"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pymod.pyfun()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. import pyfun from pymod"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyfun()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. import pymod"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pymod.pyfun()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. from pymod import pyfun"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyfun()"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 105": {
+      "Title": "Exam PCAP-31-03 topic 1 question 106 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following expressions evaluate to True? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 'abc'.upper() < 'abc'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. '1'+'2' * 2 != '12'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3 * 'a' < 'a' * 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 11 == '011'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 106": {
+      "Title": "Exam PCAP-31-03 topic 1 question 107 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that the snippet below has been executed successfully, which of the following expressions will evaluate to True? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "string = 'SKY'[::-1]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "string = string[-1]"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. len(string) == 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. string[0] == 'Y'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. string[0] == string[-1]"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. string is None"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 107": {
+      "Title": "Exam PCAP-31-03 topic 1 question 108 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is true about the __bases__ property?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. there is no such property"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it is accessible inside a class and an object"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it is accessible inside a class"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it is accessible inside an object"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 108": {
+      "Title": "Exam PCAP-31-03 topic 1 question 109 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. if invoking open() fails, the value None is returned"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. open() is a function which returns an int that represents a physical file handle"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the second open() argument is optional"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. instd, outstd, errstd are the names of pre-opened streams"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 109": {
+      "Title": "Exam PCAP-31-03 topic 1 question 110 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected output of the following code if there is no file named non_existing_file inside the working directory?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image62.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1 2 4"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2 4"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1 2 3 4"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1 3"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 110": {
+      "Title": "Exam PCAP-31-03 topic 1 question 111 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image63.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. it outputs 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. it raises an exception"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. it outputs 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. it outputs 0"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 111": {
+      "Title": "Exam PCAP-31-03 topic 1 question 117 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Python module named pymod.py contains a variable named pyvar. Which of the following snippets will let you access this variable? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. from pymod import pyvar"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyvar ()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. import pymod"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pymod.pyvar = 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. import pyvar from pymod"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyvar = 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. from pymod import*"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "pyvar = 1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 112": {
+      "Title": "Exam PCAP-31-03 topic 1 question 120 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the expected behavior of the following code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/pcap-31-03/image69.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It outputs 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It raises an exception"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It outputs 6"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It outputs 3"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

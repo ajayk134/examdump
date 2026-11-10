@@ -1,0 +1,1 @@
+window.EXAMDUMP_API_BASE = "https://exam.dumpsk134.workers.dev";

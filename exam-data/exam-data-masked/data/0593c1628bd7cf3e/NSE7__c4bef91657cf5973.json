@@ -1,0 +1,5483 @@
+{
+  "NSE7__c4bef91657cf5973": {
+    "Question #: 1": {
+      "Title": "Exam NSE7 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the IPsec configuration shown in the exhibit; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0000300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An administrator wants to monitor the VPN by enabling the IKE real time debug using these commands: diagnose vpn ike log-filter src-addr4 10.0.10.1 diagnose debug application ike -1 diagnose debug enable"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The VPN is currently up, there is no traffic crossing the tunnel and DPD packets are being interchanged between both IPsec gateways. However, the IKE real time debug does NOT show any output. Why isn't there any output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The IKE real time shows the phases 1 and 2 negotiations only. It does not show any more output once the tunnel is up."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The log-filter setting is set incorrectly. The VPN's traffic does not match this filter."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The IKE real time debug shows the phase 1 negotiation only. For information after that, the administrator must use the IPsec real time debug instead: diagnose debug application ipsec -1."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The IKE real time debug shows error messages only. If it does not provide any output, it indicates that the tunnel is operating normally."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam NSE7 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A FortiGate device has the following LDAP configuration:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "config user ldap"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "edit \"WindowsLDAP\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set server \"10.0.1.10\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set cnid \"cn\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set dn \"cn=Users, dc=trainingAD, dc=training, dc=lab\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set type regular"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set username \"dc=trainingAD, dc=training, dc=lab\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set password xxxxxxx"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "next"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "end"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The administrator executed the 'dsquery' command in the Windows LDAP server 10.0.1.10, and got the following output:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ">dsquery user -samid administrator"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\"CN=Administrator, CN=Users, DC=trainingAD, DC=training, DC=lab\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Based on the output, what FortiGate LDAP setting is configured incorrectly?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. cnid."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. username."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. password."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. dn."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam NSE7 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following partial output from a sniffer command; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# diagnose sniff packet any icmp 4"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "interfaces=[any]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "filters=[icmp]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2.101199 wan2 in 192.168.1.110 -> 4.2.2.2: icmp: echo request"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2.1011400 wan1 out 172.17.87.16 -> 4.2.2.2: icmp: echo request"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "....."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2.123500 wan2 out 4.2.2.2 -> 192.168.1.110: icmp: echo reply"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "244 packets received by filter"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5 packets dropped by kernel"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the meaning of the packets dropped counter at the end of the sniffer?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Number of packets that didn\u2019t match the sniffer filter."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Number of total packets dropped by the FortiGate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Number of packets that matched the sniffer filter and were dropped by the FortiGate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Number of packets that matched the sniffer filter but could not be captured by the sniffer."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam NSE7 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following partial output from two system debug commands; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# diagnose hardware sysinfo memory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MemTotal: 3092728 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MemFree: 1954204 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MemShared: 0 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Buffers: 284 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Cached: 143004 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SwapCached: 0 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Active: 34092 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Inactive: 109256 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "HighTotal 1179648 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "HighFree: 853516 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LowTotal: 1913080 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LowFree: 1100688 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SwapTotal: 0 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SwapFree: 0 kB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# diagnose hardware sysinfo shm"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SHM counter: 285"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SHM allocated: 6823936"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SHM total: 623452160"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "concervemode: 0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "shm last entered: n/a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "system last entered: n/a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SHM FS total: 639725568"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SHM FS free: 632614912"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SHM FS avail: 632614912"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SHM FS alloc: 7110656"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following statements are true regarding the above outputs? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The unit is running a 32-bit FortiOS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The unit is in kernel conserve mode"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The Cached value is always the Active value plus the Inactive value"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Kernel indirectly accesses the low memory (LowTotal) through memory paging"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam NSE7 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true regarding the SIP session helper and the SIP application layer gateway (ALG)? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SIP session helper runs in the kernel; SIP ALG runs as a user space process."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SIP ALG supports SIP HA failover; SIP helper does not."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SIP ALG supports SIP over IPv6; SIP helper does not."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SIP ALG can create expected sessions for media traffic; SIP helper does not."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. SIP helper supports SIP over TCP and UDP; SIP ALG supports only SIP over UDP."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam NSE7 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements is true regarding a FortiGate configured as an explicit web proxy?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiGate limits the number of simultaneous sessions per explicit web proxy user. This limit CANNOT be modified by the administrator."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiGate limits the total number of simultaneous explicit web proxy users."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiGate limits the number of simultaneous sessions per explicit web proxy user. The limit CAN be modified by the administrator."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiGate limits the number of workstations that authenticate using the same web proxy user credentials. This limit CANNOT be modified by the administrator."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam NSE7 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output from the 'diagnose debug authd fsso list' command; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# diagnose debug authd fsso list"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "----FSSO logons----"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IP: 192.168.3.1 User: STUDENT Groups: TRAININGAD/USERS Workstation: INTERNAL2. TRAINING. LAB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The IP address 192.168.3.1 is NOT the one used by the workstation INTERNAL2. TRAINING. LAB."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should the administrator check?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The IP address recorded in the logon event for the user STUDENT."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The DNS name resolution for the workstation name INTERNAL2. TRAINING. LAB."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The source IP address of the traffic arriving to the FortiGate from the workstation INTERNAL2. TRAINING. LAB."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The reserve DNS lookup for the IP address 192.168.3.1."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam NSE7 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A FortiGate's port1 is connected to a private network. Its port2 is connected to the Internet. Explicit web proxy is enabled in port1 and only explicit web proxy users can access the Internet. Web cache is NOT enabled. An internal web proxy user is downloading a file from the Internet via HTTP. Which statements are true regarding the two entries in the FortiGate session table related with this traffic? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Both session have the local flag on."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The destination IP addresses of both sessions are IP addresses assigned to FortiGate's interfaces."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. One session has the proxy flag on, the other one does not."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. One of the sessions has the IP address of port2 as the source IP address."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam NSE7 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A corporate network allows Internet Access to FSSO users only. The FSSO user student does not have Internet access after successfully logged into the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Windows AD network. The output of the \"\u02dcdiagnose debug authd fsso list' command does not show student as an active FSSO user. Other FSSO users can access the Internet without problems. What should the administrator check? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The user student must not be listed in the CA's ignore user list."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The user student must belong to one or more of the monitored user groups."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The student workstation's IP subnet must be listed in the CA's trusted list."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. At least one of the student's user groups must be allowed by a FortiGate firewall policy."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam NSE7 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "packet?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The server does not have the user credentials yet."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The server requires more information from the user, such as the token code for two-factor authentication."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The user credentials are wrong."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The user account is not found in the server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam NSE7 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has decreased all the TCP session timers to optimize the FortiGate memory usage. However, after the changes, one network application started to have problems. During the troubleshooting, the administrator noticed that the FortiGate deletes the sessions after the clients send the SYN packets, and before the arrival of the SYN/ACKs. When the SYN/ACK packets arrive to the FortiGate, the unit has already deleted the respective sessions. Which TCP session timer must be increased to fix this problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. TCP half open."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. TCP half close."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. TCP time wait."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. TCP session time to live."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam NSE7 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is running the following sniffer in a FortiGate: diagnose sniffer packet any \"host 10.0.2.10\" 2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What information is included in the output of the sniffer? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Ethernet headers."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IP payload."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. IP headers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Port names."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam NSE7 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the partial output from two web filter debug commands; then answer the question below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0000800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Based on the above outputs, which is the FortiGuard web filter category for the web site www.fgt99.com?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Finance and banking"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. General organization."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Business."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Information technology."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam NSE7 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following partial outputs from two routing debug commands; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# get router info routing-table database"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "s 0.0.0.0/0 [20/0] via 10.200.2.254, port2, [10/0] s *> 0.0.0.0/0 [10/0] via 10.200.1.254, port1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# get router info routing-table all"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "s* 0.0.0.0/0 [10/0] via 10.200.1.254, port1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why the default route using port2 is not displayed in the output of the second command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It has a lower priority than the default route using port1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It has a higher priority than the default route using port1."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It has a higher distance than the default route using port1."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is disabled in the FortiGate configuration."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam NSE7 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output of the \"\u02dcget router info ospf interface' command shown in the exhibit; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0000900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statements are true regarding the above output? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The port4 interface is connected to the OSPF backbone area."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The local FortiGate has been elected as the OSPF backup designated router."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. There are at least 5 OSPF routers connected to the port4 network."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Two OSPF routers are down in the port4 network."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam NSE7 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output of the \"\u02dcget router info bgp summary' command shown in the exhibit; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0001000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statements are true regarding the output in the exhibit? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. BGP state of the peer 10.125.0.60 is Established."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. BGP peer 10.200.3.1 has never been down since the BGP counters were cleared."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Local BGP peer has not received an OpenConfirm from 10.200.3.1."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The local BGP peer has received a total of 3 BGP prefixes."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam NSE7 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following partial output from a sniffer command; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0001100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the meaning of the packets dropped counter at the end of the sniffer?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Number of packets that didn't match the sniffer filter."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Number of total packets dropped by the FortiGate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Number of packets that matched the sniffer filter and were dropped by the FortiGate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Number of packets that matched the sniffer filter but could not be captured by the sniffer."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam NSE7 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A FortiGate is configured as an explicit web proxy. Clients using this web proxy are reposting DNS errors when accessing any website. The administrator executes the following debug commands and observes that the n-dns-timeout counter is increasing:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0001200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should the administrator check to fix the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The connectivity between the FortiGate unit and the DNS server."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The connectivity between the client workstations and the DNS server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. That DNS traffic from client workstations is allowed by the explicit web proxy policies."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. That DNS service is enabled in the explicit web proxy interface."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam NSE7 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which real time debug should an administrator enable to troubleshoot RADIUS authentication problems?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Diagnose debug application radius -1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Diagnose debug application fnbamd -1."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Diagnose authd console \"\"log enable."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Diagnose radius console \"\"log enable."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam NSE7 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output of the \"\u02dcdiagnose sys session list expectation' command shown in the exhibit; than answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0001300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true regarding the session in the exhibit?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It was created by the FortiGate kernel to allow push updates from FotiGuard."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is for management traffic terminating at the FortiGate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is for traffic originated from the FortiGate."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It was created by a session helper or ALG."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam NSE7 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has configured a FortiGate device with two VDOMs: root and internal. The administrator has also created and inter-VDOM link that connects both"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "VDOMs. The objective is to have each VDOM advertise some routes to the other VDOM via OSPF through the inter-VDOM link. What OSPF configuration settings must match in both VDOMs to have the OSPF adjacency successfully forming? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Router ID."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. OSPF interface area."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. OSPF interface cost."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. OSPF interface MTU."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Interface subnet mask."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BDE",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam NSE7 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has configured a dial-up IPsec VPN with one phase 2, extended authentication (XAuth) and IKE mode configuration. The administrator has also enabled the IKE real time debug: diagnose debug application ike-1 diagnose debug enable"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In which order is each step and phase displayed in the debug output each time a new dial-up user is connecting to the VPN?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Phase1; IKE mode configuration; XAuth; phase 2."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Phase1; XAuth; IKE mode configuration; phase2."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Phase1; XAuth; phase 2; IKE mode configuration."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Phase1; IKE mode configuration; phase 2; XAuth."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam NSE7 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Two independent FortiGate HA clusters are connected to the same broadcast domain. The administrator has reported that both clusters are using the same HA virtual MAC address. This creates a duplicated MAC address problem in the network. What HA setting must be changed in one of the HA clusters to fix the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Group ID."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Group name."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Session pickup."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Gratuitous ARPs."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 24": {
+      "Title": "Exam NSE7 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When does a RADIUS server send an Access-Challenge packet?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The server does not have the user credentials yet."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The server requires more information from the user, such as the token code for two-factor authentication."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The user credentials are wrong."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The user account is not found in the server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 25": {
+      "Title": "Exam NSE7 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which the following events can trigger the election of a new primary unit in a HA cluster? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B. The FortiGuard license for the primary unit is updated."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C. One of the monitored interfaces in the primary unit is disconnected."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D. A secondary unit is removed from the HA cluster."
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 26": {
+      "Title": "Exam NSE7 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The logs in a FSSO collector agent (CA) are showing the following error: failed to connect to registry: PIKA1026 (192.168.12.232)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What can be the reason for this error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The CA cannot resolve the name of the workstation."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The FortiGate cannot resolve the name of the workstation."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The remote registry service is not running in the workstation 192.168.12.232."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The CA cannot reach the FortiGate with the IP address 192.168.12.232."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 27": {
+      "Title": "Exam NSE7 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output of the \"\u02dcget router info ospf neighbor' command shown in the exhibit; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0001600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statements are true regarding the output in the exhibit? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The interface ToRemote is OSPF network type point-to-point."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The OSPF router with the ID 0.0.0.2 is the designated router for the ToRemote network."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The local FortiGate is the backup designated router for the wan1 network."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The OSPF routers with the IDs 0.0.0.69 and 0.0.0.117 are both designated routers for the wan1 network."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam NSE7 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A FortiGate has two default routes:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0001700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All Internet traffic is currently using port1. The exhibit shows partial information for one sample session of Internet traffic from an internal user:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0001800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What would happen with the traffic matching the above session if the priority on the first default route (IDd1) were changed from 5 to 20?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Session would remain in the session table and its traffic would keep using port1 as the outgoing interface."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Session would remain in the session table and its traffic would start using port2 as the outgoing interface."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Session would be deleted, so the client would need to start a new session."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Session would remain in the session table and its traffic would be shared between port1 and port2."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam NSE7 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What events are recorded in the crashlogs of a ForitGate device? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A process crash."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configuration changes."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Changes in the status of any of the FortiGuard licenses."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. System entering to and leaving from the proxy conserve mode."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam NSE7 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following partial outputs from two routing debug commands; then answer the question below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0001900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why the default route using port2 is not displayed in the output of the second command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It has a lower priority than the default route using port1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It has a higher priority than the default route using port1."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It has a higher distance than the default route using port1."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is disabled in the FortiGate configuration."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 31": {
+      "Title": "Exam NSE7 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A FortiGate is rebooting unexpectedly without any apparent reason. What troubleshooting tools could an administrator use to get more information about the problem? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Firewall monitor."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Policy monitor."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Logs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Crashlogs."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam NSE7 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has enabled HA session synchronization in a HA cluster with two members. Which flag is added to a primary unit's session to indicate that it has been synchronized to the secondary unit?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. redir."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. dirty."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. synced"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. nds."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 33": {
+      "Title": "Exam NSE7 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output of the \"\u02dcget router info bgp summary' command shown in the exhibit; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0002100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement can explain why the state of the remote BGP peer 10.200.3.1 is Connect?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The local peer is receiving the BGP keepalives from the remote peer but it has not received any BGP prefix yet."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The TCP session for the BGP connection to 10.200.3.1 is down."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The local peer has received the BGP prefixed from the remote peer."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The local peer is receiving the BGP keepalives from the remote peer but it has not received the OpenConfirm yet."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam NSE7 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output of the \"\u02dcdiagnose ips anomaly list' command shown in the exhibit; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0002200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which IP addresses are included in the output of this command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Those whose traffic matches a DoS policy."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Those whose traffic matches an IPS sensor."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Those whose traffic exceeded a threshold of a matching DoS policy."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Those whose traffic was detected as an anomaly by an IPS sensor."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 35": {
+      "Title": "Exam NSE7 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A FortiGate device has the following LDAP configuration:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0002400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The LDAP user student cannot authenticate. The exhibit shows the output of the authentication real time debug while testing the student account:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0002500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Based on the above output, what FortiGate LDAP settings must the administer check? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. cnid."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. username."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. password."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. dn."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 36": {
+      "Title": "Exam NSE7 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output from the \"\u02dcdiagnose vpn tunnel list' command shown in the exhibit; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0002600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command can be used to sniffer the ESP traffic for the VPN DialUP_0?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. diagnose sniffer packet any \"\u02dcport 500'"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. diagnose sniffer packet any \"\u02dcesp'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. diagnose sniffer packet any \"\u02dchost 10.0.10.10'"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. diagnose sniffer packet any \"\u02dcport 4500'"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam NSE7 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains the output of diagnose sys session stat, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0003000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statements are correct regarding the output shown? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. There are 0 ephemeral sessions."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. All the sessions in the session table are TCP sessions."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. No sessions have been deleted because of memory pages exhaustion."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. There are 166 TCP sessions waiting to complete the three-way handshake."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 38": {
+      "Title": "Exam NSE7 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains the output of a debug command, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0003100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What statement is correct about this FortiGate?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is currently in system conserve mode because of high CPU usage."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is currently in FD conserve mode."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is currently in kernel conserve mode because of high memory usage."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is currently in system conserve mode because of high memory usage."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 39": {
+      "Title": "Exam NSE7 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statements about bulk configuration changes using FortiManager CLI scripts are correct? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. When executed on the Policy Package, ADOM database, changes are applied directly to the managed FortiGate."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. When executed on the Device Database, you must use the installation wizard to apply the changes to the managed FortiGate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When executed on the All FortiGate in ADOM, changes are automatically installed without creating a new revision history."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When executed on the Remote FortiGate directly, administrators do not have the option to review the changes prior to installation."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 40": {
+      "Title": "Exam NSE7 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following tasks are automated using the Install Wizard on FortiManager? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Preview pending configuration changes for managed devices."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add devices to FortiManager."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Import policy packages from managed devices."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Install configuration changes to managed devices."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Import interface mappings from managed devices."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 41": {
+      "Title": "Exam NSE7 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains the output of diagnose sys session list, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0003300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If the HA ID for the primary unit is zero (0), which statement is correct regarding the output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. This session is for HA heartbeat traffic."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. This session is synced with the slave unit."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The inspection of this session has been offloaded to the slave unit."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. This session cannot be synced with the slave unit."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 42": {
+      "Title": "Exam NSE7 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the IPS exit log, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# diagnose test application ipsmonitor 3"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ipsengine exit log\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "pid = 93 (cfg), duration = 5605322 (s) at Wed Apr 19 09:57:26 2017 code = 11, reason: manual"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the status of IPS on this FortiGate?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. IPS engine memory consumption has exceeded the model-specific predefined value."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IPS daemon experienced a crash."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. There are communication problems between the IPS engine and the management database."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. All IPS-related features have been disabled in FortiGate's configuration."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 43": {
+      "Title": "Exam NSE7 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains an entry in the session table, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0003500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following statements is true regarding FortiGate's inspection of this session?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiGate applied proxy-based inspection."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiGate forwarded this session without any inspection."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiGate applied flow-based inspection."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiGate applied explicit proxy-based inspection."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 44": {
+      "Title": "Exam NSE7 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following conditions must be met for a static route to be active in the routing table? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The next-hop IP address is up."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. There is no other route, to the same destination, with a higher distance."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The link health monitor (if configured) is up."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The next-hop IP address belongs to one of the outgoing interface subnets."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The outgoing interface is up."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CDE",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "ACE",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 45": {
+      "Title": "Exam NSE7 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has configured two FortiGate devices for an HA cluster. While testing the HA failover, the administrator noticed that some of the switches in the network continue to send traffic to the former primary unit. The administrator decides to enable the setting link-failed-signal to fix the problem. Which statement is correct regarding this command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Forces the former primary device to shut down all its non-heartbeat interfaces for one second while the failover occurs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Sends an ARP packet to all connected devices, indicating that the HA virtual MAC address is reachable through a new master after a failover."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Sends a link failed signal to all connected devices."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Disables all the non-heartbeat interfaces in all the HA members for two seconds after a failover."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 46": {
+      "Title": "Exam NSE7 topic 1 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View these partial outputs from two routing debug commands:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0003900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which outbound interface will FortiGate use to route web traffic from internal users to the Internet?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Both port1 and port2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. port3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. port1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. port2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 47": {
+      "Title": "Exam NSE7 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What conditions are required for two FortiGate devices to form an OSPF adjacency? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. IP addresses are in the same subnet."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Hello and dead intervals match."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. OSPF IP MTUs match."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. OSPF peer IDs match."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. OSPF costs match."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 48": {
+      "Title": "Exam NSE7 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How does FortiManager handle FortiGuard requests from FortiGate devices, when it is configured as a local FDS?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiManager can download and maintain local copies of FortiGuard databases."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiManager supports only FortiGuard push to managed devices."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiManager will respond to update requests only if they originate from a managed device."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiManager does not support rating requests."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 49": {
+      "Title": "Exam NSE7 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the purpose of an internal segmentation firewall (ISFW)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It inspects incoming traffic to protect services in the corporate DMZ."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is the first line of defense at the network perimeter."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It splits the network into multiple security segments to minimize the impact of breaches."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is an all-in-one security appliance that is placed at remote sites to extend the enterprise network."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 50": {
+      "Title": "Exam NSE7 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains the partial output of an IKE real-time debug, and then answer the question below. ike 0: comes 10.0.0.2:500->10.0.0.1:500, ifindex=7.... ike 0: IKEv1 exchange=Aggressive id=baf47d0988e9237f/2f405ef3952f6fda len=430 ike 0: in BAF47D0988E9237F2F405EF3952F6FDA0110040000000000000001AE0400003C0000000100000001000000300101000 ike 0:RemoteSite:4: initiator: aggressive mode get 1st response... ike 0:RemoteSite:4: VID RFC 3947 4A131c81070358455C5728F20E95452F ike 0:RemoteSite:4: VID DPD AFCAD71368A1F1C96B8696FC77570100 ike 0:RemoteSite:4: VID FORTIGATE 8299031757A36082C6A621DE000502D7 ike 0:RemoteSite:4: peer is FortiGate/Fortios (v5 b727) ike 0:RemoteSite:4: VID FRAGMENTATION 4048B7D56EBCE88525E7DE7F00D6C2D3 ike 0:RemoteSite:4: VID FRAGMENTATION 4048B7D56EBCE88525E7DE7F00D6C2D3C0000000 ike 0:RemoteSite:4: received peer identifier FQDN \"\u02dcremore' ike 0:RemoteSite:4: negotiation result ike 0:RemoteSite:4: proposal id = 1: ike 0:RemoteSite:4: protocol id = ISAKMP: ike 0:RemoteSite:4: trans_id = KEY_IKE. ike 0:RemoteSite:4: encapsulation = IKE/none ike 0:RemoteSite:4: type=OAKLEY_ENCRYPT_ALG, val=AES_CBC, key \"\"len=128 ike 0:RemoteSite:4: type=OAKLEY_HASH_ALG, val=SHA. ike 0:RemoteSite:4: type-AUTH_METHOD, val=PRESHARED_KEY. ike 0:RemoteSite:4: type=OAKLEY_GROUP, val=MODP1024. ike 0:RemoteSite:4: ISAKMP SA lifetime=86400 ike 0:RemoteSite:4: ISAKMP SA baf47d0988e9237f/2f405ef3952f6fda key 16: B25B6C9384D8BDB24E3DA3DC90CF5E73 ike 0:RemoteSite:4: PSK authentication succeeded ike 0:RemoteSite:4: authentication OK ike 0:RemoteSite:4: add INITIAL-CONTACT ike 0:RemoteSite:4: enc BAF47D0988E9237F405EF3952F6FDA081004010000000000000080140000181F2E48BFD8E9D603F ike 0:RemoteSite:4: out BAF47D0988E9237F405EF3952F6FDA08100401000000000000008C2E3FC9BA061816A396F009A12 ike 0:RemoteSite:4: sent IKE msg (agg_i2send): 10.0.0.1:500-10.0.0.2:500, len=140, id=baf47d0988e9237f/2 ike 0:RemoteSite:4: established IKE SA baf47d0988e9237f/2f405ef3952f6fda"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statements about this debug output are correct? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The remote gateway IP address is 10.0.0.1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It shows a phase 1 negotiation."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The negotiation is using AES128 encryption with CBC hash."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The initiator has provided remote as its IPsec peer ID."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 51": {
+      "Title": "Exam NSE7 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are correct regarding application layer test commands? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They are used to filter real-time debugs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They display real-time application debugs."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Some of them display statistics and configuration information about a feature or process."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Some of them can be used to restart an application."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 52": {
+      "Title": "Exam NSE7 topic 1 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When using the SSL certificate inspection method for HTTPS traffic, how does FortiGate filter web requests when the browser client does not provide the server name indication (SNI)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiGate uses the Issued To: field in the server's certificate."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiGate switches to the full SSL inspection method to decrypt the data."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiGate blocks the request without any further inspection."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiGate uses the requested URL from the user's web browser."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 53": {
+      "Title": "Exam NSE7 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What global configuration setting changes the behavior for content-inspected traffic while FortiGate is in system conserve mode?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. av-failopen"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. mem-failopen"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. utm-failopen"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ips-failopen"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 54": {
+      "Title": "Exam NSE7 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains a partial output of an IKE real-time debug, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0004900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Based on the debug output, which phase-1 setting is enabled in the configuration of this VPN?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. auto-discovery-sender"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. auto-discovery-forwarder"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. auto-discovery-shortcut"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. auto-discovery-receiver"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 55": {
+      "Title": "Exam NSE7 topic 1 question 57 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the global IPS configuration, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0005000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following statements is true regarding this configuration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. IPS will scan every byte in every session."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FortiGate will spawn IPS engine instances based on the system load."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. New packets will be passed through without inspection if the IPS socket buffer runs out of memory."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IPS will use the faster matching algorithm which is only available for units with more than 4 GB memory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 56": {
+      "Title": "Exam NSE7 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains the output of a diagnose command, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0005300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statements are true regarding the output in the exhibit? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FortiGate will probe 121.111.236.179 every fifteen minutes for a response."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Servers with the D flag are considered to be down."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Servers with a negative TZ value are experiencing a service outage."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FortiGate used 209.222.147.3 as the initial server to validate its contract."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 57": {
+      "Title": "Exam NSE7 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The CLI command set intelligent-mode <enable | disable> controls the IPS engine's adaptive scanning behavior. Which of the following statements describes IPS adaptive scanning?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Determines the optimal number of IPS engines required based on system load."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Downloads signatures on demand from FDS based on scanning requirements."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Determines when it is secure enough to stop scanning session traffic."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Choose a matching algorithm based on available memory and the type of inspection being performed."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 58": {
+      "Title": "Exam NSE7 topic 1 question 62 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has configured the following CLI script on FortiManager, which failed to apply any changes to the managed device after being executed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0005500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why didn't the script make any changes to the managed device?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Commands that start with the # sign are not executed."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CLI scripts will add objects only if they are referenced by policies."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Incomplete commands are ignored in CLI scripts."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Static routes can only be added using TCL scripts."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 59": {
+      "Title": "Exam NSE7 topic 1 question 66 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains the partial output of an IKE real time debug, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0006000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The administrator does not have access to the remote gateway. Based on the debug output, what configuration changes can the administrator make to the local gateway to resolve the phase 1 negotiation error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Change phase 1 encryption to AESCBC and authentication to SHA128."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Change phase 1 encryption to 3DES and authentication to CBC."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Change phase 1 encryption to AES128 and authentication to SHA512."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Change phase 1 encryption to 3DES and authentication to SHA256."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 60": {
+      "Title": "Exam NSE7 topic 1 question 67 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains the output of a diagnose command, and the answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0006100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statements are true regarding the Weight value?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Its initial value is calculated based on the round trip delay (RTT)."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Its initial value is statically set to 10."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Its value is incremented with each packet lost."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It determines which FortiGuard server is used for license validation."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 61": {
+      "Title": "Exam NSE7 topic 1 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which of the following states is a given session categorized as ephemeral? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A TCP session waiting to complete the three-way handshake."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A TCP session waiting for FIN ACK."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A UDP session with packets sent and received."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A UDP session with only one packet received."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 62": {
+      "Title": "Exam NSE7 topic 1 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains a session entry, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0006300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is correct regarding this session?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is an ICMP session from 10.1.10.10 to 10.200.1.1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is an ICMP session from 10.1.10.10 to 10.200.5.1."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is a TCP session in ESTABLISHED state from 10.1.10.10 to 10.200.5.1."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is a TCP session in CLOSE_WAIT state from 10.1.10.10 to 10.200.1.1."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 63": {
+      "Title": "Exam NSE7 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains a screenshot of some phase-1 settings, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0006400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The VPN is up, and DPD packets are being exchanged between both IPsec gateways; however, traffic cannot pass through the tunnel. To diagnose, the administrator enters these CLI commands:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0006400002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, the IKE real time debug does not show any output. Why?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The debug output shows phases 1 and 2 negotiations only. Once the tunnel is up, it does not show any more output."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The log-filter setting was set incorrectly. The VPN's traffic does not match this filter."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The debug shows only error messages. If there is no output, then the tunnel is operating normally."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The debug output shows phase 1 negotiation only. After that, the administrator must enable the following real time debug: diagnose debug application ipsec -1."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 64": {
+      "Title": "Exam NSE7 topic 1 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit, which contains the output of a diagnose command, and then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03592/0006500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What statements are correct regarding the output? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. This is an expected session created by a session helper."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Traffic in the original direction (coming from the IP address 10.171.122.38) will be routed to the next-hop IP address 10.0.1.10."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Traffic in the original direction (coming from the IP address 10.171.122.38) will be routed to the next-hop IP address 10.200.1.1."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. This is an expected session created by an application control profile."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 65": {
+      "Title": "Exam NSE7 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements are true about FortiManager when it is deployed as a local FDS? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Caches available firmware updates for unmanaged devices."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Can be configured as an update server, or a rating server, but not both."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Supports rating requests from both managed and unmanaged devices."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Provides VM license validation services."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 66": {
+      "Title": "Exam NSE7 topic 1 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is true regarding File description (FD) conserve mode?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. IPS inspection is affected when FortiGate enters FD conserve mode."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A FortiGate enters FD conserve mode when the amount of available description is less than 5%."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FD conserve mode affects all daemons running on the device."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Restarting the WAD process is required to leave FD conserve mode."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 67": {
+      "Title": "Exam NSE7 topic 2 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following partial outputs from two routing debug commands; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# get router info kernel"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "tab=254 vf=0 scope=0 type=1 proto=11 prio=0 0.0.0.0/0.0.0.0/0->0.0.0.0/0 pref=0.0.0.0 gwy=10.200.1.254 dev=2(port1) tab=254 vf=0 scope=0 type=1 proto=11 prio=10 0.0.0.0/0.0.0.0/0->0.0.0.0/0 pref=0.0.0.0 gwy=10.200.2.254 dev=3(port2) tab=254 vf=0 scope=253 type=1 proto=2 prio=0 0.0.0.0/0.0.0.0/.->10.0.1.0/24 pref=10.0.1.254 gwy=0.0.0.0 dev=4(port3)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# get router info routing-table all"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "s* 0.0.0.0/0 [10/0] via 10.200.1.254, port1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[10/0] via 10.200.2.254, port2, [10/0]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c 10.0.1.0/24 is directly connected, port3"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c 10.200.1.0/24 is directly connected, port1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c 10.200.2.0/24 is directly connected, port2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which outbound interface or interfaces will be used by this FortiGate to route web traffic from internal users to the Internet?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. port1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. port2."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Both port1 and port2."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. port3."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 68": {
+      "Title": "Exam NSE7 topic 2 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following routing table and BGP configuration; then answer the question below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "#get router info routing-table all"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 0.0.0.0/0 [10/0] via 10.200.1.254, port1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C 10.200.1.0/24 is directly connected, port1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "S 192.168.0.0/16 [10/0] via 10.200.1.254, port1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# show router bgp"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "config router bgp"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set as 65500"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set router-id 10.200.1.1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set network-import-check enable"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set ebgp-miltipath disable"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "config neighbor"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "edit \"10.200.3.1\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set remote-as 65501"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "next"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "end"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "config network"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "edit1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The BGP connection is up, but the local peer is NOT advertising the prefix 192.168.1.0/24. Which configuration change will make the local peer advertise this prefix?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Enable the redistribution of connected routers into BGP."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable the redistribution of static routers into BGP."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Disable the setting network-import-check."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable the setting ebgp-multipath."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 69": {
+      "Title": "Exam NSE7 topic 2 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Four FortiGate devices configured for OSPF connected to the same broadcast domain. The first unit is elected as the designated router. The second unit is elected as the backup designated router. Under normal operation, how many OSPF full adjacencies are formed to each of the other two units?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 70": {
+      "Title": "Exam NSE7 topic 2 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What configuration changes can reduce the memory utilization in a FortiGate? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Reduce the session time to live."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Increase the TCP session timers."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Increase the FortiGuard cache time to live."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Reduce the maximum file size to inspect."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://gembuls.wordpress.com/2013/07/03/how-to-avoid-fortigate-entered-conserve-mode/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: https://gembuls.wordpress.com/2013/07/03/how-to-avoid-fortigate-entered-conserve-mode/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 71": {
+      "Title": "Exam NSE7 topic 2 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following traffic log; then answer the question below. date-20xx-02-01 time=19:52:01 devname=master device_id=\"xxxxxxx\" log_id=0100020007 type=event subtype=system pri critical vd=root service=kernel status=failure msg=\"NAT port is exhausted.\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What does the log mean?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. There is not enough available memory in the system to create a new entry in the NAT port table."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The limit for the maximum number of simultaneous sessions sharing the same NAT port has been reached."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FortiGate does not have any available NAT port for a new connection."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The limit for the maximum number of entries in the NAT port table has been reached."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

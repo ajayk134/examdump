@@ -1,0 +1,6313 @@
+{
+  "1z0-144__5f0d6614436b26ed": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-144 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit to examine the PL/SQL code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0000200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DECLARE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "x NUMBER := 5;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "y NUMBER := NULL;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IF x != y THEN yields NULL, not TRUE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DBMS_OUTPUT.PUT_LINE(x != y); not run"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ELSIF x = y THEN also yields NULL"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DBMS_OUTPUT.PUT_LINE(x = y);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ELSE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DBMS_OUTPUT.PUT_LINE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Cant tell if x and y are equal or not.);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END IF;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SREVROUPUT is on for the session. Which statement is true about the output of the PL/SQL block?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The output is x = y."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It produces an error."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The output is x != y."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The output is Can't tell if x and y are equal or not."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-144 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>ALTER SESSION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SET plsql_warnings *"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'enable: severe',"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'enable: performance',"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'ERROR: 05003';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the implication of the above command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It issues a warning whenever ERROR: 05003 occur during compilation."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It causes the compilation to fail whenever the warning ERROR.05003 occurs."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It issues warnings whenever the code causes an unexpected action or wrong results performance problems."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It causes the compilation to fail whenever the code gives wrong results or contains statements that are never executed."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-144 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit and examine the structure of the products table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0000400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0000400002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true when the procedure DELETE_DETAILS is invoked?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes successfully but no error messages get recorded in the DEBUG_OUTPUT table"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It executes successfully and any error messages get recorded in the DEBUG_OUTPUT table."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error because PRAGMA AUTONOMOUS_TRANSACTION can be used only in packaged procedures."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error because procedures containing PRAGMA AUTONOMOUS_TRANSACTION cannot be called from the exception section."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this case, the debug output will only occur if there is an exception."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In this case, the debug output will only occur if there is an exception."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-144 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two tasks should be created as functions instead of as procedures? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Reference host or bind variables in a PL/SQL block of code"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Tasks that compute and return multiple values to the calling environment"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Tasks that compute a value that must be returned to the calling environment"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Tasks performed in SQL that increase data independence by processing complex data analysis within the Oracle server, rather than by retrieving the data into"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-144 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View Exhibit 1 and examine the structure of the employees table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0000600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Exhibit 2 and examine the code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0000700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What would be the outcome when the code is executed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes successfully."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error because the SAL variable is not visible in the increase function."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error because the increase function cannot be called from the RAISE_SALARY procedure."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error because the increase function and the RAISE_SALARY procedure should be declared at the beginning of the declare section before all the"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-144 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the correct definition of the persistent state of a packaged variable?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is a private variable defined in a procedure or function within a package body whose value is consistent within a user session."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is a public variable in a package specification whose value is consistent within a user session."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is a private variable in a package body whose value is consistent across all current active sessions."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is a public variable in a package specification whose value is always consistent across all current active sessions."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-144 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following block of code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0000800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which line in the above code would result in errors upon execution?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. line 5"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. line 8"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. line 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. line 7"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-144 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the customer table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0000900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following trigger code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome when the above trigger is compiled?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It compiles successfully."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error because the when condition is not valid."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error because when cannot be used for row-level triggers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error because the statements under updating are not valid."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It gives an error because the new qualifier in the when clause requires a colon prefix."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-144 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statements are true about PL/SQL procedures? (Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Users with definer's rights who are granted access to a procedure that updates a table must be granted access to the table itself."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Reuse of parsed PL/SQL code that becomes available in the shared SQL area of the server avoids the parsing overhead of SQL statements at run time."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Depending on the number of calls, multiple copies of the procedure are loaded into memory for execution by multiple users to speed up performance."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A PL/SQL procedure executing on the Oracle database can call an external procedure or function that is written in a different programming language, such as"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-144 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The STRING_TAB table has the following structure:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome on execution?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It displays Output buffer not long enough. This is my test string.-."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It displays only Output buffer not long enough, and exits the anonymous block."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It displays only This is my test string. - Because EXCEPTION should have been defined in the anonymous block to get the error message."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It does not display any of the MEMS_PUTPUT messages and gives an error because a transaction control statement cannot be used in the exception section"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-144 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify two situations where the DBMS_SQL package should be used. (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The SELECT list is not known until run time."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The dynamic SQL statement retrieves rows into records."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You do not know how many columns a select statement will return, or what their data types will."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You must use the % found SQL cursor attribute after issuing a dynamic SQL statement that is an insert or update statement."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-144 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why does the code give an error on execution?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. because the WORD_LIST variable is not visible in procedure wording"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. because the lexicon variable is not visible in procedure ADD_ENTRY"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. because the lexicon variable is not initialized in procedure wording"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. because the WORD_LIST parameter in out mode cannot be of a record data type"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-144 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the EMP table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which stages are performed when the above block is executed? (Choose all that apply)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Bind"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Parse"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Fetch"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Execute"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-144 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the EMP table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You want to create two procedures using the overloading feature to search for employee details based on either the employee name or employee number."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two rules should you apply to ensure that the overloading feature is used successfully? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The procedures can be either stand-alone or packaged."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The procedures should be created only as packaged subprograms."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The procedures should be created only as stand-alone subprograms."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Each subprogram's formal parameters should differ in both name and data type."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The formal parameters of each subprogram should differ in data type but can use the same names."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-144 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about the instead of triggers? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Delete operations cannot be performed using the instead of triggers."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The instead or triggers must be created to add or modify data through any view."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The instead of triggers can be written only for views, and the before and after timing options are not valid."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The check option for views is not enforced when Insertions or updates to the view are performed by using the instead of triggers."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 1z0-144 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are correct about the usage of parameters in functions? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Functions can have only in mode parameters."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Functions called in SQL statements cannot have out or in out mode parameters."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Functions having in, out, or in out parameters can be called only in named PL/SQL subprograms"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Functions having in, out, or in out parameters can be called in PL/SQL procedures and anonymous blocks."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 1z0-144 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the employees table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following block of code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001800002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome when the above code is executed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes successfully."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error because decode cannot be used in a PL/SQL block."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error because the AVG function cannot be used in a PL/SQL block"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error because the MONTHS_BETWEEN function cannot be used in a PL/SQL block."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It gives an error because both the AVG and decode functions cannot be used in a PL/SQL block."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam 1z0-144 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0001900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true about the above function? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It can be used only in a parallelized query."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It can be used in both a parallelized query and a parallelized DML statement."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It can be used only in a parallelized data manipulation language (DML) statement."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It can have a separate copy run in each of the multiple processes when called from a SQL statement that is run in parallel."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It requires a PRAGMA RESTRICT_REFERENCES declaration with RNDS, WNDS, RNPS, and WNPS specified in order to use parallel optimization."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam 1z0-144 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "/temp/my_files is an existing folder in the server, facultylist.txt is an existing text file in this folder."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following commands that are executed by the DBA:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>CREATE DIRECTION my_dir AS /temp/my_files:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>GRANT READ ON DIRECTORY my_dir To public:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the procedure created by user SCOTT to read the list of faculty names from the text file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0002000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SCOTT executes the procedure as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>SET SERVEROUTPUT ON -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>EXEC read_file (MY_DIR, FACULTYLIST.TXT)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It goes into an infinite loop."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It executes successfully and displays only the list of faculty names."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It does not execute and displays an error message because the end-of-file condition is not taken care of."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It executes successfully and displays the list of faculty names followed by a \"no data found\" error message."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 1z0-144 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit to examine the PL/SQL block."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0002100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of the PL/SQL block?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes successfully and gives the desired output."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It does not execute because the definition of type population is indexed by VARCHAR2."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It executes, and the string keys of an associative array are not stored in creation order, but in sorted order."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It does not execute because the value that is once assigned to the element of the associative array cannot be changed."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 1z0-144 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "User SCOTT has been granted CREATE ANY TRIGGER AND ALTER ANY TABLE by the DBA. HR is an existing schema in the database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SCOTT creates the following trigger:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE OR REPLACE TRIGGER drop_trigger"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEFORE DROP ON hr.SCHEMA -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RAISE_APPLICATION_ERROR (-20000, Cannot drop object');"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SCOTT does not grant the execute privilege on this trigger to any other users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For which user(s) would this trigger fire by default when they drop an object in the hr schema?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only HR"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SCOTT and HR"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Only SCOTT"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SCOTT, HR, and SYS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 1z0-144 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about the continue statement? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The PL/SQL block execution terminates immediately."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The CONTINUE statement cannot appear outside a loop."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The loop completes immediately and control passes to the statement after end loop."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The statements after the continue statement in the iteration are executed before terminating the LOOP."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The current iteration of the loop completes immediately and control passes to the next iteration of the loop."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam 1z0-144 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the code and its outcome on execution:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0002400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What would be the effect on the two procedures if the value of debug is set to false? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. MY_PROC2 is not recompiled."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. MY_PROC1 is recompiled but remains unchanged."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. MY_PROC2 is recompiled but remains unchanged."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. MY_PROC1 is recompiled without the debugging code."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 1z0-144 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View Exhibit 1 and examine the structure of the DO table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0002500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Exhibit 2 and examine the code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0002600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The anonymous block gives an error on execution. What is the reason?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The assignment in line 7 is not valid."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The SQL does not support the Boolean data type."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A null value cannot be applied to the bind arguments in the using clause in line 10."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The names of bind variables must be the same as the using clause bind arguments in line 10."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam 1z0-144 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the departments table in SCOTTs schema."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0002700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following block of code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE OR REPLACE PROCEDURE add_dept("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "p_id NUMBER, p_name VARCHAR2) IS"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "INSERT INTO departments VALUES <p_id, p_name, NULL, NULL);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The above procedure is created by user SCOTT. Another user JONES needs to use the procedure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true in the above scenario? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. JONES executes the procedure with definer's rights."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. JONES executes the procedure with invoker's rights."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SCOTT should grant only the execute privilege for the procedure to JONES."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SCOTT should grant both the BXKCOTE privilege for the procedure and insert privilege for the table to"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam 1z0-144 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about statement-level and row-level triggers? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A row trigger fires once even if no rows are affected."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A statement trigger fires once even if no rows are affected."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Row triggers are useful if the trigger action depends on the data of rows that are affected or on data that is provided by the triggering event itself."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Statement triggers are useful if the trigger action depends on the data of rows that are affected or on data that is provided by the triggering event itself."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam 1z0-144 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify two features of obfuscation. (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Import and Export utilities accept wrapped files."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SQL' Plus cannot process the obfuscated source files."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Only the wrap utility can obfuscate multiple programs at a time."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Both the DBMS_DDL package and the Wrap utility can obfuscate multiple programs at a time."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The source code is visible only through the DBA_SOURCE view and not through the USER_SOURCE or ALL_SOURCE View"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam 1z0-144 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You create the following table and execute the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0002900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the outcome of the above code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes successfully and all the rows are updated."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error but saves the inserted rows and the update to the first row."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error but saves the inserted rows; however, no rows are updated."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error and all the data manipulation language (DML) statements are rolled back."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam 1z0-144 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to create a trigger that fires whenever rows are deleted from the customer table and that displays the number of rows remaining in the table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are correct about the trigger to be created for the above requirement? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It should be an after trigger."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It should be a before trigger."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It should be a row-level trigger."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It should be a statement-level trigger."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It can be a before or an after trigger."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam 1z0-144 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following code that you plan to execute:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0003100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What correction should be performed in the above code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The PROC2 procedure code should be defined in the package body."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The PROC3 procedure should be declared in the package specification."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The PROC3 procedure header should be declared at the beginning of the package body."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The variable x must be declared in the package body and removed from the specification,"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam 1z0-144 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "ORDER_TOTAL is a column in the orders table with the data type and size as number (8, 2) Examine the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0003200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is correct about the above code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It gives an error in line 3."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error in line 4."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error in line 6."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It executes successfully and displays the output."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam 1z0-144 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the blocks of code that you plan to execute."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0003300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the blocks of code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All the blocks execute successfully and the anonymous block displays123cant: 4545cnt: 45."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. All the blocks execute successfully and the anonymous block displays123cut: 045cart: 1."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The anonymous block gives an error because the function invocation in line 2 is not valid."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The procedure creation gives an error because the function invocation in line 1 is not valid."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam 1z0-144 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are correct about PL/SQL package components? (Choose two)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A package must have both specification and body."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A package body can exist without the package specification."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A package specification can exist without the package body."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When a packaged public variable is called for the first time in a session, the entire package is loaded into memory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam 1z0-144 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which of the following scenarios would you recommend using associative arrays?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. When you want to retrieve an entire row from a table and perform calculations"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. When you know the number of elements in advance and the elements are usually accessed sequentially"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When you want to create a separate lookup table with multiple entries for each row of the main table, and access it through join queries"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When you want to create a relatively small lookup table, where the collection can be constructed on memory each time a subprogram is invoked."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam 1z0-144 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0003700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of the above code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes and displays null."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It executes and the condition returns true."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It executes and control goes to the else statement."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It fails because no value is assigned to the v_myage variable."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 36": {
+      "Title": "Exam 1z0-144 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which of the following scenarios would you recommend using PL/SQL records?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. when you want to retrieve an entire row from a table and perform calculations"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. when you know the number of elements in advance and the elements are usually accessed sequentially"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. when you want to create a separate lookup table with multiple entries for each row of the main table, and access it through join queries"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. when you want to create a relatively small lookup table, where the collection can be constructed in memory each time a subprogram is invoked"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam 1z0-144 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the employees table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0003900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Execute the following block of code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0003900002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It gives an error because group functions cannot be used in anonymous blocks."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It executes successfully and correctly gives the result of the sum of salaries in department 60."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It executes successfully and incorrectly gives the result of the sum of salaries in department 60."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error because the variable name and column name are the same in the where clause of the select statement."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 38": {
+      "Title": "Exam 1z0-144 topic 1 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following PL/SQL code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0004400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of the code if the query in the PL/SQL block returns no rows?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The program abruptly terminates and an exception is raised."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The program executes successfully and the output is No ROWS_FOUND."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The program executes successfully and the query fetches a null value in the V_LNAME variable."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Program executes successfully, fetches a NULL value in the V_LNAME variable and an exception is raised."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 39": {
+      "Title": "Exam 1z0-144 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Consider the following scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Local procedure a calls remote procedure B."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Procedure A was compiled at 8 AM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Procedure A was modified and recompiled at 9 AM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Remote procedure B was later modified and recompiled at 11 AM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The dependency mode is set to timestamp."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement correctly describes what happens when procedure A is invoked at 1 PM?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Procedure A is invalidated and recompiled immediately."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. There is no effect on procedure A and it runs successfully."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Procedure B is invalidated and recompiled again when invoked."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Procedure A is invalidated and recompiles when invoked the next time."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 40": {
+      "Title": "Exam 1z0-144 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit to examine the PL/SQL block."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0004600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the output of the PL/SQL block?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes and the Output is emprec.deptname: ."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It executes and the Output is emprec.deptname: Sales."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It produces an error because NULL is assigned to the emprec.empid field in the record."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It produces an error because the CHECK constraint is violated while assigning a value to the emprec.deptid field in the record."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 41": {
+      "Title": "Exam 1z0-144 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following snippet of code from the DECLARE section of PL/SQL"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DECLARE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Cust_name VERCHAR2 (20) NOT NULL : = Tom Jones:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Same_name cust_name%TYPE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is correct about the above snippets of code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The SAME_NAME variable inherits only the data type from the CUST_NAME variable."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The SAME_NAME variable inherits only the data type and default value from the CUST_NAME variable."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The SAME_NAME variable inherits the data type, constraint, and default value from the CUST_NAME variable."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The SAME_NAME variable inherits only the data type and constraint from the CUST_NAME variable resulting in an error"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 42": {
+      "Title": "Exam 1z0-144 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following package specification."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>CREATE OR REPLACE PACKAGE emp_pkf IS"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROCEDURE search_emp (empdet NUMBER);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROCEDURE search_emp (empdet DATE);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROCEDURE search_emp (empdet NUMBER); RETURN VERCHAR2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROCEDURE search_emp (empdet NUMBER); RETURN DATE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END emp_pkg -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The package is compiled successfully"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why would it generate an error at run tune?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Because function cannot be overload."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Because function cannot differ only in return type."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Because all the functions and procedures in the package cannot have the same number of parameters with the same parameter name."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Because the search EMP (EMPDET NUMBER) procedure and the SEARCH_DEPT (EMPDET NUMBER) cannot have identical parameter names and data types."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 43": {
+      "Title": "Exam 1z0-144 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which tasks must be performed during the installation of the UTL_MAIL package? (Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. setting the UTL_FILE_DIR initialization parameter"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. running the UTLMAIL.SQL and prvtmail.plb scripts"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. setting the SMTP_OUT_SERVER initialization parameter"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. using the CREATE DIRECTORY statement to associate an alias with an operating system directory"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. granting read and WRITE privileges to control the type of access to files in the operating system"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 44": {
+      "Title": "Exam 1z0-144 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to maintain an audit of the date and time when each user of the database logs off."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0004900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two clauses should be used to fill in the blanks and complete the above code?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ON SCHEMA"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ON QRXABASE"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. AFTER LOGOFF"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. BEFORE LOGOFF"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 45": {
+      "Title": "Exam 1z0-144 topic 1 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View Exhibit 1 and examine the structure of the product table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0005000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Exhibit 2 and examine the procedure you created. The procedure uses the prod id to determine whether the list price is within a given range."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0005000002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You then create the following trigger on the product table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE OR REPLACE TRIGGER check_price__trg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEFORE INSERT OR UPDATE OF prod_id, prod_list_price"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ON product FOR EACH ROW -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WHEN (nev.prod_id <> NVX(old.prod_id,0) OR"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "New.prod__list_price <> NVL(old.prod_list_price, 0) )"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "check_price (: new.prod_id) ;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following update command for an existing row in the product table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> UPDATE produce SET prod_list_price = 10 WHERE prod_id=115;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why does it generate an error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Because the procedure call in the trigger is not valid"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Because the condition specified in the when clause is not valid"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Because both the procedure and trigger access the same table"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Because the WHEN clause cannot be used with a row-level trigger"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Because the column list specified with UPDATE in the trigger is not valid"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 46": {
+      "Title": "Exam 1z0-144 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about the handling of internally defined or user-defined PL/SQL exceptions? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add exception handlers whenever errors occur."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. An exception handler should commit the transaction."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Handle named exceptions whenever possible instead of using when others in exception handlers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Instead of adding exception handlers to your PL/SQL block, check for errors at every point where they may occur."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 47": {
+      "Title": "Exam 1z0-144 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View Exhibit 1 and examine the structure of the EMP table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0005500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Exhibit 2 and examine the code created by the user SCOTT:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0005600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SCOTT grants the necessary privileges to green to access the EMP table and execute the package."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following sequence of activities:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SCOTT starts a session and issues the SQL>EXEC CURS_PKG.OPEN command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SCOTT then issues the SQL>EXEC CURS_PKG.NEXT command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "green starts a session while SCOTTs session is running and issues THE SQL>EXEC CURS_PKG.NEXT command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SCOTT issues the SQI>>EXEC SCOTT.CURS_PKG.NEXT command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The EMP table contains sequential EMPNOS from 100 through 108."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement correctly describes the output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SCOTT\u2019s session shows the EMPNO 100, GREEN'S session shows an error, and SCOTT\u2019s session shows an error."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SCOTT\u2019s session shows the EMPNO 100, GREEN'S session shows EMPNO 100, and SCOTT\u2019s session shows the EMPNO 101."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SCOTT\u2019s session shows the EMPNO 100, GREEN'S session shows an error, and SCOTT\u2019s session shows the second EMPNO 101."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SCOTT\u2019s session shows the EMPNO 100, GREEN'S session shows EMPNO 101, and SCOTT\u2019s session shows the second EMPNO 102."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 48": {
+      "Title": "Exam 1z0-144 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements correctly differentiate functions and procedures? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A function can be called only as part of a SQL statement, whereas a procedure can be called only as a PL/SQL statement."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A function must return a value to the calling environment, whereas a procedure can return zero or more values to its calling environment."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A function can be called as part of a SQL statement or PL/SQL expression, whereas a procedure can be called only as a PL/SQL statement."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A function may return one or more values to the calling environment, whereas a procedure must return a single value to its calling environment."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 49": {
+      "Title": "Exam 1z0-144 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about triggers? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All the triggers that are created on a table cannot be disabled simultaneously."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Any user who has the alter privilege on a table can create a trigger using that table."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Oracle provides a two-phase commit process whether a trigger updates tables in the local database or remote tables in a distributed database."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Triggers become invalid if a dependent object, such as 3 stored subprogram that is invoked from the trigger body is modified, and have to be manually"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 50": {
+      "Title": "Exam 1z0-144 topic 1 question 62 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which type of exceptions is qualified as nonpredefined Oracle server errors?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the exceptions that are explicitly raised by the program and can be caught by the exception handler"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the exceptions that are raised implicitly by the Oracle server and can be caught by the exception handler"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. an exception that the developer determines as abnormal, are in the declarative section and raised explicitly"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. an exception that is raised automatically when the PL/SQL program violates a database rule or exceeds a system-dependent limit"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 51": {
+      "Title": "Exam 1z0-144 topic 1 question 64 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following PL/SQL code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0006500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the fetch statements in the PL/SQL code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Each fetch retrieves the first row and assigns values to the target variables."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Each fetch retrieves the next consecutive row and assigns values to the target variables."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They produce an error because you must close and reopen the cursor before each fetch -statement."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Only the first fetch retrieves the first row and assigns values to the target variables- the second produces an error."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 52": {
+      "Title": "Exam 1z0-144 topic 1 question 67 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View Exhibit 1 and examine the structure of the EMP and DEPT tables."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0006900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Exhibit 2 and examine the trigger code that is defined on the DEPT table to enforce the update and delete restrict referential actions on the primary key of the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DEPT table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0007000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome on compilation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It compiles and executes successfully."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error on compilation because it is not a row-level trigger."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error on compilation because the exception section is used in the trigger."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It compiles successfully but gives an error on execution because it is not a row-level trigger."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 53": {
+      "Title": "Exam 1z0-144 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit to examine the PL/SQL code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0007200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of the code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The exception raised in the code is handled by the exception handler for the PAST_DUE exception."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It does not execute because you cannot declare an exception with a similar name in the subblock."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The PAST_DUE exception raised in the subblock causes the program to terminate abruptly because there is no exception handler in the subblock."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The PAST_DUE exception raised by the enclosing block is not propagated to the outer block and it is handled by the WHEN OTHERS exception handler"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 54": {
+      "Title": "Exam 1z0-144 topic 1 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following partial declare section from a block of PL/SQL code"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0007300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which line(s) in the above code are NOT valid? (Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. line 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. line 3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. line 4"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. line 5"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 55": {
+      "Title": "Exam 1z0-144 topic 1 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the SALGRADE table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0007400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0007400002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is created successfully."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error because the return clause condition is invalid."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error because the usage of the host variables is invalid."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error because the data type of the return clause is invalid."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 56": {
+      "Title": "Exam 1z0-144 topic 1 question 74 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0007500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The above code generates an error on execution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What must you do to ensure that the code executes successfully?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the TO_DATE function in line 2."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the TO_DATE function in line 7."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the TO_NUMBER function in line 6."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use both the TO_DATE function in line 2 and the TO_NUMBER function in line 6."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 57": {
+      "Title": "Exam 1z0-144 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify situations in which the DBMS_SQL package is the only applicable method of processing dynamic SQL. (Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. When a query returns multiple rows"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. When a column name in a where clause is unknown at compile time"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When the number of columns selected in a query is not known until run time"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When a table needs to be created based on an existing table structure at run time"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. When privileges need to be granted to a new user to access an existing schema at run time"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 58": {
+      "Title": "Exam 1z0-144 topic 1 question 76 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following block of code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0007600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are correct about the code above? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The function goes through only the parse and executes phases."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The function goes through the parse, bind, and execute phases."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The function goes through the parse, bind, execute, and fetch phases."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. All the processing phases for the function are performed only at run time."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Only the EXECUTE IMMEDIATE statement inside the function is parsed at run time."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 59": {
+      "Title": "Exam 1z0-144 topic 1 question 80 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is true about transactions in PL/SQL?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A transaction can span multiple blocks."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A block can contain only a single transaction."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SERVERPOINTS cannot be created in a PL/SQL block."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The END keyword signals the end of a PL/SQL block and automatically commits the transaction in the block."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 60": {
+      "Title": "Exam 1z0-144 topic 1 question 82 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View Exhibit 1 and examine the structure of the EMP table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0008000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Exhibit 2 and examine the PIVSQL block of code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0008100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It gives an error because the return type is not valid."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error because the record type is not defined within the function."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error because the function call in DBMS_OUTPUT. PUT__LINE is not valid."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It executes successfully and displays the names and salaries of all employees who earn the highest salary."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It executes successfully but does not display the names and salaries of all employees who earn the highest salary."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: E \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 61": {
+      "Title": "Exam 1z0-144 topic 1 question 85 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three statements are true about wrapping? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The PL/SQL wrapper detects and reports only syntax errors."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The PL/SQL wrapper detects and reports both syntax and semantic errors."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When wrapping a package or object type, both the body and specification should be wrapped."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When wrapping a package or object type, only the body should be wrapped, not the specification."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. To change a wrapped object, the original source code needs to be modified and then wrapped again."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. To change a wrapped object, the wrapped code can be unwrapped, modified in a text file, and then wrapped again."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DEF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 62": {
+      "Title": "Exam 1z0-144 topic 1 question 86 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statements are true about database triggers? (Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They can invoke only PL/SQL procedures."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They can include SQL and PL/SQL or calls to Java procedures."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They are implicitly fired by an event that must occur within an application."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They are implicitly fired when a triggering event occurs, depending on which user is connected."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 63": {
+      "Title": "Exam 1z0-144 topic 1 question 89 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following DECLARE section of PL/SQL block:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0008600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which line in the above declaration would generate an error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Line 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Line 3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Line 4"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Line 5"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Line 6"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 64": {
+      "Title": "Exam 1z0-144 topic 1 question 90 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statements correctly describe the features of functions and procedures? (Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A procedure can contain a return statement without a value."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A function can return multiple values using a single return clause."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A procedure can be executed as part of a SQL expression or as a PL/SQL statement."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A function can contain zero or more parameters that are transferred from the calling environment."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 65": {
+      "Title": "Exam 1z0-144 topic 1 question 92 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the following PL/SQL code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0008900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of the PL/SQL code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes successfully."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It generates a run-time exception."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It does not execute because of syntax error."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It executes successfully and generates a warning."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 66": {
+      "Title": "Exam 1z0-144 topic 1 question 93 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the package code created by SCOTT. The execute privilege on this package is granted to green."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0009000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following sequence of commands issued by SCOTT:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0009100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SCOTT\u2019S session displays 5, and then 0, green\u2019s session displays 0."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SCOTT\u2019S session displays 5, and then 0, green's session displays 5."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SCOTT\u2019S session displays 5, and then 5, again, green's session displays 0."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SCOTT\u2019S session displays 5, and then 5, again; green's session displays 5."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 67": {
+      "Title": "Exam 1z0-144 topic 1 question 100 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the AUDIR_CUST table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Exhibit Missing -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CUST_ID and CUST_LIMIT are existing columns in the CUSTOMER table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following trigger code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0009800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the above trigger?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It gives an error on compilation because it should be a statement-level trigger."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It compiles and fires successfully when the credit limit is updated in the customer table."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error on compilation because of the commit command in the trigger code."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It compiles successfully, but gives an error when the credit limit is updated in the CUSTOMER table because the PRAGMA AUTONOMOUS_TRANSACTION"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 68": {
+      "Title": "Exam 1z0-144 topic 1 question 101 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three statements are true about anonymous blocks and subprograms? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only subprograms can be parameterized."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Only subprograms are persistent database objects."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Both anonymous blocks and subprograms can be parameterized."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Both anonymous blocks and subprograms are persistent database objects."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Only subprograms can return values that persist after the execution of the subprogram."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Both anonymous blocks and subprograms can return values that persist in SQL*Plus variables after their execution."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABE",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "ABF",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 69": {
+      "Title": "Exam 1z0-144 topic 1 question 104 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the partial data in the PRODUCTS table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROD_ID is the primary key."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome on execution of the above code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes successfully."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error because the DECODE function can be used only in a SQL statement."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error because the SUBSTR and INSTR functions can be used only in a SQL statement."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error because both the MAX and DECODE functions can be used only in a SQL statement."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 70": {
+      "Title": "Exam 1z0-144 topic 1 question 105 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View Exhibit 1 and examine the structure of the EMP table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Exhibit 2 and examine the PL/SQL block of code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It gives an error because the return type is not valid."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error because the record type is not defined within the function."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error because the function call in DBMS_OUTPUT. PUT__LINE is not valid"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It executes successfully and displays the names and salaries of all employees who earn the highest salary."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It executes successfully but does not display the names and salaries of all employees who earn the highest salary."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: E \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 71": {
+      "Title": "Exam 1z0-144 topic 1 question 106 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the blocks of code that you plan to execute."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the blocks of code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All the blocks execute successfully and the anonymous block displays cnt: 45 cnt: 45"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. All the blocks execute successfully and the anonymous block displays cnt: 0 cnt: 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The anonymous block gives an error because the function invocation in line 2 is not valid."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The procedure creation gives an error because the function invocation in line 1 is not valid."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 72": {
+      "Title": "Exam 1z0-144 topic 1 question 107 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the EMP table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following block of code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which stages are performed when the above block is executed? (Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Bind"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Parse"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Fetch"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Execute"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SS6NHC/com.ibm.swg.im.dashdb.apdv.plsql.doc/doc/c0053844.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SS6NHC/com.ibm.swg.im.dashdb.apdv.plsql.doc/doc/c0053844.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 73": {
+      "Title": "Exam 1z0-144 topic 1 question 108 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The STRING_TAB table has the following structure:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010800002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0010900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome on execution?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It displays Output buffer not long enough. This is my test string.-."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It displays only Output buffer not long enough, and exits the anonymous block."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It displays only - Because EXCEPTION should have been defined in the anonymous block to get the error message. This is my test string."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It does not display any of the DBMS_OUTPUT messages and gives an error because a transaction control statement cannot be used in the exception section"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 74": {
+      "Title": "Exam 1z0-144 topic 1 question 109 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the AUDIR_CUST table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0011000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CUST_ID and CUST_LIMIT are existing columns in the CUSTOMER table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following trigger code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0011000002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the above trigger?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It gives an error on compilation because it should be a statement-level trigger."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It compiles and fires successfully when the credit limit is updated in the customer table."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives an error on compilation because of the commit command in the trigger code."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It compiles successfully, but gives an error when the credit limit is updated in the CUSTOMER table because the PRAGMA AUTONOMOUS_TRANSACTION"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 75": {
+      "Title": "Exam 1z0-144 topic 1 question 111 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit to examine the PL/SQL code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0011400001.png"
+          },
+          {
+            "type": "text",
+            "value": "is on for the session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SERVEROUTPUT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of the code?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The execution fails because of the misplaced else clause."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The execution is successful even if there is no employee with EMPLOYEE_ID 115."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The execution fails and throws exceptions if no employee with EMPLOYEE_ID 115 is found."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The execution is successful, but it displays an incorrect output if no employee with EMPLOYEE_ID 115 is found."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 76": {
+      "Title": "Exam 1z0-144 topic 1 question 112 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and examine the structure of the departments table in SCOTTs schema."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0011500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the following block of code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02274/0011600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The above procedure is created by user SCOTT. Another user JONES needs to use the procedure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true in the above scenario? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. JONES executes the procedure with definer's rights."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. JONES executes the procedure with invoker's rights."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SCOTT should grant only the execute privilege for the procedure to JONES."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SCOTT should grant both the execute privilege for the procedure and insert privilege for the table to JONES."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

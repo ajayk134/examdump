@@ -1,0 +1,3621 @@
+{
+  "1z0-820__aee768aaf721ec6b": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-820 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify the two security features incorporated in the Oracle Solaris 11 Cryptographic Framework."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Layer 5 IP address encryptions"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Internet protocol security"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Diffie-Kerberos coaxial key encryption"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Signed cryptographic plugins (providers)"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Kernel support for signed antivirus plugins"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "DE",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-820 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Review the zonestat command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "zonestate - q physical - memory -R high -z -p -p \"zones\" 10 24h 60m"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select the option that correctly describes the information that is displayed by this command."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is a sample of dbzones physical memory usage taken every hour over a 24-hour period. Only the top 10 samplings of peak memory usage are displayed. All other utilization data is eliminated."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is a sample of dbzones CPU, virtual memory, and networking utilization. Physical memory is executed from the report. The sampling is taken every 10 minutes over a 24-hour period and peak utilization id displayed each hour."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is a sample of dbzones CPU, virtual memory, and networking utilization. Physical memory is executed from the report. The sampling is taken every 10 minutes over a 24-hour period and displayed each hour."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is a sample of dbzones physical memory usage taken every 10 seconds and 24-hour period. Only peak virtual memory usage and CPU utilization are displayed each hour. All other Utilization data is eliminated."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It is a sample of dbzones physical memory usage taken every 10 seconds and 24-hour period. Only peak memory usage is displayed each hour. All other utilization data is eliminated."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* (Not A, B, C): interval (here 10 seconds): Specifies the length in seconds to pause between each interval report."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* duration (here 24 h)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* -R report[,report] (here high)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Print a summary report."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Print a summary report detailing the highest usage of each resource and zone during any interval of the zonestat utility invocation. high"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The zonestat utility reports on the cpu, memory, and resource control utilization of the currently running zones. Each zone's utilization is reported both as a percentage of system resources and the zone's configured limits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The zonestat utility prints a series of interval reports at the specified interval. It optionally also prints one or more summary reports at a specified interval."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The default output is a summary of cpu, physical, and virtual memory utilization. The -r option can be used to choose detailed output for specific resources."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "* (Not A, B, C): interval (here 10 seconds): Specifies the length in seconds to pause between each interval report."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* duration (here 24 h)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* -R report[,report] (here high)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Print a summary report."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Print a summary report detailing the highest usage of each resource and zone during any interval of the zonestat utility invocation. high"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The zonestat utility reports on the cpu, memory, and resource control utilization of the currently running zones. Each zone's utilization is reported both as a percentage of system resources and the zone's configured limits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The zonestat utility prints a series of interval reports at the specified interval. It optionally also prints one or more summary reports at a specified interval."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The default output is a summary of cpu, physical, and virtual memory utilization. The -r option can be used to choose detailed output for specific resources."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-820 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are configuring NFS on a server. Select the two statements that are true."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Resources listed in /etc/dfs/dfstab are automatically shared on boot up."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A directory cannot be shared if a subdirectory below it is already shared."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Renaming a share created with the zfs set share command is not supported."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. NFS and SMB protocols cannot be used simultaneously to share the same directory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: ZFS can automatically share file systems by setting the sharenfs property. Using this property, you do not have to modify the /etc/dfs/dfstab file when a new file system is shared. The sharenfs property is a comma-separated list of options to pass to the share command. The value on is an alias for the default share options, which provides read/write permissions to anyone. The value off indicates that the file system is not managed by ZFS and can be shared through traditional means, such as the /etc/dfs/dfstab file. All file systems whose sharenfs property is not off are shared during boot."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: A share can define options for both NFS and SMB sharing."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: ZFS can automatically share file systems by setting the sharenfs property. Using this property, you do not have to modify the /etc/dfs/dfstab file when a new file system is shared. The sharenfs property is a comma-separated list of options to pass to the share command. The value on is an alias for the default share options, which provides read/write permissions to anyone. The value off indicates that the file system is not managed by ZFS and can be shared through traditional means, such as the /etc/dfs/dfstab file. All file systems whose sharenfs property is not off are shared during boot."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: A share can define options for both NFS and SMB sharing."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-820 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The ZFS configuration on your server is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Pool1 6.67G 31K /pool"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Pool1/data 31K 31K /data"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select the three commands that you would use to 1. Create, 2. List, and 3. Delete a snapshot of the /data file system."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. zfs snapshot pool1/data@now"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. zfs create snapshot pool1/data@now"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zfs list -t snapshot"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zfs list -t snapshot pool1/data"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. zfs destroy pool1/data@now"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. zfs destroy snapshot pool1/data@now"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ADE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: Snapshots are created by using the zfs snapshot command, which takes as its only argument the name of the snapshot to create."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: You can list snapshots as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# zfs list -t snapshot"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Snapshots are destroyed by using the zfs destroy command. For example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# zfs destroy tank/home/ahrens@now"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: Snapshots are created by using the zfs snapshot command, which takes as its only argument the name of the snapshot to create."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: You can list snapshots as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# zfs list -t snapshot"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Snapshots are destroyed by using the zfs destroy command. For example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# zfs destroy tank/home/ahrens@now"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-820 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three options describe the purpose of the zonep2vchk command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Used on a Solaris 10 global zone to access the system for problems before migrating that system to a Solaris 10 branded zone."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Used to access a Solaris 10 global zone for problems before migrating that zone to a Solaris 11 global zone"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Used to create zonecfg template for a Solaris 10 global zone that that will be migrated to a solaris10 branded zone."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Used to migrate an Oracle Solaris 11 global zone to a non-global zone."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Used to migrate a Solaris 10 global zone to a non-global zone on the same server; the non-global zone can then be migrated to a Solaris 11 server as a Solaris10 branded zone."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "zonep2vchk"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- check a global zone's configuration for physical to virtual migration into non-global zone"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The zonep2vchk utility is used to evaluate a global zone's configuration before the process of physical-to-virtual (p2v) migration into a non-global zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The p2v process involves archiving a global zone (source), and then installing a non-global zone (target) using that archive zonep2vchk serves two functions. First, it can be used to report issues on the source which might prevent a successful p2v migration. Second, it can output a template zonecfg, which can be used to assist in configuring the non-global zone target. zonep2vchk can be executed on a Solaris 10 or later global zone. To execute on Solaris 10, copy the zonep2vchkutility to the Solaris 10 source global zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When run on Solaris 10, a target release of S11 can be specified, which will check for p2v into a Solaris 10 Branded zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man zonep2vchk"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "zonep2vchk"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- check a global zone's configuration for physical to virtual migration into non-global zone"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The zonep2vchk utility is used to evaluate a global zone's configuration before the process of physical-to-virtual (p2v) migration into a non-global zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The p2v process involves archiving a global zone (source), and then installing a non-global zone (target) using that archive zonep2vchk serves two functions. First, it can be used to report issues on the source which might prevent a successful p2v migration. Second, it can output a template zonecfg, which can be used to assist in configuring the non-global zone target. zonep2vchk can be executed on a Solaris 10 or later global zone. To execute on Solaris 10, copy the zonep2vchkutility to the Solaris 10 source global zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When run on Solaris 10, a target release of S11 can be specified, which will check for p2v into a Solaris 10 Branded zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man zonep2vchk"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-820 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are troubleshooting the failure of a computer to mount an NFS file system hosted by a server (hostname mars) in the local area network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select the three commands that will enable you to identify the problem."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ping - s mars"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. cat /etc/vfstab"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. cat /etc/dfs/dfstab"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. sharemgr show -v"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. showmount -e mars"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. rpcinfo -s mars | egrep \u2018nfs|mountd\u2019"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AEF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "mount: mount-point /DS9 does not exist."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To solve the mount point error condition, check that the mount point exists on the client. Check the spelling of the mount point on the command line or in the /etc/ vfstab file (B) on the client, or comment out the entry and reboot the system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The /etc/vfstab file lists all the file systems to be automatically mounted at system boot time, with the exception of the /etc/mnttab and /var/run file systems."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: showmount -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This command displays all clients that have remotely mounted file systems that are shared from an NFS server, or only the file systems that are mounted by clients, or the shared file systems with the client access information. The command syntax is: showmount [ -ade ] [ hostname ] where -a prints a list of all the remote mounts (each entry includes the client name and the directory), -d prints a list of the directories that are remotely mounted by clients, -e prints a list of the files shared (or exported), and hostname selects the NFS server to gather the information from. If hostname is not specified the local host is queried."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F: * mountd Daemon -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This daemon handles file-system mount requests from remote systems and provides access control. The mountd daemon checks /etc/dfs/sharetab to determine which file systems are available for remote mounting and which systems are allowed to do the remote mounting."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Commands for Troubleshooting NFS Problems"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "These commands can be useful when troubleshooting NFS problems. rpcinfo Command"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This command generates information about the RPC service that is running on a system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: not a network connectivity problem"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: The sharemgr command configures share groups and the shares contained within them."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man showmount"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "mount: mount-point /DS9 does not exist."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To solve the mount point error condition, check that the mount point exists on the client. Check the spelling of the mount point on the command line or in the /etc/ vfstab file (B) on the client, or comment out the entry and reboot the system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The /etc/vfstab file lists all the file systems to be automatically mounted at system boot time, with the exception of the /etc/mnttab and /var/run file systems."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: showmount -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This command displays all clients that have remotely mounted file systems that are shared from an NFS server, or only the file systems that are mounted by clients, or the shared file systems with the client access information. The command syntax is: showmount [ -ade ] [ hostname ] where -a prints a list of all the remote mounts (each entry includes the client name and the directory), -d prints a list of the directories that are remotely mounted by clients, -e prints a list of the files shared (or exported), and hostname selects the NFS server to gather the information from. If hostname is not specified the local host is queried."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F: * mountd Daemon -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This daemon handles file-system mount requests from remote systems and provides access control. The mountd daemon checks /etc/dfs/sharetab to determine which file systems are available for remote mounting and which systems are allowed to do the remote mounting."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Commands for Troubleshooting NFS Problems"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "These commands can be useful when troubleshooting NFS problems. rpcinfo Command"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This command generates information about the RPC service that is running on a system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: not a network connectivity problem"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: The sharemgr command configures share groups and the shares contained within them."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man showmount"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BEF",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-820 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have been asked to troubleshoot the initial configuration of a virtual network connecting two local zones with the outside world."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02334/0002100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The command -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "dladm create-vnic -1 vswitch192.168.1 vnic1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "fails with the error"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "dladm: invalid link name vswitch192.168.1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the reason for this error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The name vswitch192.168.1 is not legal."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The zone must be specified with dladm create-vnic -z zone3 vnic1."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The virtual interface must be specified with dladm create-vnic -z zone3 vnic1."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The virtual interface must be created with ipadm create-vnic -1 switch192.168.1."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The virtual switch must be created first with dladm create -etherstub vswitch192.168.1."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: E \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "There is no data-link named vswitch192.168."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "We need to create an etherstub first."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "See Note and example below for details."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: Create a VNIC in the system's global zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-vnic -l data-link vnic-name"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data-link is the name of the interface where the VNIC is to be configured."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-l link, --link=link"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "link can be a physical link or an etherstub."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "vnic-name is the name that you want to give the VNIC."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For example, to create a VNIC named vnic0 on interface e1000g0, you would type the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-vnic -l e1000g0 vnic0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Example: Creating a Virtual Network Without a Physical NIC"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "First, create an etherstub with name stub1:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-etherstub stub1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create two VNICs with names hello0 and test1 on the etherstub. This operation implicitly creates a virtual switch connecting hello0 and test1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-vnic -l stub1 hello0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-vnic -l stub1 test1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man dladm"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "There is no data-link named vswitch192.168."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "We need to create an etherstub first."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "See Note and example below for details."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: Create a VNIC in the system's global zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-vnic -l data-link vnic-name"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data-link is the name of the interface where the VNIC is to be configured."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-l link, --link=link"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "link can be a physical link or an etherstub."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "vnic-name is the name that you want to give the VNIC."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For example, to create a VNIC named vnic0 on interface e1000g0, you would type the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-vnic -l e1000g0 vnic0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Example: Creating a Virtual Network Without a Physical NIC"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "First, create an etherstub with name stub1:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-etherstub stub1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create two VNICs with names hello0 and test1 on the etherstub. This operation implicitly creates a virtual switch connecting hello0 and test1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-vnic -l stub1 hello0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "# dladm create-vnic -l stub1 test1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man dladm"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-820 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to deploy oracle Solaris 11 with the automated installer (AI). You need to make sure that your server and network meet the requirements for using AI."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Choose the three options that describe; the requirements for using AI."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You can create only one manifest per install service. If you need more than one manifest, create multiple install services."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. If two client machines have different architectures and need to be installed with the same version of the Oracle Solaris 11 OS, then create two AI manifests and a single Install service."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You need a separate install service for each different client architecture that you plan to install, and for each different version of the Oracle Solaris 11 OS that you plan to install on client systems."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. If two client machines have different architectures and need to be installed with different versions of the Oracle Solaris 11 OS, then create two AI manifests and two install services."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The install server needs to be able to access an Oracle Solaris Image Packaging System (IPS) software package repository; the clients do not."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. The install server can be either an x86 machine or a SPARC machine."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BEF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: You can create custom AI manifests for particular clients."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create a custom XML AI manifest file. This method is best suited to an environment where few systems require custom provisioning. Most systems to be installed have identical or similar hardware and will be provisioned identically."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Write a script that dynamically creates an AI manifest for each client at installation time. Use this method to create a custom installation for each client, based on client characteristics discovered at installation time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: AI Server Software Requirements include"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Software package repository -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ensure that the install server can access an IPS software package repository. AI requires the install/installadm package."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F: Install Server Requirements -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Any system that meets these requirements can be used as an AI install server, including laptops, desktops, virtual machines, and enterprise servers. The install server can be either an x86 machine or a SPARC machine. An x86 install server can install both SPARC and x86 clients, and a SPARC install server can install both SPARC and x86 clients."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: To install clients over the network, AI requires a separate system to be an install server. On the install server, create an AI install service to provide a net image and instructions for installing the Oracle Solaris 11 OS on different clients."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "B:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: You can create custom AI manifests for particular clients."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create a custom XML AI manifest file. This method is best suited to an environment where few systems require custom provisioning. Most systems to be installed have identical or similar hardware and will be provisioned identically."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Write a script that dynamically creates an AI manifest for each client at installation time. Use this method to create a custom installation for each client, based on client characteristics discovered at installation time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: AI Server Software Requirements include"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Software package repository -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ensure that the install server can access an IPS software package repository. AI requires the install/installadm package."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F: Install Server Requirements -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Any system that meets these requirements can be used as an AI install server, including laptops, desktops, virtual machines, and enterprise servers. The install server can be either an x86 machine or a SPARC machine. An x86 install server can install both SPARC and x86 clients, and a SPARC install server can install both SPARC and x86 clients."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: To install clients over the network, AI requires a separate system to be an install server. On the install server, create an AI install service to provide a net image and instructions for installing the Oracle Solaris 11 OS on different clients."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BEF",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-820 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit to inspect the file system configuration on your server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02334/0003000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You department's backup policy is to perform a full backup to a remote system disk on Saturday."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On each weekday, you are to perform an incremental backup to the same remote system disk."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Each incremental backup will contain only data that has been modified since the previous Saturday backup."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The server file systems must remain available at all times and can never be taken offline."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The backup must not only provide for the recovery of the most recent version of a file, but must also allow recovery of previous versions of a file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Following your company policy, which two describe the correct procedure to be performed on each weekday for backing up the /data file system to a remote disk named /remote/backup?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Remove the previous daily snapshot. zfs snapshot pool1/data@daily zfs send - i pool1/data@sat pool1/data@daily > /remote/backup/full"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Remove the previous daily snapshot. zfs snapshot pool1/data@daily zfs send - i pool1/data#sat pool1/data@daily | zfs recv remote /backup/ date +%m%d%"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Remove the previous daily snapshot. zfs snapshot pool1/data@daily zfs send - i pool1/data@sat pool1/data@daily > /remote/backup/daily"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove the previous daily snapshot. zfs create - i pool1/data@sat pool1/data@daily zfs send pool1/data@daily | zfs remote/backup"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can use the zfs send command to send a copy of a snapshot stream and receive the snapshot stream in another pool on the same system or in another pool on a different system that is used to store backup data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can send incremental data by using the zfs send -i option."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "host1# zfs send -i tank/dana@snap1 tank/dana@snap2 | zfs recv newtank/dana"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note that the first argument (snap1) is the earlier snapshot and the second argument (snap2) is the later snapshot. In this case, the newtank/dana file system must already exist for the incremental receive to be successful."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The incremental snap1 source can be specified as the last component of the snapshot name. This shortcut means you only have to specify the name after the @ sign for snap1, which is assumed to be from the same file system as snap2. For example: host1# zfs send -i snap1 tank/dana@snap2 > zfs recv newtank/dana"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This shortcut syntax is equivalent to the incremental syntax in the preceding example."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Oracle Solaris ZFS Administration Guide, Sending and Receiving ZFS Data"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can use the zfs send command to send a copy of a snapshot stream and receive the snapshot stream in another pool on the same system or in another pool on a different system that is used to store backup data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can send incremental data by using the zfs send -i option."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "host1# zfs send -i tank/dana@snap1 tank/dana@snap2 | zfs recv newtank/dana"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note that the first argument (snap1) is the earlier snapshot and the second argument (snap2) is the later snapshot. In this case, the newtank/dana file system must already exist for the incremental receive to be successful."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The incremental snap1 source can be specified as the last component of the snapshot name. This shortcut means you only have to specify the name after the @ sign for snap1, which is assumed to be from the same file system as snap2. For example: host1# zfs send -i snap1 tank/dana@snap2 > zfs recv newtank/dana"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This shortcut syntax is equivalent to the incremental syntax in the preceding example."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Oracle Solaris ZFS Administration Guide, Sending and Receiving ZFS Data"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-820 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit to inspect the file system configuration on your server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02334/0003500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Your departments backup policy is to perform a full backup to a remote system disk on Saturday."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On Sunday through Friday, you are to perform an incremental backup to the same remote system disk."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Each incremental backup will contain only data that has been modified since the previous Saturday backup."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The server file systems must remain available at all times and can never be taken offline,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The backup must not only provide for the recovery of the most recent version of a file, but must also allow recovery of previous versions of a file created since"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Saturdays full backup."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Following your company policy, which option describes a valid procedure for backing up the /datafile system to a remote disk named /remote/backup?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. On Saturday: zfs create snapshot pool1/data@sat. zfs send pool1/data@sat > /remote/backup/full On each weekday: Remove the previous daily snapshot. zfs snapshot pool1/data@daily zfs send i pool1/data@sat pool1/data@daily > /remote/backup/full"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. On Saturday: zfs create snapshot pool1/data@sat. zfs send pool1/data@sat | zfs recv remote/backup/date +%m%d%Y On each weekday: Remove the previous daily snapshot. zfs create pool1/data@daily zfs send i pool1/data@sat pool1/data@daily | zfs recv remote/backup d%y"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. On Saturday: zfs snapshot pool1/data@sat zfs send pool1/data@sat > /remote/backup/full On each weekday: Remove the previous daily snapshot. zfs snapshot pool1/data@daily zfs send i pool1/data@sat pool1/data@daily > /remote/backup/daily"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. On Saturday: zfs create snapshot pool1/data@sat zfs send pool1/data@sat | zfs recv remote/backup On each weekday: Remove the previous daily snapshot. zfs create i pool1/data@sat pool1/data@daily zfs send pool1/data@daily | zfs recv remote/backup"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. On Saturday: zfs snapshot pool1/data@sat zfs pool1/data@sat > /remote/backup/full On each weekday: Remove the previous daily snapshot. zfs snapshot pool1/data@daily zfs send i pool1/data@sat pool1/data@daily > /remote/backup/full"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-820 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "ServerA contains two ISO images of a package repository named so1.repo.iso-a and so1.repo.iso-b respectively. You need to create a single local package repository on server that clients can connect to. The package repository will be stored on the /export/IPS file system and named repo. The preferred publisher will be named solaris and the publisher URL will be http://serverA.example.com."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which is the correct procedure to perform on ServerA to create the local Package repository?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. cat so1.repo.iso-a sol.repo.iso-b > so1.full.iso Mount the ISO image and use the rsync command to extract the contents of the ISO file to the /export/IPS file system. Set the pkg/inst_root property to /export/IPS/repo and the pkg/readonly property to true. Set the preferred publisher by using pkg set-publisher -G http://pkg.oracle.com/solaris/release/ \\ -g http\"//serverA.example.com/ solaris"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. cat so1.repo.iso-a so1.repo.iso-b > /export/IPS/repo Set the pkg/inst_root property to true and the pkg/readonly property to /export/IPS Set the preferred publisher by using pkg set-publisher -G http://serverA.example.com/ \\ -g http://pkg/oracle.com/solaris/rekease/solaris"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. cat so1.repo.iso-a so1.repo.iso-b > so1.full.iso Mount the ISO image and use the rsync command to extract the contents of the ISO file to /export/IPS/repo Set the pkg/inst_root property to /export/IPS/repo and the pkg/readonly property to true Set the preferred publisher by using pkg set-publisher solaris \\ -g http://pkg.oracle.com/"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. cat so1.repo,iso-a so1.repo.iso-b > /export/IPS/repo.iso Mount the ISO image and copy the repo directory from the ISO image to /export/IPS/repo set the pkg/inst_root property and the pkg/readonly property to /export/IPS/repo set the preferred pkg/inst_root property by using pkg set-publisher - G http://serverA.example.com/ \\ - g http://pkg.oracle.com/solaris.com/release/- p solaris"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Concatenate the files into one file using the cat command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Make the contents of the repository .iso file available using the mount command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To increase the performance of repository accesses and to avoid the need to remount the .iso image each time the system restarts, copy the repository files from / mnt/repo/to a ZFS file system. You can do this copy with rsync or with tar."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A, C: The repository should be named repo (not so1.full.iso)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Need to use mount to make the contents of the repository .iso file available."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Copying and Creating Oracle Solaris 11 Package Repositories, Copying a Repository From a File"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Concatenate the files into one file using the cat command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Make the contents of the repository .iso file available using the mount command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To increase the performance of repository accesses and to avoid the need to remount the .iso image each time the system restarts, copy the repository files from / mnt/repo/to a ZFS file system. You can do this copy with rsync or with tar."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A, C: The repository should be named repo (not so1.full.iso)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Need to use mount to make the contents of the repository .iso file available."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Copying and Creating Oracle Solaris 11 Package Repositories, Copying a Repository From a File"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-820 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are going to use the- Automated installer (AI) to install a non global zone named zone1. You have created a custom manifest for the non-global zone and named it zone1manifest"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command will you use to add this custom manifest to the s11-sparc install service and associate this custom manifest with the non-global zone?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. installadm create-profile -n s11-sparc -f /tmp/zone1manifest.xml - c"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. installadm create-manifest -n s11-sparc -f /tmp/zone1manifest.xml -m"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. installadm create-client -n s11-sparc -f /tmp/zone1manifest.xml -m zone1manifest -c zonename= \"zone1\""
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. installadm create-service - n s11-sparc -f /tmp/zone1manifest.xml -m zone1manifest - c zonename=\"zone1\" B"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "installadm add-manifest"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Associates manifests with a specific install"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "service, thus making the manifests available on"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "the network, independently from creating a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "service. When publishing a non-default manifest,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "it is required to associate criteria either via"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "criteria entered on the command line (-c) or"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "via a criteria XML file (-C)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: installadm create-client -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Accomplishes optional setup tasks for a specified"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "client, in order to provide custom client"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "settings that vary from the default settings used"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by the installadm create-service command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: installadm create-service -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Creates an install service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The command provides the following functionality:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- Takes an AI ISO image (<srcimage>), unpacks it,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "and sets up a net image in a target directory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(<targetdir>. The net image enables client"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "installations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- Creates an install service and makes it"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "available on the network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: installadm"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "installadm add-manifest"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Associates manifests with a specific install"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "service, thus making the manifests available on"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "the network, independently from creating a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "service. When publishing a non-default manifest,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "it is required to associate criteria either via"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "criteria entered on the command line (-c) or"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "via a criteria XML file (-C)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: installadm create-client -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Accomplishes optional setup tasks for a specified"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "client, in order to provide custom client"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "settings that vary from the default settings used"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by the installadm create-service command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: installadm create-service -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Creates an install service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The command provides the following functionality:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- Takes an AI ISO image (<srcimage>), unpacks it,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "and sets up a net image in a target directory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(<targetdir>. The net image enables client"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "installations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- Creates an install service and makes it"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "available on the network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: installadm"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-820 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The current ZFS configuration on serverA is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Pool1 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c3t2d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c3t3d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Pool2 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c3t4d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c3t5d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The ZFS configuration on serverB is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Pool1 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "mirror-0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c3t2d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c3t3d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "mirror-1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c3t4d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "c3t5d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to change serverAs ZFS configuration to match serverBs configuration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option should you choose to modify the configuration on serverA so that it matches serverBs configuration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. zpool destroy pool2 zpool attach pool1 c3t4d0 ct3t5d0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. zpool destroy pool2 zpool attach pool1 c3t2d0 c3t2d0 c3t4d0 c3t5d"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zpool destroy pool2 zpool add pool1 c3t4d0 c3t5d0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zpool destroy pool2 zpool mirror pool1 pool2"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. zpool destroy pool2 zpool attach pool1 c3t2d0 c3t4d0 zpool attach pool1 c3t3d0 c3t5d0"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. zpool destroy pool1 zpool destroy pool2 zpool create pool1 mirror c3t2d0 c3t3d0 c3t4d0 c3t5d0"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: F \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "We destroy both pools. Then we recreate the mirror."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "zpool attach [-f] pool device new_device"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Attaches new_device to an existing zpool device. The existing device cannot be part of a raidz configuration. If device is not currently part of a mirrored configuration, device automatically transforms into a two-way mirror of device and new_device. If device is part of a two-way mirror, attaching new_device creates a three-way mirror, and so on. In either case, new_device begins to resilver immediately."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man zpool -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A, B: Not the correct way to use attach."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: Just adding devices would not create a mirror."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: Pool2 is destroyed and cannot be used in the second statement."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: Destroys the given pool, freeing up any devices for other use. This command tries to unmount any active datasets before destroying the pool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Not the correct way to use attach."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "We destroy both pools. Then we recreate the mirror."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "zpool attach [-f] pool device new_device"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Attaches new_device to an existing zpool device. The existing device cannot be part of a raidz configuration. If device is not currently part of a mirrored configuration, device automatically transforms into a two-way mirror of device and new_device. If device is part of a two-way mirror, attaching new_device creates a three-way mirror, and so on. In either case, new_device begins to resilver immediately."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man zpool -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A, B: Not the correct way to use attach."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: Just adding devices would not create a mirror."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: Pool2 is destroyed and cannot be used in the second statement."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: Destroys the given pool, freeing up any devices for other use. This command tries to unmount any active datasets before destroying the pool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Not the correct way to use attach."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "E",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-820 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and review the zpool and ZFS configuration information from your system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02334/0005800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Identify the correct procedure for breaking the /prod_data mirror, removing c4t0d0 and c4t2d0, and making the data on c4t0d0and c4t2d0 accessible under the dev_data mount point."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. zpool split pool1 pool2 c4t0d0 c4t2d0 zpool import pool2 zfs set mountpoint = /dev_data pool2/prod_data"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. zpool detach pool1 pool2 zpool attach pool2 zfs set mountpoint=/dev_data pool2/prod_data"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zpool split pool1/prod_data -n pool2/dev_data zfs set mountpoint = /dev_data pool2/prod_data"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zpool split pool1 pool2 c4t0d0 c4t2d0 zpool import pool2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this Solaris release, you can use the zpool split command to split a mirrored storage pool, which detaches a disk or disks in the original mirrored pool to create another identical pool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After the split operation, import the new pool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Oracle Solaris ZFS Administration Guide, Creating a New Pool By Splitting a Mirrored ZFS Storage Pool"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In this Solaris release, you can use the zpool split command to split a mirrored storage pool, which detaches a disk or disks in the original mirrored pool to create another identical pool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After the split operation, import the new pool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Oracle Solaris ZFS Administration Guide, Creating a New Pool By Splitting a Mirrored ZFS Storage Pool"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-820 topic 1 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are using AI to install a new system. You have added to following information to the AI manifest:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<configuration type= \"zone\" name= \"dbzone\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "source = \"http://sysA.example.com/zone_cfg/zone.cfg\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true with regard to the zone.cfg?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The zone.cfg file is text file in a zonecfg export format."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The zone.cfg file is an AI manifest that specifies how the zone is to be installed."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The zone.cfg file is an xml file in a form suitable for use as a command file for the zonecfg command."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The zone.cfg file is an SC profile with keywords that are specific for configuring a as part of the installation process."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It is am xml configuration file from the /etc/zone directory. It will be used as a profile for the zone. It specifies the zonename, zonepath, and other zonecfg parameters."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The configuration element supports non-global zone configurations. When installing a global zone system, the zone configurations specified in the AI manifest are used to install non-global zones onto the system after the global zone has been installed"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The configuration element has the following attributes:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "type"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The type of configuration to install. The only type supported by AI is zone. name"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A name given to the configuration. This name must be unique across all configuration elements in an AI manifest. For configurations of type zone, this name is also used as the zonename for the zone. source"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The location from which AI downloads the configuration file for this configuration element. The value can be an HTTP or FILE URI specification. For configurations of type zone, this value should point to a zone configuration file as produced from the zonecfg export command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man ai_manifest"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The configuration element supports non-global zone configurations. When installing a global zone system, the zone configurations specified in the AI manifest are used to install non-global zones onto the system after the global zone has been installed"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The configuration element has the following attributes:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "type"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The type of configuration to install. The only type supported by AI is zone. name"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A name given to the configuration. This name must be unique across all configuration elements in an AI manifest. For configurations of type zone, this name is also used as the zonename for the zone. source"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The location from which AI downloads the configuration file for this configuration element. The value can be an HTTP or FILE URI specification. For configurations of type zone, this value should point to a zone configuration file as produced from the zonecfg export command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: man ai_manifest"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam 1z0-820 topic 1 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The resource control in your zone is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "rctl:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "name : zone.cpu-shares"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "value: (priv=privileged,limit=20,action=none)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When you boot the zone, this message is displayed:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WARNING: The zone.cpu-shares rctl is set but FSS is not the default scheduling class for this zone. FSS will be used for processes in the zone but to get the full benefit of FSS, it should be the default scheduling class."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option will resolve this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In the global zone, run this command to change the process scheduler for the global zone: dispadmin -d FSS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In the non-global zone, run this command to change the process scheduler for this specific zone: dispadmin -d FSS"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Change the zone resource control to: value: (priv=privileged,limit=20,action=none,default)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use svccfg to modify the general/scheduler property in the svc:/system/zones:default service: svccfg -s system/zones:default editprop general/scheduler=FSS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 1z0-820 topic 1 question 86 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Review the output from a ZFS file system:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NAME PROPERTY VALUE SOURCE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "pool1/encrypt encryption aes-256-ccm local"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "pool1/encrypt keysource raw,file:///mykey local"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to recreate the pool1/encrypt file system exactly as it is listed above. Which two commands can you use to recreate the pool1/encrypt file system? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. pktool genkey keystone=file outkey=/mykey keytype=aes keylen=256"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. genkey pktool keystore=file outkey=/mykey keytype=aes keylen=256"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zfs create -o encryption=aes-256-ccm -o keysource=raw,file://mykey pool1/encrypt"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zfs create -o encryption=aes-256-ccm -o keysource=raw,file:///mykey pool1/encrypt"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. zfs create -o encryption=aes-256-ccm -o keysource=raw,file:///mykey source=local pool1/encrypt"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 1z0-820 topic 1 question 89 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You create a flash archive of the Solaris 10 global zone on the server named sysA and you name the archive s10-system.flar."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You upgrade the operating system on sysA from Solaris 10 to Oracle Solaris 11."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On sysA, you want to create a Solaris 10 non-global zone and import the flash archive into that zone. The flash archive is available on sysA via NFS through the mountpoint:/net/bkup_server/backup_server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two options do you choose to create the Solaris 10 zone capable of supporting the Solaris 10 flash archive? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. zonecfg -z s10-zone create -t SYSsolaris10"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. zonecfg -z s10-zone create set brand=solaris10"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zonecfg -z solaris10 -t SYSsolaris10"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zonecfg -z s10-zone install -f /net/backup_server/s10-system.flar"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 1z0-820 topic 1 question 108 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to deploy Oracle Solaris 11 with the Automated Installer (AI). You need to make sure that your server and network meet the requirements for using AI."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Choose the three options that describe the requirements for using AI. (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You must set up DHCP. The DHCP server and AI install server can be the same machine or two different machines."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. You can create only one manifest per install service. If you need more than one manifest, create multiple install services."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The minimum requirement to operate as an AI install server is 1 GB of memory."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. If two client machines have different architectures and need to be installed with the same version f the Oracle Solaris 11 OS, then create two AI manifests and a single install service."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Load the install/installadm package on the AI server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ADE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 1z0-820 topic 1 question 110 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your server hangs intermittently and you believe it may be due to either faulty hardware or a driver. The support technician has told you to generate a live core dump of all memory pages for further analysis. Your dump configuration is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dump content: kernel pages -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dump device: /dev/zvol/dsk/rpool/dump (dedicated)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Savecore directory: /var/crash -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Savecore enabled: yes -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Save compressed: on -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You don't have enough space on the current dump device, so you need to store the dump on /dev/zvol/dsk/pool2/dump."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option would you select to change the dump location for the next core dump and capture the content of all memory pages as requested by the support technician?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. dumpadm -d /dev/zvol/dsk/pool2/dump"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. dumpadm -d /dev/zvol/dsk/pool2/dump -c all"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. dumpadm -d /dev/zvol/dsk/pool2/dump -c curproc"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. dumpadm -s /dev/zvol/dsk/pool2/dump -c all"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. dumpadm -s /dev/zvol/dsk/pool2/dump"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 1z0-820 topic 1 question 124 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A non-global zone named testzone is currently running."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option would you choose to dynamically set the CPU shares for the zone to two shares?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. While logged in to the global zone, enter: prctl -n zone.cpu-shares -v 2 -r -i zone testzone"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. While logged in to the global zone, enter: zonecfg -z testzone add rctl set name=zone.cpu-shares set value=(priv=privileged,limit=2,action=none)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. While logged in to the global zone, enter: prctl -n 2 zone.cpu-shares -i zone testzone"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. While logged in to the global zone, enter: zonecfg -z testzone add rctl set name=zone.cpu-shares set value=2"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. While logged in to testzone, enter: prctl -n zone.cpu-shares -v 2 -r -i zone testzone"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

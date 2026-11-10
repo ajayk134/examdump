@@ -1,0 +1,225 @@
+{
+  "ACD201__7a33cc1a55d97ff6": {
+    "Question #: 1": {
+      "Title": "Exam ACD201 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You run a report on different employee transactions by using a View."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You encounter the following error: \"a!queryEntity: An error occurred while retrieving the data.\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the most likely root cause of this error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The view doesn't have a column mapped as a primary key in its corresponding CDT."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The view contains a large number of rows, requiring more time to fetch the data."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The rule contains a missing syntax."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam ACD201 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You're building an order management system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to create a field that displays the total number of days it took to deliver each order, and show and sort by this data in a read-only grid. The data must be available in real-time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which function is the most appropriate for calculating this value?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. calworkdays()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a!subtractDateTime()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a!customFieldDateDiff()"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam ACD201 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A view is created with the primary table PERSON and is joined using a left join with the APPOINTMENT table on the column \"PERSON_ID\". There is a one-to-many relationship between the PERSON and APPOINTMENT tables."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A Custom Data Type (CDT) and a data store entity have been created based on this view, with the primary key being \"PERSON_ID\"."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Review the data presented in the PERSON and APPOINTMENT tables:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/acd201/image17.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true when the following query entity is executed? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/acd201/image18.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Appian makes one more query to the database(other than the actual query to fetch the data) to get the totalCount based on the applied filters."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. result totalCount is 3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. result totalCount is 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Appian makes one more query to the database(other than the actual query to fetch the data) to get the totalCount based on the applied filters and paging info."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

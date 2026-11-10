@@ -1,0 +1,168 @@
+{
+  "CPP__38ba67ec06211f79": {
+    "Question #: 1": {
+      "Title": "Exam CPP topic 1 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which method added to class B at the marked spot will allow the code below to compile? Choose all possible solutions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "#include <vector>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "#include <iostream>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "#include <algorithm>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "using namespace std;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "class B { int val;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "public:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B(int v):val(v){}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "int getV() const {return val;}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/* Insert Code Here */"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "};"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ostream & operator <<(ostream & out, const B & v) { out<<v.getV(); return out;} template<class T>struct Out { ostream & out;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Out(ostream & o): out(o){}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "void operator() (const T & val ) { out<<val<<\" \"; } }; int main() { int t[]={8, 10, 5, 1, 4, 6, 2, 7, 9, 3}; vector<B> v1(t, t+10); sort(v1.begin(), v1.end(), greater<B>()); for_each(v1.begin(), v1.end(), Out<B>(cout));cout<<endl; return 0;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. bool operator < (const B & v) const { return val<v.val;}"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. bool operator > (const B & v) const { return val<v.val;}"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. bool operator > (const B & v) const { return val>v.val;}"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. bool operator == (const B & v) const { return val==v.val;}"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. operator int () const { return val; }"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    }
+  }
+}

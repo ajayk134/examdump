@@ -1,0 +1,873 @@
+{
+  "Certified Platform Developer__f3ef364fe28512a1": {
+    "Question #: 1": {
+      "Title": "Exam Certified Platform Developer topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A custom object Trainer_c has a lookup field to another object Gym_c."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SOQL query will get the record for the Viridian Gym and all it\u2019s trainers?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SELECT Id, (SELECT Id FROM Trainer_c) FROM Gym_c WHERE Name = \u2018Viridian City Gym\u2019"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SELECT Id, (SELECT Id FROM Trainers_c) FROM Gym_c WHERE Name = \u2018Viridian City Gym\u2019"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SELECT ID FROM Trainer_c WHERE Gym_r.Name = \u2018Viridian City Gym\u2019"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SELECT Id, (SELECT Id FROM Trainers_r) FROM Gym_c WHERE Name = \u2018Viridian City Gym\u2019"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam Certified Platform Developer topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following Apex statement:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Account myAccount = [SELECT Id, Name FROM Account];"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What occurs when more than one Account is retuned by the SOQL query?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The query fails and an error is written to the debug log."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. An unhandled exception is thrown and the code terminates."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The variable, myAccount, is automatically cast to the List data type."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The first Account returned is assigned to myAccount."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam Certified Platform Developer topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The OrderHelper class is a utility class that contains business logic for processing orders. Consider the following code snippet: public class without sharing OrderHelper("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "//code implementation"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A developer needs to create a constant named DELIVERY_MULTIPLIER with a value of 4.15. The value of the constant should not change at any time in the code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should the developer declare the DELIVERY_MULTIPLIER constant to meet the business objectives?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A decimal DELIVERY_MULTIPLIER = 4.15;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. static final decimal DELIVERY_MULTIPLIER = 4.15;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. constant decimal DELIVERY_MULTIPLIER = 4.15;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. static decimal DELIVERY_MULTIPLIER = 4.15;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam Certified Platform Developer topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which annotation should a developer use on an Apex method to make it available to be wired to a property in a Lightning web component?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. @RemoteAction (cacheable=true)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. @AuraEnabled"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. @AuraEnabled (cacheable=true)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. @RemoteAction"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam Certified Platform Developer topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A developer has the following requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Calculate the total amount on an Order"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Calculate the line amount for each Line Item based on quantity selected and price"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Move Line Items to a different Order if a Line Item is not in stock"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which relationship implementation supports these requirements on its own?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A Line Item has a re-parentable lookup field to Order."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Order has a re-parentable lookup field to Line Item."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Order has a re-parentable master-detail field to Line Item."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Line Item has a re-parentable master-detail field to Order."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam Certified Platform Developer topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the following Apex code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/certified-platform-developer/image1.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the value of x when it is written to the debug log?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam Certified Platform Developer topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming that name is a String obtained by an <apex:inputText> tag on a Visualforce page, which two SOQL queries performed are safe from SOQL injection? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. String query = \u2018SELECT Id FROM Account WHERE Name LIKE \\\u2018%\u2019 + name \u2018%\\\u2019\u2019;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "List<Account> results = Database.query(query);"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. String query = \u2018SELECT Id FROM Account WHERE Name LIKE \\\u2018%\u2019 + name.noQuotes() + \u2018%\\\u2019\u2019;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "List<Account> results = Database.query(query);"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. String query = \u2018SELECT Id FROM Account WHERE Name LIKE \\\u2018%\u2019+"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "String.escapeSingleQuotes(name) + \u2018%\\\u2019\u2019;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "List<Account> results = Database.query(query);"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. String query = \u2018%\u2019 + name + \u2018%\u2019"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "List<Account> results = [SELECT Id FROM Account WHERE Name LIKE :query];"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam Certified Platform Developer topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A credit card company needs to implement the functionality for a service agent to process damaged or stolen credit cards. When the customers call in, the service agent must gather many pieces of information. A developer is tasked to implement this functionality."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should the developer use to satisfy this requirement in the most efficient manner?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Screen-based flow"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Approval process"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Apex trigger"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Lightning Component"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam Certified Platform Developer topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two characteristics related to formulas? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Formulas can reference themselves."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Formulas are calculated at runtime and not stored in the database."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Formulas can reference values in related objects."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Fields that are used in a formula field can be deleted or edited without editing the formula."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam Certified Platform Developer topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Universal Containers recently transitioned from Classic to Lightning Experience."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "One of its business processes requires certain values from the Opportunity object to be sent via an HTTP REST callout to its external order management system when the user presses a custom button on the Opportunity detail page. Example values are as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Name -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Amount -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Account -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two methods should the developer implement to fulfill the business requirement? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a custom Visualforce quick action that performs the HTTP REST callout, and use a Visualforce quick action to expose the component on the Opportunity detail page."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a Remote Action on the Opportunity object that executes an Apex immediate action to perform the HTTP REST callout whenever the Opportunity is updated."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a Lightning component quick action that performs the HTTP REST callout, and use a Lightning Action to expose the component on the Opportunity detail page."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create an after update trigger on the Opportunity object that calls a helper method using @Future (Callout=true) to perform the HTTP REST callout."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam Certified Platform Developer topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "While developing Apex class with custom search functionality that will be launched from a Lightning Web Component, how can the developer ensure only records accessible to the currently logged in user are displayed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the with sharing keyword."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the intertied sharing keyword."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the without sharing keyword."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the WITH SECURITY_ENFORCED clause within the SOQL"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam Certified Platform Developer topic 1 question 115 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two settings must be defined in order to update a record of a junction object? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Read/Write access on the primary relationship"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Read/Write access on the junction object"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Read/Write access on the secondary relationship"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Read access on the primary relationship"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

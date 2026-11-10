@@ -1,0 +1,1958 @@
+{
+  "412-79v8__808ed94b15b8d1b2": {
+    "Question #: 1": {
+      "Title": "Exam 412-79v8 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is an application alert returned by a web application that helps an attacker guess a valid username?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Invalid username or password"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Account username was not found"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Incorrect password"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Username or password incorrect"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 412-79v8 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A pen tester has extracted a database name by using a blind SQL injection. Now he begins to test the table inside the database using the below query and finds the table: http://juggyboy.com/page.aspx?id=1; IF (LEN(SELECT TOP 1 NAME from sysobjects where xtype='U')=3) WAITFOR DELAY '00:00:10'-- http://juggyboy.com/page.aspx?id=1; IF (ASCII(lower(substring((SELECT TOP 1 NAME from sysobjects where xtype=char(85)),1,1)))=101) WAITFOR DELAY"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'00:00:10'--"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://juggyboy.com/page.aspx?id=1; IF (ASCII(lower(substring((SELECT TOP 1 NAME from sysobjects where xtype=char(85)),2,1)))=109) WAITFOR DELAY"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'00:00:10'--"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://juggyboy.com/page.aspx?id=1; IF (ASCII(lower(substring((SELECT TOP 1 NAME from sysobjects where xtype=char(85)),3,1)))=112) WAITFOR DELAY"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'00:00:10'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the table name?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CTS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. QRT"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. EMP"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ABC"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 412-79v8 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When you are running a vulnerability scan on a network and the IDS cuts off your connection, what type of IDS is being used?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Passive IDS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Active IDS"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Progressive IDS"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. NIPS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 412-79v8 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HTTP protocol specifies that arbitrary binary characters can be passed within the URL by using %xx notation, where 'xx' is the"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ASCII value of the character"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Binary value of the character"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Decimal value of the character"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Hex value of the character"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://books.google.nl/books?id=0RfANAwOUdIC&pg=PA720&lpg=PA720&dq=%22xx+notation%22"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+binary&source=bl&ots=pGMqass7ti&sig=rnIg1xZ78ScUvuIlTmDY3r7REuc&hl=nl&sa=X&ei=8C4dVYe1NorgasrzgoAL&ved=0CEQQ6AEwBQ#v=onepage&q=%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "22xx%20notation%22%20binary&f=false"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "https://books.google.nl/books?id=0RfANAwOUdIC&pg=PA720&lpg=PA720&dq=%22xx+notation%22"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+binary&source=bl&ots=pGMqass7ti&sig=rnIg1xZ78ScUvuIlTmDY3r7REuc&hl=nl&sa=X&ei=8C4dVYe1NorgasrzgoAL&ved=0CEQQ6AEwBQ#v=onepage&q=%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "22xx%20notation%22%20binary&f=false"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 412-79v8 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following appendices gives detailed lists of all the technical terms used in the report?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Required Work Efforts"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. References"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Research"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Glossary"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refere http://en.wikipedia.org/wiki/Glossary"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refere http://en.wikipedia.org/wiki/Glossary"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 412-79v8 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following information gathering techniques collects information from an organization\u2019s web-based calendar and email services?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Anonymous Information Gathering"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Private Information Gathering"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Passive Information Gathering"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Active Information Gathering"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://luizfirmino.blogspot.com/2011/09/footprinting-terminologies.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://luizfirmino.blogspot.com/2011/09/footprinting-terminologies.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 412-79v8 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statement holds true for TCP Operation?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0001300001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Port numbers are used to know which application the receiving host should pass the data to"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Sequence numbers are used to track the number of packets lost in transmission"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Flow control shows the trend of a transmitting host overflowing the buffers in the receiving host"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Data transfer begins even before the connection is established"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 412-79v8 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "This is a group of people hired to give details of the vulnerabilities present in the system found after a penetration test. They are elite and extremely competent penetration testers and intrusion analysts. This team prepares a report on the vulnerabilities in the system, attack methods, and how to defend against them."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0002100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is this team called?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Blue team"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Tiger team"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Gorilla team"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Lion team"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 412-79v8 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Amazon Consulting Corporation provides penetration testing and managed security services to companies. Legality and regulatory compliance is one of the important components in conducting a successful security audit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Before starting a test, one of the agreements both the parties need to sign relates to limitations, constraints, liabilities, code of conduct, and indemnification considerations between the parties."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0002300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which agreement requires a signature from both the parties (the penetration tester and the company)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Non-disclosure agreement"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Client fees agreement"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Rules of engagement agreement"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Confidentiality agreement C"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 412-79v8 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is the objective of Gramm-Leach-Bliley Act?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. To ease the transfer of financial information between institutions and banks"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To protect the confidentiality, integrity, and availability of data"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. To set a new or enhanced standards for all U.S. public company boards, management and public accounting firms"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. To certify the accuracy of the reported financial statement"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://www.itap.purdue.edu/security/policies/glb_safeguards_rule_training_general.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://www.itap.purdue.edu/security/policies/glb_safeguards_rule_training_general.pdf"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam 412-79v8 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following contents of a pen testing project plan addresses the strengths, weaknesses, opportunities, and threats involved in the project?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Project Goal"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Success Factors"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Objectives"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Assumptions"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 412-79v8 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Phishing is typically carried out by email spoofing or instant messaging and it often directs users to enter details at a fake website whose look and feel are almost identical to the legitimate one."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Phishing is an example of social engineering techniques used to deceive users, and exploits the poor usability of current web security technologies. Attempts to deal with the growing number of reported phishing incidents include legislation, user training, public awareness, and technical security measures."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0002900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What characteristics do phishing messages often have that may make them identifiable?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Invalid email signatures or contact information"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Suspiciously good grammar and capitalization"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They trigger warning pop-ups"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Suspicious attachments"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 412-79v8 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the maximum value of a \"tinyint\" field in most database systems?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 222"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 224 or more"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 240 or less"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 225 or more"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://books.google.com.pk/books?id=JUcIAAAAQBAJ&pg=SA3-PA3&lpg=SA3-PA3&dq=maximum+value+of+a+%E2%80%9Ctinyint%E2%80%9D"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+field+in+most+database+systems&source=bl&ots=NscGk--"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "R5r&sig=1hMOYByxt7ebRJ4UEjbpxMijTQs&hl=en&sa=X&ei=pvgeVJnTCNDkaI_fgugO&ved=0CDYQ6AEwAw#v=onepage&q=maximum%20value%20of%20a%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "20%E2%80%9Ctinyint%E2%80%9D%20field%20in%20most%20database%20systems&f=false"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://books.google.com.pk/books?id=JUcIAAAAQBAJ&pg=SA3-PA3&lpg=SA3-PA3&dq=maximum+value+of+a+%E2%80%9Ctinyint%E2%80%9D"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+field+in+most+database+systems&source=bl&ots=NscGk--"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "R5r&sig=1hMOYByxt7ebRJ4UEjbpxMijTQs&hl=en&sa=X&ei=pvgeVJnTCNDkaI_fgugO&ved=0CDYQ6AEwAw#v=onepage&q=maximum%20value%20of%20a%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "20%E2%80%9Ctinyint%E2%80%9D%20field%20in%20most%20database%20systems&f=false"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 412-79v8 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "External penetration testing is a traditional approach to penetration testing and is more focused on the servers, infrastructure and the underlying software comprising the target. It involves a comprehensive analysis of publicly available information about the target, such as Web servers, Mail servers, Firewalls, and"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Routers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0004100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following types of penetration testing is performed with no prior knowledge of the site?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Blue box testing"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. White box testing"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Grey box testing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Black box testing D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://books.google.com.pk/books?id=5m6ta2fgTswC&pg=SA5-PA4&lpg=SA5-PA4&dq=penetration+testing+is+performed+with+no+prior+knowledge"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+of+the+site&source=bl&ots=8GkmyUBH2U&sig=wdBIboWxrhk5QjlQXs3yWOcuk2Q&hl=en&sa=X&ei=-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SgfVI2LLc3qaOa5gIgO&ved=0CCkQ6AEwAQ#v=onepage&q=penetration%20testing%20is%20performed%20with%20no%20prior%20knowledge%20of%20the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%20site&f=false"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://books.google.com.pk/books?id=5m6ta2fgTswC&pg=SA5-PA4&lpg=SA5-PA4&dq=penetration+testing+is+performed+with+no+prior+knowledge"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+of+the+site&source=bl&ots=8GkmyUBH2U&sig=wdBIboWxrhk5QjlQXs3yWOcuk2Q&hl=en&sa=X&ei=-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SgfVI2LLc3qaOa5gIgO&ved=0CCkQ6AEwAQ#v=onepage&q=penetration%20testing%20is%20performed%20with%20no%20prior%20knowledge%20of%20the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%20site&f=false"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 412-79v8 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A penetration tester performs OS fingerprinting on the target server to identify the operating system used on the target server with the help of ICMP packets."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0005200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While performing ICMP scanning using Nmap tool, message received/type displays \"3 \u2013 Destination Unreachable[5]\" and code 3."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following is an appropriate description of this response?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Destination port unreachable"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Destination host unavailable"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Destination host unreachable"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Destination protocol unreachable A"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 412-79v8 topic 1 question 78 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following pen testing reports provides detailed information about all the tasks performed during penetration testing?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0006300001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Client-Side Test Report"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Activity Report"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Host Report"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Vulnerability Report"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0006400001.png"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0006400001.png"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 412-79v8 topic 1 question 86 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "If a web application sends HTTP cookies as its method for transmitting session tokens, it may be vulnerable which of the following attacks?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Parameter tampering Attack"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Sql injection attack"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Session Hijacking"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Cross-site request attack"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 412-79v8 topic 1 question 93 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is developed to address security concerns on time and reduce the misuse or threat of attacks in an organization?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Vulnerabilities checklists"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configuration checklists"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Action Plan"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Testing Plan"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 412-79v8 topic 1 question 96 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following acts is a proprietary information security standard for organizations that handle cardholder information for the major debit, credit, prepaid, e- purse, ATM, and POS cards and applies to all entities involved in payment card processing?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. PIPEDA"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. PCI DSS"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Human Rights Act 1998"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Data Protection Act 1998"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 412-79v8 topic 1 question 126 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SQL injection attacks are becoming significantly more popular amongst hackers and there has been an estimated 69 percent increase of this attack type."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This exploit is used to great effect by the hacking community since it is the primary way to steal sensitive data from web applications. It takes advantage of non- validated input vulnerabilities to pass SQL commands through a web application for execution by a back-end database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The below diagram shows how attackers launched SQL injection attacks on web applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0009900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following can the attacker use to launch an SQL injection attack?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Blah' \"2=2 \u2013\""
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Blah' and 2=2 --"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Blah' and 1=1 --"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Blah' or 1=1 -- D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 412-79v8 topic 1 question 135 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which of the following IDS evasion techniques does IDS reject the packets that an end system accepts?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. IPS evasion technique"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IDS evasion technique"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. UDP evasion technique"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. TTL evasion technique"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://is.muni.cz/th/172999/fi_m/MT_Bukac.pdf (page 24)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0010500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0010500002.png"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://is.muni.cz/th/172999/fi_m/MT_Bukac.pdf (page 24)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0010500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01876/0010500002.png"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 412-79v8 topic 1 question 140 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A firewall\u2019s decision to forward or reject traffic in network filtering is dependent upon which of the following?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Destination address"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Port numbers"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Source address"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Protocol used"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://www.vicomsoft.com/learning-center/firewalls/ (what does a firewall do)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://www.vicomsoft.com/learning-center/firewalls/ (what does a firewall do)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam 412-79v8 topic 1 question 146 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following acts related to information security in the US establish that the management of an organization is responsible for establishing and maintaining an adequate internal control structure and procedures for financial reporting?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. USA Patriot Act 2001"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Sarbanes-Oxley 2002"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Gramm-Leach-Bliley Act (GLBA)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. California SB 1386"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://www.sec.gov/rules/final/33-8238.htm (see background)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://www.sec.gov/rules/final/33-8238.htm (see background)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 412-79v8 topic 1 question 165 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Wireshark is a network analyzer. It reads packets from the network, decodes them, and presents them in an easy-to-understand format. Which one of the following is the command-line version of Wireshark, which can be used to capture the live packets from the wire or to read the saved capture files?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Tcpdump"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Capinfos"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Tshark"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Idl2wrs"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam 412-79v8 topic 1 question 185 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which one of the following Snort logger mode commands is associated to run a binary log file through Snort in sniffer mode to dump the packets to the screen?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ./snort -dvr packet.log icmp"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ./snort -dev -l ./log"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ./snort -dv -r packet.log"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ./snort -l ./log \u2013b"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam 412-79v8 topic 1 question 199 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which one of the following tools of trade is an automated, comprehensive penetration testing product for assessing the specific information security threats to an organization?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Sunbelt Network Security Inspector (SNSI)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CORE Impact"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Canvas"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Microsoft Baseline Security Analyzer (MBSA)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

@@ -1,0 +1,6568 @@
+{
+  "A00-211__08aa46450d22086c": {
+    "Question #: 1": {
+      "Title": "Exam A00-211 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The SAS data set SASUSER.HOUSES contains a variable PRICE which has been assigned a permanent label of \"Asking Price\". Which SAS program temporarily replaces the label \"Asking Price\" with the label \"Sale Price\" in the output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. proc print data = sasuser.houses; label price = \"Sale Price\"; run;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. proc print data = sasuser.houses label; label price \"Sale Price\"; run;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. proc print data = sasuser.houses label; label price = \"Sale Price\"; run;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. proc print data = sasuser.houses; price = \"Sale Price\"; run;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam A00-211 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.empsalary;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set work.people (in = inemp)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "work.money (in = insal);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "if insal and inemp;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The SAS data set WORKPEOPLE has 5 observations, and the data set WORKMONEY has 7 observations. How many observations will the data set"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WORK.EMPSALARY contain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 5"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 7"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 12"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam A00-211 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.accounting;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set work.dept1 work.dept2;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "jobcode = FA1;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "length jobcode $ 8;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A character variable named JOBCODE is contained in both the WORK.DEPT1 and WORK.DEPT2 SAS data sets. The variable JOBCODE has a length of 5 in the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WORK.DEPT1 data set and a length of 7 in the WORK.DEPT2 data set. What is the length of the variable JOBCODE in the output data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 5"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 7"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 8"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam A00-211 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set SASDATA TWO:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SASDATA TWO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "X Y -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- --"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5 2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5 6"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data sasuser.one two sasdata.three;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set sasdata two;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "if x = 5 then output sasuser.one;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "else output sasdata two;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the result?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. data set SASUSER.ONE has 5 observations data set SASUSER.TWO has 5 observations data set WORK.OTHER has 3 observations"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. data set SASUSER.ONE has 2 observations data set SASUSER.TWO has 2 observations data set WORK.OTHER has 1 observations"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. data set SASUSER.ONE has 2 observations data set SASUSER.TWO has 2 observations data set WORK.OTHER has 5 observations"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. No data sets are output."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam A00-211 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "footnote1 Sales Report for Last Month;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "footnote2 Selected Products Only;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "footnote3 All Regions;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "footnote4 All Figures in Thousands of Dollars;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc print data = sasuser.shoes;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "footnote2 All Products;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which footnote(s) is/are displayed in the report?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All Products"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Sales Report for Last Month All Products"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All Products All Regions All Figures in Thousands of Dollars"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Sales Report for Last Month All Products All Regions All Figures in Thousands of Dollars"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam A00-211 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data one;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "addressl = 214 London Way;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data one;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set one;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "address = tranwrd(address1, Way, Drive); run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are the length and value of the variable ADDRESS?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Length is 14; value is \u2018214 London Dri\u2019."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Length is 14; value is \u2018214 London Way\u2019."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Length is 16; value is \u2018214 London Drive\u2019."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Length is 200; value is \u2018214 London Drive\u2019."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam A00-211 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.sets;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "do until (prod gt 6);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "prod + 1;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "end;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the value of the variable PROD in the output data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 6"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 7"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 8"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. (missing numeric)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam A00-211 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The SAS data sets WORK.EMPLOYEE and WORK.SALARY are shown below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WORK.EMPLOYEE WORK.SALARY -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "fname age name salary"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Bruce 30 Bruce 25000 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dan 40 Bruce 35000 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dan 25000 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.empdata;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by fname;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "totsal + salary;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following statements completes the merge of the two data sets by the FNAME variable?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. merge work.employee work.salary (fname = name);"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. merge work.employee work.salary (name = fname);"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. merge work.employee work.salary (rename = (fname = name));"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. merge work.employee"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam A00-211 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc sort data = work.employee;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by descending fname;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc sort data = work.salary;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by descending fname;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.empdata;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "merge work.employee"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "work.salary;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by fname;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why does the program rail to execute?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The SORT procedures contain invalid syntax."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The merged data sets are not permanent SAS data sets."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The RUN statement was omitted alter each or the SORT procedures."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The data sets were not merged in the order by which they were sorted."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam A00-211 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submittad:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.sales;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "do year = 1 to 5;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "do month=1 to 12;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "x+1;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "output"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "end;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "end;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many observations are written the WORK SALES data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 5"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 60"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam A00-211 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following raw data record:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "----I----10---I----20---I----30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "son Travis,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following output is desired:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Obs relation firstname -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 son Travis"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SAS program correctly reads in the raw data?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. data family ( dIm = \u2018,\u2019); infile \u2018tile specification\u2019; input relation $ firstname $; run;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. options dIm = \u2018,\u2019; data family; infile \u2018file specification\u2019; input relation $ firstname $; run;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. data family; infile \u2018file specification\u2019 dIm = \u2018,\u2019; input relation $ firstname $; run;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. data family; infile \u2018file specification\u2019; input relation $ firstname $ / dim = \u2018,\u2019; run;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam A00-211 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set PRICES:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Prodid price producttype sales returns"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "K125 5.10 NETWORK 15 2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B132S 2.34 HARDWARE 300 10"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "R18KY2 1.29 SOFTWARE 25 5"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3KL8BY 6.37 HARDWARE 125 15"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DY65DW 5.60 HARDWARE 45 5"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DGTY23 4.55 HARDWARE 67 2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data hware inter cheap;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set prices(keep = productype price);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "if producttype = HARDWARE then output hware; else if producttype = NETWORK then output inter; if price le 5.00; run; if producttype = HARDWARE then output hware; else if producttype = NETWORK then output inter; if price le 5.00; run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many observations does the HWARE data set contain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam A00-211 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The contents of the raw data file PRODUCT are listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--------10-------20-------30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "24613 $25.31"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data inventory;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "infile 'product';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "input idnum 5. @10 price;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following is the value of the PRICE variable?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 25.31"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. $25.31"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. . (missing numeric value)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. No value is stored as the program fails to execute due to errors."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam A00-211 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data test;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set chemists;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "jobcode = Chem2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "then description = Senior Chemist;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "else description = Unknown;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The value for the variable JOBCODE is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JOBCODE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "chem2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the value of the variable DESCRIPTION?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. chem2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Unknown"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Senior Chemist"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. \u2018 \u2018 (missing character value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam A00-211 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the raw data file EMPLOYEE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "----I----1 0---I----20---I----30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ruth 39 11 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Jose 32 22 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sue 30 33 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "John 40 44 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data test;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "infile employee;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "input employee_name $ 1-4;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "if employee_name = Ruth then input idnum 10-11;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "else input age 7-8;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What value does the variable IDNUM contain when the name of the employee is \"Ruth\"?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 11"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 22"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 33"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. (missing numeric value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam A00-211 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data temp.x;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set sasuser.y;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What must be submitted prior to this SAS program for the program to execute successfully?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A LIBNAME statement for the libref TEMP only must be submitted."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A LIBNAME statement for the libref SASUSER only must be submitted."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. LIBNAME statements for the librefs TEMP and SASUSER must be submitted."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. No LIBNAME statement needs to be submitted."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam A00-211 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.flights;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "destination = cph;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "select(destination);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "when(LHR) city = London;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "when(CPH) city = Copenhagen;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "otherwise city = Other;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "end;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the value of the CITY variable?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Other"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Copenh"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Copenhagen"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. \u2018\u2018(missing character value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam A00-211 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted, creating the SAS data set ONE: data one; infile file specification; input num chars$; run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ONE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NUM CHAR -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "------- ---------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 23"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 23"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 77"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc print data = one;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "where char = 23;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NUM CHAR 1 77"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. NUM CHAR 1 23 3 23"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. NUM CHAR 1 23 3 23 1 77"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. No output is generated."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam A00-211 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.retail;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cost = 20000;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "total= .10* cost"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the result?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The value of the variable TOTAL in the output data set is 2000. No messages are written to the SAS log."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The value of the variable TOTAL in the output data set is 2000. A note that conversion has taken place is written to the SAS log."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The value of the variable TOTAL in the output data set is missing. An error message is written to the SAS log."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The variable TOTAL in the output data set has no value. The program fails to execute due to a syntax error."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam A00-211 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data one;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "date = 04juI2005d;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "format date weekdate.; run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc print data = one; run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What output is generated?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Obs date 1 Monday, July 4, 2005"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Obs date 1 July4, 2005"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Obs date 1 04Jul2005"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Obs date"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam A00-211 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the contents of the raw data file EMPLOYEE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "----|----10----|----20----|----30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Alan -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "19/2/2004"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACCT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Rob -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "22/5/2004"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MKTG -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MaryJane -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "14/3/2004"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "EDUC -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data emps;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "infile employee;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "input@1 name$"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "@15 date <insert INFORMAT here>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "@25 department$;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which INFORMAT correctly completes the program?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. date9."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ddmmyyyy9."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ddmmyy10."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ddmmyyyy10."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam A00-211 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set ONE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK.ONE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0004500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0004600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which report is produced?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0004700001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam A00-211 topic 1 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set PEPM.STUDENTS:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PERM.STUDENTS NAME AGE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--------- ------ Alfred 14"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Alice13 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Barbara13 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Carol14 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "libname perm SAS data library;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data students;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set perm.students;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "file file specification;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "put name $15. @5 age 2.;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is written to the output raw data file?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ----I----10---I----20---I----30 Alfred 14 Alice 13 Barbara 13 Carol 14"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ----I----10---I----20---I----30 Alfr14 Alic13 Barb13a Carol 4"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ----I----10---I----20---I----30 Alfr14ed Alic130 Barb13ara Caro141"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ----I----10---I----20---I----30 Alfred14 Alice13 Barbara13"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam A00-211 topic 1 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data WORK.ONE;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Text=Australia, US, Denmark;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Pos=find(Text,US,i,5);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What value will SAS assign to Pos?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 12"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam A00-211 topic 1 question 87 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data WORK.DATE_INFO;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "X=\"01Jan1960\" D;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What variable X contains what value?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the numeric value 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the character value \"01Jan1960\""
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the date value 01011960"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the code contains a syntax error and does not execute."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam A00-211 topic 1 question 88 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK.EMP_NAME:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0006600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK.EMP_DEPT:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0006700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0006700002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many observations are in data set WORK.ALL after submitting the program?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 5"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam A00-211 topic 1 question 94 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data ONE TWO SASUSER.TWO"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set SASUSER.ONE;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Assuming that SASUSER.ONE exists, how many temporary and permanent SAS data sets are created?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 2 temporary and 1 permanent SAS data sets are created"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 3 temporary and 2 permanent SAS data sets are created"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 2 temporary and 2 permanent SAS data sets are created"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. there is an error and no new data sets are created"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam A00-211 topic 1 question 96 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK.TEMPS:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0007200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0007200002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which output is correct?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0007300001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam A00-211 topic 2 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK.ONE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0008000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "And the SAS data set WORK.TWO:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0008000002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0008000003.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the first observation in the SAS data set WORK.BOTH?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0008100001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam A00-211 topic 2 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following raw data records in TEXTFILE.TXT:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0008500002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following output is desired:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0008600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SAS program correctly produces the desired output?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0008700001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam A00-211 topic 2 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0008900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the initial value of the variable Total in the following program?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Missing"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The value of the first observations Wagerate"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Cannot be determined from the information given"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam A00-211 topic 2 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following raw data records:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0009000002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following output is desired:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0009100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SAS program correctly reads in the raw data?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0009100002.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam A00-211 topic 2 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0009500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The SAS data set WORK.SALARY is currently ordered by Gender within Department. Which inserted code will accumulate subtotals for each Gender within"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Department?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Gender"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Department"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Gender Department"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Department Gender"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam A00-211 topic 2 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After a SAS program is submitted, the following is written to the SAS log:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "105 data WORK.JANUARY;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "106 set WORK.ALLYEAR(keep=Product Month Quantity Cost);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "107 if Month='JAN' then output WORK.JANUARY;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "108 Sales=Cost * Quantity;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "109 drop=Month Quantity Cost;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-----"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ERROR 22-322: Syntax error, expecting one of the following: !,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "!!, , *, **, +, -,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ", <=, <>, =, >, >=,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "AND, EQ, GE, GT, IN, LE, LT, MAX, MIN, NE, NG, NL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTIN, OR, ^=, |, ||, ~=."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "110 run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What data set option could be attached to WORK.JANUARY to replace the DROP statement that generated the error in the log?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. (drop Month Quantity Cost)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. (drop Month, Quantity, Cost)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. (drop=Month, Quantity, Cost)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. (drop=Month Quantity Cost)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam A00-211 topic 2 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK.ONE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0009900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What value will SAS assign to Total?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1.6"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 4.8"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The program fails to execute due to errors."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 36": {
+      "Title": "Exam A00-211 topic 2 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The contents of the raw data file SIZE are listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--------10-------20-------30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "72 95"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data test;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "infile 'size';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "input @1 height 2. @4 weight 2;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following is the value of the variable WEIGHT in the output data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 72"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 95"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. . (missing numeric value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam A00-211 topic 2 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A SAS PRINT procedure output of the WORK.LEVELS data set is listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Obs name level -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 Frank 1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 Joan 2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 Sui 2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4 Jose 3"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5 Burt 4"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "6 Kelly ."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "7 Juan 1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.expertise;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set work.levels;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "if level = . then"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "expertise = 'Unknown';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "else if level = 1 then"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "expertise = 'Low';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "else if level = 2 or 3 then"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "expertise = 'Medium';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "else"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "expertise = 'High';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following values does the variable EXPERTISE contain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Low, Medium, and High only"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Low, Medium, and Unknown only"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Low, Medium, High, and Unknown only"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Low, Medium, High, Unknown, and ' ' (missing character value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 38": {
+      "Title": "Exam A00-211 topic 2 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The contents of the raw data file EMPLOYEE are listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--------10-------20-------30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ruth 39 11 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Jose 32 22 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sue 30 33 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "John 40 44 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data test;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "infile 'employee';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "input employee_name $ 1-4;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "if employee_name = 'Sue' then input age 7-8;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "else input idnum 10-11;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following values does the variable AGE contain when the name of the employee is \"Sue\"?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 30"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 33"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 40"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. . (missing numeric value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 39": {
+      "Title": "Exam A00-211 topic 2 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Unless specified, which variables and data values are used to calculate statistics in the MEANS procedure?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. non-missing numeric variable values only"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. missing numeric variable values and non-missing numeric variable values only"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. non-missing character variables and non-missing numeric variable values only"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. missing character variables, non-missing character variables, missing numeric variable values, and non-missing numeric variable values"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 40": {
+      "Title": "Exam A00-211 topic 2 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The SAS data set BANKS is listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BANKS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "name rate"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FirstCapital 0.0718 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DirectBank 0.0721 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "VirtualDirect 0.0728 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data newbank;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "do year = 1 to 3;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set banks;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "capital + 5000;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "end;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following represents how many observations and variables will exist in the SAS data set NEWBANK?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0 observations and 0 variables"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1 observations and 4 variables"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3 observations and 3 variables"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 9 observations and 2 variables"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 41": {
+      "Title": "Exam A00-211 topic 2 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A raw data record is listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--------10-------20-------30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1999/10/25"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data projectduration;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "infile 'file-specification';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "input date $ 1 - 10;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following statements completes the program above and computes the duration of the project in days as of today's date?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. duration = today( ) - put(date,ddmmyy10.);"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. duration = today( ) - put(date,yymmdd10.);"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. duration = today( ) - input(date,ddmmyy10.);"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. duration = today( ) - input(date,yymmdd10.);"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 42": {
+      "Title": "Exam A00-211 topic 2 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.retail;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "cost = '20000';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "total = .10 * cost;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following is the value of the variable TOTAL in the output data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 2000"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. '2000'"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. . (missing numeric value)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ' ' (missing character value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 43": {
+      "Title": "Exam A00-211 topic 2 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.test;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Author = 'Agatha Christie';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "First = substr(scan(author,1,' ,'),1,1);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following is the length of the variable FIRST in the output data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 6"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 15"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 200"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 44": {
+      "Title": "Exam A00-211 topic 2 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.test;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Title = 'A Tale of Two Cities, Charles J. Dickens';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Word = scan(title,3,' ,');"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following is the value of the variable WORD in the output data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. T"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. of"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Dickens"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ' ' (missing character value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 45": {
+      "Title": "Exam A00-211 topic 2 question 60 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.staff;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JobCategory = 'FA';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JobLevel = '1';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JobCategory = JobCategory || JobLevel;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following is the value of the variable JOBCATEGORY in the output data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. FA"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FA1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. FA 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ' ' (missing character value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 46": {
+      "Title": "Exam A00-211 topic 2 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The SAS data set WORK.AWARDS is listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "fname points"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Amy 2 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Amy 1 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Gerard 3 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Wang 3 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Wang 1 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Wang 2 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc sort data = work.awards;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by descending fname points;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following represents how the observations are sorted?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Wang 3 Gerard 3 Wang 2 Amy 2 Wang 1 Amy 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Wang 3 Wang 2 Wang 1 Gerard 3 Amy 2 Amy 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Wang 3 Wang 1 Wang 2 Gerard 3 Amy 2 Amy 1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Wang 1 Wang 2 Wang 3 Gerard 3 Amy 1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 47": {
+      "Title": "Exam A00-211 topic 2 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A raw data file is listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--------10-------20-------30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "John McCloskey 35 71 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "June Rosesette 10 43 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Tineke Jones 9 37 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted using the raw data file as input: data work.homework; infile 'file-specification'; input name $ age height; if age LE 10; run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many observations will the WORK.HOMEWORK data set contain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. No data set is created as the program fails to execute due to errors."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 48": {
+      "Title": "Exam A00-211 topic 2 question 79 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "libname temp 'SAS-data-library';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.new;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set temp.jobs;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "format newdate mmddyy10.;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "qdate = qtr(newdate);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ddate = weekday(newdate);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc print data = work.new;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The variable NEWDATE contains the SAS date value for April 15, 2000."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What output is produced if April 15, 2000 falls on a Saturday?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Obs newdate qdate ddate 1 APR152000 2 6"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Obs newdate qdate ddate 1 04/15/2000 2 6"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Obs newdate qdate ddate 1 APR152000 2 7"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Obs newdate qdate ddate"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 49": {
+      "Title": "Exam A00-211 topic 2 question 91 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A raw data file is listed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RANCH,1250,2,1,Sheppard Avenue,\"$64,000\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SPLIT,1190,1,1,Rand Street,\"$65,850\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CONDO,1400,2,1.5,Market Street,\"80,050\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TWOSTORY,1810,4,3,Garris Street,\"$107,250\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RANCH,1500,3,3,Kemble Avenue,\"$86,650\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SPLIT,1615,4,3,West Drive,\"94,450\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SPLIT,1305,3,1.5,Graham Avenue,\"$73,650\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted using the raw data file as input: data work.condo_ranch; infile 'file-specification' dsd; input style $ @; if style = 'CONDO' or style = 'RANCH' then input sqfeet bedrooms baths street $ price : dollar10.; run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many observations does the WORK.CONDO_RANCH data set contain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 5"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 7"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 50": {
+      "Title": "Exam A00-211 topic 2 question 103 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data work.january;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "set work.allmonths (keep = product month num_sold cost);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "if month = 'Jan' then output work.january;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "sales = cost * num_sold;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "keep = product sales;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which variables does the WORK.JANUARY data set contain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. PRODUCT and SALES only"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. PRODUCT, MONTH, NUM_SOLD and COST only"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. PRODUCT, SALES, MONTH, NUM_SOLD and COST only"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. An incomplete output data set is created due to syntax errors."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 51": {
+      "Title": "Exam A00-211 topic 2 question 110 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0015300002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the output data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The type of the variable CharEmpid is numeric."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The type of the variable CharEmpid is unknown."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The type of the variable CharEmpid is character."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The program fails to execute due to errors."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 52": {
+      "Title": "Exam A00-211 topic 2 question 112 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02385/0015500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the result?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The value of the variable Discount in the output data set is 2000. No messages are written to the SAS log."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The value of the variable Discount in the output data set is 2000. A note that conversion has taken place is written to the SAS log."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The value of the variable Discount in the output data set is missing. A note in the SAS log refers to invalid numeric data."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The variable Discount in the output data set is set to zero. No messages are written to the SAS log."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 53": {
+      "Title": "Exam A00-211 topic 2 question 119 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Population is currently at 34,278,400 for country A and is expected to rise at a rate of 2%."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which DO LOOP will correctly calculate growth rate over the next 10 years beginning in 2012 as shown in the graphic below?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image1.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image2.png"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image3.png"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image4.png"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image5.png"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 54": {
+      "Title": "Exam A00-211 topic 2 question 120 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The SAS data set named WORK.SALARY contains 10 observations for each department, and is currently ordered by Department."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image6.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the value of the variable Total before the first iteration of the data step?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The value of the first observation\u2019s Wagerate."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Missing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Cannot be determined from the information given"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 55": {
+      "Title": "Exam A00-211 topic 2 question 122 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following SAS data set WORK.SALES:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image8.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image9.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which output is produced?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image10.png"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image11.png"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image12.png"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image13.png"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 56": {
+      "Title": "Exam A00-211 topic 2 question 130 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "FILL BLANK"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image27.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What value will SAS assign to Pos? Enter your numeric answer in the space below."
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 57": {
+      "Title": "Exam A00-211 topic 2 question 131 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc sort data=SASUSER.PROJECTS out=PSORT;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by Product Code descending Date Cost;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following is true concerning the submitted program?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The descending option applies only to the Date variable."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The descending option applies to the Date and Cost variables."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The descending option applies to the Product and Code variables."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The descending option applies only to the Code variable."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 58": {
+      "Title": "Exam A00-211 topic 2 question 132 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "This question will ask you to provide a missing format:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the contents of the raw data file 'EMPLOYEE.TXT'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image28.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SAS information correctly completes the program?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. date10"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. mmddyy10"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ddmmyy10"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. date9"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 59": {
+      "Title": "Exam A00-211 topic 2 question 133 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the data sets below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WORK.EMP with variables:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image29.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WORK.NEWHIRE with variables:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image30.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image31.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The SAS data set WORK.EMP has 50 observations, and the data set WORK.NEWHIRE has 4 observations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many variables will the data set WORK.ALLEMP contain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The program fails execution."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 6"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 60": {
+      "Title": "Exam A00-211 topic 2 question 134 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "FILL BLANK"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK.EMP_NAME:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image32.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK.EMP_DEPT:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image33.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image34.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many observations are in data set WORK.ALL after submitting the program?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Enter your numeric answer in the space below."
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 61": {
+      "Title": "Exam A00-211 topic 2 question 136 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement specifies that records 1 through 10 are to be read from the raw data file customer.txt?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. infile 'customer.txt' eof=10;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. infile 'customer.txt' obs=10;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. infile 'customer.txt' obs=10;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. infile 'customer.txt' obs=1-10;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 62": {
+      "Title": "Exam A00-211 topic 2 question 137 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following raw data records:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image37.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following output data set is desired:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image38.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SAS program correctly reads in the raw data?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image39.png"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image40.png"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image41.png"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D."
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/a00-211/image42.png"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 63": {
+      "Title": "Exam A00-211 topic 2 question 145 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following SAS data set WORK.EMPDATA:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image58.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which WHERE statement would display observations with Job_Title containing the word \u201cManager\u201d?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. where upcase(scan(Job_Title,-1,\u2019 \u2018))=\u2019MANAGER\u2019;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. where Job_Title like \u2018%Manager%\u2019;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. where substr(Job_Title, (length(Job_Title)-6))=\u2019Manager\u2019;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. where Job_Title=\u2019% Manager \u2018;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 64": {
+      "Title": "Exam A00-211 topic 2 question 152 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/a00-211/image67.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If the value for the Alumcode is: ALUM2, what is the value of the variable Description?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Grad Level"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Unknown"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. GRAD LEVEL"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. \u2018\u2019 (missing character value)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 65": {
+      "Title": "Exam A00-211 topic 3 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "data WORK.COMPRESS;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ID = \"\u02dc1968 05-10 567';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NewID = compress (ID, \"-\");"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will the value of NewID be in the WORK.COMPRESS data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1968 05-10 567"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 19680510567"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 196805-10567"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1968 0510 567"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 66": {
+      "Title": "Exam A00-211 topic 3 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following IF/THEN statement:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If Age NE 16 and Age NE 15 then Group=1;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which assignment statement for variable Group is functionally equivalent to the original statement used in the above data step?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. if (Age NE 16) or (Age NE 15) then Group=1;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. where Age not between (15 and 16) then Group=1;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. where Age not between 15 and 16 then Group=1;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. if Age not in(15,16) then Group=1;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

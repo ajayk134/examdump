@@ -1,0 +1,4816 @@
+{
+  "5V0-62.19__b7c8550df8a5ae1f": {
+    "Question #: 1": {
+      "Title": "Exam 5V0-62.19 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the ACME Financials design use case."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials Design Use Case -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Introduction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.1 Business Overview"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials is an investment firm that has established itself as a leader in USA's fast-moving financial asset management market and has around 1000 employees."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME plans to transform its end-user computing resources to the digital workspace. ACME wants a secure platform that is available from any device and from anywhere, as well as a solution that reduces operating costs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME's major business driver for the digital workplace is to enable employees to work remotely, and to enable the secure access to all of its resources from anywhere and any device while enhancing security with multi-factor authentication. The solution should support its BYOD strategy and let remote employees use their own laptop, desktop, or mobile device to access the resources from any location."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME also wants to remove the need to supply and manage desktop hardware to external contractors. Because financial data is highly sensitive, the firm needs a technology that would protect customer and other critical information - even when accessed on a mobile device. ACME is looking to improve the security of the desktop and application platforms across the enterprise. In addition to using endpoint security tools and multi-factor authentication, ACME insists on using additional security and controls to provide the highest level of security and protection to services and applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME currently uses a VPN-based remote access solution. ACME would like to remove additional components that add support or management complexity, and device dependence for remote access users. ACME is looking to achieve the same access to virtual desktops and Windows 10 or mobile applications, both inside and outside of the ACME enterprise network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME is very keen on enforcing standardization to keep the IT infrastructure as consistent as possible. IT wants to use standardized versions of Windows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Windows 10), consistent configurations, and application delivery from a central source. All while maintaining the compliance of every device that requires encryption, password and PIN protection, as well as update -and anti-virus control."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To simplify and standardize desktop and application delivery, ACME wants to offer a service catalog based approach based on ACME IT standards. This will allow"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME to effectively deliver and manage resources, allowing IT to deliver device and application services that meet business and technical needs, while maximizing the use of shared IT computing resources."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Additional Facts -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Speaking to the developers revealed that most apps are standardized apps from public app-stores, but ACME uses some their in-house developed, critical mobile apps, where some of the developers have already left the company, so that they cannot be rewritten in a short amount of time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 To reduce operating costs, ACME has already moved to Office 365 and is currently running a few migrations from on-premises to the cloud for other applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME's IT says that it is a Microsoft Windows only shop, but the assessment shows that currently most of the managers are using Apple devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently uses directory services and two-factor authentication mechanisms (Radius) for internal and external access. ACME requires to support Single"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sign-On (SSO) integration with their current authentication solutions. They also require to use SSO whenever possible, as they do not believe in having multiple user accounts and passwords for their end users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME wants the solution to provide mechanisms to provide a secure e-mail solution to any device that complies to global security standards even for BYO devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.2 High Level User Classification"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 680 Office workers (call center, corporate and office administrators) use standardized PCs or Thin-Clients to access ACMEs core apps and tools."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 240 Remote-office workers use the company's CYOD initiative and use these devices (Notebooks, Convertibles, Tablets, Android phones) to access their apps and tools from remote."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 30 Executives use Apple Mac Books as well as iPhones and iPads to work on- and off-premises."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 80 IT -admins and software developers are using high-end workstations with administrative access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.3 High Level Application Assessment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently has 261 applications, of which 186 are based on Microsoft Windows."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Today, users are allocated applications via AD group membership."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 75 applications are either web-based or SaaS-based, including Office 365."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A major incident recently meant sales workers were disappearing suddenly along with their data and laptops on some new colonies."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Any external access should require multi-factor authentication. Access from the internal network should work seamlessly with SSO for the core applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "High-security applications also require MFA from internal access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The address ranges of the HQ datacenter are as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 172.16.0.0/16 internal"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 80.34.57.20/21 external"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Initial Stakeholder Interview Findings"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In addition to the goals summarized in the previous section, the following are findings from initial interviews with the key stakeholders and an analysis of their service level agreements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The design must use the F5 Loadbalancer and should be as redundant as possible."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Qualified IT personal is hard to find these days. If possible, reduce operational costs and try to automate or outsource basic IT-tasks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. ACME is very particular about meeting the go-live date. If there are unforeseen delays, the project may not be delivered for the required go-live date."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three are physical design requirements in the Workspace ONE UEM design for ACME (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SAAS apps"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Devices"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Microsoft Storage Spaces"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Switches and router"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. vSphere ESXi hosts"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. WEB apps"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 5V0-62.19 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The latest Configuration Service Provider (CSP) release by Microsoft might not always be visually available in Workspace ONE UEM to configure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should be used to create custom settings to distribute through Workspace ONE UEM if that is true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Download the add-on from my.workspaceone.com."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Click the Update button in the Custom Settings profile."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the Device Description Framework."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Export them from GPO."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The latest Configuration Service Provider (CSP) release by Microsoft might not always be visually available in Workspace ONE UEM to configure. In this case, an admin can use Device Description Framework (DDF) to create custom settings to distribute through Workspace ONE UEM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://techzone.vmware.com/operational-tutorial-vmware-workspace-one-moving-windows-10-modern-management#897173"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The latest Configuration Service Provider (CSP) release by Microsoft might not always be visually available in Workspace ONE UEM to configure. In this case, an admin can use Device Description Framework (DDF) to create custom settings to distribute through Workspace ONE UEM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://techzone.vmware.com/operational-tutorial-vmware-workspace-one-moving-windows-10-modern-management#897173"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 5V0-62.19 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator configured a Service Provider app to authenticate through SAML to the Service Provider from VMware Identity Manager (vIDM)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Where is the signing certificate?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vIDM admin console: Catalog/WebApps/Settings/SaasApps/SAML Metadata"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vIDM app console: Identity and Access Management/Settings/WebApps/ /SaasApps/SAML Metadata"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vIDM app console: Catalog/WebApps/Settings/SaasApps/SAML Metadata"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vIDM admin console: Identity and Access Management/Settings/WebApps/ /SaasApps/SAML Metadata"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.okta.com/sites/default/files/Okta-3rd-Party-UEM-Interop_Workspace-ONE.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(34)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.okta.com/sites/default/files/Okta-3rd-Party-UEM-Interop_Workspace-ONE.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(34)"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam 5V0-62.19 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An architect is planning a design for a Workspace ONE deployment that will use Kerberos for integrated windows authentication. A requirement of the solution is that all authentication methods must be highly available."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two solution components are necessary to support the design requirement? (Choose two)."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Connectors deployed behind load-balancer"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Directory type must be set to Active Directory with IWA"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. IdP Hostname set to load-balancer FQDN"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Redirect Host Name set to load-balancer FQDN"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Connectors deployed in Outbound Mode"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 5V0-62.19 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is required to configure VMware Horizon View to connect to VMware Identity Manager?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add a SAML connector."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add a OAUTH2 connector."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add a SAML authenticator."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add a OAUTH2 authenticator."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/workspace-air-resource.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/workspace-air-resource.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 5V0-62.19 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three steps need to be completed to configure Identity Bridging for an SAML application on the VMWare UAG? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. An identity provider is configured and the SAML metadata of the identity provider saved."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SAML responses from IDP to SP contain SAML assertions which have SAML attribute."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure a Web Reverse Proxy for Identity Bridging - Certificate to Kerberos."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Replace the UAG Certificate with the SAML Certificate."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Pin the UAG certificate to the SAML provider."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. SAML responses are expected from IDP for multiple SAML attributes."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/Unified-Access-Gateway/3.4/com.vmware.uag-34-deploy-config.doc/GUID-B76AE223-2458-40C7-A563-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4E544EAEC4F9.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/Unified-Access-Gateway/3.4/com.vmware.uag-34-deploy-config.doc/GUID-B76AE223-2458-40C7-A563-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4E544EAEC4F9.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 5V0-62.19 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the ACME Financials design use case."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials Design Use Case -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Introduction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.1 Business Overview"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials is an investment firm that has established itself as a leader in USA's fast-moving financial asset management market and has around 1000 employees."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME plans to transform its end-user computing resources to the digital workspace. ACME wants a secure platform that is available from any device and from anywhere, as well as a solution that reduces operating costs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME's major business driver for the digital workplace is to enable employees to work remotely, and to enable the secure access to all of its resources from anywhere and any device while enhancing security with multi-factor authentication. The solution should support its BYOD strategy and let remote employees use their own laptop, desktop, or mobile device to access the resources from any location."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME also wants to remove the need to supply and manage desktop hardware to external contractors. Because financial data is highly sensitive, the firm needs a technology that would protect customer and other critical information - even when accessed on a mobile device. ACME is looking to improve the security of the desktop and application platforms across the enterprise. In addition to using endpoint security tools and multi-factor authentication, ACME insists on using additional security and controls to provide the highest level of security and protection to services and applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME currently uses a VPN-based remote access solution. ACME would like to remove additional components that add support or management complexity, and device dependence for remote access users. ACME is looking to achieve the same access to virtual desktops and Windows 10 or mobile applications, both inside and outside of the ACME enterprise network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME is very keen on enforcing standardization to keep the IT infrastructure as consistent as possible. IT wants to use standardized versions of Windows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Windows 10), consistent configurations, and application delivery from a central source. All while maintaining the compliance of every device that requires encryption, password and PIN protection, as well as update -and anti-virus control."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To simplify and standardize desktop and application delivery, ACME wants to offer a service catalog based approach based on ACME IT standards. This will allow"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME to effectively deliver and manage resources, allowing IT to deliver device and application services that meet business and technical needs, while maximizing the use of shared IT computing resources."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Additional Facts -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Speaking to the developers revealed that most apps are standardized apps from public app-stores, but ACME uses some their in-house developed, critical mobile apps, where some of the developers have already left the company, so that they cannot be rewritten in a short amount of time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 To reduce operating costs, ACME has already moved to Office 365 and is currently running a few migrations from on-premises to the cloud for other applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME's IT says that it is a Microsoft Windows only shop, but the assessment shows that currently most of the managers are using Apple devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03407/0001200003.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently uses directory services and two-factor authentication mechanisms (Radius) for internal and external access. ACME requires to support Single"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sign-On (SSO) integration with their current authentication solutions. They also require to use SSO whenever possible, as they do not believe in having multiple user accounts and passwords for their end users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME wants the solution to provide mechanisms to provide a secure e-mail solution to any device that complies to global security standards even for BYO devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.2 High Level User Classification"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 680 Office workers (call center, corporate and office administrators) use standardized PCs or Thin-Clients to access ACME's core apps and tools."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 240 Remote-office workers use the company's CYOD initiative and use these devices (Notebooks, Convertibles, Tablets, Android phones) to access their apps and tools from remote."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 30 Executives use Apple Mac Books as well as iPhones and iPads to work on- and off-premises."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 80 IT -admins and software developers are using high-end workstations with administrative access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.3 High Level Application Assessment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently has 261 applications, of which 186 are based on Microsoft Windows."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Today, users are allocated applications via AD group membership."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 75 applications are either web-based or SaaS-based, including Office 365."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A major incident recently meant sales workers were disappearing suddenly along with their data and laptops on some new colonies."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Any external access should require multi-factor authentication. Access from the internal network should work seamlessly with SSO for the core applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "High-security applications also require MFA from internal access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The address ranges of the HQ datacenter are as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 172.16.0.0/16 internal"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 80.34.57.20/21 external"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Initial Stakeholder Interview Findings"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In addition to the goals summarized in the previous section, the following are findings from initial interviews with the key stakeholders and an analysis of their service level agreements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The design must use the F5 Loadbalancer and should be as redundant as possible."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Qualified IT personal is hard to find these days. If possible, reduce operational costs and try to automate or outsource basic IT-tasks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. ACME is very particular about meeting the go-live date. If there are unforeseen delays, the project may not be delivered for the required go-live date."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME requires multi-factor authentication for application access from external networks. This has been established with a default access policy that incorporates multi-factor authentication. However, some users complain that they do not want to enter the multi-factor authentication when accessing the applications from within the company network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can the user experience be improved?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create an access policy that excludes internal users."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create an access policy that does not require multi-factor authentication when accessing from LAN."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create an access policy with a network range of 80.34.57.20/21 that does not require multi-factor authentication."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create an access policy with a network range of 172.16.0.0/16 that does not require multi-factor authentication."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 5V0-62.19 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator plans to create a staged enrollment of devices in Workspace ONE UEM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is a possible solution that enables the administrator to onboard devices one department after another?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Device Restriction Policy"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Restrict enrollment to Configured Groups"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Restrict enrollment to Assignment Groups"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Access Policy"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam 5V0-62.19 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to integrate VMware Identity Manager as a Federated Identity Provider for AD FS."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two steps need to be completed? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure VMware Identity Manager as a Service Provider for AD FS."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a VMware Identity Manager claims Provider Trust in AD FS."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Exchange the certificates between Workspace ONE IDM and the domain controllers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Integrate Workspace ONE federated applications with AD FS."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Redirect mobile users to VMware Identity Manager for authentication."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/workspaceone_adfs_integration/GUID-DC3E2A2A-3F29-4B9F-AC73-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "867EDF5EA6B2.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/workspaceone_adfs_integration/GUID-DC3E2A2A-3F29-4B9F-AC73-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "867EDF5EA6B2.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 5V0-62.19 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to migrate a System Center Configuration Manager (SCCM) collection into a \u00d1\u00d0\u00be-managed stage in Workspace One UEM. Workspace ONE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "AirLift does not display the collection as mapped."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is most likely the issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The collection is mapped to the wrong API."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The collection mapping is removed or the migration is completed and the ConfigMgr collection is no longer used."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The collection mapping is busy or the migration is failed."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The collection has at least one Windows 10 device."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1909/WS1_AirLift_Configuration.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(14)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1909/WS1_AirLift_Configuration.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(14)"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam 5V0-62.19 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to add Okta as a new Identity Provider."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two pieces of information are needed to enter in the New Identity Provider page? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SAML AuthN Request Binding"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Binding Certificate"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Connector association"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Connector Metadata"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Authentication Methods"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 5V0-62.19 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is used by the Mobile SSO for Android?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Cloud KDC"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. HTTPS proxy"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. IPSec"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ServiceProvider Idp certificate"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 5V0-62.19 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two steps must be fulfilled to enable Kerberos Constrained Delegation on the SEGv2? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Upload the Offline Root CA Certificate to the SEG v2."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Verify that the SEG Server is able to connect to the domain controller through Port 80."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Join the SEGv2 to the Active Directory."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable Require Client Certificate."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Enter Target SPN in HTTP/{exchangeName} format."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/9.7/kerberos-constrained-delegation-authentication-for-seg-v2.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/9.7/kerberos-constrained-delegation-authentication-for-seg-v2.pdf"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "DE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam 5V0-62.19 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which parameters are needed to enter an OpenID Connect/OAuth 2.0 Connect Application?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Target URL, provider URL, client ID, and client secret"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Target URL, redirect URL, client ID, and client secret"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Server URL, redirect URL, provider ID, and client secret"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Server URL, redirect URL, client ID, and client secret"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/3.2/com.vmware.wsp-resource/GUID-8B97BC55-7A6C-4F52-9F68-EC486A4241B7.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/3.2/com.vmware.wsp-resource/GUID-8B97BC55-7A6C-4F52-9F68-EC486A4241B7.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 5V0-62.19 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are three system requirements before beginning the Workspace ONE and Active Directory Federation Services integration? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Active Directory Integration"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enterprise Integration Service"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Microsoft Active Directory Federation Services administrator role"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. VMware Identity Manager using VMware Identity Manager connector"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Ensure the same users is synced only to Active Directory Federation Services"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. A VMware Identity Manager tenant with user role"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/workspaceone_adfs_integration/GUID-8A111967-D3AB-49F7-8139-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "27EAC5C28A4A.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/workspaceone_adfs_integration/GUID-8A111967-D3AB-49F7-8139-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "27EAC5C28A4A.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 5V0-62.19 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two steps must be fulfilled to enable Kerberos Constrained Delegation on the SEGv2? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the following list of features and functions:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1: Synchronizes System Center Configuration Manager (SCCM) and Workspace ONE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2: Enables mapping between SCCM device collections and Workspace ONE UEM smart groups"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3: Provides detailed logs"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4: Creates SCCM deployments to enable Workspace ONE device enrollment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is a complete list that Workspace ONE AirLift provides?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1, 2, 4"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1, 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1, 2, 3, 4"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 2, 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://techzone.vmware.com/sites/default/files/resource/modernizing_windows_10_management_vmware_workspace_one_operational_tutorial.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(15)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://techzone.vmware.com/sites/default/files/resource/modernizing_windows_10_management_vmware_workspace_one_operational_tutorial.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(15)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 5V0-62.19 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Whet are two supported configurations for Windows Auto Discovery Service? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Requiring installation on an on-premises and cloud deployment."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enabling Workplace Web Enrollment for Windows Phone 8."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Windows Phone and Windows Desktop Simplified Enrollment."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Leveraging Server Name Indication (SNI) to support multiple domains."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Using Workspace ONE UEM Auto-Discovery to return User ID."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 5V0-62.19 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the goal of Mobile SSO?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Log into services and apps, without a corporate VPN connection and without entering credentials."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Log into services and apps, without a corporate VPN connection and with entering app-specific credentials."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Log into services and apps, with a corporate VPN connection and without entering credentials."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Log into services and apps, with a corporate VPN connection and without entering app-specific credentials."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1908/iOS_Platform/GUID-AWT-PROFILESSO.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1908/iOS_Platform/GUID-AWT-PROFILESSO.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 5V0-62.19 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two authentication methods are for built-in identity providers? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Device Compliance with Workspace ONE UEM"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. One Time Password (Local Directory)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Workspace ONE UEM External Access Token"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Password using the Microsoft AD FS Connector"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. VMware Horizon for two-factor authentication"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/WS1-IDM-deploymentguide/GUID-AD9A5715-C21B-4D54-A413-28980A70A4B4.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/WS1-IDM-deploymentguide/GUID-AD9A5715-C21B-4D54-A413-28980A70A4B4.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam 5V0-62.19 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two prerequisites for VMware Identity Manager as the Default Claims Provider for an application that is joined using AD FS? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure AD FS as a Service Provider for VMware Identity Manager."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a VMware Identity Manager Claims Provider Trust in AD FS."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Exchange the HTTPS certificate between AD FS and Identity Manager."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a AD FS Claims Provider Trust in VMware Identity Manager."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Configure VMware Identity Manager as a Service Provider for AD FS."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/workspaceone_adfs_integration/GUID-6E9EC5E1-3AD3-429B-86F6-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DCB776A87655.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/workspaceone_adfs_integration/GUID-6E9EC5E1-3AD3-429B-86F6-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DCB776A87655.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam 5V0-62.19 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is required in a multi-Office 365 domain environment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The domains must not have been federated."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is not supported."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enter the domain ID for the specific domains in ActiveLogOnUri."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Open a support ticket with Microsoft to have the setting enabled."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 5V0-62.19 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are three requirements before beginning work on a VMware Workspace ONE and Okta Integration? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. An Okta tenant: Role required: System or Console Administrator"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A Workspace ONE UEM tenant: Role required: Console Administrator"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A VMware Identity Manager tenant: Role required: System Administrator"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A VMware Identity Manager tenant: Role required: Console Administrator"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. An Okta tenant: Role required: Super or Org Administrator"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. A Workspace ONE UEM tenant: Role required: System Administrator"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CEF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/workspaceone_okta_integration.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/workspaceone_okta_integration.pdf"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam 5V0-62.19 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has created a new VMware Horizon desktop pool and added the entitlement within the Horizon Administrator. The Horizon environment is properly connected to VMware Identity Manager."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are the next steps in the VMware Identity Manager admin console to make the desktop pool available to users?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. There are no additional steps needed."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a new entitlement in the VMware Identity Manager."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a new assignment in the VMware Identity Manager."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a new entitlement in the VMware Workspace ONE UEM."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Horizon-7/7.9/horizon-console-administration.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Horizon-7/7.9/horizon-console-administration.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 5V0-62.19 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An architect is planning for a cloud-hosted implementation of VMware Identity Manager to integrate with an existing implementation of Workspace ONE UEM. The solution will include the following authentication methods:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Username/Password (Cloud Deployment)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "VMware Verify -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RADIUS (Cloud Deployment)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Device Compliance -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Workspace ONE UEM is also cloud hosted, however, the Active Directory and RADIUS servers are deployed on-premises."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two design elements are required to ensure all authentication methods are highly available? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. IdP Hostname set to load-balancer FQDN"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Connectors configured for Legacy Mode"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable Redirect configured on each Connector"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Associate connectors with Build-In IdP"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Enable authentication methods on all connectors"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/vidm_cloud_deployment.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Identity-Manager/services/vidm_cloud_deployment.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam 5V0-62.19 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two prerequisites to integrate Ping into VMware Workspace ONE? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. PingFederate must have Service Provider role enabled."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. PingFederate must have remote authentication enabled."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. PingFederate must be enabled as remote IdP."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. PingFederate must be enabled as Built-in IdP."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. PingFederate must have Identity Provider role enabled."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam 5V0-62.19 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the ACME Financials design use case."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials Design Use Case -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Introduction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.1 Business Overview"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials is an investment firm that has established itself as a leader in USA's fast-moving financial asset management market and has around 1000 employees."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME plans to transform its end-user computing resources to the digital workspace. ACME wants a secure platform that is available from any device and from anywhere, as well as a solution that reduces operating costs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME's major business driver for the digital workplace is to enable employees to work remotely, and to enable the secure access to all of its resources from anywhere and any device while enhancing security with multi-factor authentication. The solution should support its BYOD strategy and let remote employees use their own laptop, desktop, or mobile device to access the resources from any location."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME also wants to remove the need to supply and manage desktop hardware to external contractors. Because financial data is highly sensitive, the firm needs a technology that would protect customer and other critical information - even when accessed on a mobile device. ACME is looking to improve the security of the desktop and application platforms across the enterprise. In addition to using endpoint security tools and multi-factor authentication, ACME insists on using additional security and controls to provide the highest level of security and protection to services and applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME currently uses a VPN-based remote access solution. ACME would like to remove additional components that add support or management complexity, and device dependence for remote access users. ACME is looking to achieve the same access to virtual desktops and Windows 10 or mobile applications, both inside and outside of the ACME enterprise network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME is very keen on enforcing standardization to keep the IT infrastructure as consistent as possible. IT wants to use standardized versions of Windows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Windows 10), consistent configurations, and application delivery from a central source. All while maintaining the compliance of every device that requires encryption, password and PIN protection, as well as update -and anti-virus control."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To simplify and standardize desktop and application delivery, ACME wants to offer a service catalog based approach based on ACME IT standards. This will allow"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME to effectively deliver and manage resources, allowing IT to deliver device and application services that meet business and technical needs, while maximizing the use of shared IT computing resources."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Additional Facts -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Speaking to the developers revealed that most apps are standardized apps from public app-stores, but ACME uses some their in-house developed, critical mobile apps, where some of the developers have already left the company, so that they cannot be rewritten in a short amount of time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 To reduce operating costs, ACME has already moved to Office 365 and is currently running a few migrations from on-premises to the cloud for other applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME's IT says that it is a Microsoft Windows only shop, but the assessment shows that currently most of the managers are using Apple devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently uses directory services and two-factor authentication mechanisms (Radius) for internal and external access. ACME requires to support Single"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sign-On (SSO) integration with their current authentication solutions. They also require to use SSO whenever possible, as they do not believe in having multiple user accounts and passwords for their end users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME wants the solution to provide mechanisms to provide a secure e-mail solution to any device that complies to global security standards even for BYO devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.2 High Level User Classification"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 680 Office workers (call center, corporate and office administrators) use standardized PCs or Thin-Clients to access ACME's core apps and tools."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 240 Remote-office workers use the company's CYOD initiative and use these devices (Notebooks, Convertibles, Tablets, Android phones) to access their apps and tools from remote."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 30 Executives use Apple Mac Books as well as iPhones and iPads to work on- and off-premises."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 80 IT -admins and software developers are using high-end workstations with administrative access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.3 High Level Application Assessment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME currently has 261 applications, of which 186 are based on Microsoft Windows."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03407/0003500010.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Today, users are allocated applications via AD group membership."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 75 applications are either web-based or SaaS-based, including Office 365."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A major incident recently meant sales workers were disappearing suddenly along with their data and laptops on some new colonies."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Any external access should require multi-factor authentication. Access from the internal network should work seamlessly with SSO for the core applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "High-security applications also require MFA from internal access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The address ranges of the HQ datacenter are as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 172.16.0.0/16 internal"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 80.34.57.20/21 external"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Initial Stakeholder Interview Findings"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In addition to the goals summarized in the previous section, the following are findings from initial interviews with the key stakeholders and an analysis of their service level agreements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The design must use the F5 Loadbalancer and should be as redundant as possible."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Qualified IT personal is hard to find these days. If possible, reduce operational costs and try to automate or outsource basic IT-tasks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. ACME is very particular about meeting the go-live date. If there are unforeseen delays, the project may not be delivered for the required go-live date."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "There is a requirement of having F5 as a primary load balancer."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two components are part of the logical design behind the load balancer? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Secure E-Mail Gateway (SEG)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Workspace ONE UEM Device Servers"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. VMware Universal Access Gateway (UAG)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Active Directory Domain Controllers"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. VMware NSX Manager"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam 5V0-62.19 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to add the Workspace ONE Identity Manager as an Identify Provider in Okla. What is the correct entityID (Issuer URI)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. https://tenant.vmwareidentity.com/SAAS/API/1.0/GET/metadata/idp.xml"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. https://tenant.vmwareidentity.com/API/1.0/GET/metadata/sp.xml"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. https://tenant.vmwareidentity.com/SAAS/API/1.0/GET/metadata/sp.xml"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. https://tenant.vmwareidentity.com/API/l.0/GET/metadata/idp.xml"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/workspaceone_okta_integration/GUID-BC206856-8BF4-4CE7-BBA2-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "9650971ABA23.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/workspaceone_okta_integration/GUID-BC206856-8BF4-4CE7-BBA2-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "9650971ABA23.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam 5V0-62.19 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two are possible authentication methods for a third-party integrated Identity Provider (iDP)? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Device-based certificate"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Windows authentication"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. PIN code"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SAML password"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. SAML-based certificate"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://techzone.vmware.com/configuring-ad-fs-third-party-idp-vmware-identity-manager-vmware-workspace-one-operational-tutorial#266138"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://techzone.vmware.com/configuring-ad-fs-third-party-idp-vmware-identity-manager-vmware-workspace-one-operational-tutorial#266138"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam 5V0-62.19 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which certificate is needed during profile configuration when configuring an iOS Mobile SSO profile within Workspace ONE UEM?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Workspace ONE UEM Device root certificate"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. KDC certificate"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Valid Webserver certificate from a Devices Server"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. APNS certificate"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/WS1-IDM-deploymentguide/GUID-61B2CB4F-EA72-4D9C-BF1C-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5A80A73263D0.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/WS1-IDM-deploymentguide/GUID-61B2CB4F-EA72-4D9C-BF1C-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5A80A73263D0.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam 5V0-62.19 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are three requirements for a device that is already joined to Azure AD to enroll into Workspace ONE UEM? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. No Azure AD account configured on the device."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Windows 10 OS build 14393.82 and above."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. KB update \u00d0\u0161\u00d0\u20193176934 installed."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. No MDM managed."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. User must be a member of the Console Admin Group."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Windows Update services not started."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1811/Workspace-ONE-UEM-Windows-Desktop-Device-Management/GUID-AWT-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ENROLL-AADMANAGED.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1811/Workspace-ONE-UEM-Windows-Desktop-Device-Management/GUID-AWT-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ENROLL-AADMANAGED.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam 5V0-62.19 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the ACME Financials design use case."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials Design Use Case -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Introduction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.1 Business Overview"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials is an investment firm that has established itself as a leader in USA's fast-moving financial asset management market and has around 1000 employees."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME plans to transform its end-user computing resources to the digital workspace. ACME wants a secure platform that is available from any device and from anywhere, as well as a solution that reduces operating costs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME's major business driver for the digital workplace is to enable employees to work remotely, and to enable the secure access to all of its resources from anywhere and any device while enhancing security with multi-factor authentication. The solution should support its BYOD strategy and let remote employees use their own laptop, desktop, or mobile device to access the resources from any location."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME also wants to remove the need to supply and manage desktop hardware to external contractors. Because financial data is highly sensitive, the firm needs a technology that would protect customer and other critical information - even when accessed on a mobile device. ACME is looking to improve the security of the desktop and application platforms across the enterprise. In addition to using endpoint security tools and multi-factor authentication, ACME insists on using additional security and controls to provide the highest level of security and protection to services and applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME currently uses a VPN-based remote access solution. ACME would like to remove additional components that add support or management complexity, and device dependence for remote access users. ACME is looking to achieve the same access to virtual desktops and Windows 10 or mobile applications, both inside and outside of the ACME enterprise network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME is very keen on enforcing standardization to keep the IT infrastructure as consistent as possible. IT wants to use standardized versions of Windows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Windows 10), consistent configurations, and application delivery from a central source. All while maintaining the compliance of every device that requires encryption, password and PIN protection, as well as update -and anti-virus control."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To simplify and standardize desktop and application delivery, ACME wants to offer a service catalog based approach based on ACME IT standards. This will allow"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME to effectively deliver and manage resources, allowing IT to deliver device and application services that meet business and technical needs, while maximizing the use of shared IT computing resources."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Additional Facts -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Speaking to the developers revealed that most apps are standardized apps from public app-stores, but ACME uses some their in-house developed, critical mobile apps, where some of the developers have already left the company, so that they cannot be rewritten in a short amount of time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 To reduce operating costs, ACME has already moved to Office 365 and is currently running a few migrations from on-premises to the cloud for other applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME's IT says that it is a Microsoft Windows only shop, but the assessment shows that currently most of the managers are using Apple devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently uses directory services and two-factor authentication mechanisms (Radius) for internal and external access. ACME requires to support Single"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sign-On (SSO) integration with their current authentication solutions. They also require to use SSO whenever possible, as they do not believe in having multiple user accounts and passwords for their end users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME wants the solution to provide mechanisms to provide a secure e-mail solution to any device that complies to global security standards even for BYO devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.2 High Level User Classification"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 680 Office workers (call center, corporate and office administrators) use standardized PCs or Thin-Clients to access ACME's core apps and tools."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 240 Remote-office workers use the company's CYOD initiative and use these devices (Notebooks, Convertibles, Tablets, Android phones) to access their apps and tools from remote."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 30 Executives use Apple Mac Books as well as iPhones and iPads to work on- and off-premises."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 80 IT -admins and software developers are using high-end workstations with administrative access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.3 High Level Application Assessment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently has 261 applications, of which 186 are based on Microsoft Windows."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Today, users are allocated applications via AD group membership."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 75 applications are either web-based or SaaS-based, including Office 365."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A major incident recently meant sales workers were disappearing suddenly along with their data and laptops on some new colonies."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Any external access should require multi-factor authentication. Access from the internal network should work seamlessly with SSO for the core applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "High-security applications also require MFA from internal access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The address ranges of the HQ datacenter are as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 172.16.0.0/16 internal"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 80.34.57.20/21 external"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Initial Stakeholder Interview Findings"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In addition to the goals summarized in the previous section, the following are findings from initial interviews with the key stakeholders and an analysis of their service level agreements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The design must use the F5 Loadbalancer and should be as redundant as possible."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Qualified IT personal is hard to find these days. If possible, reduce operational costs and try to automate or outsource basic IT-tasks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. ACME is very particular about meeting the go-live date. If there are unforeseen delays, the project may not be delivered for the required go-live date."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After the successful deployment of Workspace ONE, ACME plans to move their virtual desktop infrastructure to Horizon on AWS. But there are still Web apps and file services which will run in the on-premises datacenter."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two components are still needed in the on-premises datacenter? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Content gateway"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. PowerShell host for e-mail"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Layer 2 connection between Horizon on AWS on the ACME datacenter"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. AWS Storage"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Identity bridging"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam 5V0-62.19 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What needs to be configured in VMware Identity Manager to access the applications or desktop externally when implementing Horizon in Workspace ONE?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Client Access URLs"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Entitlement"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Pod Federation"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Catalog Item"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Horizon-7/7.9/horizon-console-administration/GUID-71DC2C64-176C-4A2B-A681-93FE6B41DDCC.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Horizon-7/7.9/horizon-console-administration/GUID-71DC2C64-176C-4A2B-A681-93FE6B41DDCC.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam 5V0-62.19 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which list of Okta apps that are supported for an Okta integration into VMware Workspace ONE Identity Manager is the most complete?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SAML 2.0, WS-Federation, OpenID Connect, Bookmark"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SAML 1.x, SAML 2.0, WS-Federation, OpenID Connect, Bookmark"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SAML 1.x, SAML 2.0, WS-Federation, OpenID Connect"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SAML 2.0, WS-Federation, OpenID Connect"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam 5V0-62.19 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the ACME Financials design use case."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials Design Use Case -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Introduction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.1 Business Overview"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME Financials is an investment firm that has established itself as a leader in USA's fast-moving financial asset management market and has around 1000 employees."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME plans to transform its end-user computing resources to the digital workspace. ACME wants a secure platform that is available from any device and from anywhere, as well as a solution that reduces operating costs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME's major business driver for the digital workplace is to enable employees to work remotely, and to enable the secure access to all of its resources from anywhere and any device while enhancing security with multi-factor authentication. The solution should support its BYOD strategy and let remote employees use their own laptop, desktop, or mobile device to access the resources from any location."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME also wants to remove the need to supply and manage desktop hardware to external contractors. Because financial data is highly sensitive, the firm needs a technology that would protect customer and other critical information - even when accessed on a mobile device. ACME is looking to improve the security of the desktop and application platforms across the enterprise. In addition to using endpoint security tools and multi-factor authentication, ACME insists on using additional security and controls to provide the highest level of security and protection to services and applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME currently uses a VPN-based remote access solution. ACME would like to remove additional components that add support or management complexity, and device dependence for remote access users. ACME is looking to achieve the same access to virtual desktops and Windows 10 or mobile applications, both inside and outside of the ACME enterprise network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME is very keen on enforcing standardization to keep the IT infrastructure as consistent as possible. IT wants to use standardized versions of Windows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Windows 10), consistent configurations, and application delivery from a central source. All while maintaining the compliance of every device that requires encryption, password and PIN protection, as well as update -and anti-virus control."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To simplify and standardize desktop and application delivery, ACME wants to offer a service catalog based approach based on ACME IT standards. This will allow"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACME to effectively deliver and manage resources, allowing IT to deliver device and application services that meet business and technical needs, while maximizing the use of shared IT computing resources."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Additional Facts -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Speaking to the developers revealed that most apps are standardized apps from public app-stores, but ACME uses some their in-house developed, critical mobile apps, where some of the developers have already left the company, so that they cannot be rewritten in a short amount of time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 To reduce operating costs, ACME has already moved to Office 365 and is currently running a few migrations from on-premises to the cloud for other applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME's IT says that it is a Microsoft Windows only shop, but the assessment shows that currently most of the managers are using Apple devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently uses directory services and two-factor authentication mechanisms (Radius) for internal and external access. ACME requires to support Single"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sign-On (SSO) integration with their current authentication solutions. They also require to use SSO whenever possible, as they do not believe in having multiple user accounts and passwords for their end users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME wants the solution to provide mechanisms to provide a secure e-mail solution to any device that complies to global security standards even for BYO devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.2 High Level User Classification"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 680 Office workers (call center, corporate and office administrators) use standardized PCs or Thin-Clients to access ACME's core apps and tools."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 240 Remote-office workers use the company's CYOD initiative and use these devices (Notebooks, Convertibles, Tablets, Android phones) to access their apps and tools from remote."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 30 Executives use Apple Mac Books as well as iPhones and iPads to work on- and off-premises."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 80 IT -admins and software developers are using high-end workstations with administrative access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.3 High Level Application Assessment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 ACME currently has 261 applications, of which 186 are based on Microsoft Windows."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Today, users are allocated applications via AD group membership."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 75 applications are either web-based or SaaS-based, including Office 365."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A major incident recently meant sales workers were disappearing suddenly along with their data and laptops on some new colonies."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Any external access should require multi-factor authentication. Access from the internal network should work seamlessly with SSO for the core applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "High-security applications also require MFA from internal access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The address ranges of the HQ datacenter are as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 172.16.0.0/16 internal"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u00e2\u2014\u00a6 80.34.57.20/21 external"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Initial Stakeholder Interview Findings"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In addition to the goals summarized in the previous section, the following are findings from initial interviews with the key stakeholders and an analysis of their service level agreements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The design must use the F5 Loadbalancer and should be as redundant as possible."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Qualified IT personal is hard to find these days. If possible, reduce operational costs and try to automate or outsource basic IT-tasks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. ACME is very particular about meeting the go-live date. If there are unforeseen delays, the project may not be delivered for the required go-live date."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are three required components in the logical design? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. VMware Universal Access Gateways (UAG)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Airwatch Cloud Connector"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Secure e-mail gateway"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Microsoft Exchange Server"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Microsoft System Center Virtual Machine Manager"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam 5V0-62.19 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is tasked to configure Okta as an Identity Provider for Workspace ONE."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the correct order of implementation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add a Connector, create a third-party IDM in Workspace ONE, and create SAML app in Okta."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create SAML App in Okta, configure Routing Rules, and create a third-party IDP in Workspace ONE."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Gather Service Provider Metadata from Identity Manager, create SAML App in Okta, and create a third-party IDP in Workspace ONE."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a third-party IDP in Workspace ONE, gather Service Provider Metadata from Identity Manager, and create SAML App in Okta."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/workspaceone_okta_integration.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE/services/workspaceone_okta_integration.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 36": {
+      "Title": "Exam 5V0-62.19 topic 1 question 60 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three enrollment options are supported with Workspace ONE and Azure AD? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only supported on Dell EMC devices."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enroll through On-Premise Exchange."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enroll through Out of Box Experience."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enroll through Office 365 apps."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Enroll an Azure AD managed device into Workspace ONE UEM."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Enroll in the local AD and then sync to Azure AD."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1810/Workspace-ONE-UEM-Windows-Desktop-Device-Management/GUID-AWT-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ENROLL-CLOUD.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-Workspace-ONE-UEM/1810/Workspace-ONE-UEM-Windows-Desktop-Device-Management/GUID-AWT-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ENROLL-CLOUD.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam 5V0-62.19 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two are requirements for managing Microsoft Windows endpoints with Microsoft System Center Configuration Manager (SCCM) and Workspace ONE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "UEM? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. VMware Workspace ONE SCCM Integration client"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Identity connector directly installed on the SCCM server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. AirWatch 8.2 and higher"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Directory Synchronization Server for SCCM"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Windows 7 devices and newer"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 38": {
+      "Title": "Exam 5V0-62.19 topic 1 question 62 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to configure Okta as the Service Provider for Workspace ONE. Which metadata needs to be provided? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Service Provider (SP) metadata"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Network Range"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Identity Provider (IdP) metadata"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Signing Certificate"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Authentication Type"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://help.okta.com/en/prod/Content/Topics/device-trust/SAML/Mobile/configure-okta-idp-vidm.htm"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://help.okta.com/en/prod/Content/Topics/device-trust/SAML/Mobile/configure-okta-idp-vidm.htm"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

@@ -1,0 +1,917 @@
+{
+  "E22-285__c41091715c66b385": {
+    "Question #: 1": {
+      "Title": "Exam E22-285 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the correct command to restart the Loudmouth process on a VxRail node?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. /usr/lib/vmware-loudmouth/bin/loudmouthc restart"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. systemctl restart vmware-loudmouth"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /etc/init.d/loudmouth restart"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /sbin/service loudmouth restart"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pbradz.wordpress.com/category/vxrail/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pbradz.wordpress.com/category/vxrail/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam E22-285 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a VxRail external vCenter deployment, which component(s) are automatically licensed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vCenter only"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vCenter and vSAN"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. None"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vSAN only"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/guide/h15844-vxrail-4-0-vcenter-server-pg.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(page 5)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/guide/h15844-vxrail-4-0-vcenter-server-pg.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(page 5)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam E22-285 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A planned VxRail deployment will use an External vCenter Server and syslog server. Which ping connectivity tests should succeed and which should fail before the deployment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Succeed: ESXi hosts and syslog Fail: VxRail Manager and vCenter"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Succeed: VxRail Manager and ESXi hosts Fail: vCenter and syslog server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Succeed: vCenter and syslog server Fail: VxRail Manager and ESXi hosts"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Succeed: VxRail Manager and syslog"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam E22-285 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have been asked to install a 7 node VxRail single socket 1 GbE G Series cluster. The company has requested remote KVM support. How many RJ45 cables will be required?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 14"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 21"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 28"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 35"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/technical-documentation/h15104-vxrail-appliance-techbook.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/technical-documentation/h15104-vxrail-appliance-techbook.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam E22-285 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which step is required to enable VxRail Manager capabilities to register the system, obtain product license files, update system software, download VxRail documentation, and browse VxRail Community?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Enable the cluster/VDS/management accounts when using an external vCenter"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable EMC Secure Remote Support (ESRS)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure VMware Secure Support Account (vSSA) access"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Set the Username and Password for the Support Account"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam E22-285 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A workstation is being configured on the management VLAN (10.150.140.0/24) to connect to VxRail Manager for first time deployment. Configuring which IP addresses on the workstation will result in a successful deployment without having to change them during initialization?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 192.168.1.199 and 10.150.140.100"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 192.168.1.250 and 10.150.140.255"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 192.168.10.199 and 10.150.140.255"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 192.168.10.250 and 10.150.140.250"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam E22-285 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What accurately describes VxRail scale-out rules?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only the first 3 cluster nodes must be identical"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Mixing hybrid and all-flash nodes is permitted when scaling greater than 32 nodes with an RPQ"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All G series models in a cluster must be identical"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Only the first 4 cluster nodes must be identical"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.snsltd.co.uk/Presentations/Dell_EMC_VxRail_Overview.pptx"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.snsltd.co.uk/Presentations/Dell_EMC_VxRail_Overview.pptx"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam E22-285 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A company is planning to deploy their Virtual Desktop Infrastructure on VxRail. The solution should support 2D and 3D high end visualization. Which VxRail license is required for this solution?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vSphere Enterprise Plus"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vSphere with Operations Management Enterprise"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vSphere Enterprise"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vSphere Standard"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam E22-285 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A VxRail deployment has just been completed but the vSAN performance statistics are not available for the cluster or virtual machines."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the reason for this situation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Data has not been populated"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Performance service has not been manually enabled"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vSAN performance hot-fix has not been applied"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Monitoring policy has not been created"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam E22-285 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the recommended way to power up VxRail G Series node?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Wait at least 30 seconds between powering up each node."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Power up nodes in the following sequence: one, two, three, four."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the BMC interface to power cycle each node"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Ensure System Health indicator blinks amber for 10 minutes after power on."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/guide/h15300-vxrail-network-guide.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(page 23)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.emc.com/collateral/guide/h15300-vxrail-network-guide.pdf"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(page 23)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam E22-285 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the remote management option for G Series VxRail nodes?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. RMM"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. iLO"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. iDRAC"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IPMI/BMC"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam E22-285 topic 1 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a VxRail Stretched Cluster built from eight all-flash nodes, what should be the recommended storage policy to ensure the highest possible protection?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Raid-1(Mirroring) FTT=1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Raid-1(Mirroring) FTT=2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Raid-5/6(Erasure Coding) FTT=1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Raid-5/6(Erasure Coding) FTT=2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam E22-285 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A VxRail deployment has just been completed, and the performance service is enabled, but the vSAN performance statistics are not available for the cluster or virtual machines."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the reason for this situation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vSAN performance hot-fix has not been applied"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Monitoring policy has not been created"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Performance service has not been manually enabled"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Data has not been populated"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

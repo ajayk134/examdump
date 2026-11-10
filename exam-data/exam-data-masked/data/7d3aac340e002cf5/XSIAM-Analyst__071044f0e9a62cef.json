@@ -1,0 +1,1790 @@
+{
+  "XSIAM-Analyst__071044f0e9a62cef": {
+    "Question #: 1": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which dataset should an analyst search when looking for Palo Alto Networks NGFW logs?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. dataset = pan_dss_raw"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. dataset = ngfw_threat_panw_raw"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. dataset = panw_ngfw_traffic_raw"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. dataset = ngfw*"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An analyst conducting a threat hunt needs to collect multiple files from various endpoints. The analyst begins the file retrieval process by using the Action Center, but upon review of the retrieved files, notices that the list is incomplete and missing files, including kernel files."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What could be the reason for this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The file retrieval policy applied to the endpoints may restrict access to certain system or kernel files."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The retrieval process is limited to 500 MB in total file size."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The endpoint agents were in offline mode during the file retrieval process, causing some files to be skipped."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The analyst must manually retrieve kernel files by accessing the machine directly."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "For a critical incident, Cortex XSIAM suggests several playbooks which should have been executed automatically."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why were the playbooks not executed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Playbook triggers were not configured for those alerts."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Installation of the appropriate content pack was not completed."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Misconfiguration of the connector instance has occurred."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Playbook classifier was not configured for the alert type."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two methods can be used to create and share queries into the Query Library? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. From XQL Search, locate the query to save to a personal Query Library"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Right-click, and select \"Save query to library\""
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Enable the \"Share with others\" option"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. From the Query Center, in the XQL query field, define the parameters of the query"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Save as, and choose the \"Query to Library\" option"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Enable the \"Share with others\" option"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. From XQL Search, in the XQL query field, define the parameters of the query"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Save as, and choose the \"Query to Library\" option"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Enable the \"Share with others\" option"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. From the Query Center, locate the query to save to a personal Query Library"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Right-click, and select \"Save query to library\""
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Enable the \"Share with others\" option"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which Cytool command will re-enable protection on an endpoint that has Cortex XDR agent protection paused?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. cytool security enable"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. cytool service start"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. cytool runtime start"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. cytool protect enable"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Based on the image below, which two determinations can be made from the causality chain? (Choose two.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/xsiam-analyst/image1.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Three alerts in total were generated by the agent on the endpoint."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Cortex XDR agent malware profile module applied is set to \"Report\" mode."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Malware.pdf.exe is responsible for the entire chain of execution resulting in the alerts."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The process cmd.exe is responsible for the entire chain of execution resulting in the alerts."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How can a SOC analyst highlight alerts generated on C-level executive hosts?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add the C-level executive users to the Executive Accounts asset role."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add a tag to the C-level executive users."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a Featured Alert field for the C-level hosts."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a dynamic group for the C-level hosts."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An incident in Cortex XSIAM contains the following series of alerts:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "10:24:17 AM - Informational Severity - XDR Analytics BIOC - Rare process execution in organization"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "10:24:18 AM - Low Severity - XDR BIOC - Suspicious AMSI DLL load location"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "10:24:20 AM - Medium Severity - XDR Agent - WildFire Malware"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "11:57:04 AM - High Severity - Correlation - Suspicious admin account creation"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which alert was responsible for the creation of the incident?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Rare process execution in organization"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Suspicious admin account creation"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. WildFire Malware"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Suspicious AMSI DLL load location"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which attribution evidence will have the lowest confidence level when evaluating assets to determine if they belong to an organization's attack surface?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. An asset attributed to the organization because the Subject Organization field contains the company name"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. An asset attributed to the organization because the name server domain contains the company domain"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An asset discovered through registration information attributed to the organization"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. An asset manually approved by a Cortex Xpanse analyst"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A security analyst is reviewing alerts and incidents associated with internal vulnerability scanning performed by the security operations team."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which built-in incident domain will be assigned to these alerts and incidents in Cortex XSIAM?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Security"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Hunting"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. IT"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Health"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An analyst is responding to a critical incident involving a potential ransomware attack. The analyst immediately initiates full isolation on the compromised endpoint using Cortex XSIAM to prevent the malware from spreading across the network. However, the analyst now needs to collect additional forensic evidence from the isolated machine, including memory dumps and disk images, without reconnecting it to the network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which action will allow the analyst to collect the required forensic evidence while ensuring the endpoint remains fully isolated?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Using the management console to remotely run a predefined forensic playbook on the associated alert"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Collecting the evidence manually through the agent by accessing the machine directly and running \"Generate Support File\""
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Using the endpoint isolation feature to create a secure tunnel for evidence collection"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Disabling full isolation temporarily to allow forensic tools to communicate with the endpoint"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In addition to defining the Rule Name and Severity Level, which step or set of steps accurately reflects how an analyst should configure an indicator prevention rule before reviewing and saving it?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Filter and select file, IP address, and domain indicators."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Filter and select indicators of any type."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Select profiles for prevention."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Filter and select one or more file, IP address, and domain indicators."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Select profiles for prevention."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Filter and select one or more SHA256 and MD5 indicators."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During an investigation, an analyst runs the reputation script for an indicator that is listed as Suspicious. The new reputation results display in the War Room as Malicious; however, the indicator verdict does not change."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the cause of this behavior?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The indicator is expired."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The indicator verdict was manually set to Suspicious."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The indicator has been excluded."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The indicator exists as an IOC rule."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements apply to IOC rules? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They can be uploaded using REST API."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They can have an expiration date of up to 180 days."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They can be used to detect a specific registry key."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They can be excluded using suppression rules but not alert exclusions."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the cause when alerts generated by a correlation rule are not creating an incident?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The rule does not have a drill-down query configured."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The rule is configured with alert severity below Medium."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The rule has alert suppression enabled."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The rule is using the preconfigured Cortex XSIAM alert field mapping."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which configuration will ensure any alert involving a specific critical asset will always receive a score of 100?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A risk scoring policy for the critical asset"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A user scoring rule for the critical asset"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An asset as critical in Asset Inventory"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SmartScore to apply the specific score to the critical asset"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which feature terminates a process during an investigation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Response Center"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Live Terminal"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Exclusion"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Restriction"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During an investigation of an alert with a completed playbook, it is determined that no indicators exist from the email \" [email protected] \u201d in the Key Assets & Artifacts tab of the parent incident."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command will determine if Cortex XSIAM has been configured to extract indicators as expected?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. !createNewIndicator value=\" [email protected] \""
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. !checkIndicatorExtraction text=\" [email protected] \""
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. !extractIndicators text=\" [email protected] \" auto-extract=inline"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. !emailvalue=\" [email protected] \""
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A security analyst has been assigned a ticket from the help desk stating that users are experiencing errors when attempting to open files on a specific network share. These errors state that the file format cannot be opened. IT has verified that the file server is online and functioning, but that all files have unusual extensions attached to them."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The security analyst reviews alerts within Cortex XSIAM and identifies malicious activity related to a possible ransomware attack on the file server. This incident is then escalated to the incident response team for further investigation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Upon reviewing the incident, the responders confirm that ransomware was successfully executed on the file server. Other details of the attack are noted below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An unpatched vulnerability on an externally facing web server was exploited for initial access"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The attackers successfully used Mimikatz to dump sensitive credentials that were used for privilege escalation"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PowerShell was used on a Windows server for additional discovery, as well as lateral movement to other systems"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The attackers executed SystemBC RAT on multiple systems to maintain remote access"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ransomware payload was downloaded on the file server via an external site, \"file.io\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer to the scenario to answer this question:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which hunt collection category in Cortex XSIAM should the incident responders use to identify all systems where the attackers established persistence during the attack?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Network Data"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Process Execution"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Command History"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remote Access"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A security analyst has been assigned a ticket from the help desk stating that users are experiencing errors when attempting to open files on a specific network share. These errors state that the file format cannot be opened. IT has verified that the file server is online and functioning, but that all files have unusual extensions attached to them."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The security analyst reviews alerts within Cortex XSIAM and identifies malicious activity related to a possible ransomware attack on the file server. This incident is then escalated to the incident response team for further investigation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Upon reviewing the incident, the responders confirm that ransomware was successfully executed on the file server. Other details of the attack are noted below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An unpatched vulnerability on an externally facing web server was exploited for initial access"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The attackers successfully used Mimikatz to dump sensitive credentials that were used for privilege escalation"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PowerShell was used on a Windows server for additional discovery, as well as lateral movement to other systems"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The attackers executed SystemBC RAT on multiple systems to maintain remote access"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ransomware payload was downloaded on the file server via an external site, \"file.io\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer to the scenario to answer this question:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which forensics artifact collected by Cortex XSIAM will help the responders identify what the attackers were looking for during the discovery phase of the attack?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Shell history"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. User access logging"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. PSReadline"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. WordWheelQuery"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A security analyst has been assigned a ticket from the help desk stating that users are experiencing errors when attempting to open files on a specific network share. These errors state that the file format cannot be opened. IT has verified that the file server is online and functioning, but that all files have unusual extensions attached to them."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The security analyst reviews alerts within Cortex XSIAM and identifies malicious activity related to a possible ransomware attack on the file server. This incident is then escalated to the incident response team for further investigation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Upon reviewing the incident, the responders confirm that ransomware was successfully executed on the file server. Other details of the attack are noted below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An unpatched vulnerability on an externally facing web server was exploited for initial access"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The attackers successfully used Mimikatz to dump sensitive credentials that were used for privilege escalation"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PowerShell was used on a Windows server for additional discovery, as well as lateral movement to other systems"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The attackers executed SystemBC RAT on multiple systems to maintain remote access"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ransomware payload was downloaded on the file server via an external site, \"file.io\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer to the scenario to answer this question:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The incident responders are attempting to determine why Mimikatz was able to successfully run during the attack."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which exploit protection profile in Cortex XSIAM should be reviewed to ensure it is configured with an Action Mode of Block?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Operating System Exploit Protection"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Browser Exploits Protection"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Logical Exploits Protection"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Known Vulnerable Process Protection"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam XSIAM-Analyst topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What can be used to filter out empty values in the query results table?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <name of field> != null or <field name> != \"\""
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <name of field> != null or <field name> != \"NA\""
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <name of field> != empty or <field name> != \"\""
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <name of field> != empty or <field name> != \"NA\""
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2685 @@
+{
+  "C2150-606__afdffb8b881c596a": {
+    "Question #: 1": {
+      "Title": "Exam C2150-606 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator needs to monitor an Oracle database on a production database server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which component does the administrator need to install on this database server that will monitor the traffic?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. S-TAP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Guardium Collector"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Guardium Installation Manager (GIM)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configuration Auditing System (CAS)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Configuration Auditing System Overview"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Databases can be affected by changes to the server environment; for example, by changing configuration files, environment or registry variables, or other database or operating system components, including executable files or scripts used by the database management system or the operating system. CAS tracks such changes and reports on them. The data is available on the Guardium system and can be used for reports and alerts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.1.0/com.ibm.guardium91.doc/assess_harden/topics/cas.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Configuration Auditing System Overview"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Databases can be affected by changes to the server environment; for example, by changing configuration files, environment or registry variables, or other database or operating system components, including executable files or scripts used by the database management system or the operating system. CAS tracks such changes and reports on them. The data is available on the Guardium system and can be used for reports and alerts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.1.0/com.ibm.guardium91.doc/assess_harden/topics/cas.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam C2150-606 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator is setting up a Collector schedule to export data to an Aggregator and Archive its data to an Archive storage unit for additional data safety."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given this scenario, which is true regarding the purge schedule?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Archive and the Export have independent purge schedules but should not be run at the same time."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The Guardium unit would run the Export and Archive before any purge, so you would only see the last purge run each day."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It would not be possible to configure both on a Collector, the Aggregator should do the archiving and only export from the Collector."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Any time that Data Export and Data Archive are both configured, the purge age must be greater than both the age at which to export and the age at which to"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Any value that is specified for the starting purge date must be greater than the value specified for the Archive data older than value. In addition, if data exporting is active, the starting purge date that is specified here must be greater than the Export data older than value"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/knowledgecenter/SSWL9Z_10.0.0/com.ibm.guardium.appmask.doc/adm/archiving_data.html?lang=en"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Any value that is specified for the starting purge date must be greater than the value specified for the Archive data older than value. In addition, if data exporting is active, the starting purge date that is specified here must be greater than the Export data older than value"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/knowledgecenter/SSWL9Z_10.0.0/com.ibm.guardium.appmask.doc/adm/archiving_data.html?lang=en"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam C2150-606 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator needs to monitor changes to the Oracle configuration file on a production Oracle database server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Assuming all valid licenses are applied, which Guardium component does the administrator need to install and where?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Guardium Installation Manager (GIM) on the Database Server."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configuration Auditing System (CAS) on the Database Server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configuration Auditing System (CAS) on the Guardium Collector."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configuration Auditing System (CAS) on the Database Server and on the Guardium Collector."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CAS is an agent installed on the database server and reports to the Guardium system whenever a monitored entity have changed, either in content or in ownership or permissions. You install a CAS client on the database server system. Once the CAS client has been installed on the host, you configure the actual change auditing functions from the Guardium portal."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The CAS server is a component of Guardium and runs on the Guardium system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.1.0/com.ibm.guardium91.doc/assess_harden/topics/cas.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "CAS is an agent installed on the database server and reports to the Guardium system whenever a monitored entity have changed, either in content or in ownership or permissions. You install a CAS client on the database server system. Once the CAS client has been installed on the host, you configure the actual change auditing functions from the Guardium portal."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The CAS server is a component of Guardium and runs on the Guardium system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.1.0/com.ibm.guardium91.doc/assess_harden/topics/cas.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam C2150-606 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Guardium reports are showing multiple records with client ip as 0.0.0.0. Users are unable to identify which client the connections came from. The Guardium administrator has identified that the databases are using encryption."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which column can the administrator add that would help users to better identify the client?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Client OS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Client MAC"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Access ID"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Analyzed Client IP"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The column named smac is a Guardian Client/Server server which represents the Client MAC."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.5.0/com.ibm.guardium95.doc/appendices/topics/cef_mapping.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The column named smac is a Guardian Client/Server server which represents the Client MAC."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.5.0/com.ibm.guardium95.doc/appendices/topics/cef_mapping.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam C2150-606 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which use cases are covered with the File Activity Monitoring feature? (Select two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Classify sensitive files on mainframe systems."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Encrypts database data files on file systems based on policies."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Selectively redacts sensitive data patterns in files based on policies."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Provides audit trail of access to files, alert and/or block when unauthorized users or processes attempt access."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Identifies files containing Personally Identifiable Information (PII) or proprietary confidential information on Linux Unix Windows (LUW) systems."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: Use case example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Critical application files can be accessed, modified, or even destroyed through back-end access to the application or database server"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution: File Activity Monitoring can discover and monitor your configuration files, log files, source code, and many other critical application files and alert or block when unauthorized users or processes attempt access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Use case example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Need to protect files containing Personally Identifiable Information (PII) or proprietary information while not impacting day-to-day business."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution: File Activity Monitoring can discover and monitor access to your sensitive documents stored on many file systems. It will aggregate the data, give you a view into the activity, alert you in case of suspicious access, and allow you to block access to select files and folders and from select users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: File activity monitoring consists of the following capabilities:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Discovery to inventory files and metadata."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Classification to crawl through the files to look for potentially sensitive data, such as credit card information or personally identifiable information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Monitoring, which can be used without discovery and classification, to monitor access to files and, based on policy rules, audit and alert on inappropriate access, or even block access to the files to prevent data leakage."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_10.0.0/com.ibm.guardium.doc/protect/fam_intro.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: Use case example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Critical application files can be accessed, modified, or even destroyed through back-end access to the application or database server"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution: File Activity Monitoring can discover and monitor your configuration files, log files, source code, and many other critical application files and alert or block when unauthorized users or processes attempt access."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Use case example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Need to protect files containing Personally Identifiable Information (PII) or proprietary information while not impacting day-to-day business."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution: File Activity Monitoring can discover and monitor access to your sensitive documents stored on many file systems. It will aggregate the data, give you a view into the activity, alert you in case of suspicious access, and allow you to block access to select files and folders and from select users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: File activity monitoring consists of the following capabilities:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Discovery to inventory files and metadata."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Classification to crawl through the files to look for potentially sensitive data, such as credit card information or personally identifiable information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Monitoring, which can be used without discovery and classification, to monitor access to files and, based on policy rules, audit and alert on inappropriate access, or even block access to the files to prevent data leakage."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_10.0.0/com.ibm.guardium.doc/protect/fam_intro.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam C2150-606 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During the initial phase of the Guardium deployment, the Guardium administrator wants to figure out an ideal time period to purge data from the appliance based on the data load."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which predefined Guardium report(s) allows the administrator to determine the current database disk usage of the Guardium Appliance?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Disk Util report"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Aggregation/Archive log"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DB Server throughput report"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Buff Usage Monitor and System Monitor reports"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_10.0.0/com.ibm.guardium.doc.admin/adm/self_monitoring.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_10.0.0/com.ibm.guardium.doc.admin/adm/self_monitoring.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam C2150-606 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator noticed that while the data activity monitoring is working fine, the Guardium appliance is slower than usual. The administrator wants to check the current CPU load of the Guardium appliance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which predefined Guardium report(s) allows the administrator to determine the current system CPU load of the Guardium Appliance?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CPU Util report"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CPU Tracker report"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Unit summary and CPU Util report"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Buff Usage Monitor and System monitor report"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To monitor CPU load:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Report: Select Guardium Monitor > Current Status Monitor, or Select Guardium Monitor > Buffer Usage Monitor, or See Predefined admin Reports for report :"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Current Status Monitor for more information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.1.0/com.ibm.guardium91.doc/administer/topics/self_monitoring.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To monitor CPU load:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Report: Select Guardium Monitor > Current Status Monitor, or Select Guardium Monitor > Buffer Usage Monitor, or See Predefined admin Reports for report :"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Current Status Monitor for more information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.1.0/com.ibm.guardium91.doc/administer/topics/self_monitoring.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam C2150-606 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator must configure a policy to ignore all traffic from an application with a known client IP. Due to the high amount of traffic from this application, performance of the S-TAP and sniffer is a concern."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What action should the administrator use in the rule?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Ignore Session"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Ignore S-TAP Session"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Ignore SQL per Session"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Ignore Responses per Session"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can ignore capturing the activity of some specific processes by defining INGNORE S-TAP SESSION policy."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/docview.wss?uid=swg21497163"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can ignore capturing the activity of some specific processes by defining INGNORE S-TAP SESSION policy."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/docview.wss?uid=swg21497163"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam C2150-606 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The quard_tap.ini of a UNIX S-TAP is configured with the following parameters: firewall_installed=1 firewall_fail_close=0 firewall_default_state=0 firewall_timeout=10"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A Guardium administrator applies a policy to the Collector with two rules as below. The actions of the rules have been hidden."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02017/0001500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02017/0001500002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The administrator must create a policy that will terminate the session on the delete statement in the below scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A session is started to the monitored database from client IP 9.9.8.7. In the session the user plans to perform a select statement and then a delete statement."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What actions should the administrator configure?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Rule 1 - S-GATE Attach Rule 2 - S-GATE Detach"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Rule 1 - S-GATE Detach Rule 2 - S-GATE Terminate"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Rule 1 - S-GATE Attach Rule 2 - S-GATE Terminate"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Rule 1 - S-TAP Terminate"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* S-GATE ATTACH: sets S-GATE mode to \"Attached\" for a specific session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Intended for use when a certain criteria is met that raises the need to closely watch (and if needed block) the traffic on that session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* S-GATE DETACH: sets S-GATE mode to \"Detached\" for a specific session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Intended for use on sessions that are considered as \"safe\" or sessions that cannot tolerate any latency."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* S-GATE TERMINATE: Has effect only when the session is attached. It drops the reply of the firewalled request, which will terminate the session on some databases. The S-GATE TERMINATE policy rule will cause a previously watched session to terminate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.5.0/com.ibm.guardium95.doc/protect/topics/rule_actions.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* S-GATE ATTACH: sets S-GATE mode to \"Attached\" for a specific session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Intended for use when a certain criteria is met that raises the need to closely watch (and if needed block) the traffic on that session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* S-GATE DETACH: sets S-GATE mode to \"Detached\" for a specific session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Intended for use on sessions that are considered as \"safe\" or sessions that cannot tolerate any latency."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* S-GATE TERMINATE: Has effect only when the session is attached. It drops the reply of the firewalled request, which will terminate the session on some databases. The S-GATE TERMINATE policy rule will cause a previously watched session to terminate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.5.0/com.ibm.guardium95.doc/protect/topics/rule_actions.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam C2150-606 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium policy has been configured with the following two rules:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02017/0001600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02017/0001700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A Guardium administrator is required to check for SQL statements from client IP 9.4.5.6 executed on object \"TABLE1\"."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What domain(s) can the administrator create a report in to see the SQL?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Access"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Policy Violations"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Access and Access Policy"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Access and Policy Violations"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Log full details action logs the full SQL string and exact timestamp for this request."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Access domain consists of all monitored SQL requests."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.5.0/com.ibm.guardium95.doc/protect/topics/rule_actions.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The Log full details action logs the full SQL string and exact timestamp for this request."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Access domain consists of all monitored SQL requests."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.5.0/com.ibm.guardium95.doc/protect/topics/rule_actions.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam C2150-606 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator needs to use CLI commands to maintain the internal database, clean static orphans, produce static system reports and to monitor live network traffic filtered by IP addresses and port numbers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which combination of commands should the administrator use for these tasks?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. diag and iptraf"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. diag and trace_route"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. iptraf and support must_gather"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. support must_gather and show network verify"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Iptraf utility generates network statistics based on current network activity."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not A, not B: Diag can be used if there is a problem with the Guardium STAP, andinformation must be gathered before contacting IBM Software Support. Diag collects comprehensive diagnostic data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not D: The show network verify command displays the current network configuaration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/docview.wss?uid=swg21690345"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Iptraf utility generates network statistics based on current network activity."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not A, not B: Diag can be used if there is a problem with the Guardium STAP, andinformation must be gathered before contacting IBM Software Support. Diag collects comprehensive diagnostic data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not D: The show network verify command displays the current network configuaration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/docview.wss?uid=swg21690345"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam C2150-606 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During a Guardium deployment planning meeting, a database administrator indicated that the mission critical databases were clustered."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should the Guardium administrator handle S-TAP installation and configuration with respect to clustered databases?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Install S-TAP agents on all active nodes. Set ALL_CAN_CONTROL=1 to failover the S-TAP process to the passive nodes when a database failover occurs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Install S-TAP agents on all active nodes. Set WAIT_FOR_DB_EXEC=-1 to set the agent process to failover to the passive node when a database failover occurs."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Install S-TAP agents on all active and passive nodes. Set ALL_CAN_CONTROL=0 to disable all passive nodes until a database failover occurs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Install S-TAP agents on all active and passive nodes: Set WAIT_FOR_DB_EXEC>0 on all nodes to start S-TAP processes without waiting for a correct DB"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To properly support load balancing, the Guardium S-TAP agents must be configured properly."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Add, uncomment, or modify the settings on your S-TAP Configuration to look like the following examples."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "See the Guardium product documentation on how and where to adjust the S-TAP configuration file, as well as for updated guidance from IBM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Sqlguard_ip = <Your BIG-IP Virtual Server IP address/hostname>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For example: Sqlguard_ip = 192.0.2.123"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Participate_load_balancing = 3"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* All_can_control = 1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sqlguard_ip is the address you will define on BIG-IP LTM during the Virtual Server configuration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Participate in Load balancing allows the S-TAP to send session information on every failover to the appliance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All Can Control allows the S-TAP to be able to edit S-TAP configurations through GUI."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: all_can_control -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ". 0=S-TAP can be controlled only from the primary Guardium system. 1=S-TAP can be controlled from any Guardium system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www.f5.com/pdf/deployment-guides/ibm-guardium-dg.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To properly support load balancing, the Guardium S-TAP agents must be configured properly."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Add, uncomment, or modify the settings on your S-TAP Configuration to look like the following examples."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "See the Guardium product documentation on how and where to adjust the S-TAP configuration file, as well as for updated guidance from IBM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Sqlguard_ip = <Your BIG-IP Virtual Server IP address/hostname>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For example: Sqlguard_ip = 192.0.2.123"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Participate_load_balancing = 3"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* All_can_control = 1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sqlguard_ip is the address you will define on BIG-IP LTM during the Virtual Server configuration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Participate in Load balancing allows the S-TAP to send session information on every failover to the appliance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All Can Control allows the S-TAP to be able to edit S-TAP configurations through GUI."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: all_can_control -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ". 0=S-TAP can be controlled only from the primary Guardium system. 1=S-TAP can be controlled from any Guardium system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www.f5.com/pdf/deployment-guides/ibm-guardium-dg.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam C2150-606 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator is preparing a command to install Configuration Auditing System (CAS) on a Linux server using the command line method."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which parameter is required?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. dir"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. tapip"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. java-home"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. sqlguardip"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam C2150-606 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator installed an S-TAP but is not seeing any data in reports on the collector. The administrator discovered that an Inspection Engine is not configured for that S-TAP."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is an Inspection Engine?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A piece of software residing on the Collectors."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Another software to be installed on the Database server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The same thing as the policy and it runs on the S-TAP to inspect the traffic in real-time."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A set of parameters needed for the S-TAP to define how to monitor traffic for a particular database instance on a server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An inspection engine monitors the traffic between a set of one or more servers and a set of one or more clients using a specific database protocol (Oracle or"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sybase, for example)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The inspection engine extracts SQL from network packets; compiles parse trees that identify sentences, requests, commands, objects, and fields; and logs detailed information about that traffic to an internal database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The Guardium S-TAP is a lightweight software agent installed on a database server system. The S-TAP monitors database traffic and forwards information about that traffic to a Guardium system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.1.0/com.ibm.guardium91.doc/administer/topics/inspection_engine_configuration.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An inspection engine monitors the traffic between a set of one or more servers and a set of one or more clients using a specific database protocol (Oracle or"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sybase, for example)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The inspection engine extracts SQL from network packets; compiles parse trees that identify sentences, requests, commands, objects, and fields; and logs detailed information about that traffic to an internal database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The Guardium S-TAP is a lightweight software agent installed on a database server system. The S-TAP monitors database traffic and forwards information about that traffic to a Guardium system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.1.0/com.ibm.guardium91.doc/administer/topics/inspection_engine_configuration.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam C2150-606 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The guard_tap.ini of a UNIX S-TAP is configured with the following parameters: firewall_installed=1 firewall_fail_close=1 firewall_default_state=1 firewall_timeout=10"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The collector that this S-TAP is sending data to has become unavailable and there is no failover option configured. A Guardium administrator must communicate the impact of this outage to users of the monitored database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should the administrator advise is the expected behavior for a database session?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The session will not experience any latency or termination."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. No SQL can be executed and after 10 seconds the session will be terminated."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. In the first 10 seconds of the session SQL can be executed, then the session is terminated."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. In the first 10 seconds of the session no SQL can be executed, then the session will work as normal."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The firewall_timeout is the time in seconds to wait for a verdict from the Guardium system if timed out. Look at firewall_fail_close value to know whether to block or allow the connection. The value can be any integer value."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The firewall_fail_close: If the verdict does not come back from the Guardium system and the firewall_timeout is passed, then if firewall_close = 0 the connection will go through; if firewall_close=1 the connection will be blocked."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://www-01.ibm.com/support/knowledgecenter/SSMPHH_10.0.0/com.ibm.guardium.doc.stap/stap/r_stapparmsu_firewall.html?lang=en"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The firewall_timeout is the time in seconds to wait for a verdict from the Guardium system if timed out. Look at firewall_fail_close value to know whether to block or allow the connection. The value can be any integer value."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The firewall_fail_close: If the verdict does not come back from the Guardium system and the firewall_timeout is passed, then if firewall_close = 0 the connection will go through; if firewall_close=1 the connection will be blocked."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://www-01.ibm.com/support/knowledgecenter/SSMPHH_10.0.0/com.ibm.guardium.doc.stap/stap/r_stapparmsu_firewall.html?lang=en"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam C2150-606 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator manages a Guardium environment including 4 Collectors exporting data to an Aggregator. The Collectors export their data daily at 2, 3, 4 and 5 am Eastern Standard Time (EST) respectively. The Collectors receive traffic every day. The logs on all the Collectors confirm data is exported daily without errors, and all the exported files always have data. A Session report is run on the Aggregator at noon EST for data from the last day."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following will ensure there is data in the report?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Schedule Data Purge on the Aggregator to run every day after 5 am EST."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Schedule Data Import on the Aggregator to run at any time of the day."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Schedule Data Import in the Aggregator to run every day before 2 am EST."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Schedule Data Import on the Aggregator to run every day at 6 am EST or later."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam C2150-606 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A company has recently acquired Guardium software entitlement to help meet their upcoming PCI-DSS audit requirements. The company is entitled to Standard"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Guardium DAM offering."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following features can the Guardium administrator use with the current entitlement? (Select two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Run Vulnerability Assessment reports"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Generate audit reports using PCI-DSS Accelerator"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Block and quarantine an unauthorized database connection"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Mask sensitive PCI-DSS information from web application interface"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Log and alert all database activities that access PCI-DSS Sensitive Objects."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Guardium comes with out of the box compliance regulation accelerators."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C, Not D: DAM Advanced is DAM Standard functionality plus fine-grained access control, masking, quarantine, and blocking (activity terminate)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: Payment Card Industry (PCI) Data Security Standard (DSS) is a set of technical and operational requirements designed to protect cardholder data and applies to all organizations who store, process, use, or transmit cardholder data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Review the following information to determine which license key must be added. This will depend on what features of the product have been purchased."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02017/0003100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/knowledgecenter/SSMPHH_10.0.0/com.ibm.guardium.doc.install/install/licenses.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "B: Guardium comes with out of the box compliance regulation accelerators."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C, Not D: DAM Advanced is DAM Standard functionality plus fine-grained access control, masking, quarantine, and blocking (activity terminate)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: Payment Card Industry (PCI) Data Security Standard (DSS) is a set of technical and operational requirements designed to protect cardholder data and applies to all organizations who store, process, use, or transmit cardholder data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Review the following information to determine which license key must be added. This will depend on what features of the product have been purchased."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02017/0003100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/knowledgecenter/SSMPHH_10.0.0/com.ibm.guardium.doc.install/install/licenses.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam C2150-606 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator must configure real time policy alerts to be sent to a remote SIEM for every SQL statement run on a sensitive object. There is no requirement for the data to be viewed or reported on in the Guardium appliance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which policy action would achieve that task and store the least amount of data in the Guardium internal database?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Log Only"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Alert Only"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Alert Daily"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Alert Per Match"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Guardium Version 9 introduced a new policy rule action - ALERT ONLY."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This rule action will populate only the message tables and constructs. It will no longer populate Policy Violations tables. With this policy rule action logging Policy"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Violations in IBM InfoSphere Guardium can be avoided."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Alert Only - action that will write to message and message_text tables. This action permits all policy violation notifications to be sent to a remote destination."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Designed to improve Guardium integration with other database security solutions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C: Alert Daily sends notifications only the first time the rule is matched each day."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.5.0/com.ibm.guardium95.doc/protect/topics/rule_actions.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Guardium Version 9 introduced a new policy rule action - ALERT ONLY."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This rule action will populate only the message tables and constructs. It will no longer populate Policy Violations tables. With this policy rule action logging Policy"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Violations in IBM InfoSphere Guardium can be avoided."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Alert Only - action that will write to message and message_text tables. This action permits all policy violation notifications to be sent to a remote destination."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Designed to improve Guardium integration with other database security solutions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C: Alert Daily sends notifications only the first time the rule is matched each day."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-01.ibm.com/support/knowledgecenter/SSMPHH_9.5.0/com.ibm.guardium95.doc/protect/topics/rule_actions.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam C2150-606 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Guardium administrator needs to use both CLI and GrdAPI functions to manage the system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which are the two commands that the administrator can use to search for the required commands and their syntax from within either CLI or GrdAPI?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CLI: commands <search option> GrdApi: grdapi <search option> --help"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CLI: help <search option> GrdApi: grdapi --help <search option>"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. CLI: commands <search option> GrdAPI: grdapi command <search option>"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. CLI: <search option> --help"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To display the parameters for a particular command, enter the command followed by '--help=true'. For example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CLI> grdapi list_entry_location --help=true"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/knowledgecenter/SSWL9Z_10.0.0/com.ibm.guardium.appmaskref.doc/cli_api/guardapi_reference.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To display the parameters for a particular command, enter the command followed by '--help=true'. For example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CLI> grdapi list_entry_location --help=true"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/knowledgecenter/SSWL9Z_10.0.0/com.ibm.guardium.appmaskref.doc/cli_api/guardapi_reference.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam C2150-606 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator just installed the Guardium product using the Guardium ISO image."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which step must the administrator perform as part of the initial set-up of the new appliance?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Generate the GUI certificate request."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure network settings on the appliance."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Restart the sniffer process from the CLI command prompt."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Obtain the passwords for the databases to be monitored by the appliance."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The IBM InfoSphere Guardium solution is typically delivered as software installed on dedicated appliance or a solution delivered as software images to be deployed by the customers on their own hardware either directly or as virtual appliances. The appliances are preconfigured with default settings (users, roles, etc.) and the relevant product key to reflect the customers entitlements. To activate the solution, the customer needs to install the appliance in a rack, locally login to the command line interface (CLI) and run a basic network configuration (using CLI commands: store network interface ip; store network interface mask; store network routes def; store network resolver 1; store system hostname) to make it accessible remotely through the network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-304.ibm.com/support/docview.wss?uid=swg27022425&aid=1"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The IBM InfoSphere Guardium solution is typically delivered as software installed on dedicated appliance or a solution delivered as software images to be deployed by the customers on their own hardware either directly or as virtual appliances. The appliances are preconfigured with default settings (users, roles, etc.) and the relevant product key to reflect the customers entitlements. To activate the solution, the customer needs to install the appliance in a rack, locally login to the command line interface (CLI) and run a basic network configuration (using CLI commands: store network interface ip; store network interface mask; store network routes def; store network resolver 1; store system hostname) to make it accessible remotely through the network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www-304.ibm.com/support/docview.wss?uid=swg27022425&aid=1"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

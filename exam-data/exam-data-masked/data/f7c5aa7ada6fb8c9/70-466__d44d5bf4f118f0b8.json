@@ -1,0 +1,744 @@
+{
+  "70-466__d44d5bf4f118f0b8": {
+    "Question #: 1": {
+      "Title": "Exam 70-466 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are managing a SQL Server Analysis Services (SSAS) tabular database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The database must meet the following requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The processing must load data into partitions or tables."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The processing must not rebuild hierarchies or relationships."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The processing must not recalculate calculated columns."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to implement a processing strategy for the database to meet the requirements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which processing mode should you use?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Process Clear"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Process Data"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Process Add"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Process Full"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Process Default"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Process Add: This processing mode is available for Dimensions, Measure Groups and Partitions. When this processing mode is applied to Dimensions, it adds new members into the dimensions from the underlying database and updates the descriptions of the attributes. When this processing mode is applied to Measure"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Groups and Partitions, it adds the incremental fact data into the cube and processes only the affected partitions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Process Data: This processing mode is available for Dimensions, Measure Groups, Partitions, and Cubes. This processing mode is used to process the data without actually building or creating the aggregations and indexes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.mssqltips.com/sqlservertip/2756/ssas-interview-questions-on-deployment-processing-querying-and-accessing/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Process Add: This processing mode is available for Dimensions, Measure Groups and Partitions. When this processing mode is applied to Dimensions, it adds new members into the dimensions from the underlying database and updates the descriptions of the attributes. When this processing mode is applied to Measure"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Groups and Partitions, it adds the incremental fact data into the cube and processes only the affected partitions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Process Data: This processing mode is available for Dimensions, Measure Groups, Partitions, and Cubes. This processing mode is used to process the data without actually building or creating the aggregations and indexes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.mssqltips.com/sqlservertip/2756/ssas-interview-questions-on-deployment-processing-querying-and-accessing/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 70-466 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are designing a SQL Server Analysis Services (SSAS) cube that contains two measure groups named Sales History and Current Sales."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Sales History measure group has the following characteristics:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Data changes on a monthly basis."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The measure group contains a very high data volume."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Queries that use the measure group only reference aggregate data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The measure group includes SUM, MIN, MAX, and COUNT aggregate functions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Current Sales measure group has the following characteristics:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Data changes frequently."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The measure group contains a low data volume."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Queries that use the measure group often reference non-aggregate data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The measure group includes SUM, MIN, MAX, and COUNT aggregate functions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to select a storage mode for each measure group. The solution must meet the following requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 For the Sales History measure group, query performance must be optimized over data latency."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 For the Current Sales measure group, data latency must be optimized over query performance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do? To answer, select the appropriate storage mode for each measure group in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02155/0007400001.png"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 3": {
+      "Title": "Exam 70-466 topic 1 question 85 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are developing a SQL Server Analysis Services (SSAS) cube."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Revenue must be compared to a goal and described by a status and a trend. Revenue, goal, status, and trend will be defined by Multidimensional Expressions"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(MDX) expressions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to add the Revenue measure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which tab should you select? (To answer, select the appropriate tab in the answer area.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02155/0012900001.jpg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 4": {
+      "Title": "Exam 70-466 topic 1 question 89 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are using Multidimensional Expressions (MDX) to query a SQL Server Analysis Services (SSAS) cube."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to compute the aggregate value of the 10 most-ordered produces in the Product Categories hierarchy. The Product level is the lowest in the hierarchy."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which functions should you use to complete the MDX query? (To answer, drag the appropriate functions from the list of functions to the correct locations in the answer area.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02155/0013100001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02155/0013200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Example (order of TopCount and Aggregate):"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WITH -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SET -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[Top25Customers] as"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TopCount([Customers].[All Customers].Children, 25.0, [Measures].[Sales])"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MEMBER [Customers].[All Customers].[Rest of Customers] as"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Aggregate(Except([Customers].[All Customers].Children,[Top25Customers]))"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SELECT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NON EMPTY {CROSSJOIN([Markets].[All Markets].Children,{[Measures].Sales})}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ON COLUMNS,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Union([Top25Customers],{[Customers].[All Customers].[Rest of Customers]}) ON ROWS from [SteelWheelsSales]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* TopCount: Sorts a set in descending order and returns the specified number of elements with the highest values."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "*Aggregate:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Returns a number that is calculated by aggregating over the cells returned by the set expression. If a numeric expression is not provided, this function aggregates each measure within the current query context by using the default aggregation operator that is specified for each measure. If a numeric expression is provided, this function first evaluates, and then sums, the numeric expression for each cell in the specified set."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "One can extract the leaf members of a parent child hierarchy by asking the descendants of the root member with the following expression:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Descendants([Organization].[Organizations].&[1], , LEAVES)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Not TopSUM: Returns, in order of decreasing rank, the top-most rows of a table whose cumulative total is at least a specified value."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Example (order of TopCount and Aggregate):"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WITH -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SET -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[Top25Customers] as"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TopCount([Customers].[All Customers].Children, 25.0, [Measures].[Sales])"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MEMBER [Customers].[All Customers].[Rest of Customers] as"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Aggregate(Except([Customers].[All Customers].Children,[Top25Customers]))"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SELECT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NON EMPTY {CROSSJOIN([Markets].[All Markets].Children,{[Measures].Sales})}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ON COLUMNS,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Union([Top25Customers],{[Customers].[All Customers].[Rest of Customers]}) ON ROWS from [SteelWheelsSales]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* TopCount: Sorts a set in descending order and returns the specified number of elements with the highest values."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "*Aggregate:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Returns a number that is calculated by aggregating over the cells returned by the set expression. If a numeric expression is not provided, this function aggregates each measure within the current query context by using the default aggregation operator that is specified for each measure. If a numeric expression is provided, this function first evaluates, and then sums, the numeric expression for each cell in the specified set."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "One can extract the leaf members of a parent child hierarchy by asking the descendants of the root member with the following expression:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Descendants([Organization].[Organizations].&[1], , LEAVES)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Not TopSUM: Returns, in order of decreasing rank, the top-most rows of a table whose cumulative total is at least a specified value."
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    }
+  }
+}

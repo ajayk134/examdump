@@ -1,0 +1,559 @@
+{
+  "NSE7_SOC_AR-7.6__d8c10f8c3abf0bad": {
+    "Question #: 1": {
+      "Title": "Exam NSE7_SOC_AR-7.6 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-soc-ar-7-6/image9.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are reviewing the Triggering Events page for a FortiSIEM incident. You want to remove the Reporting IP column because you have only one firewall in the topology."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How do you accomplish this?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Customize the display columns for this incident."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Remove the Reporting IP attribute from the raw logs using parsing rules."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Disable correlation for the Reporting IP field in the rule subpattern."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Clear the Reporting IP field from the Triggered Attributes section when you configure the Incident Action."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam NSE7_SOC_AR-7.6 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-soc-ar-7-6/image12.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are investigating an open incident and want to add records from the Tickets module, a custom module, to the visual correlation widget. Assume there are already linked ticket records to the incident."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How do you accomplish this?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Edit the incident template and add the Tickets module to the graph."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Define move module relationships under Correlation Settings."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Tag ticket records with the incident ID."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Ingest ticket records through a custom connector."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam NSE7_SOC_AR-7.6 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-soc-ar-7-6/image18.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are trying to find traffic flows to destinations that are in Europe or Asia, for hosts in the local LAN segment. However, the query returns no results. Assume these logs exist on FortiSIEM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three mistakes can you see in the query shown in the exhibit? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The logical operator for the first row (Group: Europe) must be OR."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The null value cannot be used with the IS NOT operator."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The time range must be Absolute for queries that use configuration management database (CMDB) groups."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The Source IP row operator must be BETWEEN 10.0.0.0, 10.200.200.254."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. There are missing parentheses between the first row (Group: Europe) and the second row (Group: Asia)."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACE",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam NSE7_SOC_AR-7.6 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-soc-ar-7-6/image20.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A list of FortiSIEM connector actions is shown."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You want to create a playbook on FortiSOAR that allows you to accomplish the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Manually input a range of IP addresses."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the connector action in the exhibit to retrieve a list of devices from the FortiSIEM configuration management database (CMDB) within that IP address range."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For each returned result, create an asset record based on the IP address of the device."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which combination and order of step operations fulfills the requirements with the fewest required playbook steps?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1) Connector action, 2) Create record, 3) Update record"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1) On create trigger, 2) Connector action, 3) Code snippet, 4) Create record"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1) Manual trigger, 2) Connector action, 3) Create record"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1) Manual trigger, 2) Set variable, 3) Connector action, 4) Create record, 5) Update record"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam NSE7_SOC_AR-7.6 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three statements accurately describe step utilities in a playbook step? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Mock Output step utility uses HTML format to simulate real outputs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The Loop step utility can only be used once in each playbook step."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The Condition step utility behavior changes depending on if a loop exists for that step."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The Timeout step utility sets a maximum execution time for the step and terminates playbook execution, if exceeded."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The Variables step utility stores the output of the step directly in the step itself."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCE",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam NSE7_SOC_AR-7.6 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/nse7-soc-ar-7-6/image32.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How do you add a piece of evidence to the Action Logs Marked As Evidence area?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. By creating an evidence collection task and attaching a file"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. By linking an indicator to the war room"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. By tagging output or a workspace comment with the keyword Evidence"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. By executing a playbook with the Save Execution Logs option enabled"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam NSE7_SOC_AR-7.6 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are configuring a new FortiSIEM rule to trigger incidents based on receiving a number of either Fortigate-Traffic-Violation OR Fortigate-Traffic-Denied event types. You could use a single subpattern for this, but you decided to create two separate subpatterns, one for each event type, and correlate them using the OR operator."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two benefits does this approach provide? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Each subpattern can use a different group by condition."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Each subpattern can use a different time window condition."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Each subpattern can use a different aggregate condition."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Each subpattern can trigger its own notification policy."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

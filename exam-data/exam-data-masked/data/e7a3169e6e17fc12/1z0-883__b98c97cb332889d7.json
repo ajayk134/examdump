@@ -1,0 +1,833 @@
+{
+  "1z0-883__b98c97cb332889d7": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-883 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A simple master-to-slave replication is currently being used. The following information is extracted from the SHOW SLAVE STATUS output:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Last_SQL_Error: Error 'Duplicate entry '8' for key 'PRIMARY' ' on query. Default database: 'mydb'. Query: 'insert into mytable VALUES ('8' , 'George') '"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Skip_Counter: 0 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Retrieved _Gtid_Set: 38f32e23480a7-32a1-c323f78067fd37821: 1-8"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Auto _Position: 1 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You execute a \"SHOW CREATE TABLE mytable\" on the slave:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE TABLE mytable ("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ID int(11) NOT NULL DEFAULT 0,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "name char(10) DEFAULT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PRIMARY KEY (ID)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The table mytable on the slave contains the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02339/0000200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have issued a STOP SLAVE command. One or more statements are required before you can issue a START SLAVE command to resolve the duplicate key error."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement should be used?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SET GLOBAL SQL_SKIP_SLAVE_COUNTER=1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SET GTID_NEXT=\"CONSISTENCY\"; BEGIN; COMMIT; SET GTID_NEXT=\" AUTOMATIC\u2019;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SET GLOBAL enforce_gtid_consistency=ON"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SET GTID_EXECUTED=\"38f32e23480a7-32a1-c323f78067fd37821 : 9\";"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. SET GTID_NEXT=\"38f32e23480a7-32a1-c323f78067fd37821 : 9\"; BEGIN; COMMIT; SET GTID_NEXT=\"AUTOMATIC\";"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-883 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are four capabilities of the mysql client program?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Creating and dropping databases"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Creating, dropping, and modifying tables and indexes"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Shutting down the server by using the SHUTDOWN command"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Creating and administering users"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Displaying replication status information"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Initiating a binary backup of the database by using the START BACKUP command"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABCDE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-883 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assume that you want to know which Mysql Server options were set to custom values."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two methods would you use to find out?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Check the configuration files in the order in which they are read by the Mysql Server and compare them with default values."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Check the command-line options provided for the Mysql Server and compare them with default values."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Check the output of SHOW GLOBAL VARIABLES and compare it with default values."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Query the INFORMATION_SCHEMA.GLOBAL_VARIABLES table and compare the result with default values."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-883 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You install a copy of Mysql 5.6.13 on a brand new Linux server by using RPM packages. The server starts successfully as verified by the following commands:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$ pidof mysqld"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3132"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$tail - n2 /var/lib.mysql/hostname.err"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2013-08-18 08:18:38 3132 [Note] /usr/sbin/mysqld: ready for connections."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Version: 5.6.13-enterprise-commercial-advaced socket: /tmp/mysql.sock port;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3306 Mysql Enterprise Server Advanced Edition (Commercial)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You attempt to log in as the root user with the following command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$mysql u root"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ERROR 1045 (28000): Access denied for user root@localhost (using password: NO)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The RPM installation script sets a default password of password for new installations."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The local root user must log in with a blank password initially: mysql \u2013u root \u2013p."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. New security measures mean that the mysql_secure_installation script must be run first on all new installations."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The mysql_install_bd post-installation script used \u2013 random-password."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-883 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Mysql Server has been running an existing application successfully for six months."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The my.cnf is adjusted to contain the following additional configuration:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[mysqld]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Default-authentication-plugin=sha256_password"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Mysql Server is restarted without error."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What effect will the new configuration have in existing accounts?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They will have their passwords updated on start-up to sha256_password format."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They will have to change their password the next time they login to the server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They are not affected by this configuration change."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They all connect via the secure sha256_password algorithm without any configuration change."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://dev.mysql.com/doc/refman/5.6/en/sha256-authentication-plugin.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://dev.mysql.com/doc/refman/5.6/en/sha256-authentication-plugin.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-883 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The InnoDB engine has a feature known as clustered indexes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three statements are true about clustered indexes as used in InnoDB?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A primary key must exist for creation of a clustered index."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A primary key is used as a clustered index."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A clustered index is a grouping of indexes from different tables into a global index for faster searching."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. If no indexes exist, a hidden clustered index is generated based on row IDs."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A clustered index provides direct access to a page containing row data."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. The first unique index is always used as a clustered index and not a primary key."
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. A clustered index allows fulltext searching within InnoDB,"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDG \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://dev.mysql.com/doc/refman/5.0/en/innodb-index-types.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://dev.mysql.com/doc/refman/5.0/en/innodb-index-types.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-883 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Mysql instance is running on a dedicated server. Developers access the server from the same network subnet. Users access the database through an application that is running on a separate server in a DMZ."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two will optimize the security of this setup?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Disabling connections from named pipes or socket files (depending on the operating system of the server)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Running the server with \u2013 skip-networking specified"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Limiting logins to originate from the application server or the server\u2019s subnet"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Starting the server with \u2013 bind- address=0.0.0.0 specified"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Installing Mysql on the application server, and running the database and application on the same server"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Enabling and using SSL for connections to the Mysql database EF"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-883 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are using CTIDS in replication. You need to skip a transaction with the CTID of aaa-bbb-ccc-ddd-eee : 3 on a slave."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command would you execute from a Mysql prompt?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. STOP SLAVE; SETGTID_NEXT=\"aaa-bbb-ccc-ddd-eee: 3\"; BEGIN; COMMIT; SET GTID_NEXT=\"AUTOMATIC\"; START SLAVE"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. STOP SLAVE; SET GLOBAL SQL_SLAVE_SKIP_COUNTER=1; START SLAVE;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. STOP SLAVE; BEGIN; SET GTID_IGNORE=\"aaa-bbb-ccc-ddd-eee: 3\"; COMMIT; START SLAVE;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. STOP SLAVE; RESET SLAVE; BEGIN; SKIP NEXT GTID; COMMIT; START SLAVE;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://blog.secaserver.com/2011/11/resync-mysql-masterslave-replication/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://blog.secaserver.com/2011/11/resync-mysql-masterslave-replication/"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

@@ -1,0 +1,4273 @@
+{
+  "1z0-997-22__0d8919faba32ecba": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-997-22 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consulting company that employs Oracle Cloud Infrastructure (OCI) architects has successfully completed resource migration from Microsoft Azure to OCI, and no longer requires the OCI FastConnect circuit to Azure. The project manager has asked you to delete all resources involved in this inter-cloud connectivity. From the Azure side, you delete the Resource Group. After a while, you notice that all Azure resources have been deleted, except for the Azure ExpressRoute circuit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What could be a potential reason for this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You need to first delete the OCI FastConnect circuit for the ExpressRoute circuit to be decommissioned, and then you can delete the ExpressRoute virtual circuit."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Your bill from the OCI side needs to be paid in full before you can remove the Azure ExpressRoute circuit."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You need to remove all routes that point to the inter-cloud connection on both OCI and Azure before you can delete the circuit."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You need to remove the Azure ExpressRoute Partner Service Key from the OCI FastConnect circuit, and then you can delete the ExpressRoute virtual circuit."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-997-22 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are a Lead Architect at one of the leading consulting firms. Your firm has workloads deployed in both Oracle Cloud Infrastructure (OCI) and Microsoft Azure. You are asked to design a solution where workloads on both clouds can communicate directly and efficiently. You would like to set up a private interconnection between OCI and Microsoft Azure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are the steps you need to perform on the OCI side to set up the interconnection?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a VCN with subnets and attach a DRG to the VCN. Create a FastConnect connection of the connection type \"FastConnect Partner\" and select \"Microsoft Azure: ExpressRoute\u201d as the Partner. Create a public virtual circuit, provide details of the DRG and add the \u201cpartner connection key\u201d provided by Microsoft Azure. Configure OCI VCN Security Lists and Route Tables."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a Virtual Cloud Network (VCN) with subnets and attach a Virtual Network Gateway to the VCN. Create a FastConnect connection of the connection type \"FastConnect Partner\" and select \"Microsoft Azure: ExpressRoute\" as the Partner. Create a private virtual circuit, provide details of the Dynamic Routing Gateway (DRG) and add the \"partner interconnect key\" provided by Microsoft Azure. Provide the BGP IP addresses. Configure OCI VCN Security Lists and Route Tables."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a VCN with subnets and attach a DRG to the VCN. Create a FastConnect connection of the connection type \"FastConnect Direct\". Create a Cross-Connect Group, provide details of the DRG and add the \"partner secret key\" provided by Microsoft Azure. Provide the BGP IP addresses, Configure OCI VCN Security Lists and Route Tables."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a VCN with subnets and attach a DRG to the VCN. Create a FastConnect connection of the connection type \"FastConnect Partner\" and select \"Microsoft Azure: ExpressRoute\" as the Partner. Create a private virtual circuit, provide details of the DRG and add the \"partner service key\" provided by Microsoft Azure. Provide the BGP IP addresses, Configure OCI VCN Security Lists and Route Tables."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-997-22 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have two Virtual Cloud Networks (VCN) that need to be peered. The set up is as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The VCNs are in different tenancies."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Peering has to be via Local Peering Gateway (LPG) because one of the VCNs needs to be added to an existing Hub and Spoke configuration that consists of a hub and two spokes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "There is a CIDR overlap. The VCN that serves as the Hub VCN has a 172.19.0.0/16 CIDR prefix. The other VCN to be added as a Spoke VCN has a 172.19.128.0/17 CIDR prefix."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The other two spokes have 10.0.0.0/16 and 192.168.0.0/16 prefixes, respectively."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is a possible solution to this problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use Dynamic Routing Gateway (DRG) instead."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add another CIDR prefix to the VCN that is integrating with the Hub and Spoke and does not overlap. Use that CIDR for the LPG connection."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Review the subnets in the hub VCN. If they all have the third octet under 128, change the VCN prefix to /17."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Review the subnets in the hub VCN. If they all have the third octet above 128, change the VCN prefix to /17."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Review all subnets in the hub VCN. If one of them has the third octet at 128, change the VCN prefix to /17."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-997-22 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are trying to delete a compartment. The delete operation is failing and you need to troubleshoot the problem."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which step should NOT be considered when troubleshooting this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Verify that you have removed all resources from the compartment."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Ensure you have at least one more compartment in your tenancy other than the root compartment."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Verify that there are no policies in the root compartment that reference the compartment you are trying to delete."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Search for resources in the compartment for each region that your tenancy is subscribed to."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-997-22 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A new international hacktivist group, based in London, launched wide scale cyber attacks including SQL Injection and Cross-Site Scripting (XSS) across multiple websites hosted in Oracle Cloud Infrastructure (OCI). As an IT consultant, you must configure a Web Application Firewall (WAF) to protect these websites against such attacks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How would you configure your WAF to protect the website against those attacks?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Enable an Access Rule to block the IP Address range from London."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable an Access Rule that contains XSS Filters Categories and SQL Filters Categories."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable a Protection Rule to block the attacks based on HTTP Headers that contain XSS and SQL strings."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable a Protection Rule to block requests that came from London."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Enable a Protection Rule that contains XSS Filters Categories and SQL Filters Categories."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: E \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "E",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-997-22 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A cloud engineer needs to enable routing between two Virtual Cloud Networks (VCN) from his tenancy. The VCNs are in the same region but in different compartments. After reviewing the IPv4 CIDR prefixes of the two VCNs, he notices that there are no overlapping CIDR blocks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which THREE are valid Oracle Cloud Infrastructure (OCI) options for connecting and routing between the two VCNs? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create two DRGs in the tenancy. Attach one VCN to one of the DRGs; attach the other VCN to the second DRG. In each one of the DRGs, create a Virtual Circuit Attachment. Select FastConnect Partner as the FastConnect type. Select any vendor from the list and complete the circuit at the partner site. Once the FastConnect IPv4 BGP field is in the UP state in each one of the Virtual Circuits, add a route rule in each one of the VCNs' route table to the other VCN using the DRG as the next hop."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create two DRGs in the tenancy. Attach one VCN to one of the DRGs; attach the other VCN to the second DRG. In each one of the DRGs, create a Remote Peering Connection (RPC). Establish a connection from one RPC to the other. In each one of the VCNs' route table, add a route rule to the other VCN using the DRG as the next hop."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a DRG in the tenancy; add one of the VCN as a VCN attachment. In the other VCN, create a Local Peering Gateway (LPG). Peer the DRG to the LPG. In the VCN attached to the DRG, add a route rule in the route table that points to the DRG as the next hop. In the other VCN, add a route rule in the route table that points to the LPG as the next hop."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add an LPG to each one of the VCNs. In one of the LPG, establish a Peering Connection to the other LPG. In each one of the VCN route table, add a route rule to the other VCN using the LPG as the next hop."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Create a DRG in the tenancy; add one of the VCNs as a VCN attachment. In the other VCN, create a Local Peering Gateway (LPG). Peer the DRG to the LPG. In the VCN attached to the DRG, enable BGP routing for the route to propagate to the VCN. In the other VCN add a route rule in the route table that points to the LPG as the next hop."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Create a Dynamic Routing Gateway (DRG) in the tenancy, add the two VCNs as VCN attachments and add routes in each one of the VCN route tables with the DRG as the next hop for the CIDR prefix of the other VCN."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BDF",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "CDF",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-997-22 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are a cloud architect at a financial organization. The development team is tasked with creating a cloud native application to be hosted on Oracle Cloud Infrastructure (OCI). The development team has followed a microservices-based approach and created containerized images of the cloud-native application and pushed them to OCI Registry (OCIR)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can you deploy a load balanced application to your OCI Container Engine for Kubernetes (OKE) cluster using these images?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a load balancer using the OCI load balancer service, add the load balancer service IP in the manifest file, add the location of the docker image to the manifest file, and deploy the manifest file."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a named secret, add the secret to the manifest file, add the location of the docker image to the manifest file, add the service of type LoadBalancer in the manifest file, and deploy the manifest file."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create an auth token, add the auth token to the manifest file, add the location of the docker image to the manifest file, add the service of type LoadBalancer in the manifest file, and deploy the manifest file."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add the location of the docker image to the manifest file, deploy the manifest file. All applications are load-balanced by default in OKE"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-997-22 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your organization needs to migrate legacy monolithic applications into cloud-native containerized RESTful microservices. The development team is testing the use of packaged procedures with containers in a fully serverless environment. Before migrating the existing code to production, the team decides to perform a lift and shift of the monolithic application and code the new features that are essential for serverless microservices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You want to carry out a steady migration to the Oracle Cloud Infrastructure (OCI) platform, making the new microservice functionalities available while maintaining the monolithic application for all the other activities. You also want to integrate the legacy monolithic application with the new microservices to have a single interface with simplified management for auditing and monitoring while meeting operational and compliance requirements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can you meet this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Push the container image to OCIR, build a serverless function using the OCI Functions serviceBYOD (Bring-Your-Own-Dockerfile) feature, build an API deployment specification with serverless functions as the back-end, and use an OCI API gateway to provide front-end access to that function."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Push the container image to the OCI code repository, create an instance template with a Docker container running the image, and create an instance pool with autoscaling configuration. Use the OCI load balancer to provide an API endpoint to connect with the microservice."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Push the container image to the OCI code repository, build a serverless function using the OCI Functions service BYOD feature, build an API deployment specification with serverless functions as the back-end, and use an OCI API gateway to provide front-end access to that function."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Push the container image to OCIR, create an instance template with a Docker container running the image, and create an instance pool with autoscaling configuration. Use the OCI load balancer to provide an API endpoint to connect with the microservice."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-997-22 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three scenarios are suitable for the use of Oracle Cloud Infrastructure (OCI) Autonomous Transaction Processing - Serverless (ATP-S) deployment? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A well-established, online auction marketplace is running an application where there is database usage 24x7, but also has peaks of activity that are hard to predict. When the peaks happen, the total activities may reach 3 times the normal activity level."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A midsize company is considering migrating its legacy on-premises MongoDB database to Oracle Cloud Infrastructure (OCI). The database has significantly higher workloads on weekends than weekdays."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A manufacturing company is running Oracle E-Business Suite application on-premises. They are looking to move this application to OCI and they want to use a managed database offering for their database tier."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A developer working on an internal project needs to use a database during work hours but doesn't need it during nights or weekends. The project budget requires her to keep costs low."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A small startup is deploying a new application for eCommerce and it requires a database to store customers' transactions. The team is unsure of what the load will look like since it is a new application."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ADE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-997-22 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You designed and deployed your Autonomous Data Warehouse (ADW) so that it is accessible from your on-premise data center and servers running on both private and public networks in Oracle Cloud Infrastructure (OCI)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/1z0-997-22/image1.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "As you are testing the connectivity to your ADW database from the different access paths, you notice that the server running on the private network is unable to connect to ADW."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two steps do you need to take to enable connectivity from the server on the private network to ADW? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add an entry in the Security List of the ADW allowing ingress traffic for CIDR block 10.2.2.0/24"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add an entry in the route table (associated with the private subnet) with destination of 0.0.0.0/0; target type of Internet Gateway, add a stateful egress rule to the security list (associated with the private subnet) with destination of 0.0.0.0/0 and for all IP protocols."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add an entry in the access control list of ADW for IP address 129.146.160.11"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add an entry in the access control list of ADW for CIDR block 10.2.2.0/24."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Add an entry in the route table (associated with the private subnet) with destination of 0.0.0.0/0; target type of NAT Gateway, add a stateful egress rule to the security list (associated with the private subnet) with destination of 0.0.0.0/0 and for all IP protocols."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-997-22 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your customer needs to move their on-premises applications to Oracle Cloud Infrastructure (OCI). One of their applications is running on an NGINX server and a 2-node Oracle Real Application Clusters (RAC) database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the most cost-effective mechanism to migrate the customer application to OCI and set up regular automated backups?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Launch a compute instance and run an NGINX server to host the application. Deploy Autonomous Database and import the database using Oracle Data Pump."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Launch a compute instance and run an NGINX server to host the application. Deploy a 2-node VM DB Systems with Oracle RAC enabled. Import the on-premises database to OCI VM DB Systems using Oracle Data Pump and then enable automatic backups."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Launch a compute instance for both the NGINX application server and the database server. Attach block volumes on the database server compute instance and enable backup policy to backup the block volumes."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Launch a compute instance and run an NGINX server to host the application. Deploy a 1-node VM DB Systems with Oracle RAC enabled. Import the on-premises database to OCI VM DB Systems using data pump and then enable automatic backups."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "\u3042",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-997-22 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your company needs to migrate a business critical application from your data center to Oracle Cloud Infrastructure (OCI). The application runs on Oracle Database and both the application and database servers run on Oracle Linux version 7. The application server is WebLogic server running on multiple 4-core servers and the database is deployed as an Oracle Database Enterprise Edition RAC database on 2 servers (4-cores each)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which method of database migration should you choose so that the application has minimal impact?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Deploy Exadata Cloud Service Base rack and use Oracle Data Pump tool to migrate the data from customer on-premises to OCI."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Deploy Autonomous Transaction Processing Database on OCI and use the MV2ADB tool for the database migration."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Deploy Virtual Machine RAC DB system on OCI and use the Oracle Database Backup module with RMAN to migrate the data from customer on-premises to OCI."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Deploy Virtual Machine RAC DB system on OCI and use the ZDM tool for the database migration."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-997-22 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A company has an urgent requirement to migrate 300 TB of data to Oracle Cloud Infrastructure (OCI) in two weeks. Their data center has been recently struck by a massive hurricane and the building has been badly damaged, although still operational. They have a 100 Mbps Internet line but the connection is intermittent due to the damages caused to the electrical grid."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, what is the most effective configuration to use to migrate the data to OCI given the time constraints?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set up an OCI Storage Gateway to connect your data center and your VCN. Once the connection has been established, upload all data to OCI."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Upload the data to OCI using OCI Object Storage multipart upload tool."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set up a OCI Storage Gateway to connect your data center and your VCN. Once the connection has been established, upload all data to OCI using CCI Storage Gateway Cloud Sync tool."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use multiple OCI Data Transfer Appliances to transfer data to OCI."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Set up a hybrid network by launching a 1Gbps FastConnect virtual circuit between your data center and OCI. Use OCI Object Storage multipart upload tool to automate the migration of your data to OCI."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-997-22 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A large E-commerce company is looking to run seasonal workloads in Oracle Cloud Infrastructure. The Oracle database used by their E-commerce application can use up to 52 cores at peak workloads. Due to the seasonal nature of the business, the database will not be used for 10 months in a year and can also be shut down during non-business hours."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which database service is the most economical for this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Oracle Cloud Infrastructure Virtual Machine DB Systems"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Oracle Cloud Infrastructure Exadata DB Systems"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Oracle Cloud Infrastructure Bare Metal DB Systems"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Autonomous Transaction Processing with shared Exadata infrastructure"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-997-22 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the two options are true for an autonomous database in dedicated infrastructure deployment? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You can modify maintenance schedule of the AVM after provisioning, to match your organization maintenance schedules."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The new resource model consists of autonomous exadata infrastructure, autonomous container database and autonomous database."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Unlike autonomous database in shared infrastructure, you can customize the maintenance schedule of the autonomous databases in dedicated infrastructure in OCI public cloud."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The new resource model consists of exadata infrastructure, autonomous Exadata VM cluster, autonomous container database."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Network selection, License model and certificate management are resources configured at AVM level."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam 1z0-997-22 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A retail company has recently adopted a hybrid architecture. They have the following requirements for their end-to-end connectivity model between their on-premises data center and the Oracle Cloud Infrastructure (OCI) region."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Highly available connection with service level redundancy"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dedicated network bandwidth with low latency"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which connectivity setup is the most cost-effective solution for this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set up the FastConnect virtual circuit as your primary connection, and a second FastConnect virtual circuit as a backup connection. Make sure your FastConnect physical connectivity is redundant. Use a single edge device in your on-premises data center for each connection. From your edge device, advertise more specific routes via the primary FastConnect virtual circuit, and less specific routes through the backup FastConnect virtual circuit."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set up the FastConnect virtual circuit as your primary connection, and an IPSec VPN as a backup connection. Use separate edge devices in your on-premises data center for each connection. From your edge devices, advertise more specific routes through the FastConnect virtual circuit, and less specific routes through the backup IPSec VPN path."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set up IPSec VPN as your primary connection, and a second IPSec VPN as a backup connection. Use separate edge devices in your on-premises data center for each connection. From your edge devices, advertise more specific routes via the primary IPSec VPN, and less specific routes through the backup IPSec VPN."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Set up IPSec VPN as your primary connection, and a FastConnect virtual circuit as a backup connection. Use separate edge devices in your on-premises data center for each connection. From your edge devices, advertise more specific routes through the IPSec VPN, and less specific routes through the backup FastConnect virtual circuit."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam 1z0-997-22 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An Oracle Cloud Infrastructure (OCI) Public Load Balancers SSL certificate is expiring soon. You notice that the Load Balancer is configured with SSL Termination only. When the certificate expires, data traffic can be interrupted and could compromise security."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What steps do you need to take to prevent this situation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add the new SSL certificate to the Load Balancer and implement end-to-end SSL so it can encrypt the traffic from clients all the way to the backend servers."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add the new SSL certificate to the Load Balancer, update listeners and backend sets so they can use the new certificate bundle."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add the new SSL certificate to the Load Balancer, update backend servers to work with a new certificate and edit listeners so they can use the new certificate bundle."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add the new SSL certificate to the Load Balancer and update listeners to use the new certificate bundle."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Add the new SSL certificate to the Load Balancer and update backend servers to use the new certificate bundle."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam 1z0-997-22 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your company has recently deployed a new web application that uses Oracle Functions. Your manager instructs you to implement monitoring metrics to manage your systems more effectively. You know that Oracle Functions automatically monitors functions on your behalf and reports metrics through Service Metrics."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which TWO metrics are collected and made available by this feature? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Length of time a function runs"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Number of times a function is invoked"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Amount of CPU used by a function"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Number of concurrent connections"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Number of times a function is removed"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam 1z0-997-22 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are designing the network infrastructure for two application servers: appserver-1 and appserver-2 running in two different subnets inside the same Virtual Cloud Network (VCN) in Oracle Cloud Infrastructure (OCI). You have a requirement where your end users will access appserver-1 from the internet and appserver-2 from the on-premises network. The on-premises network is connected to your VCN over a FastConnect virtual circuit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should you design your routing configuration to meet these requirements?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure a single routing table (Route Table-1) that has two sets of rules: one that has route to internet via the Internet Gateway and another that propagates specific routes for the on-premise network via Dynamic Routing Gateway (DRG). Associate the routing table with the VCN."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure two routing tables: Route Table-1 that has a route to internet via the Internet gateway. Associate this route table to the subnet containing appserver-1. Route Table-2 that propagate specific routes for the on-premises network via the Dynamic Routing Gateway (DRG). Associate this route table to subnet containing appserver-2."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure a single routing table (Route Table-1) that has two sets of rules. One that has route to internet via the Internet Gateway and another that propagates specific routes for the on-premise network via the Dynamic Routing Gateway. Associate the routing table with all the VCN subnets."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure two routing tables (Route Table-1 & Route Table-2) that have rule to route all traffic via the Dynamic Routing Gateway (DRG). Associate the two routing tables with all the VCN subnets."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam 1z0-997-22 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To serve web traffic for a popular product, your cloud engineer has provisioned four BM.Standard2.52 instances, evenly spread across two availability domains in the us-ashburn-1 region; LoadBalancer is used to deliver the traffic across instances."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After several months, the product grows even more popular and you need additional compute capacity. As a result, an engineer provisioned two additional VM.Standard2.8 instances."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You register the two VM.Standard2.8 instances with your Load Balancer Backend set and quickly find that the VM.Standard2.8 instances are now running at 100% of CPU utilization but the BM.Standard2.52 instances have significant CPU capacity that's unused."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option is the most cost effective and uses instances capacity most effectively?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure LoadBalancer with two VM.Standard2.8 instances and use Autoscaling instance pool to add up to two additional VM.Standard2.8 instances. Shut off BM.Standard2.52 instances."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure your Load Balancer with weighted round robin policy to distribute traffic to the compute instances, with more weight assigned to bare metal instances."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure Autoscaling instance pool with LoadBalancer to add up to 3 more BM. Standard2.52 Instances when triggered, Shut off VM.Standard2.8 Instances."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Route traffic to BM.Standard2.52 and VM.Standard2.8 Instances directly using DNS and Health Checks. Shut off the Load Balancer."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam 1z0-997-22 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are a solutions architect for a global health care company, which has numerous data centers around the globe. Due to the increasing volume of data that your company stores, you are tasked with setting up a durable, cost-effective solution to archive data from existing on-premises tape-based backup infrastructure to Oracle Cloud Infrastructure (OCI)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which is the most effective mechanism to implement this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the File Storage Service in OCI and copy the data from your existing tape-based backup to the shared file system."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set up an on-premises OCI Storage Gateway, which will back up your data to the OCI Object Storage Standard tier. Use Object Storage life cycle policy management to move any data older than 30 days from the Standard to the Archive tier."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set up FastConnect to connect your on-premises network to OCI VCN and use the rsync tool to copy your data to the OCI Object Storage Archive tier."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Set up an on-premises OCI Storage Gateway, which will back up your data to the OCI Object Storage Archive tier."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Set up an on-premises OCI Storage Gateway, which will back up your data to the OCI Object Storage Standard tier."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam 1z0-997-22 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A company runs a public-facing application that uses a Java-based web service via a RESTful API in their on-premises data center. Use of the API is expected to double with a new product launch. The business wants to migrate their application to Oracle Cloud Infrastructure (OCI) to meet the scale and reliability requirements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In order to achieve this, they will divert only 40% of the traffic to the new Apache Tomcat web servers running on OCI and serve the remaining 60% traffic through their on-premises infrastructure. Once the migration is complete and application works fine, they will divert all traffic to OCI."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can these requirements be met with the LEAST amount of effort?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set up a VPN connectivity between on-premises infrastructure and OCI and create routing tables to distribute traffic between them."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use OCI Traffic management service with Failover steering policy and distribute traffic between OCI and on-premises infrastructure."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use OCI Load Balancing service to distribute traffic between OCI and on-premises infrastructure."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use OCI Traffic management service with Load Balancing steering policy and distribute traffic between OCI and on-premises infrastructure."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam 1z0-997-22 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are developing a Serverless function for your company's IoT project. This function should access Oracle Cloud Infrastructure (OCI) Object Storage to store some files. You choose Oracle Functions to deploy this function on OCI. However, your security team doesn't allow you to carry any API Token or RSA Key to authenticate the function against the OCI API to access the Object Storage."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do to get this function to access OCI Object Storage without carrying any static authentication files?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. There is no way that you can access the OCI resources from a running function."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set up a Dynamic Group using the format below:"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "All {resource, type = \u2018fnfunc\u2019, resource.compartment.id -"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "\u2018ocidl.compartment.ocl..aaaaaaaa23________smwa\u2019)"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Create a policy using the format below to give access to OCI Object Storage: allow dynamic-group acme-func-dyn-grp to manage objects in compartment acme- storage-compartment where all (target.bucket.name-\u2018acme-functions-bucket\u2019)"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Include a call to a 'resource principal provider' in your function code as below: signer - oci.auth.signers.get_resource_principals_signer{}"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add these two policy statements for your compartment to give your function automatic access to all other OCI resources:"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Allow group to manage fn-app in compartmert"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Allow group to manage fn-function in compartment"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add these two policy statements for your compartment and then include a call to a 'resource principal provider' in your function code:"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Allow group acme functions-developers to inspect repos in tenancy"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Allow group acme-functions-developers to manage repos in tenancy where all {target.repo.name-/acme-web-app*/ }"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 24": {
+      "Title": "Exam 1z0-997-22 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your company developed a function that needs to access the Oracle Database to inject some data to it at runtime. You are tasked to move this function to the Oracle Cloud Infrastructure (OCI) and use Oracle Functions and access Oracle Autonomous Database. You created a Dockerfile below to run this function, however, you are getting this error \"cx_Oracle.DatabaseError: ORA-12560: TNS:protocol adapter error\"."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/1z0-997-22/image2.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do to make sure that Oracle Functions can run this Dockerfile properly?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use --privileged flag while running the Docker container to add runtime privilege."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use \u2013cap-add-ALL flag while running the Docker container to add runtime capability."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You need to run this Container as root, so add this line:"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "USER root"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add these two lines to your Dockerfile:"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "groupadd --gid 1000 fn && \\"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "adduser --uid 1000 --gid fn fn"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 25": {
+      "Title": "Exam 1z0-997-22 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your company will soon start moving critical systems into the Oracle Cloud Infrastructure (OCI) platform. These systems will reside in the us-phoenix-1 and us-ashburn-1 regions. As part of the migration plan, you review the company's existing security policies and written guidelines for the OCI platform usage within the company."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Your security processes for critical systems require that all data be encrypted at rest using Customer-Managed Keys."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which TWO options ensure compliance with this policy? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. When you create a new compute instance through the OCI console, use the default options for \"configure boot volume\" to speed up the process of creating this compute instance."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. When you create a new compute instance through the OCI console, use the default shape to speed up the process of creating this compute instance."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When you create a new OCI Object Storage bucket through the OCI console, you need to choose the \"ENCRYPT USING CUSTOMER-MANAGED KEYS\" option."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When you create a new block volume through the OCI console, select the \"Encrypt using Customer-Managed Keys\" checkbox and use the encryption keys generated and stored in OCI Vault."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. You do not need to perform any additional actions because the OCI Block Volume service always encrypts all block volumes, boot volumes, and volume backups at rest by using the Advanced Encryption Standard (AES) algorithm with 256-bit encryption."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 26": {
+      "Title": "Exam 1z0-997-22 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are the security architect for a medium sized e-commerce company that runs all of their applications in Oracle Cloud Infrastructure (OCI). Currently, there are 14 unique applications, each deployed and secured in their own compartment. The Operations team has procured a new monitoring tool that will be deployed throughout the OCI ecosystem. Their requirement is to deploy one management node into each compartment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Currently, the Operations team Identity and Access Management (IAM) group has the following policy: allow group OpsTeam to READ all-resources in tenancy"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Once the new monitoring nodes are deployed, the Operations team may need to stop, start, or reboot them occasionally."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the most efficient solution to allow the Operations team to fully manage the monitoring nodes, without allowing them to alter other resources across the tenancy?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In each of the 14 compartments, create a new policy with the following statement: allow group OpsTeam to manage instance-family in compartment XXX where XXX is the name of the compartment where you are creating the policy."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a new policy in the root compartment with the following policy statement: allow group OpsTeam to manage instance-family in tenancy where ANY (request.operation \u2013 \u2018UpdateInstance\u2019, request.operation \u2013 \u2018InstanceAction\u2019)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Tag all the monitoring nodes with the defined tag AllPolicy:AllowAccess:OpsTeam and write the following IAM policy: allow group OpsTeam to manage instance-family in tenancy where target.resource.tag.AllPolicy.AllowAccess \u2013 \u2018OpsTeam\u2019"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Tag all the monitoring nodes with the free-form tag AllowAccess:OpsTeam and write the following IAM policy: allow group OpsTeam to manage instance-family in tenancy where target.resource.tag.AllowAccess = \u2018OpsTeam\u2019"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 27": {
+      "Title": "Exam 1z0-997-22 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have 10 Oracle Linux Compute instances within the ociarchpro compartment running in Oracle Cloud Infrastructure (OCI). The instances are placed in a private subnet inside a Virtual Cloud Network (VCN). You plan to leverage the Oracle Vulnerability Scanning service to gain visibility into potential vulnerabilities. Your goal is to improve the overall security posture."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You create a Scan recipe with the following settings:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Type: Compute -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Name: ociproscanrecipe -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CIS benchmark scanning: Enabled -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CIS benchmark profile: Medium (More than 40% of the benchmarks failing is a high risk)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Schedule: Daily -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You create a target with the following settings:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Type: Compute -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Compartment: ociarchpro -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scan recipe: ociproscanrecipe -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Targets: All compute instances in the selected target compartment and its sub-compartments"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, you are not able to see the result of host scans for the compute target."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For the given scenario, which is NOT a valid troubleshooting task?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Check whether the target was created less than 24 hours ago."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable the scanning plugin on the Oracle Cloud Agent if you manually disabled it on the target compute instances."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a service gateway for the Virtual Cloud Network (VCN) and configure a route rule."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Disable agent-based scanning in the recipe."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 28": {
+      "Title": "Exam 1z0-997-22 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are the Solution Architect that designed this Oracle Cloud Infrastructure (OCI) compartment layout for your organization:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/1z0-997-22/image3.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The development team has deployed quite a few instances under 'Compute' Compartment and the operations team needs to list the instances under the same compartment for their testing. Both teams, development and operations are part of a group called 'Eng-group'."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been looking for an option to allow the operations team to list the instances without access any confidential information or metadata of the resources."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which IAM policy should you write based on these requirements?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Allow group Eng-group to inspect instance-family in compartment Dev-Team:Compute and attach the policy to 'SysTest-Team' Compartment."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Allow group Eng-group to inspect instance-family in compartment Dev-Team:Compute and attach the policy to 'Engineering' Compartment."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Allow group Eng-group to read instance-family in compartment Dev-Team:Compute and attach the policy to 'Dev-Team' Compartment."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Allow group Eng-group to read instance-family in compartment Compute and attach the policy to 'Engineering' Compartment."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam 1z0-997-22 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given this compartment structure:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/1z0-997-22/image3.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are managing a compute instance that currently resides in the Compute compartment. The Virtual Cloud Network (VCN) into which the compute instance was originally deployed, also resides in this compartment. To support a project-related task, you need to move just the compute instance to the SysTest-Team compartment. You log into your Oracle Cloud Infrastructure (OCI) account and use the Move Resource option to place the compute instance in the new compartment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will be the result of your attempt to move the compute instance to the new compartment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The move will fail and you will be prompted to move the VCN first. Once VCN is moved to the target compartment, the compute instance can be moved."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. After moving the compute instance, you must move the compute instance VNIC as a separate action. The public and private IP addresses of the instance will remain unchanged and it will still be associated with the VCN from the source compartment."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The move will be successful. The compute instance's public and private IP addresses will stay the same. The compute instance will remain associated with the VCN from the source compartment."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The move will be successful. However, the compute instance's public and private IP addresses will change, and it will be associated to the first VCN that was created in the new, target compartment."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam 1z0-997-22 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your team is conducting a root cause analysis (RCA) following a recent, unplanned outage. One of the block volumes attached to your production WebLogic server was deleted and you have been tasked with identifying the source of the action. You search the Audit logs and find several Delete actions that occurred in the previous 24 hours. The simple excerpt of this event is given below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/1z0-997-22/image4.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which item from the event log will help you identify the individual or service that initiated the Delete Volume API call?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. requestOrigin"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. eventId"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. requestAgent"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. principalID"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. eventSource"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam 1z0-997-22 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You work for a public health care company based in the United States. Their existing patient records system runs in an on-premise data center and the customer sends their tape backups offsite as part of their disaster recovery plan."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You develop an alternative archival solution using Oracle Cloud Infrastructure (OCI) that will save the company a significant amount of money on a yearly basis. The solution involves storing data in an OCI Object Storage bucket. After reviewing your solution with their customer Global Risk and Compliance (GRC) team, they highlight four security requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All data less than 1 year old must be accessible within 2 hours"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All data must be retained for at least 10 years and be accessible within 48 hours"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All data must be encrypted at rest"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "No data may be transmitted across the public Internet"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which TWO options meet the requirements outlined by the customer GRC team? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create an OCI Object Storage Standard tier bucket. Configure a lifecycle policy to archive any object that is older than 365 days."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create an OCI Object Storage Standard tier bucket. Configure a lifecycle policy to delete any object that is older than 7 years."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a VPN connection between your on-premises data center and OCI. Create a Virtual Cloud Network (VCN) along with an OCI Service Gateway for OCI Object Storage."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Provision a FastConnect link to the closest OCI region and configure a public peering virtual circuit."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Provision a FastConnect link to the closest OCI region and configure a private peering virtual circuit."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam 1z0-997-22 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A hospital in Austin has hosted its web-based medical records portal entirely in Oracle Cloud Infrastructure (OCI) using compute instances for its web-tier and DB System database for its data tier. To validate compliance with Health Insurance Portability and Accountability (HIPAA), the hospital hired an IT security professional to check their systems."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "It was found that there were a lot of unauthorized requests coming from a set of IP addresses originating from a country in Southeast Asia."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option can mitigate this type of attack?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Block the attacking IP addresses by creating a Network Security Group rule to deny access to the compute instance where the web server is running."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Block the attacking IP addresses by implementing an OCI Web Application Firewall policy using Access Control Rules."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Block the attacking IP addresses by creating a Security List rule to deny access to the subnet where the web server is running."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Implementing a OCI Web Application Firewall Bot Management policy to identify the attacking IP addresses and mitigate the threat."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam 1z0-997-22 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are running a mission-critical database application in Oracle Cloud Infrastructure (OCI). You take regular backups of your DB system to OCI Object Storage. Recently, you notice a failed database backup status in the console."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What troubleshooting action can you perform to determine the cause of the backup failure?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Ensure that the database is not active and running while the backup is in progress."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Ensure that your database host can connect to OCI Object Storage."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Ensure that the dcsagent program is not restarted in case of a stop/waiting status."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Ensure the database archiving mode is set to NOARCHIVELOG."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 34": {
+      "Title": "Exam 1z0-997-22 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An ISV partner wants to deploy their CRM application for one of its major clients on Oracle Cloud Infrastructure (OCI). The application will use an Oracle Database on OCI."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The client's business continuity requirements for the CRM application are:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Recovery Point Objective (RPO) of 24 hours"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Recovery Time Objective (RTO) of 1 hour"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The CRM application should be available even in the event that an entire OCI Region is down."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The ISV partner has asked you for advice on best practice to meet these requirements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After reviewing Oracle Maximum Availability Architecture in OCI, what is your advice?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Deploy a 1 node VM Oracle database in one region and replicate the database to a 1 node VM Oracle database in another region using a manual setup and configuration of Oracle Data Guard."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Deploy an Autonomous Transaction Processing database in one region and replicate it to an Autonomous Transaction Processing database in another region using OCI GoldenGate Service."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Deploy a 2 node Virtual Machine (VM) Oracle RAC database in one region and replicate the database to a 2 node VM Oracle RAC database in another region using a manual setup and configuration of Oracle Data Guard."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Deploy an Autonomous Transaction Processing database in one region and replicate it to an Autonomous Transaction Processing database in another region using Autonomous Data Guard."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 35": {
+      "Title": "Exam 1z0-997-22 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are responsible for a web application deployed on a set of compute VM instances in Oracle Cloud Infrastructure (OCI). Your application stores data on block volumes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In production, the business requirement is a Recovery Point Objective (RPO) of two hours and that data should be recoverable in case of a regional failure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How would you meet the RPO requirement in the event of a failure?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a user-defined storage backup policy and attach a schedule of type \"Hourly\" and automatically copy to another region. Apply this policy to a volume group containing the block volumes."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Store hourly block volume backups to an NVMe device attached to a compute instance in a different Availability Domain (AD)."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure your application to use synchronous primary-secondary data replication between ADs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Set up cross-region volume replication to replicate the block volumes to a different OCI region."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 36": {
+      "Title": "Exam 1z0-997-22 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You work for a bank as the lead Oracle Cloud Infrastructure architect. You designed a highly scalable solution for your company's banking application. The architecture includes a load balancer, application servers with autoscaling configuration based on CPU utilization, and an Autonomous Database with Transaction Processing workload type running in a Virtual Cloud Network (VCN)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "During the peak utilization period, the application users complain that the application runs slow."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are two possible reasons for the application running slow at times? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Instance pool in autoscaling configuration for the Autonomous Database did not scale out due to misconfigured scaling policy."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Instance pool in autoscaling configuration for the application servers did not scale out due to compartment quota breach of the VM shapes used by the application servers."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The load balancer is not configured correctly to send traffic to all the listeners of the application servers in the backend set."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Instance pool in autoscaling configuration for the application servers did not scale out due to service limit breach of the VM shapes used by the application servers."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The VCN does not have a Network Security Group configured to allow traffic from the load balancer to all the application servers in the backend set."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam 1z0-997-22 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A telecom company has an application running in Oracle Cloud Infrastructure (OCI) Germany Central (eu-frankfurt-1) region. They want to configure Disaster Recovery (DR) site in the OCI UK South (uk-london-1) region."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which is the most cost effective option to help set up application and persistence layers in the DR site?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Application layer: configure Events service rule in eu-frankfurt-1 region to filter Health Checks event failure and route traffic to uk-london-1 region in the event of a disaster."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Persistence layer: set up policy to schedule cross-region automated backups of block volumes between eu-frankfurt-1 and uk-london-1 regions."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Application layer: configure Traffic Management steering policy with Load Balancing policy between servers in eu-frankfurt-1 and uk-lordon-1 regions."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Persistence layer: set up policy to schedule cross-region automated backups of block volumes between eu-frankfurt-1 and uk-london-1 regions."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Application layer: set up a public load balancer in the eu-frankfurt-1 region. Create a backend set with instances running in both uk-frankfurt-1 and uk-london-1 regions."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Persistence layer: set up OCI Object Storage replication from eu-frankfurt-1 region to uk-london-1 region."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Application layer: configure Traffic Management steering policy with Failover policy between servers in eu-frankfurt-1 and uk-london-1 regions."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Persistence layer: set up policy to schedule cross-region automated backups of file systems in File Storage service between eu-frankfurt-1 and uk-london-1 regions."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 38": {
+      "Title": "Exam 1z0-997-22 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A retail company has several on-premise data centers which span multiple geographical locations. They plan to move many of their business critical applications to Oracle Cloud Infrastructure (OCI). These applications require highly available network connections between on-premises and OCI."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option provides the highest level of redundancy?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set up both Site-to-Site VPN and Fast Connect connections from OCI to separate edge devices on-premises."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set up Site-to-Site VPN connection with two redundant tunnels from the on-premises edge device to OCI."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use either a Site-to-Site VPN or FastConnect connection to connect to an on-premises edge device, since OCI provides network redundancy by default."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Set up Fast Connect with the colocation with Oracle option, and a compatible edge device on- premises."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Use transit routing by deploying a hub Virtual Cloud Network (VCN) in OCI peered with application VCNs as spokes, and with an on-premises edge device with two redundant tunnels in Site-to-Site VPN."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 39": {
+      "Title": "Exam 1z0-997-22 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You developed a microservices-based application that runs on Oracle Cloud Infrastructure (OCI) Container Engine for Kubernetes (OKE). It has multiple endpoints that needs to be exposed to the public internet."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the most cost-effective way to expose multiple application endpoints without adding complexity to the application?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use NodePort service type in Kubernetes for each of your service endpoint and use node's public IP address to access the applications."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use separate load balancer instance for each service, but use the 100 Mbps load balancer option."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Deploy an Ingress Controller and use it to expose each endpoint with its own routing endpoint."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use ClusterIP service type in Kubernetes for each of your service endpoint and use a load balancer to expose the endpoints."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 40": {
+      "Title": "Exam 1z0-997-22 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A digital marketing company is planning to host a website on Oracle Cloud Infrastructure (OCI) and leverage OCI Container Engine for Kubernetes (OKE). These web servers will make API calls to access OCI Object Storage to store all images uploaded by users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For security purposes, you must ensure that the credentials used by the web server to allow access to OCI Object Storage are not stored in the compute instance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What solution results in an implementation with the least-effort for this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure the credentials to use Transparent Data Encryption (TDE) to automatically allow the web server to make API calls to the OCI Object Storage."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure the credentials using OCI Registry (OCIR) to automatically connect with OKE allowing the web server to make API calls to the OCI Object Storage."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure the credentials using OCI Vault to allow an instance to make API calls and grant access to OCI Object Storage."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure the credentials using Instance Principals to allow the web server to make API calls to the OCI Object Storage."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 41": {
+      "Title": "Exam 1z0-997-22 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After performing maintenance on an Oracle Linux compute instance, the system is returned to a running state. You attempt to connect using SSH, but are unable to do so. You decide to create an instance console connection to troubleshoot the issue."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which THREE tasks would enable you to connect to the console connection and begin troubleshooting? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Reboot the compute instance using the Oracle Cloud Infrastructure (OCI) Management Console."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use SSH to connect to the service endpoint of the console connection service."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Stop the compute instance using the Oracle Cloud Infrastructure (OCI) Command Line Interface (CLI)."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Edit the Linux boot menu to enable access to console."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Use SSH to connect to the public IP address of the compute instance and provide the console connection OCID as the username."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Upload an API signing key for console connection authentication."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 42": {
+      "Title": "Exam 1z0-997-22 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A retail company runs their online shopping platform entirely on Oracle Cloud Infrastructure (OCI). This is a 3-tier web application that includes a 100 Mbps Load Balancer, Virtual Machine Instances for web and application tiers, and an Oracle DB Systems Virtual Machine. Due to unprecedented growth, they noticed an increase in the incoming traffic to their website and all users start getting 503 (Service Unavailable) errors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the potential problem in this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Traffic Management Policy is not set to Load Balance the traffic to the web servers."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The Database is down hence users cannot access the website."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You did not configure a Service Gateway to allow connection between web servers and Load Balancer."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The Load Balancer health check status indicates critical situation for half of the backend web servers."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. All the web servers are too busy and not able to answer any request from users."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: E \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 43": {
+      "Title": "Exam 1z0-997-22 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are a DevOps engineer working for a high tech company, and are using Terraform to maintain your Oracle Cloud Infrastructure (OCI) resources. You have created a Terraform script that would create the infrastructure for deploying a web service. But want to tune in some settings within the OCI Instances using a shell script."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should you write your Terraform script to run the shell script on OCI instance?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use provisioner \"remote-exec\" in your code to run the shell script."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use provisioner \"local-exec\" in your code to run the shell script."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use resource \"oci_core_instance\" to create the instance and run the shell script."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use provisioner \"oci-remote-exec\" in your code to run the shell script."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 44": {
+      "Title": "Exam 1z0-997-22 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "As part of a migration exercise for an existing on-premises application to Oracle Cloud Infrastructure (OCI), you are required to transfer a 7 TB file to OCI Object Storage. You have decided to upload it using OCI Object Storage multipart upload functionality."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. After initiating a multipart upload by making a CreateMultiPartUpload REST API call, the upload remains active until you explicitly commit or abort it."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is not possible to split a 7 TB file into multiple parts using multipart functionality."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is possible to split this file into multiple parts using clone tool provided by OCI Object Storage."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Contiguous numbers need to be assigned for each part so that OCI Object Storage constructs the object by ordering part numbers in ascending order."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Active multipart upload can be checked by listing all parts that have been uploaded, however it is not possible to list information for an individual object part in an active multipart upload."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 45": {
+      "Title": "Exam 1z0-997-22 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are working as a solution architect with a global automotive provider who is looking to create a multi-cloud solution. They want to run their application tier in Microsoft Azure while utilizing the Oracle DB Systems in the Oracle Cloud Infrastructure (OCI)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the most-fault tolerant and secure solution for this customer?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create an encrypted, Virtual Private Network connection between the Microsoft Azure Virtual Network that contains the application tier and the OCI Virtual Cloud Network (VCN) that contains the Oracle Databases."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a FastConnect virtual circuit with Microsoft Azure as the provider to establish a private Interconnect between the application tier running in the Azure Virtual Network and the OCI VCN that contains the Oracle Databases."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use an OCI Virtual Cloud Network remote peering connection to create a remote network connection between the application tier running in Microsoft Azure Virtual Network and Oracle Databases running in the OCI Virtual Cloud Network (VCN)."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Deploy the Oracle database system into a public subnet in your VCN and assign a public IP address. Connect your application tier running in Azure to the public IP address of the database system over the internet."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 46": {
+      "Title": "Exam 1z0-997-22 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A cloud consultant is working on an implementation project on Oracle Cloud Infrastructure (OCI). As part of the compliance requirements, the objects placed in OCI Object Storage should be automatically archived first and then deleted. He is testing a lifecycle policy on Object Storage and created a policy as below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/1z0-997-22/image8.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will happen after this policy is applied?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All objects with names starting with \u201cdoc\u201d will be deleted after 5 days of object creation."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. All the objects having file extension \u201cdoc\u201d will be archived for 5 days and will be deleted 10 days after object creation."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All the objects having file extension \u201cdoc\u201d will be archived 5 days after object creation."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. All the objects with names starting with \u201cdoc\u201d will be archives 5 days after object creation and will be deleted 5 days after archival."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 47": {
+      "Title": "Exam 1z0-997-22 topic 1 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The finance department of your company has reached out to you. They have customer sensitive data on compute instances in Oracle Cloud Infrastructure (QC), which they want to store in OCI Object Storage for long-term retention and archival."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In keeping with their security requirements, they want to ensure this data is NOT transferred over the public Internet, even if encrypted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option meets this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the NAT gateway with appropriate route table when transferring data. Then use NAT gateway\u2019s toggle (on/off), once data transfer is complete."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the Storage gateway with appropriate firewall rule."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the Service gateway with the appropriate route table."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 48": {
+      "Title": "Exam 1z0-997-22 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A SaaS startup that hosts its application on-premises is experiencing rapid growth. Due to cost and flexibility considerations, they have decided to run some module of their application in the cloud with a multi-cloud approach."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The proposed solution architecture has the application entry point on-premises, where a load balancer redirects the request to the appropriate module and provides a failover mechanism. In each location, the module instances are exposed via a public IP."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been asked to review the above architecture and avoid any \u2018single point of failure\u2019."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can you change your architecture to meet the above requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a DNS zone in Oracle Cloud Infrastructure (OCI) for your application. Create a Traffic Management Steering Failover policy for each module. Add an Answer Group for each datacenter location with a type A answer to point to the module public IP. Adopt the policy domain as the entry point for each module."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a DNS zone in Oracle Cloud Infrastructure (OCI) for your application. Create an A record for each module public IP. Create a Load Balancer Service instance with a Virtual Hostname associated with each A record domain name. Configure different weight to each backend server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a DNS zone in Oracle Cloud Infrastructure (OCI) for your application. Add a CNAME record for each module. Create a Load Balancer Service instance with the least connection policy. Configure the path routing to redirect the traffic based on the CNAME records."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a Traffic Management Steering policy with IP Prefix Steering policy type for each module. Add an Answer Group for each datacenter location with a type A answer to point to the module public IP. Setup the rule to redirect the traffic to the appropriate datacenter location."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 49": {
+      "Title": "Exam 1z0-997-22 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have been asked to deploy a mission critical workload into production on Oracle Cloud Infrastructure (OCI). The application is write-intensive and performs lots of disk IO. For this reason, you have decided to deploy it on a DenseIO VM shape with local NVMe drives. As the application is mission critical, you must both protect against NVMe device failure and maximise write performance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should you achieve this?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure RAID 1 for the NVMe devices."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use rsync to copy all the data to a new identical VM instance if an NVMe drive fails on the original VM instance."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Mirror the NVMe devices to OCI object Storage using a Storage Gateway."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure RAID 10 for the NVMe devices."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 50": {
+      "Title": "Exam 1z0-997-22 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are a principal cloud consultant at a retail firm. You are tasked with importing a certificate issued by a third-party certificate authority (CA) using the Oracle Cloud Infrastructure (OCI) Certificates service. While performing the import, you upload the Certificate, Certificate Chain, and Private Key under Certificate Configuration. However, you receive the following error message:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u201cThe certificate chain in the configuration details of the certificate is invalid\u201d"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two certificate settings can help resolve this error? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In the basic constraints extension, if the path length is specified, the number of intermediate certificates in the certificate chain hierarchy should exceed it."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Confirm that the certificate chain includes all CA certificates up to and including the root certificate."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Ensure that the certificate\u2019s common name is non-null."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. If the key usage extension is present, it should not include KEY_CERT_SIGN."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. In the basic constraints extension, set isCA parameter to false."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 51": {
+      "Title": "Exam 1z0-997-22 topic 1 question 57 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You work for a Travel company and your travel portal application is a collection of microservices that run on Oracle Cloud Infrastructure (OCI) Container Engine for Kubernetes (OKE)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have noticed that Oracle has published a newer image of the Operating System (OS) for worker nodes. You want to upgrade your worker nodes to the latest version of the OS, at the same time ensuring that the application does not face any downtime."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which procedure should you follow to upgrade without application downtime?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. Create a new node pool using the latest available OS image"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Run kubectl taint nodes --all node-role.kubernetes.io/master-"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Delete the old node pool"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. Run kubectl cordon against all the worker nodes in the old pool to stop any new application pods to get scheduled"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Run kubectl drain --delete-local-data \u2013force \u2013ignore-daemonsets to evict any Pods that are running"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Download the patches for the new OS image"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Patch the worker nodes to the latest OS image"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. Create a new node pool using the latest available OS image"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Run kubectl cordon against all the worker nodes in the old pool to stop any new application pods to get scheduled"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Run kubectl drain --delete-local-data \u2013force \u2013ignore-daemonsets to evict any Pods that are running"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Delete the old node pool"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. Shutdown the worker nodes"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Create a new node pool"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Manually schedule the pods on the newly built node pool"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 52": {
+      "Title": "Exam 1z0-997-22 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your organization is developing serverless applications with Oracle Functions. Many of these functions will need to store state data in a database which will require the use of appropriate credentials. However, your corporate security standards mandate the encryption of secret information, such as database passwords."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "As a solutions architect, which approach would you direct your team to follow to satisfy this security requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the OCI Console to enter the password in the function configuration section in the provided Input field."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Encrypt the password using the OCI Vault service, then decrypt this password in your function code with the generated key."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Leverage application-level configuration variables to store passwords because they are automatically encrypted by Oracle Functions."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the OCI Vault service to auto-encrypt the password, then set an application-level configuration variable to reference the auto-decrypted password inside your function container."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "GUARD__da055a1cc17fa4f7": {
+    "Question #: 1": {
+      "Title": "Exam GUARD topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer has a requirement to implement CyberArk with the lowest recovery time objective possible for the vault server failure in both the primary and secondary datacenter."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which Architecture is the most suitable for this?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Deploy a multi cloud, multi region Architecture with 4 vaults. 2 vaults per public cloud across different regions."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Deploy both Primary and DR vault clusters in primary and secondary datacenters."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Deploy Distributed vaults. 1 Primary vault and 1 satellite vault in the primary datacenter and 2 satellite vaults in the secondary datacenter."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Deploy Primary and DR standalone vaults in a single public cloud environment within the same region across different availability zones."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam GUARD topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What risk should be considered prior to enabling OLAC (Object Level Access Control)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. OLAC can significantly impact Vault performance."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. OLAC can increase in complexity for user access workflows."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. OLAC prevents the use of PSM session isolation and recording."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. OLAC automatically grants 'Use' and 'Retrieve\" authorizations to any new safe owner."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam GUARD topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are implementing PAM for your globally distributed organization. These Locations are England (UK), Boston (USA) and Hong Kong (ROC)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Each location has 2 Data Centers that are physically separated for disaster mitigation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The decision has been made to set England DC 1 as the Primary DC."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Components will be scaled Horizontally where necessary in later phases."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All DC's can Communicate with each other."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Solution must offer the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+ Resilient Access to target Systems"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+ Primary Location must be highly resilient"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+ Recoverable from all locations"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+ Global Resilience to outages"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "+ A single Master Policy should govern the solution"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Load Balancing is possible between DC's in the Same Region."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the minimum to meet these requirements?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. UK DC 1 :- Vault, PVWA, PSM, CPM, PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "UK DC 2 :- DR Vault, PVWA, PSM, DR PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "US DC 1 :- DR Vault, PVWA, PSM, CPM"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "US DC 2 :- PVWA, PSM -"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROC DC 1 :- DR Vault, PVWA, PSM, CPM"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROC DC 2 :- PVWA, PSM"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. UK DC 1 :- Vault, PVWA, PSM, CPM, PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "UK DC 2 :- PVWA, PSM, DR PTA -"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "US DC 1 :- DR Vault, PVWA, PSM, CPM"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "US DC 2 :- PVWA, PSM -"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROC DC 1 :- DR Vault, PVWA, PSM, CPM"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROC DC 2 :- PVWA, PSM"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. UK DC 1 :- Vault, PVWA, PSM, CPM, PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "UK DC 2 :- DR Vault, PVWA, PSM, CPM, PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "US DC 1 :- Vault, PVWA, PSM, CPM, PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "US DC 2 :- DR Vault, PVWA, PSM, CPM, PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROC DC 1 :- Vault, PVWA, PSM, CPM, PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROC DC 2 :- DR Vault, PVWA, PSM, CPM, PTA"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. UK DC 1 :- Vault, PVWA, PSM, CPM, PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "UK DC 2 :- DR Vault, PVWA, PSM, CPM, DR PTA"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "US DC 1 :- DR Vault, PVWA, PSM, CPM"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "US DC 2 :- DR Vault, PVWA, PSM, CPM"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROC DC 1 :- DR Vault, PVWA, PSM, CPM"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROC DC 2 :- DR Vault, PVWA, PSM, CPM"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

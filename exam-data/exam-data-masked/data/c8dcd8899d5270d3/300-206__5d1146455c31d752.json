@@ -1,0 +1,1763 @@
+{
+  "300-206__5d1146455c31d752": {
+    "Question #: 1": {
+      "Title": "Exam 300-206 topic 1 question 84 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator installed a Cisco ASA that runs version 9.1. You are asked to configure the firewall through Cisco ASDM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When you attempt to connect to a Cisco ASA with a default configuration, which username and password grants you full access?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. admin / admin"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. asaAdmin / (no password)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is not possible to use Cisco ASDM until a username and password are created via the username usernamepassword password CLI command."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. enable_15 / (no password)"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. cisco / cisco"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 300-206 topic 1 question 119 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are three of the RBAC views within Cisco IOS Software? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Admin"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CLI"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Root"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Super Admin"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Guest"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Super"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 300-206 topic 1 question 154 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SIMULATION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are a network security engineer for the Secure-X network. You have been tasked with implementing dynamic network object NAT with PAT on a Cisco ASA."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You must configure the Cisco ASA such that the source IP addresses of all internal hosts are translated to a single IP address (using different ports) when the internal hosts access the Internet."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To successfully complete this activity, you must perform the following tasks:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Use the Cisco ASDM GUI on the Admin PC to configure dynamic network object NAT with PAT using the following parameters:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Network object name: Internal-Networks"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 IP subnet: 10.10.0.0/16"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Translated IP address: 192.0.2.100"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Source interface: inside"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Destination interface: outside"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: The object (TRANSLATED-INSIDE-HOSTS) for this translated IP address has already been created for your use in this activity."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Not all ASDM screens are active for this exercise."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Login credentials are not needed for this simulation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 In the Cisco ASDM, display and view the auto-generated NAT rule."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 From the Employee PC, generate traffic to SP-SRV by opening a browser and navigating to http://sp-srv.sp.public."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 From the Guest PC, generate traffic to SP-SRV by opening a browser and navigating to http://sp-srv.sp.public."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 At the CLI of the Cisco ASA, display your NAT configuration. You should see the configured policy and statistics for translated packets."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 At the CLI of the Cisco ASA, display the translation table. You should see dynamic translations for the Employee PC and the Guest PC. Both inside IP addresses translate to the same IP address, but using different ports."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have completed this exercise when you have configured and successfully tested dynamic network object NAT with PAT."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0010000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0010100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0010200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0010300001.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: See the explanation for detailed answer to this sim question"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "First, click on Add Network Objects on the Network Objects/Groups tab and fill in the information as shown below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0010500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Then, use the advanced tab and configure it as shown below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0010600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Then hit OK, OK again, Apply, and then Send when prompted. You can verify using the instructions provided in the question."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "First, click on Add Network Objects on the Network Objects/Groups tab and fill in the information as shown below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0010500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Then, use the advanced tab and configure it as shown below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0010600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Then hit OK, OK again, Apply, and then Send when prompted. You can verify using the instructions provided in the question."
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 4": {
+      "Title": "Exam 300-206 topic 1 question 190 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which command is the first that you enter to check whether or not ASDM is installed on the ASA?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. show running-config asdm"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. show running-config boot"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. show route"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. show version"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. show ip"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0014600001.jpg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/01609/0014600001.jpg"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 300-206 topic 1 question 223 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which command change secure HTTP port from 443 to 444?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. IP http secure-port 444"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IP http secure-server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. http server enables 444"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IP http server-secure"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 300-206 topic 1 question 237 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When an engineer is configuring DHCP snooping, which configuration parameter is enabled by default?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. DHCP snooping host tracking feature"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. DHCP snooping MAC address verification"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DHCP snooping relay agent"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. DHCP snooping information option-82"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 300-206 topic 2 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer is configuring Cisco ASA 1000V Cloud Firewall. Which element allows for application of a security policy based on a class of VMs instead of based on"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IP addresses?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. port profiles"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. port groups"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. security groups"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. security profiles"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 300-206 topic 2 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement describes a unique feature of Cisco NetFlow Secure Event Logging for Cisco ASAs?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Multiple NetFlow collectors and NetFlow exporters are supported."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Secure NetFlow connections are optimized for Cisco Prime Infrastructure."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Flow-create events are delayed, which reduce overall traffic."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Advanced NetFlow v9 templates and legacy v5 formatting are supported."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 300-206 topic 2 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer is configuring MACsec encryption. Which two components does Cisco TrustSec NDAC MACsec support? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. user-facing downlink port"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. switch-to-switch connection"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. switch-to-host connection"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. host-facing links"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. switch ports connected to other switches"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 300-206 topic 2 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about transparent firewall are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It does not support any type of VPN."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Transparent firewall works at Layer 2."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It only supports PAT."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It can have only a management IP address."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Both interfaces must be configured with private IP addresses."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 300-206 topic 2 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which command must be used to implement the unicast RPF feature on a Cisco ASA device?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ip verify source port-security"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ip source-route"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ip verify unicast reverse-path"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ip verify reverse-path interface <interface name>"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 300-206 topic 2 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer is asked to configure SNMP Version 3 with authentication and encryption of each SNMP packet. Which SNMP V3 mode must be configured to meet that requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. priv"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. auth"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. pub"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. encr"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 300-206 topic 2 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer has downloaded the database files for botnet traffic filtering on an ASA. Where are these database files stored?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. flash memory"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SSD drive"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ROMMON"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. running memory"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.cisco.com/c/en/us/td/docs/security/asa/special/botnet/guide/asa-botnet.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.cisco.com/c/en/us/td/docs/security/asa/special/botnet/guide/asa-botnet.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 300-206 topic 2 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user is having trouble connecting to websites on the Internet. The network engineer proposes configuring a packet capture that captures only the HTTP response traffic on the Cisco Adaptive Security Appliance between the user's workstation and Internet. If the user's workstation IP address is 10.0.0.101, which"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ACE is needed to achieve this capture?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. access-list capture permit tcp host 10.0.0.101 eq 80 any"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. access-list capture permit tcp host 10.0.0.101 any eq 80"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. access-list capture permit tcp any eq 80 host 10.0.0.101"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. access-list capture permit tcp any host 10.0.0.101 eq 80"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 300-206 topic 2 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two Cisco products can be managed by Cisco Security Manager? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Cisco IOS routers"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Cisco Email Security Appliance"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Cisco IPS 4200 and 4500 Series sensors"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Cisco Web Security Appliance"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Cisco wireless LAN controllers"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 300-206 topic 2 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two user privileges does ASDM allow an engineer to create? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. admin"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. read-write"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. write-only"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. full access"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. read-only"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 300-206 topic 2 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three types of multicast packets are controlled by using storm control? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. RTP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. BPDU"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ICMP"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. RIPv2"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. CDP"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. OSPF"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 300-206 topic 2 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer has two ISPS for Internet traffic and a firewall with one interface configured to each ISP. An engineer discovers there is asymmetric routing when using the Internet, traffic leaving is using ISP 1 and returning traffic is using ISP 2. Which feature fixes this connectivity?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. network address translation"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. failover"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. security zones"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. routed mode"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. multiple contexts"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 300-206 topic 2 question 64 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three configuration tasks do you perform to allow NetFlow on a Cisco ASA 5500 Series firewall? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create an ACL to allow UDP traffic on port 9996"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a class map to match interesting traffic"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Define a NetFlow collector by using the flow-export command"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Apply NetFlow Exporter to the outside interface in the inbound direction"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Enable NetFlow Version 9"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Apply the newly created class map to the global policy"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.cisco.com/c/en/us/td/docs/security/asa/special/netflow/guide/asa_netflow.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.cisco.com/c/en/us/td/docs/security/asa/special/netflow/guide/asa_netflow.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 300-206 topic 2 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Drag and drop the descriptions about ASA operations from the left on the correct firewall mode on the right."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 21": {
+      "Title": "Exam 300-206 topic 2 question 76 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two actions can you take to mitigate MAC attacks on Layer 2 switches? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure the switchport port-security violation shutdown command on the trunk port."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure static MAC addresses on the access ports."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure the switchport port-security violation restrict command on the trunk port."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable port security to limit the number of MAC addresses on access ports."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Configure dynamic ARP inspection on the access port."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 300-206 topic 2 question 79 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two best practices can mitigate Layer 2 attacks on the network? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Disabling STP on all Layer 2 network switches to mitigate ARP attacks."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configuring dynamic ARP inspection to mitigate ARP attacks."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configuring IP source guard to mitigate CAM and DHCP starvation attacks."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Disabling DTP on all user access ports to mitigate VLAN hopping."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Configuring port security on the trunk port to mitigate CAM and DHCP starvation attacks."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam 300-206 topic 2 question 91 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three options correctly identify the Cisco ASA1000V Cloud Firewall? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. operates at Layer 2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. operates at Layer 3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. secures tenant edge traffic"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. secures intraswitch traffic"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. secures data center edge traffic"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. replaces Cisco VSG G: complements Cisco VSG"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 300-206 topic 2 question 116 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two primary purposes of Layer 2 detection in Cisco IPS networks? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. What are two primary purposes of Layer 2 detection in Cisco IPS networks? (Choose two.)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. detecting spoofed MAC addresses and tracking 802.1X actions and data communication after a successful client association"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. detecting and preventing MAC address spoofing in switched environments"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. mitigating man-in-the-middle attacks"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

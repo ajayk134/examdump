@@ -1,0 +1,130 @@
+{
+  "312-97__427c7ae42351ebae": {
+    "Question #: 1": {
+      "Title": "Exam 312-97 topic 1 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Rockmond Dunbar is a senior DevSecOps engineer in a software development company. His organization develops customized software for retail industries. Rockmond would like to avoid setting mount propagation mode to share until it is required because when a volume is mounted in shared mode, it does not limit other containers to mount and modify that volume. If mounted volume is sensitive to changes, then it would be a serious security concern. Which of the following commands should Rockmond run to list out the propagation mode for mounted volumes?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. docker ps --quiet --all | xargs docker inspect --format \u2018:Propagation\u2019"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. docker ps -quiet -all | xargs docker inspect -format \u2018:Propagation=\u2019"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. docker ps --quiet --all | xargs docker inspect --format \u2018:Propagation=\u2019"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. docker ps -quiet -all | xargs docker inspect -format \u2018:Propagation\u2019"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam 312-97 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Thomas McInerney has been working as a senior DevSecOps engineer in an IT company that develops software products and web applications related to the healthcare sector. His organization deployed various applications in Docker containers. Thomas\u2019 team leader would like to prevent a container from gaining new privileges. Therefore, he asked Thomas to set no_new_priv bit, which functions across clone, execve, and fork to prevent a container from gaining new privileges. Which of the following commands should Thomas use to list out security options for all the containers?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. docker ps --quiet --all | xargs docker inspect --format \u2018:SecurityOpt\u2019"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. docker ps --quiet --all | xargs docker inspect --format \u2018:SecurityOpt=\u2019"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. docker ps -quiet -all | xargs docker inspect --format \u2018:SecurityOpt\u2019"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. docker ps -quiet -all | xargs docker inspect --format \u2018:SecurityOpt=\u2019"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

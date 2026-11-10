@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Exam Question Bank — Browse Exams</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<div class="app">
+
+  <header class="topbar" role="banner" style="margin-bottom: 24px; max-width: 800px; margin-left: auto; margin-right: auto;">
+    <div class="brand">
+      <div>
+<h1>Exam Topics Dump</h1>
+        <p class="subtitle">Search and open exams instantly</p>
+      </div>
+    </div>
+  </header>
+
+  <div id="loginCard" class="single-card" style="margin-top: 40px; text-align: center; display: none;">
+    <h2>Restricted Access</h2>
+    <p class="hint">Please enter the security password to load exam databases.</p>
+    <input type="password" id="pwInput" placeholder="Secret Key" style="padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 1.1em; margin: 10px 0; outline: none; width: 60%; max-width: 300px;"/>
+    <br/>
+    <button id="loginBtn" class="primary-btn" style="margin-top: 10px;">Unlock Database</button>
+    <p id="loginError" style="color: #ef4444; display: none; margin-top: 16px; font-weight: 600;">Unauthorized. Incorrect Password.</p>
+  </div>
+
+  <main id="mainApp" class="single-card" role="main" style="display: none;">
+    
+    <!-- 1. Provider Select -->
+    <div class="provider-section">
+      <label class="control-label" for="providerSearch" style="display:block; margin-bottom: 8px; font-size: 1.1em;">1. Choose a Provider</label>
+      <div class="custom-select" id="providerSelect" data-open="false">
+        <input id="providerSearch" type="search" placeholder="Search providers (e.g. Amazon, Microsoft)..." autocomplete="off" style="font-size: 1.05rem;" />
+        <button class="caret" type="button">▾</button>
+        <ul class="options" id="providerOptions"></ul>
+      </div>
+    </div>
+
+    <!-- 2. Exam List (Hidden initially) -->
+    <div id="examContainer" style="display: none; margin-top: 28px; padding-top: 24px; border-top: 1px solid #eef2f6;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+        <label class="control-label" for="listFilter" style="font-size: 1.1em;">2. Select an Exam</label>
+        <span class="hint" id="examCount" style="color: #64748b; font-size: 0.95em; font-weight: 600;">0 exams</span>
+      </div>
+      
+      <input id="listFilter" type="search" placeholder="Fast search by code or title..." style="width:100%; padding:14px; border-radius:12px; border:1px solid #cbd5e1; background: #f8fafc; margin-bottom: 20px; font-size:1.05rem; outline: none;" />
+
+      <ul id="examsList" class="exams-list" aria-live="polite" style="max-height: 550px;"></ul>
+    </div>
+
+    <!-- Empty Loading State -->
+    <div id="empty" class="empty-state" style="margin-top: 20px;">
+      <p style="font-size: 1.1rem; color: #64748b; font-weight: 500;">Loading providers...</p>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="config.js"></script>
+<script src="index.js?v=2" defer></script>
+</body>
+</html>

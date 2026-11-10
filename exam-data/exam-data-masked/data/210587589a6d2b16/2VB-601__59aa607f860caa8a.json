@@ -1,0 +1,1821 @@
+{
+  "2VB-601__59aa607f860caa8a": {
+    "Question #: 1": {
+      "Title": "Exam 2VB-601 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two main advantages of using multiple disk groups within each host? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Performance"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Backward compatibility"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Cost"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Redundancy"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 2VB-601 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are three fundamental concepts of vSAN clusters? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Flash devices can be shared between disk groups."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A maximum of seven capacity disks per disk group is supported."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A maximum of five disk groups per host is supported."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Dual socket CPU for each host is required."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Once cache drive per disk group is required."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References: https://kb.vmware.com/s/article/2106708"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References: https://kb.vmware.com/s/article/2106708"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam 2VB-601 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement accurately describes cache tier sizing guidance for an all-flash vSAN cluster that will be supporting write-intensive workloads?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Multiple disk groups with larger cache devices should be used."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Multiple disk groups with two cache devices per disk group should be used."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A single disk group with a small cache device should be used to minimize de-staging write amplification."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Two cache devices per disk group should be configured for redundancy."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 2VB-601 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two ways to examine the storage policy compliance of a virtual machine? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. Browse to the virtual machine in the vSphere Web Client navigator. 2. On the Summary tab, examine the value of the VM Storage Policy Compliance property under VM Storage Policies."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. Browse to the virtual machine in the vSphere Web Client navigator. 2. Right-click the virtual machine and select \"Check storage policy compliance\"."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. In the vSphere Web Client, navigate to the vSAN cluster. 2. On the Storage tab, click vSAN and select Virtual Disks. 3. Right-click on the virtual machine and select \"Compliance status\"."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. In the vSphere Web Client, navigate to the vSAN cluster. 2. On the Monitor tab, click vSAN and select Virtual Objects. 3. Select a virtual object."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-DA1C7F06-0D99-4300-B427-0BB00EEB7964.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-DA1C7F06-0D99-4300-B427-0BB00EEB7964.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 2VB-601 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Consider the following vSAN cluster scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 All hosts are members of the same cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 All hosts are contributing storage capacity to the vSAN datastore."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 There is not vSAN Witness Host."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All virtual machines are assigned a storage policy where Primary level of failures to tolerate = 1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02450/0000300004.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the minimum number of physical hosts required to be a supported vSAN configuration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Five (5)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Three (3)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Two (2)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Four (4)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References: VMware vSAN Design and Sizing Guide 6.5. Page: 18"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References: VMware vSAN Design and Sizing Guide 6.5. Page: 18"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 2VB-601 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "VMware vSAN encryption requires the use of a key management server (KMS) solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which Key Management Interoperability Protocol (KMP) must the KMS solution support?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1.0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1.3"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1.2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1.1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-1583A645-07EE-4D26-8698-080283694635.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-1583A645-07EE-4D26-8698-080283694635.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 2VB-601 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which services for vSAN are provided by NexentaConnect?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Encryption and key management"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Apache and JavaScript"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. NFS and SMB"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. iSCSI and FC"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 2VB-601 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which are two characteristics of a RAID-5 storage configuration? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Data remain available with the loss to two storage devices."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It uses less storage capacity than mirroring with the same level of availability."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Data is striped across multiple storage devices."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It requires a minimum of five storage devices."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 2VB-601 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about the vSAN health and performance services? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The vSAN performance service must be enabled before the vSAN health service."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The vSAN health service is enabled by default."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The vSAN health service is disabled by default."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The vSAN performance service is disabled by default."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam 2VB-601 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two ways that the storage policies can be allied? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Execute a PowerCLI script"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Right-click a virtual machine in the vSphere Web Client"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Run the \"esxcli vsan storage tag add\" command"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Select the vSAN datastore and click \"Apply Storage Policy\""
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 2VB-601 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the listed configurations is a supported vSAN configuration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Four physical hosts Every host has one vSAN disk group Each vSAN disk group contains one cache device and five capacity devices The vSAN service is enabled on a VMkernel adapter on every host"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Three physical hosts Every host has one vSAN disk group Each vSAN disk group contains two cache devices and four capacity devices The vSAN service is enabled on a VMkernel adapter on every host"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Four physical hosts Two of the host have one vSAN disk group, the other two hosts are \"compute-only\" nodes Each vSAN disk group contains one cache device and three capacity devices The vSAN service is NOT enabled on the \"compute-only\" nodes"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Four physical hosts Two of the host have one vSAN disk group, the other two hosts are \"compute-only\" nodes Each vSAN disk group contains one cache device and three capacity devices"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 2VB-601 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The exhibit shows a single node of a vSAN cluster. All nodes have been configured identically."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the exhibit?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02450/0001300001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. This is an invalid design. There are too many disk groups."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. This is an invalid design. You CANNOT mix all-flash disk groups with hybrid disk groups."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. This is a valid all-flash vSAN configuration."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. This is a valid hybrid vSAN configuration."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. This is an invalid design. There are too few capacity disks."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam 2VB-601 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a vSAN stretched cluster with Primary level to tolerate set to 1 and Secondary level of failure to tolerate set to 2, what is the maximum amount of space that a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "100GB virtual disk could consume without any other policy rules set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 200GB"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 100GB"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 400GB"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 600GB"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-08911FD3-2462-4C1C-AE81-0D4DBC8F7990.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-08911FD3-2462-4C1C-AE81-0D4DBC8F7990.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 2VB-601 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Consider the following scenario in a vSAN cluster that contains six hosts:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 All virtual machines are assigned the vSAN Default Storage Policy, which has not been modified."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Deduplication and compression are not enabled."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Every vSAN disk group in the cluster contains one cache device and five capacity devices"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What happens when a capacity devices transmits SCSI sense code errors and fails?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All components on the affected device are marked \"degraded\". vSAN attempts to rebuild the components on other healthy devices in the cluster without delay."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. All components on the affected device are marked \"degraded\". The host containing the affected drive is placed into maintenance mode using the \u2018ensure accessibility\u2019 option."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All components on the affected device are marked \"offline\". vSAN attempts to rebuild the components on other healthy devices in the cluster after 60 minutes by default."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The host containing the affected device is placed into maintenance mode using the \"ensure accessibility\" option. An administrator must log into the vSphere"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 2VB-601 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A six-node all-flash vSAN cluster has been deployed. Deduplication and compression are enabled. All virtual machines are produced by policies with the rule"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Primary level of failures to tolerate set to 1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How is a vSAN disk group impacted when the cache device belonging to that disk group fails?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The capacity devices are automatically reassigned to another disk group in the same host."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The cache device is marked \"Absent\". A capacity device is automatically promoted to a cache device to minimize downtime."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The cache device is marked \"Degraded\". The disk group remains online with lower performance levels."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The disk group is taken offline."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When a flash caching device fails, vSAN evaluates the accessibility of the objects on the disk group that contains the cache device, and rebuilds them on another host if possible and the Primary level of failures to tolerate is set to 1 or more."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-395B210D-45AE-4F31-B32E-6F623863C160.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When a flash caching device fails, vSAN evaluates the accessibility of the objects on the disk group that contains the cache device, and rebuilds them on another host if possible and the Primary level of failures to tolerate is set to 1 or more."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-395B210D-45AE-4F31-B32E-6F623863C160.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 2VB-601 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three of the listed items are monitored by the vSAN performance service? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. VMkernel adapters at the cluster level"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Virtual machine consumption at the cluster level"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Disk group at the host level"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. VMkernel adapters at the virtual disk level"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Backend traffic at the cluster level"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Navigate to the vSAN cluster in the vSphere Web Client Navigator, and select a host."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Click the Monitor tab and click Performance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Select vSAN - VMkernel Adapters, and select a VMkernel adapter, such as vmk1. Select a time range for your query."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. vSAN displays performance charts for the VMkernel adapter, including throughput, packets per second, and packets loss rate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BE: When the performance service is turned on, the cluster summary displays an overview of Virtual SAN performance statistics, including Virtual SAN IOPS, throughput, and latency. At the cluster level, you can view detailed statistical charts for virtual machine consumption and the Virtual SAN back end."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-93E95CA4-D7D1-4729-8FB4-385B55B85FCD.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Navigate to the vSAN cluster in the vSphere Web Client Navigator, and select a host."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Click the Monitor tab and click Performance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Select vSAN - VMkernel Adapters, and select a VMkernel adapter, such as vmk1. Select a time range for your query."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. vSAN displays performance charts for the VMkernel adapter, including throughput, packets per second, and packets loss rate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BE: When the performance service is turned on, the cluster summary displays an overview of Virtual SAN performance statistics, including Virtual SAN IOPS, throughput, and latency. At the cluster level, you can view detailed statistical charts for virtual machine consumption and the Virtual SAN back end."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-93E95CA4-D7D1-4729-8FB4-385B55B85FCD.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 2VB-601 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given a limited maximum queue depth, what can an administrator do to potentially improve performance when deploying vSAN iSCSI volumes?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Utilize multiple iSCSI targets."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Change the erasure coding to RAID-6"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Adjust the maximum iSCSI queue depth values"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure multiple VMkernel ports"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Today if you are noticing that your device queues are constantly bumping up to their maximum limits, it would be recommended to increase the Device/LUN depth and use SIOC to help mitigate any potential noisy neighbor problem."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:https://blogs.vmware.com/vsphere/2012/07/troubleshooting-storage-performance-in-vsphere-part-5-storage-queues.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Today if you are noticing that your device queues are constantly bumping up to their maximum limits, it would be recommended to increase the Device/LUN depth and use SIOC to help mitigate any potential noisy neighbor problem."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:https://blogs.vmware.com/vsphere/2012/07/troubleshooting-storage-performance-in-vsphere-part-5-storage-queues.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 2VB-601 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is designing a vSphere cluster with the VSAN default policy. The requirement is to maintain full redundancy of data and virtual disks during any patching or maintenance of this cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is needed to meet the needs of this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A minimum of four hosts in the cluster"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VMware Proactive HA"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Multiple disk groups per host"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use of RAID-5/6 erasure coding"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Patching a vCenter High Availability Environment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can patch a vCenter Server Appliance which is in a vCenter High Availability cluster by using the <codeph>software-packages</codeph> utility available in the vCenter Server Appliance shell."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:https://docs.vmware.com/en/VMware-vSphere/6.5/vsphere-esxi-vcenter-server-651-availability-guide.pdf, page 78"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Patching a vCenter High Availability Environment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can patch a vCenter Server Appliance which is in a vCenter High Availability cluster by using the <codeph>software-packages</codeph> utility available in the vCenter Server Appliance shell."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:https://docs.vmware.com/en/VMware-vSphere/6.5/vsphere-esxi-vcenter-server-651-availability-guide.pdf, page 78"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 2VB-601 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is designing a vSAN cluster for a number of new workloads. The design calls for the use of erasure coding with RAID 5."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about what is needed to meet the needs of this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vSAN Standard licensing is sufficient"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vSAN Enterprise licensing is required"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An all-flash configuration is required."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Six nodes are required at a minimum."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RAID 5 or RAID 6 erasure coding is available only on all-flash disk groups."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-6D818555-8DE8-4F06-9498-66903FB9C775.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "RAID 5 or RAID 6 erasure coding is available only on all-flash disk groups."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.virtualsan.doc/GUID-6D818555-8DE8-4F06-9498-66903FB9C775.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 2VB-601 topic 1 question 57 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following are the configuration details of a 12-node all-flash VSAN cluster:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Every node has one disk group"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Each disk group consists of one cache device and six capacity devices"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two methods can be used to increase the size of the cache tier in each host? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Promote a capacity device to a cache device so that each disk group has two cache devices."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add a new cache device to the host. Reconfigure the host to have two disk groups with one cache device and three capacity devices per disk group."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add a second cache device to each disk group."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Replace the existing cache device in each disk group with a larger cache device."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "As you create disk groups on each host and add cache and capacity devices, the size of the datastore increases according to the amount of physical capacity added by those devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Typically, you delete devices or disk groups from vSAN when you are upgrading a device or replacing a failed device, or when you must remove a cache device."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "As you create disk groups on each host and add cache and capacity devices, the size of the datastore increases according to the amount of physical capacity added by those devices."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Typically, you delete devices or disk groups from vSAN when you are upgrading a device or replacing a failed device, or when you must remove a cache device."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 2VB-601 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is true about vSAN three-node cluster configuration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Three-node clusters can tolerate a maximum of 2 host failures as long as there at least 2 disk groups in each host."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A storage policy with a RAID-5/6 erasure coding rule cannot be applied to a virtual machine object."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A storage policy with a deduplication and compression rule can be applied to a virtual machine object."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Three-node clusters can tolerate a maximum of 2 host failures."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: RAID-5/6 erasure coding is a space efficiency feature optimized for all flash configurations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:https://storagehub.vmware.com/export_to_pdf/vmware-vsan-6-6-technical-overview-1"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: RAID-5/6 erasure coding is a space efficiency feature optimized for all flash configurations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:https://storagehub.vmware.com/export_to_pdf/vmware-vsan-6-6-technical-overview-1"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

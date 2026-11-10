@@ -1,0 +1,512 @@
+{
+  "70-243__690cecfc9aa06f27": {
+    "Question #: 1": {
+      "Title": "Exam 70-243 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your network contains a single Active Directory domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to deploy System Center 2012 Configuration Manager."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The hierarchy will have a Central Administration Site and five Primary Sites."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that you can target user groups for software distribution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The solution must minimize network traffic."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which Configuration Manager discovery method should you use?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Active Directory User Discovery and Active DirectoryGroup Discovery on the primary sites"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Active Directory User Discovery and Active Directory Group Discovery on the Central Administration site"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Active Directory User Discovery on the Central Administration site and Active Directory Group Discovery on the primary sites"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Active Directory User Discovery on the primary sites and Active Directory Group Discovery on every site"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam 70-243 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your network contains a System Center 2012 Configuration Manager environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Configuration Manager databases are located on a remote server that runs Microsoft SQL Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that you can restore the Central Administration site."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. From the Configuration Manager console, enable the Backup Site Server maintenancetask and set a schedule."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. From Microsoft SQL Server Management Studio, create a maintenance plan for the site databases."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. From Task Scheduler, create a scheduled task that runs smssqlbkup.exe."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. From Windows Server Backup, schedule a full systembackup."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://technet.microsoft.com/en-us/library/gg712697.aspx"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Backup and Recovery in Configuration Manager"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Enterprise solutions such as System Center 2012 Configuration Manager must prepare for both backup and recovery operationsto avoid loss of critical data. For"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Configuration Manager sites, this preparation ensures that sites and hierarchies are recovered with the least data loss and in the quickest possible time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Back up a Configuration Manager Site"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "System Center 2012 Configuration Manager provides a backup maintenance task that runs on a schedule and backs up the site database, specific registry keys, and specific folders and files."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Backup Maintenance Task -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can automate backup for Configuration Manager sites by schedulingthe predefined Backup Site Server maintenance task. You can back up a central administration site and primary site, but there is no backup support for secondary sites or site system servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To enable the site backup maintenance task"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 In the ConfigurationManager console, click Administration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 In the Administration workspace, expand Site Configuration, and then click Sites."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Select the site in which you want to enable the site backup maintenance task."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 On the Home tab, in the Settings group, click Site Maintenance Tasks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Click Backup Site Server and then click Edit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Select Enable this task, and then click Set Paths to specify the backup destination."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Configure an appropriate schedule for the site backup task. As a best practice, consider a backup schedule thatis outside active working hours. If you have a hierarchy, consider a schedule that runs at least two times a week to ensure maximum data retention in the event of site failure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Select whether to create an alert if the site backup task fails, click OK, andthen click OK. When selected, Configuration Manager creates a critical alert for the backup failure that you can review in the Alerts node in the Monitoring workspace."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "http://technet.microsoft.com/en-us/library/gg712697.aspx"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Backup and Recovery in Configuration Manager"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Enterprise solutions such as System Center 2012 Configuration Manager must prepare for both backup and recovery operationsto avoid loss of critical data. For"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Configuration Manager sites, this preparation ensures that sites and hierarchies are recovered with the least data loss and in the quickest possible time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Back up a Configuration Manager Site"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "System Center 2012 Configuration Manager provides a backup maintenance task that runs on a schedule and backs up the site database, specific registry keys, and specific folders and files."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Backup Maintenance Task -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can automate backup for Configuration Manager sites by schedulingthe predefined Backup Site Server maintenance task. You can back up a central administration site and primary site, but there is no backup support for secondary sites or site system servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To enable the site backup maintenance task"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 In the ConfigurationManager console, click Administration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 In the Administration workspace, expand Site Configuration, and then click Sites."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Select the site in which you want to enable the site backup maintenance task."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 On the Home tab, in the Settings group, click Site Maintenance Tasks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Click Backup Site Server and then click Edit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Select Enable this task, and then click Set Paths to specify the backup destination."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Configure an appropriate schedule for the site backup task. As a best practice, consider a backup schedule thatis outside active working hours. If you have a hierarchy, consider a schedule that runs at least two times a week to ensure maximum data retention in the event of site failure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Select whether to create an alert if the site backup task fails, click OK, andthen click OK. When selected, Configuration Manager creates a critical alert for the backup failure that you can review in the Alerts node in the Monitoring workspace."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 70-243 topic 1 question 85 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have a System Center 2012 R2 Configuration Manager Service Pack 1 (SP1) deployment. The deployment includes the collections described in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02556/0009900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Configuration Manager has the client settings configured as shown in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02556/0010000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to identify which additional hardware inventory classes will be collected from Computer2 and Computer3."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you identify? To answer, drag the appropriate hardware inventory classes to the correct computers. Each hardware inventory class may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02556/0010100001.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02556/0010200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When you create a custom set of client settings, you include in thiscustom list only those settings that should differ from the default. Any settings not included on the custom list will be derived from the default settings automatically."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When you create a custom set of client settings, you include in thiscustom list only those settings that should differ from the default. Any settings not included on the custom list will be derived from the default settings automatically."
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    }
+  }
+}

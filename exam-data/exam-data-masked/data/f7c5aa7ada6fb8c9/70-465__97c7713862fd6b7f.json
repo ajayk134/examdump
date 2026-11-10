@@ -1,0 +1,3820 @@
+{
+  "70-465__97c7713862fd6b7f": {
+    "Question #: 1": {
+      "Title": "Exam 70-465 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You use SQL Server 2014. You create a table within a database by using the following DDL:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0006000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following table illustrates a representative sample of data:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0006100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The system is expected to handle 50 million orders a month over the next five years."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been instructed by your Team Lead to follow best practices for storage and performance in the utilization of SPARSE columns."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which columns should you designate as SPARSE? To answer, mark each column as SPARSE or NOT SPARSE in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0006200001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0006300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sparse columns are ordinary columns that have an optimized storage for null values. Sparse columns reduce the space requirements for null values at the cost of more overhead to retrieve nonnull values. Consider using sparse columns when the space saved is at least 20 percent to 40 percent."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use Sparse Columns"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Sparse columns are ordinary columns that have an optimized storage for null values. Sparse columns reduce the space requirements for null values at the cost of more overhead to retrieve nonnull values. Consider using sparse columns when the space saved is at least 20 percent to 40 percent."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use Sparse Columns"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 2": {
+      "Title": "Exam 70-465 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an SQL Server 2014 instance named SQL1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL1 creates error events in the Windows Application event log."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to recommend a solution that will run an application when SQL1 logs a specific error in the Application log."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SQL elements should you include in the recommendation? (Each correct answer presents part of the solution. Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A policy"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A maintenance plan"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An alert"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A job"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A trigger"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use a trigger that starts a job which executes the application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://technet.microsoft.com/en-us/library/hh849759.aspx"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Use a trigger that starts a job which executes the application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://technet.microsoft.com/en-us/library/hh849759.aspx"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 70-465 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are troubleshooting an application that runs a query. The application frequently causes deadlocks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to identify which transaction causes the deadlock."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "More than one answer choice may achieve the goal. Select the BEST answer."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Query the sys.dm_exec_sessions dynamic management view."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Query the sys.dm_exec_requests dynamic management view."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a trace in SQL Server Profiler that contains the Deadlock graph event"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create an extended events session to capture deadlock information."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Troubleshooting deadlocks -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been receiving reports from users indicating that certain applications are returning deadlock errors. To maximize the effectiveness of troubleshooting these problems, you decide to focus on the deadlocks that are hit most frequently. You create an Extended Events session that:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Configures deadlock event tracking for the session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Specifies a target that aggregates based on an identifier for the deadlock."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You run the Extended Events session, and after additional deadlocks are reported you are able to obtain aggregated deadlock information, along with the complete XML deadlock graph for each source. Using this information you are able to pin point the most common deadlocks and start working on a solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create an Extended Events Session"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Event Session Data"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Troubleshooting deadlocks -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been receiving reports from users indicating that certain applications are returning deadlock errors. To maximize the effectiveness of troubleshooting these problems, you decide to focus on the deadlocks that are hit most frequently. You create an Extended Events session that:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Configures deadlock event tracking for the session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ Specifies a target that aggregates based on an identifier for the deadlock."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You run the Extended Events session, and after additional deadlocks are reported you are able to obtain aggregated deadlock information, along with the complete XML deadlock graph for each source. Using this information you are able to pin point the most common deadlocks and start working on a solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create an Extended Events Session"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View Event Session Data"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 70-465 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a server named Server1 that has 16 processors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to deploy multiple instances of SQL Server 2014 to Server1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to recommend a method to allocate processors to each instance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you include in the recommendation?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "More than one answer choice may achieve the goal. Select the BEST answer."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Processor affinity"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Windows System Resource Manager (WSRM)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Max Degree of Parallelism"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Resource Governor"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CPU affinity management through Windows System Resource Manager is not recommended for SQL Server multi-instance management. Instead, use the processor affinity settings in SQL Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Server Properties (Processors Page)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "CPU affinity management through Windows System Resource Manager is not recommended for SQL Server multi-instance management. Instead, use the processor affinity settings in SQL Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Server Properties (Processors Page)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 70-465 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to recommend the actions that are required to partition a table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In which order should the four actions be performed?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To answer, move the actions from the list of actions to the answer area and arrange them in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0009500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create a partitioned table using the AdventureWorks2012 database:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE PARTITION FUNCTION TransactionRangePF1 (DATETIME)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "AS RANGE RIGHT FOR VALUES -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'20071001', '20071101', '20071201', '20080101',"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'20080201', '20080301', '20080401', '20080501',"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'20080601', '20080701', '20080801'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ");"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE PARTITION SCHEME TransactionsPS1 AS PARTITION TransactionRangePF1 TO"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[PRIMARY], [PRIMARY], [PRIMARY], [PRIMARY], [PRIMARY],"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[PRIMARY], [PRIMARY], [PRIMARY], [PRIMARY], [PRIMARY],"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[PRIMARY], [PRIMARY], [PRIMARY]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ");"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE TABLE dbo.TransactionHistory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TransactionID INT NOT NULL, -- not bothering with IDENTITY here"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ProductID INT NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ReferenceOrderID INT NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ReferenceOrderLineID INT NOT NULL DEFAULT (0),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TransactionDate DATETIME NOT NULL DEFAULT (GETDATE()),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TransactionType NCHAR(1) NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Quantity INT NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ActualCost MONEY NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ModifiedDate DATETIME NOT NULL DEFAULT (GETDATE()),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CONSTRAINT CK_TransactionType -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK (UPPER(TransactionType) IN (N'W', N'S', N'P'))"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ON TransactionsPS1 (TransactionDate);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create Partitioned Tables and Indexes"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Create a partitioned table using the AdventureWorks2012 database:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE PARTITION FUNCTION TransactionRangePF1 (DATETIME)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "AS RANGE RIGHT FOR VALUES -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'20071001', '20071101', '20071201', '20080101',"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'20080201', '20080301', '20080401', '20080501',"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "'20080601', '20080701', '20080801'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ");"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE PARTITION SCHEME TransactionsPS1 AS PARTITION TransactionRangePF1 TO"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[PRIMARY], [PRIMARY], [PRIMARY], [PRIMARY], [PRIMARY],"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[PRIMARY], [PRIMARY], [PRIMARY], [PRIMARY], [PRIMARY],"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[PRIMARY], [PRIMARY], [PRIMARY]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ");"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE TABLE dbo.TransactionHistory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TransactionID INT NOT NULL, -- not bothering with IDENTITY here"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ProductID INT NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ReferenceOrderID INT NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ReferenceOrderLineID INT NOT NULL DEFAULT (0),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TransactionDate DATETIME NOT NULL DEFAULT (GETDATE()),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TransactionType NCHAR(1) NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Quantity INT NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ActualCost MONEY NOT NULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ModifiedDate DATETIME NOT NULL DEFAULT (GETDATE()),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CONSTRAINT CK_TransactionType -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK (UPPER(TransactionType) IN (N'W', N'S', N'P'))"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ")"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ON TransactionsPS1 (TransactionDate);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create Partitioned Tables and Indexes"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 6": {
+      "Title": "Exam 70-465 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have two servers named SQL1 and SQL2 that have SQL Server 2012 installed. SQL1 contains a database that is mirrored asynchronously to SQL2. The database contents are updated once a month."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to upgrade the database to SQL Server 2014. The solution must minimize downtime."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which upgrade steps should you recommend?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0009800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* To perform the rolling upgrade"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 1: For each mirroring session, whose mirror server instance has just been upgraded, wait for the session to synchronize. Then, connect to the principal server instance, and manually fail over the session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 2: Upgrade each server instance that is now the mirror server in all mirroring sessions in which it is a partner."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 3: Resume the mirroring session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* When upgrading server instances to SQL Server 2014, you can reduce downtime for each mirrored database to only a single manual failover by performing a sequential upgrade, known as a rolling upgrade. A rolling upgrade is a multi-stage process that in its simplest form involves upgrading the server instance that is currently acting as the mirror server in a mirroring session, then manually failing over the mirrored database, upgrading the former principal server, and resuming mirroring"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Minimize Downtime for Mirrored Databases When Upgrading Server Instances"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* To perform the rolling upgrade"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 1: For each mirroring session, whose mirror server instance has just been upgraded, wait for the session to synchronize. Then, connect to the principal server instance, and manually fail over the session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 2: Upgrade each server instance that is now the mirror server in all mirroring sessions in which it is a partner."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 3: Resume the mirroring session."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* When upgrading server instances to SQL Server 2014, you can reduce downtime for each mirrored database to only a single manual failover by performing a sequential upgrade, known as a rolling upgrade. A rolling upgrade is a multi-stage process that in its simplest form involves upgrading the server instance that is currently acting as the mirror server in a mirroring session, then manually failing over the mirrored database, upgrading the former principal server, and resuming mirroring"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Minimize Downtime for Mirrored Databases When Upgrading Server Instances"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 7": {
+      "Title": "Exam 70-465 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have a server named SQL1 that has SQL Server 2014 installed. SQL1 hosts a database named Database! Database1 contains a table named Table1. Table1 is partitioned across five filegroups based on the TransactionType field."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The schema of Table1 is configured as shown in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0010000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Table1 contains the indexes shown in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0010000002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to recommend an index strategy to maximize performance for the queries that consume the indexes available to Table1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which type of index storage should you recommend?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To answer, drag the appropriate index storage type to the correct index in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0010100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Index Storage Type -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Designing a partitioned index independently (unaligned) of the base table can be useful in the following cases:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/The base table has not been partitioned."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/The index key is unique and it does not contain the partitioning column of the table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ You want the base table to participate in collocated joins with more tables using different join columns."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Partitioned Tables and Indexes"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Index Storage Type -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Designing a partitioned index independently (unaligned) of the base table can be useful in the following cases:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/The base table has not been partitioned."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/The index key is unique and it does not contain the partitioning column of the table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ You want the base table to participate in collocated joins with more tables using different join columns."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Partitioned Tables and Indexes"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 8": {
+      "Title": "Exam 70-465 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are planning to deploy a database to Windows Azure SQL Database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to design a stored procedure to update rows. The stored procedure must meet the following requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 If the update fails, an error must be raised to the application and the update must be discarded."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The stored procedure must be designed to maximize concurrency."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you include in your design?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0010200003.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0010300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Read Committed is SQL Server's default isolation level."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* @@ROWCOUNT"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "eturns the number of rows affected by the last statement."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Using TRYCATCH in a transaction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following example shows how a TRYCATCH block works inside a transaction. The statement inside the TRY block generates a constraint violation error."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN TRANSACTION;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN TRY -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- Generate a constraint violation error."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DELETE FROM Production.Product -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WHERE ProductID = 980;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END TRY -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN CATCH -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SELECT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ERROR_NUMBER() AS ErrorNumber -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_SEVERITY() AS ErrorSeverity"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_STATE() AS ErrorState"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_PROCEDURE() AS ErrorProcedure"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_LINE() AS ErrorLine"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_MESSAGE() AS ErrorMessage;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IF @@TRANCOUNT > 0 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ROLLBACK TRANSACTION;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END CATCH;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IF @@TRANCOUNT > 0 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "COMMIT TRANSACTION;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://msdn.microsoft.com/en-us/library/ms175976.aspx"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Read Committed is SQL Server's default isolation level."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* @@ROWCOUNT"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "eturns the number of rows affected by the last statement."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Using TRYCATCH in a transaction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following example shows how a TRYCATCH block works inside a transaction. The statement inside the TRY block generates a constraint violation error."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN TRANSACTION;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN TRY -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- Generate a constraint violation error."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DELETE FROM Production.Product -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WHERE ProductID = 980;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END TRY -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BEGIN CATCH -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SELECT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ERROR_NUMBER() AS ErrorNumber -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_SEVERITY() AS ErrorSeverity"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_STATE() AS ErrorState"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_PROCEDURE() AS ErrorProcedure"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_LINE() AS ErrorLine"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ",ERROR_MESSAGE() AS ErrorMessage;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IF @@TRANCOUNT > 0 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ROLLBACK TRANSACTION;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "END CATCH;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IF @@TRANCOUNT > 0 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "COMMIT TRANSACTION;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://msdn.microsoft.com/en-us/library/ms175976.aspx"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 9": {
+      "Title": "Exam 70-465 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You use SQL Server 2014."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to create a single object that inserts a provided value into Table1, and then returns a count of the records in Table1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Develop the solution by selecting and arranging the required code blocks in the correct order. You may not need all of the code blocks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0010600001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0010700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://msdn.microsoft.com/en-us/library/ms187926.aspx"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://msdn.microsoft.com/en-us/library/ms345415.aspx"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://msdn.microsoft.com/en-us/library/ms187926.aspx"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://msdn.microsoft.com/en-us/library/ms345415.aspx"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 10": {
+      "Title": "Exam 70-465 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are building a stored procedure for a Windows Azure SQL Database. The procedure will add multiple rows to a table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to design the stored procedure to meet the following requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If any of the new rows violates a table constraint, then no further additions must be attempted and all changes made by the stored procedure must be discarded."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If any errors occur, a row must be added to an audit table, and the original error must be returned to the caller of the stored procedure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you include in the design?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. An explicit transaction that has XACT_ABORT disabled"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. An implicit transaction that has error handling enabled"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An explicit transaction that has error handling enabled"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. An implicit transaction that has XACT.ABORT enabled"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://technet.microsoft.com/en-us/library/ms175127(v=SQL.105).aspx"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://technet.microsoft.com/en-us/library/ms175127(v=SQL.105).aspx"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 70-465 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are the senior database administrator at Contoso, Ltd. You manage a SQL Server 2014 Instance, with multiple databases used for reporting."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have recently hired a junior database administrator. You want this person to be able to view the database structures on the server, but you do not want him or her to be able to make changes or see the data in the tables."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The new hire's login credentials are as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Login name: JFree -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Password: Jx672$qse -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You want the new hire to be required to change his password on his next login."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The code that is produced should execute no matter the initial database context in which it is started."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to write the code required to give the new hire only the desired access, using the smallest number of steps. Develop the solution by selecting and arranging the required code blocks in the correct order. You may not need all of the code blocks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0010900001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0011000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* MUST_CHANGE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Applies to: SQL Server 2008 through SQL Server 2014."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Applies to SQL Server logins only. If this option is included, SQL Server prompts the user for a new password the first time the new login is used."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* The VIEW DEFINITION permission lets a user see the metadata of the securable on which the permission is granted. However, VIEW DEFINITION permission does not confer access to the securable itself. For example, a user that is granted only VIEW DEFINITION permission on a table can see metadata related to the table in the sys.objects catalog view. However, without additional permissions such as SELECT or CONTROL, the user cannot read data from the table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE LOGIN (Transact-SQL)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ALTER SERVER ROLE (Transact-SQL)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* MUST_CHANGE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Applies to: SQL Server 2008 through SQL Server 2014."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Applies to SQL Server logins only. If this option is included, SQL Server prompts the user for a new password the first time the new login is used."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* The VIEW DEFINITION permission lets a user see the metadata of the securable on which the permission is granted. However, VIEW DEFINITION permission does not confer access to the securable itself. For example, a user that is granted only VIEW DEFINITION permission on a table can see metadata related to the table in the sys.objects catalog view. However, without additional permissions such as SELECT or CONTROL, the user cannot read data from the table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE LOGIN (Transact-SQL)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ALTER SERVER ROLE (Transact-SQL)"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 12": {
+      "Title": "Exam 70-465 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have four databases that are accessed by using an Online Transaction Processing (OLTP) application. The databases are stored on a server named SQL1 that has SQL Server 2014 installed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to deploy an additional server that has SQL Server 2014 installed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to design a high-availability solution for the databases that meets the following requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If SQL1 fails, the databases must be available."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Users must be able to run reports against a secondary copy of the databases."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you include in the design?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "More than one answer choice may achieve the goal. Select the BEST answer."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. AlwaysOn availability groups"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Database mirroring"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Log shipping"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Failover Clustering"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The AlwaysOn Availability Groups feature is a high-availability and disaster-recovery solution that provides an enterprise-level alternative to database mirroring."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Introduced in SQL Server 2012, AlwaysOn Availability Groups maximizes the availability of a set of user databases for an enterprise. An availability group supports a failover environment for a discrete set of user databases, known as availability databases that fail over together."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Failover and Failover Modes (AlwaysOn Availability Groups)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The AlwaysOn Availability Groups feature is a high-availability and disaster-recovery solution that provides an enterprise-level alternative to database mirroring."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Introduced in SQL Server 2012, AlwaysOn Availability Groups maximizes the availability of a set of user databases for an enterprise. An availability group supports a failover environment for a discrete set of user databases, known as availability databases that fail over together."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Failover and Failover Modes (AlwaysOn Availability Groups)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 70-465 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to install two SQL Server 2014 environments named Environment1 and Environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Your company identifies the following availability requirements for each environment:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Environment1 must have mirroring with automatic failover implemented."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Environment2 must have AlwaysOn with automatic failover implemented."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to identify the minimum number of SQL Server 2014 servers that must be deployed to each environment to ensure that all data remains available if a physical server fails."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many servers should you identify?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To answer, drag the appropriate number to the correct environment in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0011800003.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0011900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Database Mirroring (SQL Server)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Failover and Failover Modes (AlwaysOn Availability Groups)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Database Mirroring (SQL Server)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Failover and Failover Modes (AlwaysOn Availability Groups)"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 14": {
+      "Title": "Exam 70-465 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are designing a database for a university."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The database will contain two tables named Classes and Enrollment that have the following specifications:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Classes will store brochures in the XPS format. The brochures must be structured in folders and must be accessible by using UNC paths."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Enrollment will store information about students and their classes. Performance must be enhanced for queries of the current enrollments."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to identify which SQL Server technology meets the specifications of each table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which technologies should you identify?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To answer, drag the appropriate technology to the correct table in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0012000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* The FileTable feature brings support for the Windows file namespace and compatibility with Windows applications to the file data stored in SQL Server. FileTable lets an application integrate its storage and data management components, and provides integrated SQL Server services - including full-text search and semantic search - over unstructured data and metadata."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In other words, you can store files and documents in special tables in SQL Server called FileTables, but access them from Windows applications as if they were stored in the file system, without making any changes to your client applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FileTables (SQL Server)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Partitioned Tables and Indexes"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* The FileTable feature brings support for the Windows file namespace and compatibility with Windows applications to the file data stored in SQL Server. FileTable lets an application integrate its storage and data management components, and provides integrated SQL Server services - including full-text search and semantic search - over unstructured data and metadata."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In other words, you can store files and documents in special tables in SQL Server called FileTables, but access them from Windows applications as if they were stored in the file system, without making any changes to your client applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FileTables (SQL Server)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Partitioned Tables and Indexes"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 15": {
+      "Title": "Exam 70-465 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You use SQL Server 2014 Enterprise Edition. Your database contains a partitioned table named AuditData. AuditData is partitioned by year. Partition 1 contains data from the year 2010 and prior."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Management has decided to archive all AUDITDATA records from 2010 and prior. Management wants the records to be removed from the database entirely and provided to the backup team as a zipped text file. The data must no longer reside in the database. There is very little tolerance for performance degradation in your environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to remove all 2010 and prior data from the AuditData table by using the least amount of system resources possible."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Develop the solution by selecting and arranging the required SQL actions in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You may not need all of the actions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0012400001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0012500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Create a new partitioned table with the partition function you want, and then insert the data from the old table into the new table by using an INSERT"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "INTO...SELECT FROM statement."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SPLIT RANGE ( boundary_value )"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Adds one partition to the partition function. boundary_value determines the range of the new partition, and must differ from the existing boundary ranges of the partition function. Based on boundary_value, the Database Engine splits one of the existing ranges into two. Of these two, the one where the new boundary_value resides is considered the new partition."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* BCP can be used to produce the zipped text file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Splitting a partition of a partitioned table or index into two partitions"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following example creates a partition function to partition a table or index into four partitions. ALTER PARTITION FUNCTION splits one of the partitions into two to create a total of five partitions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE PARTITION FUNCTION myRangePF1 (int)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "AS RANGE LEFT FOR VALUES ( 1, 100, 1000 );"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--Split the partition between boundary_values 100 and 1000"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--to create two partitions between boundary_values 100 and 500"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--and between boundary_values 500 and 1000."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ALTER PARTITION FUNCTION myRangePF1 ()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SPLIT RANGE (500);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://technet.microsoft.com/en-us/library/ms186307(v=sql.110).aspx http://technet.microsoft.com/en-us/library/ms162802(v=sql.120).aspx"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Create a new partitioned table with the partition function you want, and then insert the data from the old table into the new table by using an INSERT"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "INTO...SELECT FROM statement."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SPLIT RANGE ( boundary_value )"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Adds one partition to the partition function. boundary_value determines the range of the new partition, and must differ from the existing boundary ranges of the partition function. Based on boundary_value, the Database Engine splits one of the existing ranges into two. Of these two, the one where the new boundary_value resides is considered the new partition."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* BCP can be used to produce the zipped text file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Example:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Splitting a partition of a partitioned table or index into two partitions"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following example creates a partition function to partition a table or index into four partitions. ALTER PARTITION FUNCTION splits one of the partitions into two to create a total of five partitions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE PARTITION FUNCTION myRangePF1 (int)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "AS RANGE LEFT FOR VALUES ( 1, 100, 1000 );"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GO -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--Split the partition between boundary_values 100 and 1000"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--to create two partitions between boundary_values 100 and 500"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--and between boundary_values 500 and 1000."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ALTER PARTITION FUNCTION myRangePF1 ()"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SPLIT RANGE (500);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://technet.microsoft.com/en-us/library/ms186307(v=sql.110).aspx http://technet.microsoft.com/en-us/library/ms162802(v=sql.120).aspx"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 16": {
+      "Title": "Exam 70-465 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are designing a SQL Server database for an order fulfillment system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You create a table named Sales.Orders by using the following script:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0012600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Each order is tracked by using one of the following statuses:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Fulfilled"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Shipped"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Ordered"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Received"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to design the database to ensure that you can retrieve the status of an order on a given date. The solution must ensure that new statuses can be added in the future."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "More than one answer choice may achieve the goal. Select the BEST answer."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Implement change data capture on the Sales.Orders table."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To the Sales.Orders table, add a column named Status that will store the order status. Update the Status column as the order status changes."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a new table named Sales.OrderStatus that contains three columns named OrderID, StatusDate, and Status. Insert new rows into the table as the order status changes."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. To the Sales.Orders table, add three columns named FulfilledDate, ShippedDate, and ReceivedDate. Update the value of each column from null to the"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 70-465 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are the administrator for a SQL Server 2014 instance that stores the data for an online transaction processing sales system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The company takes full backups every week; differential backups on the days with no full backups; and hourly transaction backups. These backups are stored on a backup server in the company's data center."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Every week, the company places the full backup on a tape and sends it to a third-party backup storage system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The company is worried that a disaster might occur that could destroy their computer center and cause them to lose orders."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to determine the best method for providing the smallest amount of data loss and downtime without leasing or purchasing additional physical locations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do? More than one answer choice may achieve the goal. Select the BEST answer."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set up SQL Server Always On with a SQL Azure database as a replica."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set up SQL Server Always On by using a SQL Server on a Windows Azure Virtual Machine."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Put the differential backup on tape and send it to the third-party backup storage system."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the Microsoft SQL Server Backup to Microsoft Windows Azure Tool to direct all backups to a different geographical location."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL Server 2012 was the first version to provide the ability to back up databases to the Cloud, and SQL Server 2014 improves on the process."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Microsoft SQL Server Backup to Windows Azure Tool enables backup to Windows Azure Blob Storage and encrypts and compresses SQL Server backups stored locally or in the cloud."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Smart, Secure, Cost-Effective: SQL Server Back Up to Windows Azure - SQL Server Team Blog - Site Home - TechNet Blogs"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SQL Server 2012 was the first version to provide the ability to back up databases to the Cloud, and SQL Server 2014 improves on the process."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Microsoft SQL Server Backup to Windows Azure Tool enables backup to Windows Azure Blob Storage and encrypts and compresses SQL Server backups stored locally or in the cloud."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Smart, Secure, Cost-Effective: SQL Server Back Up to Windows Azure - SQL Server Team Blog - Site Home - TechNet Blogs"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 70-465 topic 1 question 57 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a server named Server1 that has 2 processors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to deploy multiple instances of SQL Server 2014 to Server1. Each instance will have multiple databases."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to recommend a method to set limits on processor time for each database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you include in the recommendation?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "More than one answer choice may achieve the goal. Select the BEST answer."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. processor affinity"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Max Degree of Parallelism"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Windows System Resource Manager (WSRM)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Resource Governor"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL Server Resource Governor is a feature than you can use to manage SQL Server workload and system resource consumption. Resource Governor enables you to specify limits on the amount of CPU, physical IO, and memory that incoming application requests can use."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not A: Processor affinity cannot be used to assign databases to processors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not B: The Microsoft SQL Server max degree of parallelism (MAXDOP) configuration option controls the number of processors that are used for the execution of a query in a parallel plan. It is not used limit the processor time for a database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C: You can use Windows System Resource Manager to allocate processor and memory resources to applications, users, Remote Desktop Services sessions, and Internet Information Services (IIS) application pools. You cannot use Windows System Resource Manager to allocate resources for a database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Resource Governor -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://msdn.microsoft.com/en-us/library/bb933866(v=sql.120).aspx"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SQL Server Resource Governor is a feature than you can use to manage SQL Server workload and system resource consumption. Resource Governor enables you to specify limits on the amount of CPU, physical IO, and memory that incoming application requests can use."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not A: Processor affinity cannot be used to assign databases to processors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not B: The Microsoft SQL Server max degree of parallelism (MAXDOP) configuration option controls the number of processors that are used for the execution of a query in a parallel plan. It is not used limit the processor time for a database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C: You can use Windows System Resource Manager to allocate processor and memory resources to applications, users, Remote Desktop Services sessions, and Internet Information Services (IIS) application pools. You cannot use Windows System Resource Manager to allocate resources for a database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Resource Governor -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://msdn.microsoft.com/en-us/library/bb933866(v=sql.120).aspx"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 70-465 topic 1 question 62 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an SQL Server 2014 server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to create four stored procedures that will use transactions. The stored procedures will be configured as shown in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0013900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to recommend an isolation level for each stored procedure. The solution must support the concurrency strategy of each stored procedure and must minimize locks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you recommend? To answer, drag the appropriate isolation levels to the correct stored procedures. Each isolation level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0014000001.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02154/0014100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SP1 SNAPSHOT"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The transaction can only recognize data modifications that were committed before the start of the transaction. Data modifications made by other transactions after the start of the current transaction are not visible to statements executing in the current transaction. The effect is as if the statements in a transaction get a snapshot of the committed data as it existed at the start of the transaction."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SP2: REPEATABLE READ"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Specifies that statements cannot read data that has been modified but not yet committed by other transactions and that no other transactions can modify data that has been read by the current transaction until the current transaction completes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SP3: READ COMMITTED"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Specifies that statements cannot read data that has been modified but not committed by other transactions. This prevents dirty reads."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SP4: SERIALIZABLE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SERIALIZABLE specification include:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ No other transactions can modify data that has been read by the current transaction until the current transaction completes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: SET TRANSACTION ISOLATION LEVEL (Transact-SQL)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://msdn.microsoft.com/en-us/library/ms173763.aspx"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "* SP1 SNAPSHOT"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The transaction can only recognize data modifications that were committed before the start of the transaction. Data modifications made by other transactions after the start of the current transaction are not visible to statements executing in the current transaction. The effect is as if the statements in a transaction get a snapshot of the committed data as it existed at the start of the transaction."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SP2: REPEATABLE READ"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Specifies that statements cannot read data that has been modified but not yet committed by other transactions and that no other transactions can modify data that has been read by the current transaction until the current transaction completes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SP3: READ COMMITTED"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Specifies that statements cannot read data that has been modified but not committed by other transactions. This prevents dirty reads."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SP4: SERIALIZABLE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SERIALIZABLE specification include:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ No other transactions can modify data that has been read by the current transaction until the current transaction completes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: SET TRANSACTION ISOLATION LEVEL (Transact-SQL)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://msdn.microsoft.com/en-us/library/ms173763.aspx"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    }
+  }
+}

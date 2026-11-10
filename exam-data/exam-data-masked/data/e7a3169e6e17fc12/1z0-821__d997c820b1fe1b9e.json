@@ -1,0 +1,3496 @@
+{
+  "1z0-821__d997c820b1fe1b9e": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-821 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user jack, using a korn shell, requests a directory listing as follows: jack@solaris:/export/home/jack $ 1s"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "File filea Filea fileb Fileb filec Filec"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are correct?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The pattern [?i]*a will expand to filea Filea."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The pattern [fF]*a? will expand to [fF] *a?."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The pattern [gfe] * will expand to file filea fileb filec."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The pattern [g-e] * will expand to file filea fileb filec."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The pattern [fF] [a-zA-z] i*e will expand to file."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: starting with one single character, second character must be letter i, any characters, ending with letter a."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: starting with letter e, f, or g, followed by anything."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: starting with one single character, second character must be letter i, any characters, ending with letter a."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: starting with letter e, f, or g, followed by anything."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-821 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "User jack, whose account is configured to use the korn shell, logs in and examines the value of his PATH environment variable:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0001200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will happen, and why?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. He will get a \"file not found\" error, because the current directory is not in his seaech path."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. He will get a \"file not found\" error, because his home directory is not in his search path."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The useradd script will execute, because jack is in the same directory that the script is located in."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The command /user/sbin/useradd will execute, because it is the last match in the search path."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The command /user/sbin/useradd will execute, because it is the first match in the search path."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "E",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-821 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When upgrading an existing system from Solaris 11 Express to Oracle Solaris 11, what happens to the datalink names?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They follow the default naming convention for the newly installed version."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They maintain their names."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They are called eth#."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They are called el00g#."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. They are left unnamed, to avoid conflicts, and need to be renamed after the installation process is complete."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Network configuration in Oracle Solaris 11 includes"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Generic datalink name assignment Generic names are automatically assigned to datalinks using the net0, net1, netN naming convention, depending on the total number of network devices that are on the system"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: There is no upgrade path from Oracle Solaris 10 to Oracle Solaris 11. You must perform a fresh installation."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Network configuration in Oracle Solaris 11 includes"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Generic datalink name assignment Generic names are automatically assigned to datalinks using the net0, net1, netN naming convention, depending on the total number of network devices that are on the system"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: There is no upgrade path from Oracle Solaris 10 to Oracle Solaris 11. You must perform a fresh installation."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-821 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have installed software updates to a new boot environment (BE) and have activated that the booting to the new BE, you notice system errors. You want to boot to the last known good configuration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option would you use on a SPARC system to boot to the currentBE boot environment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. boot \u2013L currentBE"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. boot \u2013Z rpool/ROOT/currentBE"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. boot \u2013a Enter the currentBE dataset name when prompted."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. boot rpool/ROOT/currentBE"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. boot \u2013m currentBE"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. beadm activate currentBE"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: F \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can change an inactive boot environment into an active boot environment. Only one boot environment can be active at a time. The newly activated boot environment becomes the default environment upon reboot."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How to Activate an Existing Boot Environment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Use the following command to activate an existing, inactive boot environment: beadm activate beName beName is a variable for the name of the boot environment to be activated."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note the following specifications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "beadm activate beName activates a boot environment by setting the bootable pool property, bootfs, to the value of the ROOT dataset of the boot environment that is being activated. beadm activate sets the newly activated boot environment as the default in the menu.lst file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Reboot."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The newly activated boot environment is now the default on the x86 GRUB menu or SPARC boot menu."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can change an inactive boot environment into an active boot environment. Only one boot environment can be active at a time. The newly activated boot environment becomes the default environment upon reboot."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How to Activate an Existing Boot Environment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Use the following command to activate an existing, inactive boot environment: beadm activate beName beName is a variable for the name of the boot environment to be activated."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note the following specifications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "beadm activate beName activates a boot environment by setting the bootable pool property, bootfs, to the value of the ROOT dataset of the boot environment that is being activated. beadm activate sets the newly activated boot environment as the default in the menu.lst file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Reboot."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The newly activated boot environment is now the default on the x86 GRUB menu or SPARC boot menu."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-821 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following image properties are displayed on your system:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0002200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two options describe the boot environment policy property that is currently set for this image?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All package operations are performed in a new BE set as active on the next boot."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Do not create a new BE. The install, update, uninstall, or revert operation is not performed if a new BE is required."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. If a BE is created, do not set it as the active BE on the next boot"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A reboot is required for all package operations"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A reboot is not required after a package operation."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. For package operations that require a reboot, this policy creates a new BE set as active on the next boot."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Image properties described below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* be-policy"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Specifies when a boot environment is created during packaging operations. The following values are allowed:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ default"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Apply the default BE creation policy: create-backup."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ always-new (D, F)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Require a reboot for all package operations (D) by performing them in a new BE set as active on the next boot (F). A backup BE is not created unless explicitly requested."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This policy is the safest, but is more strict than most sites need since no packages can be added without a reboot."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Image properties described below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* be-policy"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Specifies when a boot environment is created during packaging operations. The following values are allowed:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ default"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Apply the default BE creation policy: create-backup."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/ always-new (D, F)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Require a reboot for all package operations (D) by performing them in a new BE set as active on the next boot (F). A backup BE is not created unless explicitly requested."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This policy is the safest, but is more strict than most sites need since no packages can be added without a reboot."
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-821 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "dbzone is currently running on your server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two methods would you use to safely and cleanly shut down dbzone and all of its applications?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. zlogin \u2013z dbzone halt"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. zoneadm \u2013z dbzone shutdown \u2013i0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zoneadm \u2013z dbzone shutdown"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zoneadm \u2013z dbzone halt"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. zlogin dbzone shutdown \u2013i0"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: zoneadm halt command halts the specified zones. halt bypasses running the shutdown scripts inside the zone. It also removes run time resources of the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Use: zlogin zone shutdown -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "to cleanly shutdown the zone by running the shutdown scripts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use this procedure to cleanly shut down a zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Become superuser, or assume the Primary Administrator role."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Log in to the zone to be shut down, for example, my-zone, and specify shutdown as the name of the utility and init 0 as the state global# zlogin my-zone shutdown -y -g0 -i 0"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "D: zoneadm halt command halts the specified zones. halt bypasses running the shutdown scripts inside the zone. It also removes run time resources of the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Use: zlogin zone shutdown -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "to cleanly shutdown the zone by running the shutdown scripts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use this procedure to cleanly shut down a zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Become superuser, or assume the Primary Administrator role."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Log in to the zone to be shut down, for example, my-zone, and specify shutdown as the name of the utility and init 0 as the state global# zlogin my-zone shutdown -y -g0 -i 0"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-821 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user brian is configured to use the bash shell. His home directory is /export/home/brian, and contains a .profile and a .bashrc file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the -profile, there are these lines:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "genius =ritchie"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "export genius"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the .bashrc us this line:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "genius=kernighan"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In /etc/profile are these lines:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "genius=thompson"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "export genius"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When brian logs in and asks for the value of genius, what will he find, and why?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. genius will be ritchie, because that was the value exported in .profile."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. genius will be kernighan, because .bashrc executes after .profile."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. genius will be ritchie because variable settings in .profile take precedence over variable settings in .bashrc."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. genius will be ritchie because .profile executes after .bashrc."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. genius will be thompson because /etc/profile system settings always override local settings."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-821 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Consider the following commands:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0002700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is displayed when this sequence of commands is executed using the bash shell?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Hello, world"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. cat: cannot open file1: No such file or directory Hello, world"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. cat: cannot open file1: No such file or directory"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. bash: syntax error near unexpected token '| |'"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. bash: syntax error broker pipe"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-821 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "User jack logs in to host Solaris and executes the following command sequence:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0003300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three statements are correct?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. User jack can edit testfile because he has read and write permissions at the group level."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. User jack can use cat to output the contents of testfile because he has read permission as the file owner."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. User jill can change the permissions of testfile because she has write permission for the file at the group level."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. User jill can edit testfile because she has read and write permission at the group level."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. User jack can change permissions for testfile because he is the owner of the file."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. User jack can change permissions for testfile because he has execute permission for the file."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DEF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BDE",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-821 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user jack, using a bash shell, requests a directory listing as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0005000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three statements are correct?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The pattern dir? will expand to dira dirb dirc."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The pattern dir*a will expand to diraa."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The pattern dir*a will expand to dira diraa."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The pattern dir*b? will expand to dirabc."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The pattern dir*b? will expand to dirb dirabc."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ACD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: dir followed by a single letter."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: dir followed by any characters ending with a."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: dir followed by any characters, then character b, then one single character. only dirabc matches"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: dir followed by a single letter."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: dir followed by any characters ending with a."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: dir followed by any characters, then character b, then one single character. only dirabc matches"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-821 topic 1 question 66 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two are true about accounts, groups, and roles in the Solaris user database?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All Solaris user accounts must have a unique UID number."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A Solaris account name may be any alphanumeric string, and can have a maximum length of 8 characters."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Account UID numbers 0-09 are system-reserved."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The GID for an account determines the default group ownership of new files created by that account."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The groups that an account is a member of are determined by the entries in the /etc/group file."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: Solaris uses a UID (User ID) to identify each user account. The UID is a unique number assigned to each user. It is usually assigned by the operating system when the account is created."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: In Solaris the account name can include any alphanumeric string (and . _ -). The maximum length is 8 characters."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: Solaris uses a UID (User ID) to identify each user account. The UID is a unique number assigned to each user. It is usually assigned by the operating system when the account is created."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: In Solaris the account name can include any alphanumeric string (and . _ -). The maximum length is 8 characters."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-821 topic 1 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your server has a ZFS storage pool that is configured as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0005700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The server has two spare 146-GB disk drives: c3t5d0 c3t6d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to add more space to the pool1 storage pool. Which command would add more mirrored storage to the pool1 storage pool?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. zpool add pool1 mirror c3t5d0 c3t6d0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. zpool attach pool1 mirror c3t5d0 c3t6d0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zpool attach pool1 c3r3d0 c3r5d0; zpool attach pool1 c3r4d0 c3r6d0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zpool add pool1 c3r3d0 c3r5d0; zpool add pool1 c3r4d0 c3r6d0"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-821 topic 1 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "User jack logs in to host solaris and then attempts to log in to host oracle using ssh. He receives the following error message:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The authenticity of host oracle (192.168.1.22) can't be established. RSA key fingerprint is 3B:23:a5:6d:ad:a5:76:83:9c:c3:c4:55:a5:18:98:a6"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Are you sure you want to continue connecting (yes/no)?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two are true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The public host key supplied by solaria is not known to the host oracle."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The error would not occur if the RSA key fingerprint shown in the error message was added to the /etc/ssh/known_hosts file on solaris."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The private host key supplied by oracle is not known to solaris."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. If jack answers yes, the RSA public key for the host oracle will be added to the known_hosts file for the user jack."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The public host key supplied by oracle is not known to the host solaris."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The fingerprints are used to guard against man in the middle attacks. Since ssh logins usually work over the internet (an insecure connection), someone could hijack your connection. When you try to log into yourmachine.com, he could get \"in the middle\" and return your challenge as if he was yourmachine.com. That way, he could get hold of your login password."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To make this attack harder, ssh stores the fingerprint of the server's public key on the first connection attempt. You will see a prompt like:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The authenticity of host 'eisen (137.43.366.64)' can't be established."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RSA key fingerprint is cf:55:30:31:7f:f0:c4:a0:9a:02:1d:1c:41:cf:63:cf."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Are you sure you want to continue connecting (yes/no)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When you enter yes, ssh will add the fingerprint to your known_hosts file. you will see"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Warning: Permanently added 'eisen, 137.43.366.64' (RSA) to the list of known hosts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The next time you login, ssh will check whether the host key has changed. A changing host key usually indicates a man in the middle attack, and ssh refuses to connect."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The fingerprints are used to guard against man in the middle attacks. Since ssh logins usually work over the internet (an insecure connection), someone could hijack your connection. When you try to log into yourmachine.com, he could get \"in the middle\" and return your challenge as if he was yourmachine.com. That way, he could get hold of your login password."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To make this attack harder, ssh stores the fingerprint of the server's public key on the first connection attempt. You will see a prompt like:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The authenticity of host 'eisen (137.43.366.64)' can't be established."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RSA key fingerprint is cf:55:30:31:7f:f0:c4:a0:9a:02:1d:1c:41:cf:63:cf."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Are you sure you want to continue connecting (yes/no)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When you enter yes, ssh will add the fingerprint to your known_hosts file. you will see"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Code:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Warning: Permanently added 'eisen, 137.43.366.64' (RSA) to the list of known hosts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The next time you login, ssh will check whether the host key has changed. A changing host key usually indicates a man in the middle attack, and ssh refuses to connect."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-821 topic 1 question 84 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "User brian changes the permissions for db_data this command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "chmod 4755 db_data"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. db_data now has permissions rwsr-xr-x and can be deleted only by user brian."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. db_data now has permissions rwsr-xr-x and, if executed, will inn with the permissions of user brian."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. db_data now has permissions rwxr-sr-x and can be deleted only by members of the group owning it."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The permissions for db_data cannot be determined, because the permissions prior to the change have not been specified."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. db_data must be an ordinary file, because special permissions cannot be set on a directory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the chmod command to change permissions for a file or directory. You must be the owner of a file or directory, or have root access, to change its permissions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Here we do not know if brian owns db_data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Permission -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "7 full"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "6 read and write"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5 read and execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4 read only"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 write and execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 write only"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 execute only"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "0 none"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "0 --- no permission"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 --x execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 -w- write"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 -wx write and execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4 r-- read"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5 r-x read and execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "6 rw- read and write"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "7 rwx read, write and execut"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solaris: Solaris Advanced User's Guide"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Use the chmod command to change permissions for a file or directory. You must be the owner of a file or directory, or have root access, to change its permissions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Here we do not know if brian owns db_data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Permission -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "7 full"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "6 read and write"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5 read and execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4 read only"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 write and execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 write only"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 execute only"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "0 none"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "0 --- no permission"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 --x execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 -w- write"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 -wx write and execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4 r-- read"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5 r-x read and execute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "6 rw- read and write"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "7 rwx read, write and execut"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solaris: Solaris Advanced User's Guide"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-821 topic 1 question 102 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your server has a ZFS storage pool that is configured as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0008300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The server has two spate 140-GB disk drives: c3t5d0 c3t6d0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command would add redundancy to the pool1 storage pool?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. zpool attach pool1 c3t5d0 c3t6d0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. zpool attach pool1 c3t3d0 c3c5d0; zpoo1 attach pool1 c3t4d0 c3t6d0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zpool mirror pool1 c3t5d0 c3t6d0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zpool add pool1 mirror c3t5d0 c3t6d0"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. zpool add raidz pool1 c3t5d0 c3t6d0"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can convert a non-redundant storage pool into a redundant storage pool by using the zpool attach command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: zpool attach [-f] pool device new_device"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Attaches new_device to an existing zpool device. The existing device cannot be part of a raidz configuration. If device is not currently part of a mirrored configuration, device automatically transforms into a two-way mirror of device and new_device. If device is part of a two-way mirror, attaching new_device creates a three-way mirror, and so on. In either case, new_device begins to resilver immediately."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can convert a non-redundant storage pool into a redundant storage pool by using the zpool attach command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: zpool attach [-f] pool device new_device"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Attaches new_device to an existing zpool device. The existing device cannot be part of a raidz configuration. If device is not currently part of a mirrored configuration, device automatically transforms into a two-way mirror of device and new_device. If device is part of a two-way mirror, attaching new_device creates a three-way mirror, and so on. In either case, new_device begins to resilver immediately."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 1z0-821 topic 1 question 103 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user on the system has started a process, but it needs to be terminated."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The process ID was determined as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "pgrep userprogram"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "l5317"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The user attempted to terminate the program as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "pkill 15317"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This command runs without an error message, and the process continues to run."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You need to run the pkill command with the process name."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. You need to switch to super user to kill the process."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You need to run the ps command to get more information."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You need to run the prstat command to get more information."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can use the pgrep and pkill commands to identify and stop command processes that you no longer want to run. These commands are useful when you mistakenly start a process that takes a long time to run."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To terminate a process:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Type pgrep to find out the PID(s) for the process(es)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Type pkill followed by the PID(s)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can kill any process that you own. Superuser can kill any process in the system except for those processes with process IDs of 0, 1, 2, 3, and 4. Killing these processes most likely will crash the system."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can use the pgrep and pkill commands to identify and stop command processes that you no longer want to run. These commands are useful when you mistakenly start a process that takes a long time to run."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To terminate a process:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Type pgrep to find out the PID(s) for the process(es)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Type pkill followed by the PID(s)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can kill any process that you own. Superuser can kill any process in the system except for those processes with process IDs of 0, 1, 2, 3, and 4. Killing these processes most likely will crash the system."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 1z0-821 topic 1 question 122 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a default standalone installation of Oracle Solaris 11, what is the default minimum length in characters of a user password, and where is the minimum password length defined?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Default minimum length is 8, and is defined in /etc/default/password."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Default minimum length is 6, and is defined in /etc/default/password."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Default minimum length is 8, and is defined in /etc/shadow."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Default minimum length is 6, and is defined in /etc/shadow."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Default minimum length is 8, and is defined in /usr/sadm/defadduser."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Default minimum length is 6, and is defined in /usr/sadm/defadduser."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "By default, the passwd command assumes a minimum length of six characters. You can use the PASSLENGTH default in the /etc/defaults/passwd files to change that by setting the minimum number of characters that a user's password must contain to some other number."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "By default, the passwd command assumes a minimum length of six characters. You can use the PASSLENGTH default in the /etc/defaults/passwd files to change that by setting the minimum number of characters that a user's password must contain to some other number."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 1z0-821 topic 1 question 136 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have completed configuring a zone named dbzone on your Solaris 11 server. The configuration is as following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0011200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The global zone displays the following network information:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0011300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The zone has never been booted. Which three options correctly describe this zone?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is a sparse root zone."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is a whole root zone."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is an immutable zone."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is a native zone."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The zone shares the network interface with the host."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. The zone uses a virtual network interface."
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. The hostid is the same as the global zone."
+            }
+          ]
+        },
+        "H": {
+          "content": [
+            {
+              "type": "text",
+              "value": "H. The IP address of the zone is 10.0.2.18."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CEG \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: Immutable Zones provide read-only file system profiles for solaris non-global zones."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note that ip-type: exclusive:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Starting with OpenSolaris build 37 and Oracle Solaris 10 8/07, a default zone can be configured as an \"exclusive-IP zone\" which gives it exclusive access to the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NIC(s) that the zone has been assigned. Applications in such a zone can communicate directly with the NIC(s) available to the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note on zones:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After installing Oracle Solaris on a system, but before creating any zones, all processes run in the global zone. After you create a zone, it has processes that are associated with that zone and no other zone. Any process created by a process in a non-global zone is also associated with that non-global zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Any zone which is not the global zone is called a non-global zone. Most people call non-global zones simply \"zones.\" Some people call them \"local zones\" but this is discouraged."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The default native zone file system model on Oracle Solaris 10 is called \"sparse-root.\" This model emphasizes efficiency and security at the cost of some configuration flexibility. Sparse-root zones optimize physical memory and disk space usage by sharing some directories, like /usr and /lib. Sparse-root zones have their own private file areas for directories like /etc and /var. Whole-root zones increase configuration flexibility but increase resource usage. They do not use shared file systems for /usr, /lib, and a few others."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "There is no supported way to convert an existing sparse-root zone to a whole-root zone. Creating a new zone is required."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "C: Immutable Zones provide read-only file system profiles for solaris non-global zones."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note that ip-type: exclusive:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Starting with OpenSolaris build 37 and Oracle Solaris 10 8/07, a default zone can be configured as an \"exclusive-IP zone\" which gives it exclusive access to the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NIC(s) that the zone has been assigned. Applications in such a zone can communicate directly with the NIC(s) available to the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note on zones:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After installing Oracle Solaris on a system, but before creating any zones, all processes run in the global zone. After you create a zone, it has processes that are associated with that zone and no other zone. Any process created by a process in a non-global zone is also associated with that non-global zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Any zone which is not the global zone is called a non-global zone. Most people call non-global zones simply \"zones.\" Some people call them \"local zones\" but this is discouraged."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The default native zone file system model on Oracle Solaris 10 is called \"sparse-root.\" This model emphasizes efficiency and security at the cost of some configuration flexibility. Sparse-root zones optimize physical memory and disk space usage by sharing some directories, like /usr and /lib. Sparse-root zones have their own private file areas for directories like /etc and /var. Whole-root zones increase configuration flexibility but increase resource usage. They do not use shared file systems for /usr, /lib, and a few others."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "There is no supported way to convert an existing sparse-root zone to a whole-root zone. Creating a new zone is required."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 1z0-821 topic 1 question 155 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "User jack makes use of the bash shell; his home directory is/export/home/jack."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the correct setting of umask, and where should it be set, to allow jack to create a shell script using the vi editor, that is executable by default?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is not possible to make a script executable without using the chmod command."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. umask value of 0002 set in /etc/profile"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. umask value of 0002 set in /export/home/jack/.bashrc"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. umask value of 0722 set in /etc/profile"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. umask value of 0722 set In /export/home/jack/.bashrc"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The user file-creation mode mask (umask) is use to determine the file permission for newly created files. It can be used to control the default file permission for new files. It is a four-digit octal number."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can setup umask in /etc/bashrc or /etc/profile file for all users. By default most Unix distro set it to 0022 (022) or 0002 (002)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The default umask 002 used for normal user. With this mask default directory permissions are 775 and default file permissions are 664."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. The default umask for the root user is 022 result into default directory permissions are 755 and default file permissions are 644."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. For directories, the base permissions are (rwxrwxrwx) 0777 and for files they are 0666 (rw-rw-rw)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In short,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. A umask of 022 allows only you to write data, but anyone can read data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. A umask of 077 is good for a completely private system. No other user can read or write your data if umask is set to 077."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. A umask of 002 is good when you share data with other users in the same group. Members of your group can create and modify data files; those outside your group can read data file, but cannot modify it. Set your umask to 007 to completely exclude users who are not group members."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The user file-creation mode mask (umask) is use to determine the file permission for newly created files. It can be used to control the default file permission for new files. It is a four-digit octal number."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can setup umask in /etc/bashrc or /etc/profile file for all users. By default most Unix distro set it to 0022 (022) or 0002 (002)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The default umask 002 used for normal user. With this mask default directory permissions are 775 and default file permissions are 664."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. The default umask for the root user is 022 result into default directory permissions are 755 and default file permissions are 644."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. For directories, the base permissions are (rwxrwxrwx) 0777 and for files they are 0666 (rw-rw-rw)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In short,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. A umask of 022 allows only you to write data, but anyone can read data."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. A umask of 077 is good for a completely private system. No other user can read or write your data if umask is set to 077."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. A umask of 002 is good when you share data with other users in the same group. Members of your group can create and modify data files; those outside your group can read data file, but cannot modify it. Set your umask to 007 to completely exclude users who are not group members."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 1z0-821 topic 1 question 157 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have been tasked with creating a dedicated virtual network between two local zones within a single system, in order to isolate the network traffic from other zones on that system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To accomplish this, you will create_____."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. an ether stub"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. virtual router"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a virtual bridge"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a virtual network interface"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. nothing, because a virtual switch is automatically created when the virtual network interfaces are created"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "First create a virtual switch, then create a virtual network interface."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "First create a virtual switch, then create a virtual network interface."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 1z0-821 topic 1 question 177 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "alice is a user account used by Alice on a Solaris 11 system. sadmin is a role account on the same system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Your task is to add the command /usr/sbin/cryptoadm to the Network management profile, so that Alice can execute it, while assuming the sadmin role."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select the three activities necessary to accomplish this."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. To the file /etc/security/prof_attr, add the line: Network Management: solaris:cmd:RO::/usr/sbin/cryptoadm:euid=0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To the file /etc/security/auth_attr, add the line:Network Management: solaris:cmd:RO::/usr/sbin/cryptoadm:euid=0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. To the file /etc/security/exec_attr.d/local-entriies, add the line:Network Management: solaris:cmd:RO::/usr/sbin/cryptoadm:euid=0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Run the roles alice to ensure that alice may assume the role sadmin."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Run the command profiles sadmin to ensure that the role sadmin includes the network Management profile."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Run the command profiles alice to ensure that the Alice has permissions to access the Network management profile."
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. Run the command profiles \"Network management\" to ensure that the Network management profile includes the sadmin role."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDG \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: /etc/security/exec_attr is a local database that specifies the execution attributes associated with profiles. The exec_attr file can be used with other sources for execution profiles, including the exec_attr NIS map and NIS+ table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A profile is a logical grouping of authorizations and commands that is interpreted by a profile shell to form a secure execution environment."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "C: /etc/security/exec_attr is a local database that specifies the execution attributes associated with profiles. The exec_attr file can be used with other sources for execution profiles, including the exec_attr NIS map and NIS+ table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A profile is a logical grouping of authorizations and commands that is interpreted by a profile shell to form a secure execution environment."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 1z0-821 topic 1 question 199 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Select the five tasks that need to be performed on the Automated Installer (AI) install server before setting up the client."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a local IPS repository on the AI Install server and start the repository server service, the publisher origin to the repository file."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set up a IP address on the AI install server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The DHCP server must be enabled on the install server and must provide the DHCP service for the clients."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. DHCP must be available on the network for the Install server and the clients, but the install server does not need to be the DHCP server."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Download the AI boot image. The image must be the same version as the Oracle Solaris OS that you plan to install on the client."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Download the text install image into the IPS repository."
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. Install the AI installation tools."
+            }
+          ]
+        },
+        "H": {
+          "content": [
+            {
+              "type": "text",
+              "value": "H. Create the AI install service. Specify the path to the AI network boot image ISO file and the path where the AI net image ISO file should be unpacked."
+            }
+          ]
+        },
+        "I": {
+          "content": [
+            {
+              "type": "text",
+              "value": "I."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDFGI \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Configure the AI install server to use a static IP address and default route."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: The create-service command can set up DHCP on the AI install server. If you want to set up a separate DHCP server or configure an existing DHCP server for use with AI. The DHCP server must be able to provide DNS information to the systems to be installed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: An automated installation of a client over the network consists of the following high-level steps:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The client system boots over the network and gets its network configuration and the location of the install server from the DHCP server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. The install server provides a boot image to the client."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Characteristics of the client determine which installation instructions and which system configuration instructions are used to install the client."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. The Oracle Solaris 11 OS is installed on the client, pulling packages from the package repository specified by the installation instructions in the AI install service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "G: Install the AI tool set."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the installadm create-service command to create an AI install service. Give the service a meaningful name, and specify the path where you want the service created. Specify the source of the network boot image (net image) package or ISO file. installadm create-service [-n svcname]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[-s FMRI_or_ISO] [-d imagepath]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-d imagepath"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The imagepath is the location of the new install service. The install-image/solaris-auto-install package is installed to this location, or the specified ISO file is expanded at this location."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "B: Configure the AI install server to use a static IP address and default route."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: The create-service command can set up DHCP on the AI install server. If you want to set up a separate DHCP server or configure an existing DHCP server for use with AI. The DHCP server must be able to provide DNS information to the systems to be installed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: An automated installation of a client over the network consists of the following high-level steps:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. The client system boots over the network and gets its network configuration and the location of the install server from the DHCP server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. The install server provides a boot image to the client."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Characteristics of the client determine which installation instructions and which system configuration instructions are used to install the client."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. The Oracle Solaris 11 OS is installed on the client, pulling packages from the package repository specified by the installation instructions in the AI install service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "G: Install the AI tool set."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the installadm create-service command to create an AI install service. Give the service a meaningful name, and specify the path where you want the service created. Specify the source of the network boot image (net image) package or ISO file. installadm create-service [-n svcname]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[-s FMRI_or_ISO] [-d imagepath]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-d imagepath"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The imagepath is the location of the new install service. The install-image/solaris-auto-install package is installed to this location, or the specified ISO file is expanded at this location."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam 1z0-821 topic 1 question 220 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit and review the zpool and ZFS configuration information from your system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0018200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Identify the correct procedure for breaking the /prod_data mirror, removing c4t0d0 and c4t2d0, and making the data on c4t0d0and c4t2d0 accessible under the dev_data mount point."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. zpool split pool1 pool2 c4t0d0 c4t2d0zpool import pool2zfs set mountpoint = /dev_data pool2/prod_data"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. zpool detach pool1 pool2zpool attach pool2zfs set mountpoint=/dev_data pool2/prod_data"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. zpool split pool1/prod_data -n pool2/dev_datazfs set mountpoint = /dev_data pool2/prod_data"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. zpool split pool1 pool2 c4t0d0 c4t2d0zpool import pool2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this Solaris release, you can use the zpool split command to split a mirrored storage pool, which detaches a disk or disks in the original mirrored pool to create another identical pool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After the split operation, import the new pool."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In this Solaris release, you can use the zpool split command to split a mirrored storage pool, which detaches a disk or disks in the original mirrored pool to create another identical pool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After the split operation, import the new pool."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 1z0-821 topic 1 question 226 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The current ZFS configuration on server is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02335/0018800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to backup the /data file system while the file system is active."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select the option that creates a full backup of the /data file system and stores the backup on server in the pool named backup."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Mount -F nfs system: /backup / mntzfs snapshot pool/data@monday>/mnt/Monday"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Mount -F nfs systemB: /backup/mntzfs snapshot pool1/data@Mondayzfs clone pool1/data@monday/mnt/Monday"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Zfs send pool1/data@Monday | ssh system zfs recv backup/monday"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Zfs snapshot pool1/data@Monday | ssh system zfs recv backup/monday"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E23823_01/html/819-5461/ghzvz.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E23823_01/html/819-5461/ghzvz.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

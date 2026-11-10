@@ -1,0 +1,805 @@
+{
+  "JN0-680__29c2b25f2cd43403": {
+    "Question #: 1": {
+      "Title": "Exam JN0-680 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer has built a VXLAN using an EVPN signaling infrastructure with remote facilities with VXLAN using EVPN signaling connected to the Internet. The customer notices that the network is completely stable with no protocol errors in the underlay or overlay. The customer, however, cannot pass any application data across the network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement would explain the intermittent loss?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. There is an LACP key mismatch."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The MTU is exceeded."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The routing protocol authentication has failed."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The BPDU protection is invoked."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam JN0-680 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to converse IP address space and reduce your fabric management overhead. For these reasons, you decided to use unnumbered Ethernet interfaces for your IP Fabric."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is correct in this scenario?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The donor interface for an unnumbered interface must have only one configured IP address."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. PIM is not supported on upstream unnumbered interfaces in the PIM topology."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. OSPF is supported on unnumbered interfaces configured as a point-to-point connection."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Only the IPv4 address family is supported on the interfaces."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/topic-map/interfaces-configuring-an-unnumbered-interface.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/topic-map/interfaces-configuring-an-unnumbered-interface.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam JN0-680 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02099/0002500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are deploying MC-LAG as shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is correct when using active/standby mode?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A spanning tree protocol should be used to avoid Layer 2 loops between Server A and both switches."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VCCP is used to exchange MAC addresses between MC-LAG peers."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All traffic from Server A to Host 1 will traverse the link between Server A and ex2."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Only ICCP control traffic is allowed through the ICL-PL connection."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.juniper.net/InfoCenter/index?page=content&id=KB21824"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/task/configuration/interfaces-configuring-multi-chassis-link-aggregation.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.juniper.net/InfoCenter/index?page=content&id=KB21824"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/task/configuration/interfaces-configuring-multi-chassis-link-aggregation.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam JN0-680 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are building an EVPN Data Center Interconnect. You must support multiple VLANs in a single EVPN instance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which parameter provides this functionality?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. instance-type evpn"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. instance-type no-forwarding"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. instance-type virtual-switch"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. instance-type 12vpn"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/task/configuration/evpn-routing-instance-configuring.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/task/configuration/evpn-routing-instance-configuring.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam JN0-680 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02099/0002800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are deploying MC-LAG as shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is correct when using active/active mode?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only ICCP control traffic is allowed through the ICL-PL connection"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ICCP and block filters are used to avoid Layer 2 loops."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. VRRP must be used to ensure MAC addresses are shared between peers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. VCCP is used to exchange MAC addresses between MC-LAG peers."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.juniper.net/InfoCenter/index?page=content&id=KB21824"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/task/configuration/interfaces-configuring-multi-chassis-link-aggregation.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.juniper.net/InfoCenter/index?page=content&id=KB21824"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/task/configuration/interfaces-configuring-multi-chassis-link-aggregation.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam JN0-680 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are building a DCI solution and need both a Layer 2 solution and a Later 3 solution for different workloads within your data centers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are two reasons why MPLS would be used a transport for this DCI solution? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The fast failover capabilities of MPLS nodes can be accomplished in a recovery time that is equivalent to 50 ms or better."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. MPLS allows you to natively runnel your own Layer 2 traffic through the service provided L3VPN."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. MPLS allows you to interconnect multiple data centers over a public IP network."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. MPLS allows for any-to-any connectivity allowing for both Layer 2 and Layer 3 DCIs."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam JN0-680 topic 1 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02099/0003800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The MC-LAG group shown in the exhibit is providing high availability services for the directly connected servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Where does Juniper Networks recommend you provide the backup liveness detection?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. on the ae2 interface"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. on the ICL-PL connection"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. on the ae1 interface"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. on the management interfaces"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/reference/configuration-statement/backup-liveness-detection-edit-protocols-iccp-peer-qfx- series.html"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.juniper.net/InfoCenter/index?page=content&id=KB21824"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.juniper.net/documentation/en_US/junos/topics/reference/configuration-statement/backup-liveness-detection-edit-protocols-iccp-peer-qfx- series.html"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.juniper.net/InfoCenter/index?page=content&id=KB21824"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam JN0-680 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are configuring VXLAN on a network of QFX5100s, and are using the set vlans vlan100 vxlan unreachable-vtep-aging-timer 600 command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What does this command do?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. This command ages out a remotely learned VTEP address after 600 seconds of inactivity."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. This command ages out the address of the remote VTEP 600 seconds after the last learned MAC address expires."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. This command ages out all learned MAC addresses assigned to the VTEP after 600 seconds of inactivity."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. This command ages out a locally learned MAC address assigned to the VTEP after 600 seconds of inactivity."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOT A This answer is ambiguous and vague about which MACs are involved."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B this answer is most detailed and accurate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C False; The aging timer refers to the remote VTEP MAC, not the MACs learned *via* that VTEP."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D False; The aging timer refers to the remote VTEP MAC after MACs learned *via* that VTEP age out; not locally-learned MACs."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "NOT A This answer is ambiguous and vague about which MACs are involved."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B this answer is most detailed and accurate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C False; The aging timer refers to the remote VTEP MAC, not the MACs learned *via* that VTEP."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D False; The aging timer refers to the remote VTEP MAC after MACs learned *via* that VTEP age out; not locally-learned MACs."
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

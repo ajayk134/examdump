@@ -1,0 +1,754 @@
+{
+  "1z0-590__6eef218b178308c7": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-590 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What task can an Administrator do that a Manager cannot in Oracle VM Manager?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. manage server pools"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. manage servers"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. manage resources"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. manage virtual machines"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. create users and groups"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. import resources E"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle VM Manager can manages the server pools, resources, virtual machines and also it can import resources but it cannot create the users and groups."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Oracle VM Manager can manages the server pools, resources, virtual machines and also it can import resources but it cannot create the users and groups."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-590 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a large number of virtual machines that need access to a storage repository. Which answer describes the factors you use to determine your storage repository strategy?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Oracle VM 3.x has multiple identical storage repositories. Additional identical repositories can be added as needed. A best practice is to select a medium size for the repository based on your usage."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The way to grow an Oracle VM 3.x storage repository is to add additional space to the rootrepository as needed. A best practice is to only configure additional space when determined it is needed."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Oracle VM 3.x has a single fixed storage repository. A best practice is to configure the repository with 30%-40% headroom for growth."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The way to grow an Oracle VM 3.x storage repository is to add sub-repositories beneath the root repository. A best practice is to provision one or more larger repositories to avoid the management overhead of numerous sub-repositories."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can use the split technology to split your partitions as a 2 GB space and can define the max size and when needed Oracle VM can automatically add the more storage there and also you can modify the max size of the storage repository."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can use the split technology to split your partitions as a 2 GB space and can define the max size and when needed Oracle VM can automatically add the more storage there and also you can modify the max size of the storage repository."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-590 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When setting up a server pool, enabling what option will persist the IP address of a server pool master after an HA failover?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. High Availability Mode"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Server Pool Virtual IP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Live Migration"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 02CB service"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. OCFS service"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-590 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two configuration files specify the cluster stack, boot cluster and network settings for the OCFS2 duster?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. /etc/ocfs2/cluster.conf"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. /etc/sysconfig/ocfs2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /etc/sysconfig/cluster.conf"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /etc/sysconfig/o2cb"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-590 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What information is required to connect to a YUM repository from Oracle Template Builder?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the URL of the YUM repository only"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the URL of the YUM repository and a SHA5 key from Oracle for the repository"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the name and URL of the YUM repository, along with the user name and password for the YUM server's administrator"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the name of the YUM repository only"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-590 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer has installed Oracle VM Manager from the Oracle-provided template onto a server pool of ten servers. As additional VMs are being added, the user interface for the Oracle VM Manager application is becoming slow."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Oracle VM Manager guest does not have the HA flag set, and is therefore not being moved to a server with sufficient capacity."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The Oracle VM Manager guest is on a server that has insufficient memory."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The Oracle VM Manager guest is on a server that has insufficient CPU capability."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The Oracle VM Manager guest has been put in maintenance mode by the Administrator."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The Oracle VM Manager guest is located on a master pool server, which is consuming a large portion of the I/O and processing of the server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-590 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer decides to use 2 large servers to load balance a mix of large and small virtual machines. Each server has 64GB of RAM and 8 quad-core CPUs. There are 14 virtual machines, 6 of which use 12GB of virtual memory and 16 vCPU each, and the remaining 8 use 2GB and 4 vCPUs each. What two issues will the customer likely discover when one of the servers fails?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Not all of the virtual machines on the failed server will be able to restart on the remaining serverdue to lack of vCPUs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Not all of the virtual machines on the failed server will be able to restart on the remaining serverdue to lack of memory."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Live migration will be unavailable until the second server is restored."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Not all of the virtual machines on the failed server will be able to restart on the remaining serverdue to lack of vNICs."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Not all of the virtual machines on the failed server will be able to restart on the remaining serverdue to lack of shared storage."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-590 topic 1 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What two steps are required to ensure that virtual machines failover to a new server when their current server goes down?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Ensure that the Oracle VM Manager is always available by installing Oracle Clusterware."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Turn on High Availability Mode in the server pool."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Assign a virtual IP address to the server pool."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Turn on HA in all virtual machines that will be restarted."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Ensure all servers in the pool have identical CPU and memory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the question two steps are required so that you have to answer two here."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle Clusterware Ensure that your server is going to be restarted facility and it will provide you the failover feature for you as well. You have to turn on HA Mode in the server pool."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In the question two steps are required so that you have to answer two here."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle Clusterware Ensure that your server is going to be restarted facility and it will provide you the failover feature for you as well. You have to turn on HA Mode in the server pool."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-590 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Intel and AMD are adding functionality to their microprocessors to improve performance of virtualized environments."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which type of virtualization MOST benefits from these technologies?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Emulation-based technologies"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Paravirtualization"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Hardware Virtualization"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Hardware Partitioning"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Operating System Partitioning"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Paravirtualized (PVM) -- A software interface similar but not identical to the underlying hardware is presented to the guest operating system. Paravirtualization provides hooks for guest instructions so that complicated tasks can be performed by the host instead of the virtual machine, where performance is worse."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Paravirtualization requires that the guest kernel is ported to be made aware of the virtual environment."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Paravirtualized (PVM) -- A software interface similar but not identical to the underlying hardware is presented to the guest operating system. Paravirtualization provides hooks for guest instructions so that complicated tasks can be performed by the host instead of the virtual machine, where performance is worse."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Paravirtualization requires that the guest kernel is ported to be made aware of the virtual environment."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-590 topic 1 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two are true of an NFS repository when used with Oracle VM?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NFS repositories are excellent for storing guests' root file systems."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. NFS is a more expensive option than iSCSI or SAN fabrics."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. OCFS2 must be used as the filesystem format for volumes exposed through NFS."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. NFS shares mounted directly in a guest require the DM-NFS driver to be installed on the guest."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. NFS is supported for use in RAC only when mounted from the guest (not domO)."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "First of all here you have to select two options but answer shows one. A is ok."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A performance comparison of NFS and iSCSI for IP-Networked Storage showed that iSCSI is faster than NFS because iSCSI caches and updates meta-data asynchronously and transfers blocks rather than files. So the options B is right."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "First of all here you have to select two options but answer shows one. A is ok."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A performance comparison of NFS and iSCSI for IP-Networked Storage showed that iSCSI is faster than NFS because iSCSI caches and updates meta-data asynchronously and transfers blocks rather than files. So the options B is right."
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

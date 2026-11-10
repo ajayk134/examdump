@@ -1,0 +1,506 @@
+/* styles.css — responsive exam viewer with overflow/word-wrap fixes */
+
+/* root color variables */
+:root {
+  --primary: #4A90E2;
+  --muted: #f4f6f8;
+  --card-bg: #f9f9f9;
+  --border: #d0d0d0;
+  --success: #28a745;
+  --most-voted: #2ECC71;
+  --choice-default: #7B7D7D;
+  --radius: 12px;
+}
+
+/* base + overflow safety */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  /* prevent accidental horizontal scroll while allowing vertical scroll */
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--muted);
+  padding: 18px;
+  color: #222;
+  font-size: clamp(14px, 1.6vw, 18px);
+  -webkit-text-size-adjust: 100%;
+}
+
+/* topbar */
+.topbar {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  /* allow wrapping so long titles/buttons won't force horizontal scroll */
+  flex-wrap: wrap;
+}
+
+.back {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #eee;
+  flex: 0 0 auto;
+}
+
+h1#examTitle {
+  text-align: center;
+  margin: 6px 0;
+  font-size: clamp(18px, 2.6vw, 22px);
+  flex: 1 1 auto;
+  min-width: 0;
+  /* allow it to shrink without causing overflow */
+  color: #111;
+}
+
+/* ensure the PDF button also doesn't force overflow */
+.pdf-btn {
+  background: #4A90E2;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+
+.pdf-btn:hover {
+  background: #357ABD;
+}
+
+/* container constraints for main content */
+#questionsContainer {
+  max-width: 1000px;
+  margin: 18px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  width: calc(100% - 36px);
+  /* respect body padding and avoid overflow */
+}
+
+/* question card */
+.question-card {
+  background-color: var(--card-bg);
+  border: 2px solid darkgray;
+  border-radius: var(--radius);
+  padding: 14px;
+  margin-bottom: 22px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.04);
+  max-width: 100%;
+  width: 100%;
+  overflow: visible;
+  transition: transform .08s ease;
+}
+
+.question-card:focus-within {
+  transform: translateY(-2px);
+  outline: none;
+}
+
+/* title */
+.question-title {
+  text-align: center;
+  color: var(--primary);
+  margin: 6px 0 10px 0;
+  font-size: 1.05rem;
+  word-break: break-word;
+}
+
+/* question text */
+.question-text {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.question-text img,
+.answer-box img {
+  display: block;
+  margin: 14px auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* choices */
+.choices {
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.choice-item {
+  padding: 12px;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  align-content: center;
+  /* allow child content to wrap instead of widening the row */
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.choice-letter {
+  min-width: 30px;
+  font-weight: 700;
+  color: var(--primary);
+  display: inline-block;
+}
+
+/* most voted badge */
+.badge-most-voted {
+  background-color: var(--most-voted);
+  color: white;
+  border-radius: 12px;
+  padding: 6px 10px;
+  margin-left: 10px;
+  font-size: 0.82em;
+  flex: 0 0 auto;
+}
+
+/* answer */
+.answer-box {
+  background-color: #f3f7fb;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 14px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* vote display */
+.vote-summary {
+  margin-top: 12px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #333;
+}
+
+/* keep vote bar flexible and prevent overflow */
+.vote-bar {
+  display: flex;
+  height: 36px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin-top: 10px;
+  background: #f1f1f1;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.04);
+  min-width: 0;
+}
+
+/* shorten long labels, allow truncation to avoid pushing layout */
+.vote-segment {
+  text-align: center;
+  line-height: 36px;
+  color: white;
+  font-size: 0.85em;
+  padding: 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+/* colors for ranks */
+.vote-rank-1 {
+  background-color: #4A90E2;
+}
+
+/* Blue */
+.vote-rank-2 {
+  background-color: #28a745;
+}
+
+/* Green */
+.vote-rank-3 {
+  background-color: #dc3545;
+}
+
+/* Red */
+.vote-rank-4 {
+  background-color: #fd7e14;
+}
+
+/* Orange */
+.vote-rank-5 {
+  background-color: #ffc107;
+  color: #000;
+}
+
+/* Yellow */
+
+/* responsive adjustments */
+@media (max-width:700px) {
+  body {
+    padding: 12px;
+  }
+
+  h1#examTitle {
+    font-size: 1.04rem;
+  }
+
+  .question-title {
+    font-size: 1rem;
+  }
+
+  .choice-item {
+    font-size: 0.96rem;
+    padding: 10px;
+  }
+
+  .vote-bar {
+    height: 34px;
+  }
+
+  .pdf-btn {
+    padding: 8px 10px;
+    font-size: 0.95rem;
+  }
+
+  #questionsContainer {
+    width: 100%;
+    padding: 8px;
+    margin: 12px auto;
+  }
+
+  .pagination-container {
+    padding: 14px;
+    gap: 12px;
+  }
+}
+
+/* small improvements */
+.question-text p,
+.answer-box p {
+  margin: 6px 0;
+}
+
+.choice-item p,
+.choice-item span {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.choice-item {
+  align-items: center;
+}
+
+/* if anything still overflows, this utility keeps it contained */
+.container-fix {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Interactive styles for exam view */
+.choice-item.interactive {
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background: #fdfdfd;
+}
+.choice-item.interactive:hover {
+  background: #f0f7ff;
+}
+.choice-item.interactive.selected {
+  background: #e1f0ff;
+  border-color: var(--primary);
+}
+ul.limit-reached .choice-item.interactive:not(.selected) {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+ul.limit-reached .choice-item.interactive:not(.selected):hover {
+  background: #fdfdfd; /* remove hover effect entirely */
+}
+.choice-item.interactive.correct {
+  background: #d4edda !important;
+  border-color: #28a745 !important;
+}
+.choice-item.interactive.wrong {
+  background: #f8d7da !important;
+  border-color: #dc3545 !important;
+}
+
+.action-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px dashed #ccc;
+  align-items: center;
+}
+.btn-toggle-answer {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.btn-toggle-answer:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn-toggle-answer:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.btn-ai-explain {
+  background: linear-gradient(90deg, #818cf8, #6366f1);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.btn-ai-explain:hover {
+  opacity: 0.85;
+}
+
+.ai-explanation-box {
+  margin-top: 20px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  font-size: 0.97em;
+  line-height: 1.7;
+  color: #1e3a5f;
+}
+
+.feedback-msg {
+  font-weight: 700;
+  margin: 0;
+  font-size: 0.95em;
+}
+.feedback-msg.correct { color: #28a745; }
+.feedback-msg.wrong { color: #dc3545; }
+
+.full-answer-section {
+  display: none;
+  margin-top: 14px;
+  border-left: 4px solid var(--primary);
+  padding-left: 14px;
+}
+.full-answer-section.visible {
+  display: block;
+}
+
+.explanation-box {
+  background-color: #fffdec;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 14px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  border: 1px solid #f2e29f;
+}
+.answer-box {
+  background-color: #f3f7fb;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 14px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Pagination controls */
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 32px 0 24px;
+  padding: 20px;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  border: 1px solid #e2e4e8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 600px) {
+  .pagination-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.per-page-wrapper {
+  font-weight: 600;
+  color: #333;
+}
+.per-page-wrapper select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  font-family: inherit;
+  margin-left: 8px;
+  max-width: 100%;
+}
+
+.page-nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-page {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.btn-page:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn-page:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.page-status {
+  font-weight: 600;
+  color: #333;
+}
+
+/* AI streaming cursor */
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+.ai-cursor { display:inline-block; animation: blink 0.8s step-start infinite; color: #6366f1; font-weight:bold; font-size: 1.2em; }

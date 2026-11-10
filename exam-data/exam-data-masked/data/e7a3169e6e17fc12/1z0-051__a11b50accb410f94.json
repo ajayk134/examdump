@@ -1,0 +1,2061 @@
+{
+  "1z0-051__a11b50accb410f94": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-051 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Here is the structure and data of the CUST_TRANS table:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CUST_TRANS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Name Null? Type"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-------------- ----------------- ------------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CUSTNO NOT NULL CHAR (2)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TRANSDATE DATE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TRANSAMT NUMBER (6, 2)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CUSTNO TRANSDATE TRANSAMT"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "------------- ----------------------- -----------------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "11 01-JAN-07 1000"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "22 01-FEB-07 2000"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "33 01-MAR-07 3000"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dates are stored in the default date format dd-mm-rr in the CUST_TRANS table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three SQL statements would execute successfully? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SELECT transdate + '10' FROM cust_trans;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SELECT * FROM cust_trans WHERE transdate = '01-01-07';"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SELECT transamt FROM cust_trans WHERE custno > '11';"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SELECT * FROM cust_trans WHERE transdate='01-JANUARY-07';"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. SELECT custno + 'A' FROM cust_trans WHERE transamt > 2000;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ACD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-051 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three SQL statements would display the value 1890.55 as $1,890.55? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SELECT TO_CHAR(1890.55,'$99G999D00')FROM DUAL;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SELECT TO_CHAR(1890.55,'$9,999V99')FROM DUAL;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SELECT TO_CHAR(1890.55,'$0G000D00')FROM DUAL;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SELECT TO_CHAR(1890.55,'$99G999D99')FROM DUAL;"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. SELECT TO_CHAR(1890.55,'$9,999D99')FROM DUAL;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ACD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-051 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Evaluate the following SQL statement:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0000900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true regarding the outcome of the above query?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It produces an error because the ORDER BY clause should appear only at the end of a compound query-that is, with the last SELECT statement"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It executes successfully and displays rows in the descending order of PROMO_CATEGORY"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It executes successfully but ignores the ORDER BY clause because it is not located at the end of the compound statement"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It produces an error because positional notation cannot be used in the ORDER BY clause with SET operators A"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Using the ORDER BY Clause in Set Operations"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The ORDER BY clause can appear only once at the end of the compound query."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Component queries cannot have individual ORDER BY clauses."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The ORDER BY clause recognizes only the columns of the first SELECT query."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "By default, the first column of the first SELECT query is used to sort the output in an ascending order."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Using the ORDER BY Clause in Set Operations"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The ORDER BY clause can appear only once at the end of the compound query."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Component queries cannot have individual ORDER BY clauses."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The ORDER BY clause recognizes only the columns of the first SELECT query."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "By default, the first column of the first SELECT query is used to sort the output in an ascending order."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-051 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Evaluate the following SQL statements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0001500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0001500002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The above command fails when executed. What could be the reason?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The BETWEEN clause cannot be used for the CHECK constraint"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SYSDATE cannot be used with the CHECK constraint"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ORD_NO and ITEM_NO cannot be used as a composite primary key because ORD_NO is also the FOREIGN KEY"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The CHECK constraint cannot be placed on columns having the DATE data type"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK Constraint -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The CHECK constraint defines a condition that each row must satisfy. The condition can use the same constructs as the query conditions, with the following exceptions:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References to the CURRVAL, NEXTVAL, LEVEL, and ROWNUM pseudocolumns"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Calls to SYSDATE, UID, USER, and USERENV functions"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Queries that refer to other values in other rows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A single column can have multiple CHECK constraints that refer to the column in its definition."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "There is no limit to the number of CHECK constraints that you can define on a column."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK constraints can be defined at the column level or table level."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE TABLE employees -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(..."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "salary NUMBER(8,2) CONSTRAINT emp_salary_min"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK (salary > 0),"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "CHECK Constraint -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The CHECK constraint defines a condition that each row must satisfy. The condition can use the same constructs as the query conditions, with the following exceptions:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References to the CURRVAL, NEXTVAL, LEVEL, and ROWNUM pseudocolumns"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Calls to SYSDATE, UID, USER, and USERENV functions"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Queries that refer to other values in other rows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A single column can have multiple CHECK constraints that refer to the column in its definition."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "There is no limit to the number of CHECK constraints that you can define on a column."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK constraints can be defined at the column level or table level."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE TABLE employees -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(..."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "salary NUMBER(8,2) CONSTRAINT emp_salary_min"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK (salary > 0),"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-051 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true regarding constraints? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A constraint can be disabled even if the constraint column contains data"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A constraint is enforced only for the INSERT operation on a table"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A foreign key cannot contain NULL values"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. All constraints can be defined at the column level as well as the table level"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A column with the UNIQUE constraint can contain NULL values"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Including Constraints -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Constraints enforce rules at the table level."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Constraints prevent the deletion of a table if there are dependencies."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following constraint types are valid:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOT NULL"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "UNIQUE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PRIMARY KEY"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FOREIGN KEY"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Including Constraints -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Constraints enforce rules at the table level."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Constraints prevent the deletion of a table if there are dependencies."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following constraint types are valid:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOT NULL"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "UNIQUE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PRIMARY KEY"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FOREIGN KEY"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHECK"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-051 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Evaluate this SQL statement:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SELECT e.emp_name, d.dept_name -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FROM employees e -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JOIN departments d -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "USING (department_id)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WHERE d.department_id NOT IN (10,40)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ORDER BY dept_name;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The statement fails when executed. Which change fixes the error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. remove the ORDER BY clause"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. remove the table alias prefix from the WHERE clause"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. remove the table alias from the SELECT clause"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. prefix the column in the USING clause with the table alias"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. prefix the column in the ORDER BY clause with the table alias"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. replace the condition\"d.department_id NOT IN (10,40)\"in the WHERE clause with\"d.department_id <> 10 AND d.department_id <> 40\""
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-051 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true regarding single row functions? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They can be nested only to two levels."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They always return a single result row for every row of a queried table."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Arguments can only be column values or constant."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They can return a data type value different from the one that is referenced."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. They accept only a single argument."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A function is a program written to optionally accept input parameters, perform an operation, or return a single value. A function returns only one value per execution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Three important components form the basis of defining a function. The first is the input parameter list. It specifies zero or more arguments that may be passed to a function as input for processing. These arguments or parameters may be of differing data types, and some are mandatory while others may be optional. The second component is the data type of its resultant value. Upon execution, only one value is returned by the function. The third encapsulates the details of the processing performed by the function and contains the program code that optionally manipulates the input parameters, performs calculations and operations, and generates a return value."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A function is a program written to optionally accept input parameters, perform an operation, or return a single value. A function returns only one value per execution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Three important components form the basis of defining a function. The first is the input parameter list. It specifies zero or more arguments that may be passed to a function as input for processing. These arguments or parameters may be of differing data types, and some are mandatory while others may be optional. The second component is the data type of its resultant value. Upon execution, only one value is returned by the function. The third encapsulates the details of the processing performed by the function and contains the program code that optionally manipulates the input parameters, performs calculations and operations, and generates a return value."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-051 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about sub queries are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A sub query should retrieve only one row."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A sub query can retrieve zero or more rows."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A sub query can be used only in SQL query statements."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Sub queries CANNOT be nested by more than two levels."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A sub query CANNOT be used in an SQL query statement that uses group functions."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. When a sub query is used with an inequality comparison operator in the outer SQL statement, the column list in the SELECT clause of the sub query should contain only one column."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "sub query can retrieve zero or more rows, sub query is used with an inequality comparison operator in the outer SQL statement, and the column list in the SELECT clause of the sub query should contain only one column."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answer:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Asub query can retrieve zero or more rows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Csub query is not SQL query statement"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dsub query can be nested -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Egroup function can be use with sub query"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "sub query can retrieve zero or more rows, sub query is used with an inequality comparison operator in the outer SQL statement, and the column list in the SELECT clause of the sub query should contain only one column."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answer:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Asub query can retrieve zero or more rows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Csub query is not SQL query statement"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dsub query can be nested -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Egroup function can be use with sub query"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-051 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibits and examine the structures of the PROMOTIONS and SALES tables."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0004400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0004400002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Evaluate the following SQL statements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0004400003.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true regarding the output of the above query?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It gives details of product IDs that have been sold irrespective of whether they had a promo or not"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives the details of promos for which there have been no sales"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It gives the details of promos for which there have been sales"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives details of all promos irrespective of whether they have resulted in a sale or not D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-051 topic 1 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to find out if there is any item in the table for which the average maximum quantity is more than 50."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You issue the following query:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0005900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true regarding the outcome of this query?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It executes successfully and gives the correct output."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It gives an error because the HAVING CLAUSE is not valid."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It executes successfully but does not give the correct output."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It gives an error because the GROUP BY expression is not valid."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-051 topic 1 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the structure of the EMPLOYEES table:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0006200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which INSERT statement is valid?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. INSERT INTO employees (employee_id, first_name, last_name, hire_date)VALUES ( 1000, \u2018John\u2019, \u2018Smith\u2019, \u201801/01/01\u2019);"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. INSERT INTO employees(employee_id, first_name, last_name, hire_date)VALUES ( 1000, \u2018John\u2019, \u2018Smith\u2019, \u201901 January 01\u2019);"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. INSERT INTO employees(employee_id, first_name, last_name, Hire_date)VALUES ( 1000, \u2018John\u2019, \u2018Smith\u2019, To_date(\u201801/01/01\u2019));"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. INSERT INTO employees(employee_id, first_name, last_name, hire_date)VALUES ( 1000, \u2018John\u2019, \u2018Smith\u2019, 01-Jan-01);"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "It is the only statement that has a valid date; all other will result in an error."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Answer A is incorrect, syntax error, invalid date format"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "It is the only statement that has a valid date; all other will result in an error."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Answer A is incorrect, syntax error, invalid date format"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-051 topic 1 question 89 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "See the Exhibit and examine the structure and data in the INVOICE table:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Exhibit:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02250/0007700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two SQL statements would execute successfully? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SELECT MAX(inv_date),MIN(cust_id)FROM invoice;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SELECT AVG(inv_date-SYSDATE),AVG(inv_amt)FROM invoice;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SELECT MAX(AVG(SYSDATE-inv_date))FROM invoice;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SELECT AVG(inv_date)FROM invoice; AB"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-051 topic 1 question 91 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which is a valid CREATE TABLE statement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CREATE TABLE EMP9$# AS (empid number(2));"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CREATE TABLE EMP*123 AS (empid number(2));"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. CREATE TABLE PACKAGE AS (packid number(2));"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. CREATE TABLE 1EMP_TEST AS (empid number(2));"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Table names and column names must begin with a letter and be 1-30 characters long. Characters A-Z,a-z, 0-9, _, $ and # (legal characters but their use is discouraged)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answer:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BNon alphanumeric character such as \"*\" is discourage in Oracle table name."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DTable name must begin with a letter."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer: Introduction to Oracle9i: SQL, Oracle University Study Guide, 9-4"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Table names and column names must begin with a letter and be 1-30 characters long. Characters A-Z,a-z, 0-9, _, $ and # (legal characters but their use is discouraged)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect answer:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BNon alphanumeric character such as \"*\" is discourage in Oracle table name."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DTable name must begin with a letter."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer: Introduction to Oracle9i: SQL, Oracle University Study Guide, 9-4"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-051 topic 2 question 96 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the structure and data in the PRICE_LIST table:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Name Null Type -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "----------------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROD_ID NOT NULL NUMBER(3)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROD_PRICE VARCHAR2(10)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROD_ID PROD_PRICE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "----------------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "100 $234.55"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "101 $6,509.75"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "102 $1,234"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to give a discount of 25% on the product price and need to display the discount amount in the same format as the PROD_PRICE."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SQL statement would give the required result?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SELECT TO_CHAR(prod_price* .25,'$99,999.99')FROM PRICE_LIST;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SELECT TO_CHAR(TO_NUMBER(prod_price)* .25,'$99,999.00')FROM PRICE_LIST;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SELECT TO_CHAR(TO_NUMBER(prod_price,'$99,999.99')* .25,'$99,999.00') FROM PRICE_LIST;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SELECT TO_NUMBER(TO_NUMBER(prod_price,'$99,999.99')* .25,'$99,999.00') FROM PRICE_LIST;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use TO_NUMBER on the prod_price column to convert from char to number to be able to multiply it with 0.25. Then use the TO_CHAR function (with formatting'$99,999.00') to convert the number back to char."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C: Use the formatting'$99,999.00' with the TO_CHAR function, not with the TO_NUMBER function."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Using the TO_CHAR Function"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The TO_CHAR function returns an item of data type VARCHAR2. When applied to items of type NUMBER, several formatting options are available. The syntax is as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_CHAR(number1, [format], [nls_parameter]),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The number1 parameter is mandatory and must be a value that either is or can be implicitly converted into a number. The optional format parameter may be used to specify numeric formatting information like width, currency symbol, the position of a decimal point, and group (or thousands) separators and must be enclosed in single"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Syntax of Explicit Data Type Conversion"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Functions -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_NUMBER(char1, [format mask], [nls_parameters]) = num1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_CHAR(num1, [format mask], [nls_parameters]) = char1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_DATE(char1, [format mask], [nls_parameters]) = date1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_CHAR(date1, [format mask], [nls_parameters]) = char1"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Use TO_NUMBER on the prod_price column to convert from char to number to be able to multiply it with 0.25. Then use the TO_CHAR function (with formatting'$99,999.00') to convert the number back to char."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not C: Use the formatting'$99,999.00' with the TO_CHAR function, not with the TO_NUMBER function."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Using the TO_CHAR Function"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The TO_CHAR function returns an item of data type VARCHAR2. When applied to items of type NUMBER, several formatting options are available. The syntax is as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_CHAR(number1, [format], [nls_parameter]),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The number1 parameter is mandatory and must be a value that either is or can be implicitly converted into a number. The optional format parameter may be used to specify numeric formatting information like width, currency symbol, the position of a decimal point, and group (or thousands) separators and must be enclosed in single"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Syntax of Explicit Data Type Conversion"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Functions -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_NUMBER(char1, [format mask], [nls_parameters]) = num1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_CHAR(num1, [format mask], [nls_parameters]) = char1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_DATE(char1, [format mask], [nls_parameters]) = date1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TO_CHAR(date1, [format mask], [nls_parameters]) = char1"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-051 topic 2 question 134 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is true regarding transactions? (Choose all that apply.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A transaction can consist only of a set of DML and DDL statements."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A part or an entire transaction can be undone by using ROLLBACK command."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A transaction consists of a set of DML or DCL statements."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A part or an entire transaction can be made permanent with a COMMIT."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A transaction can consist of only a set of queries or DML or DDL statements."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "HPE6-A78__09b25ac45350d153": {
+    "Question #: 1": {
+      "Title": "Exam HPE6-A78 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A client is connected to a Mobility Controller (MC). These firewall rules apply to this client\u2019s role: ipv4 any any svc-dhcp permit ipv4 user 10.1.5.20 svc-dns permit ipv4 user 10.1.1.0 255.255.255.0 https permit ipv4 user 10.1.0.0 255.255.0.0 https deny_opt ipv4 user any any permit"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What correctly describes how the controller treats HTTPS packets to these two IP addresses, both of which are on the other side of the firewall:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "10.1.20.1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "10.1.5.20"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Both packets are permitted."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Both packets are denied."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The first packet is denied, and the second is permitted."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The first packet is permitted, and the second is denied."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam HPE6-A78 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A client has accessed an HTTPS server at myhost1.example.com using Chrome. The server sends a certificate that includes these properties:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Subject name: myhost1.example.com"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* SAN: DNS: myhost.example.com"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Extended Key Usage (EKU): Server authentication"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Issuer: MyCA_Signing"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The server also sends an intermediate CA certificate for MyCA_Signing which is signed by MyCA. The client\u2019s Trusted CA Certificate list includes MyCA but not MyCA_Issuing."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which factor or factors prevent the client from trusting the certificate?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The certificate lacks a valid SAN."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The client does not have the correct trusted CA certificates."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The certificate lacks the correct EKU."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The certificate lacks a valid SAN, and the client does not have the correct trusted CA certificates."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    }
+  }
+}

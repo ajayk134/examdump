@@ -1,0 +1,4591 @@
+{
+  "AZ-102__c177819583cc0e7f": {
+    "Question #: 1": {
+      "Title": "Exam AZ-102 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an Azure Migrate project that has the following assessment properties:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Target location: East US -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Storage redundancy: Locally redundant."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Comfort factor: 2.0"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Performance history: 1 month"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Percentile utilization: 95th"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Pricing tier: Standard"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Offer: Pay as you go"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You discover the following two virtual machines:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A virtual machine named VM1 that runs Windows Server 2016 and has 10 CPU cores at 20 percent utilization"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A virtual machine named VM2 that runs Windows Server 2012 and has four CPU cores at 50 percent utilization"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How many CPU cores will Azure Migrate recommend for each virtual machine? To answer, select the appropriate options in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0002900001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0003000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: 4 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4 *0.50 * 0.95* 2 = 3.8"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The number of cores in the machines must be equal to or less than the maximum number of cores (128 cores) supported for an Azure VM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If performance history is available, Azure Migrate considers the utilized cores for comparison. If a comfort factor is specified in the assessment settings, the number of utilized cores is multiplied by the comfort factor."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If there's no performance history, Azure Migrate uses the allocated cores, without applying the comfort factor."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Box 2: 4 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4 *0.50 * 0.95* 2 = 3.8"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The number of cores in the machines must be equal to or less than the maximum number of cores (128 cores) supported for an Azure VM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If performance history is available, Azure Migrate considers the utilized cores for comparison. If a comfort factor is specified in the assessment settings, the number of utilized cores is multiplied by the comfort factor."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If there's no performance history, Azure Migrate uses the allocated cores, without applying the comfort factor."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/migrate/concepts-assessment-calculation"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 2": {
+      "Title": "Exam AZ-102 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an on-premises network that contains a Hyper-V host named Host1. Host1 runs Windows Server 2016 and hosts 10 virtual machines that run Windows"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Server 2016."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to replicate the virtual machines to Azure by using Azure Site recovery."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You create a Recovery Services vault named ASR1 and Hyper-V site named Site1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to add Host1 to ASR1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Download the installation file for the Azure Site Recovery Provider. Download the vault registration key. Install the Azure Site Recovery Provider on Host1 and register the server."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Download the installation file for the Azure Site Recovery Provider. Download the storage account key. Install the Azure Site Recovery Provider on each virtual machine and register the virtual machines."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Download the installation file for the Azure Site Recovery Provider. Download the vault registration key. Install the Azure Site Recovery Provider on each virtual machine and register the virtual machines."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Download the installation file for the Azure Site Recovery Provider. Download the storage account key. Install the Azure Site Recovery Provider on Host1 and register the server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Download the Vault registration key. You need this when you install the Provider. The key is valid for five days after you generate it."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Install the Provider on each VMM server. You don't need to explicitly install anything on Hyper-V hosts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B, D: Use the Vault Registration Key, not the storage account key."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Download the Vault registration key. You need this when you install the Provider. The key is valid for five days after you generate it."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Install the Provider on each VMM server. You don't need to explicitly install anything on Hyper-V hosts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B, D: Use the Vault Registration Key, not the storage account key."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam AZ-102 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an Azure subscription that is used by four departments in your company. The subscription contains 10 resource groups. Each department uses resources in several resource groups."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to send a report to the finance department. The report must detail the costs for each department."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three actions should you perform is sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0003700001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0003800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 1: Assign a tag to each resource."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You apply tags to your Azure resources giving metadata to logically organize them into a taxonomy. After you apply tags, you can retrieve all the resources in your subscription with that tag name and value. Each resource or resource group can have a maximum of 15 tag name/value pairs. Tags applied to the resource group are not inherited by the resources in that resource group."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: From the Cost analysis blade, filter the view by tag"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After you get your services running, regularly check how much they're costing you. You can see the current spend and burn rate in Azure portal."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Visit the Subscriptions blade in Azure portal and select a subscription."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. You should see the cost breakdown and burn rate in the popup blade."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Click Cost analysis in the list to the left to see the cost breakdown by resource. Wait 24 hours after you add a service for the data to populate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. You can filter by different properties like tags, resource group, and timespan. Click Apply to confirm the filters and Download if you want to export the view to a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Comma-Separated Values (.csv) file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 3: Download the usage report"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags https://docs.microsoft.com/en-us/azure/billing/billing-getting-started"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Box 1: Assign a tag to each resource."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You apply tags to your Azure resources giving metadata to logically organize them into a taxonomy. After you apply tags, you can retrieve all the resources in your subscription with that tag name and value. Each resource or resource group can have a maximum of 15 tag name/value pairs. Tags applied to the resource group are not inherited by the resources in that resource group."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: From the Cost analysis blade, filter the view by tag"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After you get your services running, regularly check how much they're costing you. You can see the current spend and burn rate in Azure portal."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Visit the Subscriptions blade in Azure portal and select a subscription."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. You should see the cost breakdown and burn rate in the popup blade."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Click Cost analysis in the list to the left to see the cost breakdown by resource. Wait 24 hours after you add a service for the data to populate."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. You can filter by different properties like tags, resource group, and timespan. Click Apply to confirm the filters and Download if you want to export the view to a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Comma-Separated Values (.csv) file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 3: Download the usage report"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags https://docs.microsoft.com/en-us/azure/billing/billing-getting-started"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 4": {
+      "Title": "Exam AZ-102 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an Azure subscription named Subscription1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have a virtualization environment that contains the virtualization servers in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0003900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The virtual machines are configured as shown in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0004000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All the virtual machines use basic disks. VM1 is protected by using BitLocker Drive Encryption (BitLocker)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to use Azure Site Recovery to migrate the virtual machines to Azure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which virtual machines can you migrate? To answer, select the appropriate options in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0004100001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0004200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 1: VM3 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not VM1 as Bitlocker is not supported. BitLocker must be disabled before you enable replication for a VM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not VM2 as maximum Operating system disk size for a generation VM is 2,048 GB."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: VMA and VMB only -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not VMC as the max data disk size is 4,095 GB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-azure-support-matrix https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-azure-support-matrix#azure-vm-requirements"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Box 1: VM3 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not VM1 as Bitlocker is not supported. BitLocker must be disabled before you enable replication for a VM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not VM2 as maximum Operating system disk size for a generation VM is 2,048 GB."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: VMA and VMB only -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not VMC as the max data disk size is 4,095 GB"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-azure-support-matrix https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-azure-support-matrix#azure-vm-requirements"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 5": {
+      "Title": "Exam AZ-102 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an Azure Active Directory (Azure AD) tenant that has the initial domain name."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have a domain name of contoso.com registered at a third-party registrar."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that you can create Azure AD users that have names containing a suffix of @contoso.com."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three actions should you perform in sequence? To answer, move the appropriate cmdlets from the list of cmdlets to the answer area and arrange them in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0004500001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0004700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The process is simple:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Add the custom domain name to your directory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Add a DNS entry for the domain name at the domain name registrar"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Verify the custom domain name in Azure AD"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/dns/dns-web-sites-custom-domain"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The process is simple:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Add the custom domain name to your directory"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Add a DNS entry for the domain name at the domain name registrar"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Verify the custom domain name in Azure AD"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/dns/dns-web-sites-custom-domain"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 6": {
+      "Title": "Exam AZ-102 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You plan to move services from your on-premises network to Azure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You identify several virtual machines that you believe can be hosted in Azure. The virtual machines are shown in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0005500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two virtual machines can you access by using Azure migrate? Each correct answer presents a complete solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Sea-CA01"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Hou-NW01"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. NYC-FS01"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Sea-DC01"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. BOS-DB01"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The VMware VMs must be managed by vCenter Server (version 5.5, 6.0, 6.5 or 6.7)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/migrate/migrate-overview"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The VMware VMs must be managed by vCenter Server (version 5.5, 6.0, 6.5 or 6.7)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/migrate/migrate-overview"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam AZ-102 topic 2 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an on-premises file server named Server1 that runs Windows Server 2016."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an Azure subscription that contains an Azure file share."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You deploy an Azure File Sync Storage Sync Service, and you create a sync group."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to synchronize files from Server1 to Azure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0006200001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0006300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 1: Install the Azure File Sync agent on Server1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 2: Register Server1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Register Windows Server with Storage Sync Service"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 3: Add a server endpoint -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create a sync group and a cloud endpoint."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A sync group defines the sync topology for a set of files. Endpoints within a sync group are kept in sync with each other. A sync group must contain one cloud endpoint, which represents an Azure file share and one or more server endpoints. A server endpoint represents a path on registered server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Step 1: Install the Azure File Sync agent on Server1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 2: Register Server1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Register Windows Server with Storage Sync Service"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 3: Add a server endpoint -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create a sync group and a cloud endpoint."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A sync group defines the sync topology for a set of files. Endpoints within a sync group are kept in sync with each other. A sync group must contain one cloud endpoint, which represents an Azure file share and one or more server endpoints. A server endpoint represents a path on registered server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 8": {
+      "Title": "Exam AZ-102 topic 2 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an Azure Service Bus."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You create a queue named Queue1. Queue1 is configured as shown in the following exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0007400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0007500001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0007600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 1: deleted after two hours -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All messages sent into a queue or topic are subject to a default expiration that is set at the entity level with the defaultMessageTimeToLive property and which can also be set in the portal during creation and adjusted later. The default expiration is used for all messages sent to the entity where TimeToLive is not explicitly set."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The default expiration also functions as a ceiling for the TimeToLive value. Messages that have a longer TimeToLive expiration than the default value are silently adjusted to the defaultMessageTimeToLive value before being enqueued."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: deleted in one hour -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/message-expiration"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Box 1: deleted after two hours -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All messages sent into a queue or topic are subject to a default expiration that is set at the entity level with the defaultMessageTimeToLive property and which can also be set in the portal during creation and adjusted later. The default expiration is used for all messages sent to the entity where TimeToLive is not explicitly set."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The default expiration also functions as a ceiling for the TimeToLive value. Messages that have a longer TimeToLive expiration than the default value are silently adjusted to the defaultMessageTimeToLive value before being enqueued."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: deleted in one hour -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/service-bus-messaging/message-expiration"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 9": {
+      "Title": "Exam AZ-102 topic 2 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an Azure subscription that contains the resources in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0007700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Store1 contains a file share named Data. Data contains 5,000 files."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to synchronize the files in Data to an on-premises server named Server1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three actions should you perform? Each correct answer presents part of the solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Install the Azure File Sync agent on Server1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a container instance."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Download an automation script."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a sync group."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Register Server1."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ADE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Azure synchronize files on-premises agent"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: A sync group defines the sync topology for a set of files. Endpoints within a sync group are kept in sync with each other. A sync group must contain one cloud endpoint, which represents an Azure file share and one or more server endpoints. A server endpoint represents a path on registered server. A server can have server endpoints in multiple sync groups. You can create as many sync groups as you need to appropriately describe your desired sync topology."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service. A server can only be registered to one Storage Sync Service and can sync with other servers and Azure file shares associated with the same Storage Sync Service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: The Resource group is used in a container."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Azure synchronize files on-premises agent"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: A sync group defines the sync topology for a set of files. Endpoints within a sync group are kept in sync with each other. A sync group must contain one cloud endpoint, which represents an Azure file share and one or more server endpoints. A server endpoint represents a path on registered server. A server can have server endpoints in multiple sync groups. You can create as many sync groups as you need to appropriately describe your desired sync topology."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service. A server can only be registered to one Storage Sync Service and can sync with other servers and Azure file shares associated with the same Storage Sync Service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: The Resource group is used in a container."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam AZ-102 topic 2 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an Azure subscription that contains an Azure file share."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an on-premises server named Server1 that runs Windows Server 2016."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to set up Azure File Sync between Server1 and the Azure file share."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to prepare the subscription for the planned Azure File Sync."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two actions should you perform in the Azure subscription? To answer, drag the appropriate actions to the correct targets. Each action may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0008400001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0008500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "First action: Create a Storage Sync Service"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The deployment of Azure File Sync starts with placing a Storage Sync Service resource into a resource group of your selected subscription."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Second action: Run Server Registration"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service. A server can only be registered to one Storage Sync Service and can sync with other servers and Azure file shares associated with the same Storage Sync Service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Server Registration UI should open automatically after installation of the Azure File Sync agent."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0008600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not Install the Azure File Sync agent: The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "First action: Create a Storage Sync Service"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The deployment of Azure File Sync starts with placing a Storage Sync Service resource into a resource group of your selected subscription."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Second action: Run Server Registration"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Registering your Windows Server with a Storage Sync Service establishes a trust relationship between your server (or cluster) and the Storage Sync Service. A server can only be registered to one Storage Sync Service and can sync with other servers and Azure file shares associated with the same Storage Sync Service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Server Registration UI should open automatically after installation of the Azure File Sync agent."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0008600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not Install the Azure File Sync agent: The Azure File Sync agent is a downloadable package that enables Windows Server to be synced with an Azure file share."
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 11": {
+      "Title": "Exam AZ-102 topic 3 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You manage a virtual network named Vnet1 that is hosted in the West US Azure region."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "VNet hosts two virtual machines named VM1 and VM2 run Windows Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to inspect all the network traffic from VM1 to VM2 for a period of three hours."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution: From Azure Network Watcher, you create a connection monitor."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Does this meet the goal?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Yes"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. No"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Azure Network Watcher provides tools to monitor, diagnose, view metrics, and enable or disable logs for resources in an Azure virtual network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the Connection Monitor feature of Azure Network Watcher, which provides you RTT values on a per-minute granularity. You can monitor a direct TCP connection from a virtual machine to a virtual machine, FQDN, URI, or IPv4 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://azure.microsoft.com/en-us/updates/general-availability-azure-network-watcher-connection-monitor-in-all-public-regions/ https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Azure Network Watcher provides tools to monitor, diagnose, view metrics, and enable or disable logs for resources in an Azure virtual network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the Connection Monitor feature of Azure Network Watcher, which provides you RTT values on a per-minute granularity. You can monitor a direct TCP connection from a virtual machine to a virtual machine, FQDN, URI, or IPv4 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://azure.microsoft.com/en-us/updates/general-availability-azure-network-watcher-connection-monitor-in-all-public-regions/ https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam AZ-102 topic 3 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Your company registers a domain name of contoso.com."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You create an Azure DNS zone named contoso.com, and then you add an A record to the zone for a host named www that has an IP address of 131.107.1.10."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You discover that Internet hosts are unable to resolve www.contoso.com to the 131.107.1.10 IP address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to resolve the name resolution issue."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution: You modify the name servers at the domain registrar."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Does this meet the goal?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Yes"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. No"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You should modify the Name Server record, not the Name Servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: Before you can delegate your DNS zone to Azure DNS, you need to know the name servers for your zone. The NS record set contains the names of the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Azure DNS name servers assigned to the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the registrar's DNS management page, edit the NS records and replace the NS records with the Azure DNS name servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/dns/dns-delegate-domain-azure-dns"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You should modify the Name Server record, not the Name Servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: Before you can delegate your DNS zone to Azure DNS, you need to know the name servers for your zone. The NS record set contains the names of the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Azure DNS name servers assigned to the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the registrar's DNS management page, edit the NS records and replace the NS records with the Azure DNS name servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/dns/dns-delegate-domain-azure-dns"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam AZ-102 topic 3 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Your network is configured as shown in the following exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0009200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The firewalls are configured as shown in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0009200002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Prod1 contains a vCenter server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You install an Azure Migrate Collector on Test1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to discover the virtual machines."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which TCP port should be allowed on each firewall? To answer, drag the appropriate ports to the correct firewalls. Each port may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0009300001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0009400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FW1: Outbound 443 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Collector communicates with Azure Migrate service over SSL 443."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FW2: Outbound 443 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Collector must be able to communicate with the vCenter Server. By default, it connects to vCenter on 443."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The collector communicates as summarized in the following diagram."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0009600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/migrate/concepts-collector"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "FW1: Outbound 443 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Collector communicates with Azure Migrate service over SSL 443."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FW2: Outbound 443 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Collector must be able to communicate with the vCenter Server. By default, it connects to vCenter on 443."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: The collector communicates as summarized in the following diagram."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0009600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/migrate/concepts-collector"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 14": {
+      "Title": "Exam AZ-102 topic 3 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have an Azure subscription named Subscription1. Subscription1 contains the virtual networks in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0010500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Subscription1 contains the virtual machines in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0010500002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The firewalls on all the virtual machines are configured to allow all ICMP traffic."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You add the peerings in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0010600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For each of the following statements, select Yes if the statement is true. Otherwise, select No."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0010700001.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0010800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 1: Yes -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Vnet1 and Vnet3 are peers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: Yes -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Vnet2 and Vnet3 are peers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 3: No -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Peering connections are non-transitive."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Box 1: Yes -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Vnet1 and Vnet3 are peers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: Yes -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Vnet2 and Vnet3 are peers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 3: No -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Peering connections are non-transitive."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 15": {
+      "Title": "Exam AZ-102 topic 3 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an Azure DNS zone named adatum.com."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to delegate a subdomain named research.adatum.com to a different DNS server in Azure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create an A record named *.research in the adatum.com zone."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Modify the SOA record of adatum.com."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create an PTR record named research in the adatum.com zone."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create an NS record named research in the adatum.com zone."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Configure A records for the domains and sub domains."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.stefanjohansson.org/2012/12/how-to-configure-custom-dns-names-for-multiple-subdomain-based-azure-web-sites/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Configure A records for the domains and sub domains."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.stefanjohansson.org/2012/12/how-to-configure-custom-dns-names-for-multiple-subdomain-based-azure-web-sites/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam AZ-102 topic 3 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to use Azure Network Watcher to perform the following tasks:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Task1: Identify a security rule that prevents a network packet from reaching an Azure virtual machine."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Task2: Validate outbound connectivity from an Azure virtual machine to an external host."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which feature should you use for each task? To answer, select the appropriate options in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0011500001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0011700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Task 1: IP flow verify -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists of direction, protocol, local IP, remote IP, local port, and remote port. If the packet is denied by a security group, the name of the rule that denied the packet is returned. While any source or destination IP can be chosen,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and from or to the on-premises environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Task 2:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "With the addition of Connection Troubleshoot, Network Watcher will see an incremental increase in its capabilities and ways for you to utilize it in your day to day operations. You can now, for example, check connectivity between source (VM) and destination (VM, URI, FQDN, IP Address)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview https://azure.microsoft.com/en-us/blog/network-watcher-connection-troubleshoot-now-generally-available/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Task 1: IP flow verify -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IP flow verify checks if a packet is allowed or denied to or from a virtual machine. The information consists of direction, protocol, local IP, remote IP, local port, and remote port. If the packet is denied by a security group, the name of the rule that denied the packet is returned. While any source or destination IP can be chosen,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "IP flow verify helps administrators quickly diagnose connectivity issues from or to the internet and from or to the on-premises environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Task 2:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "With the addition of Connection Troubleshoot, Network Watcher will see an incremental increase in its capabilities and ways for you to utilize it in your day to day operations. You can now, for example, check connectivity between source (VM) and destination (VM, URI, FQDN, IP Address)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-ip-flow-verify-overview https://azure.microsoft.com/en-us/blog/network-watcher-connection-troubleshoot-now-generally-available/"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 17": {
+      "Title": "Exam AZ-102 topic 3 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You manage a virtual network named Vnet1 that is hosted in the West US Azure region."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "VNet1 hosts two virtual machines named VM1 and VM2 run Windows Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to inspect all the network traffic from VM1 to VM2 for a period of three hours."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution: From Azure Network Watcher, you create a packet capture."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Does this meet the goal?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Yes"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. No"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the Connection Monitor feature of Azure Network Watcher."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://azure.microsoft.com/en-us/updates/general-availability-azure-network-watcher-connection-monitor-in-all-public-regions/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Use the Connection Monitor feature of Azure Network Watcher."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://azure.microsoft.com/en-us/updates/general-availability-azure-network-watcher-connection-monitor-in-all-public-regions/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam AZ-102 topic 3 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Your company registers a domain name of contoso.com."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You create an Azure DNS zone named contoso.com, and then you add an A record to the zone for a host named www that has an IP address of 131.107.1.10."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You discover that Internet hosts are unable to resolve www.contoso.com to the 131.107.1.10 IP address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to resolve the name resolution issue."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution: You add an NS record to the contoso.com zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Does this meet the goal?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Yes"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. No"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to update the parent domain with the Azure DNS name servers. Each registrar has its own DNS management tools to change the name server records for a domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the registrar's DNS management page, edit the NS records and replace the NS records with the Azure DNS name servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/dns/dns-delegate-domain-azure-dns"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You need to update the parent domain with the Azure DNS name servers. Each registrar has its own DNS management tools to change the name server records for a domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the registrar's DNS management page, edit the NS records and replace the NS records with the Azure DNS name servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/dns/dns-delegate-domain-azure-dns"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam AZ-102 topic 3 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have peering configured as shown in the following exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0012100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0012200001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0012300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 1: vNET6 only -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: Modify the address space -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The virtual networks you peer must have non-overlapping IP address spaces."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Box 1: vNET6 only -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: Modify the address space -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The virtual networks you peer must have non-overlapping IP address spaces."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering#requirements-and-constraints"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 20": {
+      "Title": "Exam AZ-102 topic 3 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an Azure subscription named Subscription1 that has the following providers registered:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Authorization"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Automation"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Resources"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Compute"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 KeyVault"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Network"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Storage"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Billing"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Web"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Subscription1 contains an Azure virtual machine named VM1 that has the following configurations:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Private IP address: 10.0.0.4 (dynamic)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Network security group (NSG): NSG1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Public IP address: None"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Availability set: AVSet"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Subnet: 10.0.0.0/24"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Managed disks: No"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Location: East US"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to record all the successful and failed connection attempts to VM1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three actions should you perform? Each correct answer presents part of the solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Register the Microsoft.Insights resource provider"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add an Azure Network Watcher connection monitor"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Register the Microsoft.LogAnalytics provider"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable Azure Network Watcher in the East US Azure region"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Create an Azure Storage account"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Enable Azure Network Watcher flow logs"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ADF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 1: (D)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "We must have a network watcher enabled in the East US region"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 2: (A+F)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: NSG flow logging requires the Microsoft.Insights provider, which must be registered."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F: Network security groups (NSG) allow or deny inbound or outbound traffic to a network interface in a VM. The NSG flow log capability allows you to log the source and destination IP address, port, protocol, and whether traffic was allowed or denied by an NSG."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-portal"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Step 1: (D)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "We must have a network watcher enabled in the East US region"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Step 2: (A+F)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: NSG flow logging requires the Microsoft.Insights provider, which must be registered."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F: Network security groups (NSG) allow or deny inbound or outbound traffic to a network interface in a VM. The NSG flow log capability allows you to log the source and destination IP address, port, protocol, and whether traffic was allowed or denied by an NSG."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-portal"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam AZ-102 topic 4 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an Azure subscription named Subscription1 and two Azure Active Directory (Azure AD) tenants named Tenant1 and Tenant2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Subscription1 is associated to Tenant1. Multi-factor authentication (MFA) is enabled for all the users in Tenant1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to enable MFA for the users in tenant2. The solution must maintain MFA for Tenant1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do first?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure the MFA Server setting in Tenant1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Transfer the administration of Subscription1 to a global administrator of Tenant2."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create and link a subscription to Tenant2."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Change the directory for Subscription1."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam AZ-102 topic 4 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "From the MFA Server blade, you open the Block/unblock users blade as shown in the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Block/unblock users -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A blocked user will not receive Multi-Factor Authentication requests. Authentication attempts for that user will be automatically denied. A user will remain blocked for 90 days from the time they are blocked. To manually unblock a user, click the \"Unblock\" action."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0014000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What caused AlexW to be blocked?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The user entered an incorrect PIN four times within 10 minutes."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The user account password expired."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An administrator manually blocked the user."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The user reported a fraud alert when prompted for additional authentication."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam AZ-102 topic 4 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an Azure Active Directory (Azure AD) tenant."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "All administrators must enter a verification code to access the Azure portal."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that the administrators can access the Azure portal only from your on-premises network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you configure?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the multi-factor authentication service settings"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. an Azure AD Identity Protection user risk policy"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the default for all the roles in Azure AD Privileged Identity Management"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. an Azure AD Identity Protection sign-in risk policy"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam AZ-102 topic 4 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an Azure subscription."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You enable multi-factor authentication for all users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Some users report that the email applications on their mobile device cannot connect to their Microsoft Exchange Online mailbox. The users can access Exchange"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Online by using a web browser and from Microsoft Outlook 2016 on their computer."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that the users can use the email applications on their mobile device."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you instruct the users to do?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create an app password."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable self-service password reset."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Reset the Azure Active Directory (Azure AD) password."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Reinstall the Microsoft Authenticator app."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-sspr-howitworks"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam AZ-102 topic 4 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have two Azure Active Directory (Azure AD) tenants named contoso.com and fabrikam.com."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have a Microsoft account that you use to sign in to both tenants."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to configure the default sign-in tenant for the Azure portal."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you do?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. From Azure Cloud Shell, run Set-AzureRmContext."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. From the Azure portal, change the directory."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. From the Azure portal, configure the portal settings."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. From Azure Cloud Shell, run Set-AzureRmSubscription."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Set-AzureRmContext cmdlet sets authentication information for cmdlets that you run in the current session. The context includes tenant, subscription, and environment information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/powershell/module/azurerm.profile/set-azurermcontext"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The Set-AzureRmContext cmdlet sets authentication information for cmdlets that you run in the current session. The context includes tenant, subscription, and environment information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/powershell/module/azurerm.profile/set-azurermcontext"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam AZ-102 topic 5 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which blade should you instruct the finance department auditors to use?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Cost analysis"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Usage + quotas"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Invoices"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Resource providers"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Subscription costs are based on usage."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Microsoft Azure limits are also called quotas."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario: During the testing phase, auditors in the finance department must be able to review all Azure costs from the past week."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Subscription costs are based on usage."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Microsoft Azure limits are also called quotas."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario: During the testing phase, auditors in the finance department must be able to review all Azure costs from the past week."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam AZ-102 topic 6 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to prepare the New York office infrastructure for the migration of the on-premises virtual machines to Azure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which four actions you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0001100001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0001200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 1:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. From the Azure portal, download the OVF file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. In the vCenter Server, import the Collector appliance as a virtual machine using the Deploy OVF Template wizard."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. In vSphere Client console, click File > Deploy OVF Template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. In the Deploy OVF Template Wizard > Source, specify the location for the .ovf file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: From VM1, connect to the collector virtual machine"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After you've created the Collector virtual machine, connect to it and run the Collector."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 3: From the ASRV1 blade in the Azure portal, select a protection goal."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 4: From VM1, register the configuration server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Register the configuration server in the vault"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario: The Azure infrastructure and the on-premises infrastructure and the on-premises infrastructure must be prepared for the migration of the VMware virtual machines to Azure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Migrate Your Virtual Machines to Microsoft Azure, Includes guidance for optional data migration, Proof of Concept guide, September 2017 https://azuremigrate.blob.core.windows.net/publicpreview/Azure%20Migrate%20-%20Preview%20User%20Guide.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Box 1:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. From the Azure portal, download the OVF file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. In the vCenter Server, import the Collector appliance as a virtual machine using the Deploy OVF Template wizard."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. In vSphere Client console, click File > Deploy OVF Template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. In the Deploy OVF Template Wizard > Source, specify the location for the .ovf file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: From VM1, connect to the collector virtual machine"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After you've created the Collector virtual machine, connect to it and run the Collector."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 3: From the ASRV1 blade in the Azure portal, select a protection goal."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 4: From VM1, register the configuration server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Register the configuration server in the vault"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario: The Azure infrastructure and the on-premises infrastructure and the on-premises infrastructure must be prepared for the migration of the VMware virtual machines to Azure."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Migrate Your Virtual Machines to Microsoft Azure, Includes guidance for optional data migration, Proof of Concept guide, September 2017 https://azuremigrate.blob.core.windows.net/publicpreview/Azure%20Migrate%20-%20Preview%20User%20Guide.pdf"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 28": {
+      "Title": "Exam AZ-102 topic 6 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to provision the resources in Azure to support the virtual machine that will be migrated from the New York office."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you include in the solution? To answer, select the appropriate options in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Each correct selection is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0001400001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02520/0001500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 1: 10.20.0.0/16 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario: The New York office an IP address of 10.0.0.0/16. The Los Angeles office uses an IP address space of 10.10.0.0/16."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: Storage (general purpose v1)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario: The New York office has a virtual machine named VM1 that has the vSphere console installed."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Box 1: 10.20.0.0/16 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario: The New York office an IP address of 10.0.0.0/16. The Los Angeles office uses an IP address space of 10.10.0.0/16."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Box 2: Storage (general purpose v1)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario: The New York office has a virtual machine named VM1 that has the vSphere console installed."
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    }
+  }
+}

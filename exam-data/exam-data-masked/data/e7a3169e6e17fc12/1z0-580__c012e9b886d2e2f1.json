@@ -1,0 +1,1194 @@
+{
+  "1z0-580__c012e9b886d2e2f1": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-580 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What information would the \"beadm list -ds\" command output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a list of all Bes"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a list of the datasets and snapshot information for the active BE"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a list of the datasets and snapshot information for all Bes"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a list of the default sets"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. a list of BEs in machine readable format"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can display information about snapshots, boot environments, and datasets that were created by the beadm command by using the beadm list subcommand."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The beadm list command output also displays boot environments that are created by the pkg command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The beadm list command syntax is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Syntax: beadm list [-a | [-ds] [-H] [BeName]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The command lists information about the existing boot environment. To view information for a specific boot environment, replace BeName with a boot environment name. If a specific boot environment is not specified, the command lists information about all boot environments. The default is to list boot environments without additional information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-a Lists all available information about the boot environment. This information includes subordinate datasets and snapshots."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-d Lists information about all subordinate datasets that belong to the boot environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-s Lists information about the snapshots of the boot environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-H Prevents listing header information. Each field in the output is separated by a semicolon."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Oracle Solaris 11 Information Library, Listing Existing Boot Environments and Snapshots"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can display information about snapshots, boot environments, and datasets that were created by the beadm command by using the beadm list subcommand."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The beadm list command output also displays boot environments that are created by the pkg command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The beadm list command syntax is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Syntax: beadm list [-a | [-ds] [-H] [BeName]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The command lists information about the existing boot environment. To view information for a specific boot environment, replace BeName with a boot environment name. If a specific boot environment is not specified, the command lists information about all boot environments. The default is to list boot environments without additional information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-a Lists all available information about the boot environment. This information includes subordinate datasets and snapshots."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-d Lists information about all subordinate datasets that belong to the boot environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-s Lists information about the snapshots of the boot environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-H Prevents listing header information. Each field in the output is separated by a semicolon."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Oracle Solaris 11 Information Library, Listing Existing Boot Environments and Snapshots"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-580 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true of the GRUB menu?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. GRUB is the default boot loader for Oracle Solaris 11 SPARC and x86."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. GRUB supports Oracle Solaris and Oracle Linux only."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. GRUB loads a kernel based upon the file name, disk, and partition specified."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. GRUB uses boot environments for all operating systems."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. GRUB is fully compliant with the Multiboot specification."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* If your system has more than one OS installed on the system or more than one root boot environment in a ZFS root pool, you can boot from these boot environments for both SPARC and x86 platforms."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* GRUB, the open source boot loader, is the default boot loader in the Solaris OS."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: With GRUB based booting, the kernel is loaded by specifying its file name, and the drive, and the partition where the kernel resides. GRUB based booting replaces the Solaris Device Configuration Assistant and simplifies the booting process with a GRUB menu."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not E:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In this implementation of GRUB, the multiboot module is no longer used."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* If your system has more than one OS installed on the system or more than one root boot environment in a ZFS root pool, you can boot from these boot environments for both SPARC and x86 platforms."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* GRUB, the open source boot loader, is the default boot loader in the Solaris OS."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: With GRUB based booting, the kernel is loaded by specifying its file name, and the drive, and the partition where the kernel resides. GRUB based booting replaces the Solaris Device Configuration Assistant and simplifies the booting process with a GRUB menu."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Not E:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In this implementation of GRUB, the multiboot module is no longer used."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-580 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What two features identify Oracle Solaris 11 as being \"built for clouds\"?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ability to use SSH lo securely connect to Oracle Solaris 11 servers"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. first fully virtualized operating system featuring built-in virtualization with Zones"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. secure rapid provisioning and lifecycle management"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Oracle Solaris 11 has been designed to provide a robust and easily usable desktop environment for end users"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Oracle Solaris 11 is installable from DVD Media"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Built-in Virtualization -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Whatever the needs of your cloud infrastructure, Oracle has a comprehensive suite of built-in virtualization technologies to compliment your business requirements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Choose from Oracle Solaris Zones, OVM Server for SPARC, OVM Server for x86 and OVM VirtualBox. With Oracle Solaris Zones, administrators can rapidly provision secure and isolated virtual environments in which to deploy cloud applications and services."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle Solaris is the best platform for the cloud because it combines key computing elements - operating system, virtualization, networking, storage management, and user environment - into a stable, secure, mission-critical foundation that customers can depend on"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "B: Built-in Virtualization -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Whatever the needs of your cloud infrastructure, Oracle has a comprehensive suite of built-in virtualization technologies to compliment your business requirements."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Choose from Oracle Solaris Zones, OVM Server for SPARC, OVM Server for x86 and OVM VirtualBox. With Oracle Solaris Zones, administrators can rapidly provision secure and isolated virtual environments in which to deploy cloud applications and services."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Oracle Solaris is the best platform for the cloud because it combines key computing elements - operating system, virtualization, networking, storage management, and user environment - into a stable, secure, mission-critical foundation that customers can depend on"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-580 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When configuring Zones using Automated Installer, the following line is found in the manifest:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<configuration type=\"zone\" name=\"apple\" source=http://tree/apple/monkey\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What does the \"source\" element correspond to?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the configuration file for the global zone"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the resource groups for \"tree\" server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. the configuration file for the non-global zones"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the required corresponding open-source disclaimer"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. the location of the \"apple\" IPS repo"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Use the configuration element in the AI manifest for the client system to specify non-global zones."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the name attribute of the configuration element to specify the name of the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the source attribute to specify the location of the config file for the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The source location can be any http:// or file:// location that the client can access during installation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* The following sample AI manifest specifies two Non-Global Zones: zone1 and zone2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You should replace the server_ip with the ip address of the NFS server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<!DOCTYPE auto_install SYSTEM \"file:///usr/share/install/ai.dtd.1\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<auto_install>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<ai_instance>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<target>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<logical>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<zpool name=\"rpool\" is_root=\"true\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<filesystem name=\"export\" mountpoint=\"/export\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<filesystem name=\"export/home\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<be name=\"solaris\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</zpool>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</logical>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</target>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<software type=\"IPS\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<source>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<publisher name=\"solaris\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<origin name=\"http://pkg.oracle.com/solaris/release\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</publisher>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</source>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<software_data action=\"install\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<name>pkg:/entire@latest</name>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<name>pkg:/group/system/solaris-large-server</name>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</software_data>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</software>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<configuration type=\"zone\" name=\"zone1\" source=\"file:///net/server_ip/export/zone_config/zone1\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<configuration type=\"zone\" name=\"zone2\" source=\"file:///net/server_ip/export/zone_config/zone2\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</ai_instance>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</auto_install>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Automating Solaris 11 Zones Installation Using The Automated Install Server"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "* Use the configuration element in the AI manifest for the client system to specify non-global zones."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the name attribute of the configuration element to specify the name of the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the source attribute to specify the location of the config file for the zone."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The source location can be any http:// or file:// location that the client can access during installation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* The following sample AI manifest specifies two Non-Global Zones: zone1 and zone2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You should replace the server_ip with the ip address of the NFS server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<!DOCTYPE auto_install SYSTEM \"file:///usr/share/install/ai.dtd.1\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<auto_install>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<ai_instance>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<target>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<logical>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<zpool name=\"rpool\" is_root=\"true\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<filesystem name=\"export\" mountpoint=\"/export\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<filesystem name=\"export/home\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<be name=\"solaris\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</zpool>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</logical>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</target>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<software type=\"IPS\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<source>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<publisher name=\"solaris\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<origin name=\"http://pkg.oracle.com/solaris/release\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</publisher>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</source>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<software_data action=\"install\">"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<name>pkg:/entire@latest</name>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<name>pkg:/group/system/solaris-large-server</name>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</software_data>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</software>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<configuration type=\"zone\" name=\"zone1\" source=\"file:///net/server_ip/export/zone_config/zone1\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<configuration type=\"zone\" name=\"zone2\" source=\"file:///net/server_ip/export/zone_config/zone2\"/>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</ai_instance>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "</auto_install>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: Automating Solaris 11 Zones Installation Using The Automated Install Server"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-580 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What physical devices will be used in sequence to boot the system, given the following output?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02323/0005300001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. disk then net"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. /pci@780/pci@0/pci@1/network@0 then/pci@780/pci@0/pci@9/scsi@0/disk@0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /pci@780/pci@0/pci@9/scsi@0 then/pci780/pci@0/pci@1/networking@0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /pci@780/pci@0/pci@9/scsi@0/disk@1 then/pci780/pci@0/pci@1/networking@0,1"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. /pci@780/pci@0/pci@9/scsi@0/disk@0 then/pci780/pci@0/pci@1/networking@0"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* second line in exhibit (minor typo):"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "boot-device = disk net"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "*The line starting with net is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/pci@780/pci@0/pci@1/network@0"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* second line in exhibit (minor typo):"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "boot-device = disk net"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "*The line starting with net is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/pci@780/pci@0/pci@1/network@0"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

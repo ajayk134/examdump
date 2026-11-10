@@ -1,0 +1,2404 @@
+{
+  "NCS-Core 6.8__a44d3a0e9c2f0563": {
+    "Question #: 1": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which subnet should a consultant be aware is reserved for internal connectivity within a Nutanix cluster?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 192.168.5.0/26"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 192.168.254.0/24"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 192.168.5.0/24"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 192.168.5.0/23"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant is viewing an ESXi host via console without external network connectivity."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two IP addresses can be used to connect to the CVM? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 192.168.5.2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 192.168.5.253"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 192.168.5.1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 192.168.5.254"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant is setting up a new install of Nutanix Files for a customer, but receives this error when attempting to join the customer\u2019s Active Directory domain:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "File Server <FileServerName> could not join the Domain because User credentials failed with error - Unable to connect to WORKGROUP ads_connect: No logon servers"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The consultant has already verified the domain credentials provided by the customer are valid and have the correct permissions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the most likely cause in this scenario for a domain-join failure when setting up Nutanix Files?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The FSVMs storage network must be in the same network as the logon servers."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The client network is failing to communicate with the customer\u2019s domain controllers due to a missing network firewall port requirement."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The FSVMs must first be manually added to a site mapping in Active Directory before they can be authorized to communicate with the logon servers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The client network is failing to communicate with the customer\u2019s domain controllers due to mismatched MTU sizes."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant asks a customer to verify the ToR Switch data port configuration was done according to Nutanix best practices. The switch configuration must simplify future deployments and expansions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two configuration actions will satisfy this requirement? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Disable multicast and broadcast flood optimizations."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure the CVM and hypervisor host VLAN as the native."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use a tagged VLAN for the CVM and hypervisor hosts."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure the connected switch ports as access."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 5,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "BD",
+          "vote_count": 5,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant is reviewing a customers Pre-delivery Questionnaire."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The customer wants to deploy their cluster with ESXi as the hypervisor with vSphere Distributed Switch. The customer will be using Cisco Nexus 9k as their switch choice. In the kick-off call, it is confirmed that the customer has a business requirement to use LACP in their environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should the consultant ensure that the customer configures on the port-channel interface before deployment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. service unsupported-transceiver"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. show port-channel"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. no lacp graceful-convergence"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. no lacp suspend-individual"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After an onsite cluster deployment, a consultant prepares the deliverables for a project closeout."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two data in the As-Built Guide require adjustment or might be missing completely? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Cluster Information"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. AHV Host Information"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Nutanix Node Port Layout"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Physical Rack Layout"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In preparing to install a new cluster for a company, a consultant needs to complete an installation worksheet."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which values must be documented prior to initial base system setup?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Hypervisor. CVM, and IPMI IP Addresses"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Prism Central IP Address"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DNS and NTP IP Addresses"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Block Serial Numbers"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 6,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "At which prompt should a consultant execute the command manage_ovs - bridge_name br0 show_uplinks in a Nutanix cluster?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. [root@AHV~]#"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. root@CVM~#"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. esxi@CVM~$"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. nutanix@CVM~$"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The installation process stops before imaging any of the nodes and an error message is displayed notifying the IPMI IP address is unreachable."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should consultant do to fix the issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Check the service. log and the individual node log files for more detailed information."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. If the nodes are in the same subnet go to the Cluster page and configure multi-homing."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Ensure the Foundation VM is not in the same broadcast domain as the Controller VMs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Re-try Foundation using a non-flat switch."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant is reimaging a Nutanix cluster with a supported ISO, but Foundation returns an error that the media is not a supported ISO."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two actions should the consultant take to resolve this issue? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Edit the whitelist file in Foundation."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Obtain the MD5 checksum of the ISO and confirm the MD5 checksum of ISO is listed."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Download and replace with the latest iso_whitelist.jsor from the Support Portal."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Restart the imaging process in Foundation."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Before deploying a new 3-node cluster, a consultant wants to know which VLAN ID to use during Foundation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Where can the consultant find this information?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. As-Built Guide"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Deployment Questionnaire"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Nutanix Portal"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Test Plan"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During a Site Readiness Check, a customer informed the consultant that there is no NTP server currently configured in the environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements should the consultant consider for continuing the cluster deployment? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. An NTP server is not required for cluster Foundation and can be added later."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. At least one external NTP server must be used to complete Foundation process."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. At least 3 NTP servers must be provided in a comma-separated list."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. If an NTP server is provided using FQDN, a DNS server is required."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After imaging the nodes and creating the cluster successfully in a sandbox environment, the consultant connects the cluster to the customer\u2019s Production network. However, notices Prism Element Alerts Dashboard is displaying multiple errors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is causing this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The cluster Virtual IP Address (VIP) was not set up during the process."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The cluster was not stopped prior to connecting to the customer network."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Foundation did not create the cluster successfully."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The consultant did not run Nutanix Cluster Check (NCC)."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What should a consultant consider when completing a bare-metal imaging process?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Connect to a managed switch with routing tables to protect the production environment against configuration errors."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable STP by using PortFast or an equivalent feature on the ports that are connected to the Nutanix host."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Avoid connecting any device to the node USB port that presents virtual media such as a CD-ROM."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Ensure that the CD-ROM appears last in the BIOS boot order to avoid Foundation timeout."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant is working to setup the network before starting the Foundation process."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should the consultant complete this task?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Using the shared IPMI port, ensure that the connected switch can auto-negotiate to 1 Gbps."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. On Nutanix NX Series, connect the IPMI port and any one of the data ports to the switch."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Ensure the IPMI of the nodes are reachable using pre-configured IPMI IPv6 addresses."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Disable IPv6 on the network to which the nodes are connected to ensure that IPv6 unicast is blocked."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer already has a Prism Central (PC) instance deployed in their environment and expects the consultant to unregister the old cluster before registering the new cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What steps should the consultant take to safely and successfully unregister the customer\u2019s former cluster from PC?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Login to any PCVM using SSH and run the PE_unregister.py script located in the Nutanix scripts directory, followed by the unregistration_cleanup.py script."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Login to the PC Web Ul, locate the PE cluster and click Unregister from the Actions dropdown menu."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Login to the PC Web Ul, navigate to Cluster Registrations found under settings in the Admin Center, check the box next to the desired PE, and click Remove."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Login to any CVM using SSH and use the multicluster command found within NCLI, followed by the unregistration_cleanup.py script on PE and PC."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During the knowledge transfer session, a consultant conducts a storage management demo. In the Creating a Storage Container workflow, the customer notices the Reserved Capacity parameter and asks for best practices related to it."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should the consultant respond?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Nutanix recommends to configure at least 2 storage pools with at least one storage container each."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Do not reserve less than 90% of the total space in the storage pool."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Reserve capacity for a storage container only if the storage pool consists of multiple storage containers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Reserve capacity for a storage container only if the storage pool consists of single storage container."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How should a consultant validate the installed version of an NVIDIA driver in a Nutanix VDI deployment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. nutar.ix@cvm~$ rpm -qa | grep -i nvidia"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. admin.@cvm~S rpm -qa | grep -i nvidia"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. [root@ahv ~]# rpm -qa | grep -i nvidia"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. [root@esxi ~]# rpm -qa | grep -i nvidia"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When utilizing the Nutanix cluster As Built Document generator, which two configuration elements should a consultant provide when running the run_as_built.exe command? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Data Services IP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Cluster IP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Remote Site IP"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Customer Name"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which two ways can the IPMI address be set on a Nutanix hardware installation? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Nutanix Network Crashcart"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ipmitool"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. BIOS configuration"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. iLO configuration utility"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During the knowledge transfer session, a consultant conducts a storage management demo. In the Creating a Storage Container workflow, the customer notices the Advertised Capacity parameter and asks for an explanation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should the consultant respond?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It enables the ability to cap usage of storage containers to be smaller than the limit of a storage pool capacity"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It assists in reserving space for a storage container to ensure a minimum storage capacity is available."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It assists in reserving space for a storage container to ensure a maximum storage capacity is available."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is a capacity computed by dividing physical storage usage of a container by the replication factor (RF)."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 3,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After deployment of a Nutanix cluster, a customer has requested to validate the peak performance of the cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which tool can a consultant use to satisfy this request?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. diagnostics.py"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Nutanix perfmon"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Nutanix X-Ray"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Nutanix HCIBench"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant attempts to perform an LCM inventory after successfully creating the cluster, but is met with the following error:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LCM Exception [LcmExceptionHandler]: Could not find a module for entity with reference name nutanix.ncc.update"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the most likely reason LCM inventory/update is failing?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Nameservers are not reachable."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Nutanix CVMs are blocking TCP port 54."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. IPMI network is unable to reach the Internet."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Clusters must be licensed before LCM inventory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 24": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant has completed a cluster build according to the following requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Syslog Setup with ERROR level Logging"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Proxy Setup -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SNMP v3 Trap setup -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When adding the cluster to an existing Prism Central with a proxy setup, the following error is triggered in the Prism Gateway logs:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Caused by: com.nutanix.util.base.ValidationException: Prism Central is unreachable"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What configuration is likely missing?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Whitelist of Prism Central VIP inside of Prism Element and Prism Element VIP inside of Prism Central"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Whitelist of Prism Central DSIP inside of Prism Element"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Whitelist of Prism Central DSIP inside of Prism Element and all Prism Element CVMs inside of Prism Central"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Whitelist of AHV Host IP addresses in Prism Central"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 25": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant deployed a Nutanix Files cluster using separate networks for client and storage."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For testing a SMB standard share, a VM has been deployed on storage network. However, the consultant cannot access the share."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the cause of the issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The CVM network segmentation is configured."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Clients on the same subnet as the storage network cannot access the shares."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An iSCSI Data Services IP is not configured for the cluster."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Clients on the same subnet as the storage network can only access the distributed shares."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 26": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/ncs-core-6-8/image4.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A Foundation install must be done on four NX nodes for a new customer. A consultant need to set up the network onsite before imaging the nodes through the Foundation tool."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The nodes are equipped with two SFP28 25GbE NICs with dual ports, and a 10GBase-T NIC with dual ports as well. The customer\u2019s ToR switches are 25GbE datacenter switches, already in production."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the appropriate hardware to perform the most reliable imaging of these NX nodes?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The 25GbE production switches, 4 DAC cables, only one Ethernet cable with a 1GBase-T GBIC, and a laptop."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A flat Ethernet switch, 9 Ethernet cables, and a laptop."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The 25GbE production switches, 4 DAC cables and 5 Ethernet cables with a flat Ethernet switch, and a laptop."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A flat Ethernet switch, 4 compatible 1GBase-T GBICs, five Ethernet cables and a laptop."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 27": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After installation, network ports are properly configured with the default active-backup bonding. One 10GbE port goes to switch 1. Another 10GbE port goes to switch 2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A consultant tests failover by manually disconnecting one of the cables and notices it is taking too much time to failover, which is causing excessive packet loss."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should be enabled to resolve this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. LACP on switch"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. PagP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Spanning-tree Portfast"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Jumbo frames"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 5,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 28": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 64 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant is working on an expansion project for a customer that has an existing 7-node RF2 cluster. The customer has purchased four more nodes to add to the cluster. All of the hardware is identical between the existing hardware and newly purchased hardware."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Currently, the 7-node cluster has the following utilization:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CPU: 48%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Memory: 66%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Storage: 91%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "During the kick-off call, the customer mentioned they\u2019d like to reserve storage capacity on the cluster if a node were to fail in the future."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What\u2019s the safest and best way to implement this on the cluster?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Enable Reserve Rebuild Capacity and expand the cluster with the additional nodes."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Expand the cluster with the additional nodes and enable Reserve Rebuild Capacity."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable HA reservation and expand the cluster with the additional nodes."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Expand the cluster with the additional nodes and enable HA reservation."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During the cluster deployment, a consultant conducts operational tests on a vCenter-managed ESXi hypervisor."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "As a part of tests, vCenter must place the host into maintenance mode, however, the task is stuck and the CVM is not shutting down automatically."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should the consultant do to resolve the issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Shutdown the CVM using cvm_shutdown -P now."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Shutdown the CVM using shutdown -h now."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Put the node into maintenance mode using ~/serviceability/bin/esx-shutdown -s cvm_ip_addr"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Put the node into maintenance mode using acli host.enter_maintenance_mode Hypervisor address."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 66 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the default password shipped on new NX hardware from the factory for the ADMIN user on IPMI?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. node-serial-number"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. block-serial-number"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ADMIN"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. nutanix/4u"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 31": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A consultant has been tasked with setting up an AHV-based cluster in a restricted data center with factory-imaged nodes. The customer environment has these constraints and considerations:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "No external laptops or devices are allowed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Nodes are already rack-mounted and powered on."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Network connections are already completed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Network switch ports are already configured."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Run network configuration utility from console."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Run network configuration utility on node CVM."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Run network configuration utility from laptop."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Run network configuration utility on Foundation VM."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An organization wants to understand which Nutanix cluster services are supported for physical traffic isolation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which Nutanix component supports its network traffic being isolated onto its own virtual network?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Volumes"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Files"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Objects"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Containers"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 33": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer has requested help deploying a small single-VM instance of Prism Central in their environment that will be used for managing less than 100 guest VMs and registered to a single 5-node cluster. Due to business needs, the customer also plans to consume additional service features within the PC platform."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The consultant discusses with the customer and ultimately decides to deploy a small 3-VM instance to better account for possible resource overhead required once the additional services are enabled on the cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The additional services the consultant must enable to meet the customer\u2019s requests are as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Nutanix Disaster Recovery -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MS-SQL Server Monitoring -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Flow Microsegmentation"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. MS-SQL Server Monitoring requires additional licensing and a separate appliance to be deployed when using a small sized PC."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The consultant must specify during the small PC deployment that all 3 PCVMs are configured to have 32GB of memory in order to ensure adequate overhead."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The additional services the customer needs cannot be supported on a small sized PConsultant must deploy at a minimum a large size PC."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Flow Microsegmentation requires an X-Large 5-VM scale-out instance of Prism Central be deployed in order to avoid constraints."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 34": {
+      "Title": "Exam NCS-Core 6.8 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer requires that AHV network visualization must be enabled with statistics."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What dependencies must be met?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SNMP Polling must be set on each AHV Host and CVMs"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. LLDP/CDP and SNMP Polling set on each AHV Host"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SNMP Polling must be set on the ToR switches"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. LLDP/CDP must be set on the ToR switches"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

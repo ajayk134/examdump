@@ -1,0 +1,2769 @@
+{
+  "A00-212__fee4bdf69f1b4a86": {
+    "Question #: 1": {
+      "Title": "Exam A00-212 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%let a=cat;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%macro animal(a=frog);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%let a=bird;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%mend;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%animal(a=pig)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%put a is &a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is written to the SAS log?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a is pig"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a set cat"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a is frog"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a is bird"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam A00-212 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data sets ONE and TWO:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0001500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Data combine;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Merge one two;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "By id;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SQL procedure program procedures the same results?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. proc sql; Create table combine as Select coalesce (one.id, two.id) as id, Name,salary from one, two where one.id=two.id; Quit;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. proc sql; Create table combine as Select one.id, Name, salary from one full join two where one.id=two.id; Quit"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. proc sql; Create table combine as Select one.id,name,salary from one inner join two on one.id=two.id Quit"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. proc sql; Create table combine as Select coalesce (one id, two id) as id, Name,salary from one full join two on one.id=two.id;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam A00-212 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following SAS data set ONE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ONE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "REP COST -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SMITH 200 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SMITH 400 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JONES 100 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SMITH 600 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JONES 100 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JONES 200 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JONES 400 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SMITH 800 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JONES 100 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JONES 300 -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc sql;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "select rep, avg(cost) as AVERAGE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "from one"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "group by rep"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "having avg(cost) > (select avg(cost) from one);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "quit;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following reports is generated?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. REP AVERAGE JONES 200"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. REP AVERAGE JONES 320"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. REP AVERAGE SMITH 320"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. REP AVERAGE"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam A00-212 topic 1 question 103 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following SAS data set ONE:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ONE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LEVEL AGE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 10"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 20"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 20"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 10"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 10"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 10"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2 20"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3 30"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 10"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc sql;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "select level, max(age) as MAX"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "from one"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "group by level"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "having max(age) > (select avg(age) from one);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "quit;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one of the following reports is generated?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. LEVEL AGE 2 20 3 20"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. LEVEL AGE 2 30 3 30"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. LEVEL MAX 2 20 3 30"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. LEVEL MAX 2 30"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam A00-212 topic 1 question 133 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "This question will ask you to provide a segment of missing code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which segment of code will successfully run an in-line view?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009100002.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam A00-212 topic 1 question 134 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data sets:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009200002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What output will be produced?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Name ---------- Lauren Smith Patel Farmer Chang Hiller"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Name ---------- Chang Chang Lauren"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Name ---------- Patel Chang"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Name ---------- Lauren Patel Chang"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam A00-212 topic 1 question 135 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data sets:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A SAS program is submitted and the following is written to SAS to:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009400002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What would allow the program to successfully execute without errors?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Qualify the column names with the table names."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Replace the 104 with: Where EMPLOYEE.Name = Any (Select names separated with , From WORK.NEWEMPLOYEE Where Salary > 40000);"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Replace the where clause with: Where EMPLOYEE.Name = (Select Names delimited with , From WORK.NEWEMPLOYEE Where Salary > 40000);"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Replace the equal sign with In operator."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam A00-212 topic 1 question 136 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the data sets:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009500002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which result set would be generated?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 100"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 200"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 300"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 400"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam A00-212 topic 1 question 138 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK TRANSACT:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following output is desired:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009700002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SQL statement was used?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0009800001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam A00-212 topic 1 question 140 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "This question will ask you to provide a segment of missing code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the SAS data set WORK EXAM:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TotalScore -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "----------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "512"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "657"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "*"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "782"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0010100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following output is desired:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "TotalScore -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "--------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "512"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "657"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "782"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which WHERE expression completes the program and generates the desired output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Where TotalScore is not missing"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Where TotalScore is null"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Where TotalScore is not"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Where AddToStringYN= \u2018Y\u2019"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam A00-212 topic 1 question 142 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the SAS data sets shown on the left, the SAS program on the right is submitted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0010300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will be the result when this program is executed?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0010400001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam A00-212 topic 1 question 145 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the data sets shown on the left, the SAS program shown on the right is submitted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0010800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will be output by the program?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ERROR: Subquery evaluated to more than one row"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Average of Employment 6"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Average of Employment 5"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Average of employment 7"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam A00-212 topic 1 question 146 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following partial SAS log:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0010900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which SQL procedure statement generated this output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. DECREASE TABLE SASHELP.CLASS;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CONTENTS TABLE SASHELP.CLASS;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DESCRIBE TABLE=SASHELP.CLASS;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ATTRIBUTE TABLE=SASHELP.CLASS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam A00-212 topic 1 question 147 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "This question will ask you to provide a segment of missing code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the following program and data:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0011000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the WHERE statement that successfully completes the PROC PRINT and selects the observation from Barb?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Where Birthday=&\"Want\";"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Where Birthday=&\u2018Want\u2019 d;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Birthday=&Want"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Birthday=&\"Want\" d;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam A00-212 topic 1 question 150 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0011400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is written to the SAS log?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Mv is bicycle"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Mv is shoes"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Mv is tents"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Mv is clothes"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam A00-212 topic 1 question 155 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SIMULATION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The question will ask you to provide a segment of missing code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0011800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The text box above, complete the %PUT statement to produce the following log output:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0011800002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Case is ignored and standard SAS syntax rules apply."
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 17": {
+      "Title": "Exam A00-212 topic 1 question 158 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which title statement would always display current date?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. title \" Today is: & today.\";"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. title \"Today is: sysfunc (today (), worddate)\";"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. title \"Today is: & sysdate. \";"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. title \"Today is: &sysdate.\";"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam A00-212 topic 1 question 159 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SIMULATION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This question will ask you to provide a segment of missing code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the two data sets on the left, the SAS program on the right is submitted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the text box in the program above, complete the program so that it will properly use the macro variable to select the corresponding cities."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Case is ignored and standard SAS syntax rules apply."
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 19": {
+      "Title": "Exam A00-212 topic 1 question 160 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How will the variable be listed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Height Weight Name Age"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Weight Height"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Weight Height Name Age"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Name Age Weight Height"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam A00-212 topic 1 question 162 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "This question will ask you to provide a segment of missing code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the SAS data set SASUSER.ORDERS:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement completes the program completely so that it will produce a report with the total number of orders for California?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Call syntax (\u2018num\u2019 California)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Num = California"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. # = California"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Syntax (\u2018num\u2019, California)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam A00-212 topic 1 question 163 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the data set SASHELP.CLASS:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012600002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The PROC steps execute successfully?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. PROC PRINT only"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. PROC MEANS and PROC PRINT"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. PROC MEANS only"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. No PROC steps execute successfully"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam A00-212 topic 1 question 164 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the data set shown in the left, the SAS program on the right is submitted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which program will result in the identical report?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012800001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam A00-212 topic 1 question 165 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "This question will ask you to provide missing option."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0012900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option is required to complete the program correctly?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CAMPLIB"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. FMTSEARCH"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. LIBREF"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. UTILLOC"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam A00-212 topic 1 question 168 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The SAS set WORK CHECK has an index on the variable Code and the following SAS program is submitted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "proc sort data=WORK.CHECK;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "by Code;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "run;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What describes the result of submitting SAS program?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The index on Code is updates"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The sort does not execute"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The index on Code is deleted"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The index on the Code unaffected"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam A00-212 topic 1 question 169 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "SIMULATION -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This item will ask you to provide a segment of missing code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the input data set shown on the left and the output data set shown on the right:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0013200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the text below, enter the code that will complete the program to produce the output set shown above on the right."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0013200002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Case is ignored and standard SAS syntax rules apply."
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 26": {
+      "Title": "Exam A00-212 topic 1 question 170 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A data set stored on a network drive has the following characteristics:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 14 Million observations"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 400 numeric variables"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 0 character variables of length 20"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Binary compression"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A DATA Step query requires only 3 character and 15 numeric variables from this data set. What is the best way to reduce computer resource utilization in this"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DATA Step?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A KEEP= data set option used on the SET Statement"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A KEEP Statement used within the DATA Step"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A KEEP= data set option used on the DATA Statement"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A DROP= data set option used on the DATA Statement"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam A00-212 topic 1 question 172 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The SAS data set WORK.TEMP is indexed on variable Id:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0013400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0013400002.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Stops because the data is not descending order"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Generates a report without a problem"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Stops because the data is not in ascending order"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Generates a report, but only if the index = USE option is turned on"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam A00-212 topic 1 question 174 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which SAS produce can be used to report Page Size?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. PRINT Procedure"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CATALOG Procedure"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. REPORT Procedure"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. CONTENTS Procedure"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam A00-212 topic 1 question 176 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following SAS program is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0014000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The purpose of FILEVAR = option on the INFILE statement is to name the variable next, whose value:"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Points to a new input file"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Points to an aggregate storage location"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Is output to the SAS data set WORK.NEW"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Is an input SAS data set reference"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam A00-212 topic 1 question 178 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the data set shown on the left, the SAS program on the right is submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0014100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true regarding the WORK.MISSING data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The descriptor portion of WORK.MISSING is created when the DATA step is submitted"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The data set is created when the DATA step is submitted"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. When the view ONE is used in another SAS step, the data set is created"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The data set not created because the DATA statement contains a syntax error"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam A00-212 topic 1 question 182 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the following SAS program:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0014400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will be the output from the PRINT Procedure?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0014500001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Option A"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Option B"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Option C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Option D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam A00-212 topic 1 question 183 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The question will ask you to provide a segment of missing code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the following SAS program:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0014600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which segment of code completes the program to use finance.new SAS view?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Data = finance.new"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Data = finance.new / view = finance.new"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Data = finance.new / view"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. View = finance.new"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam A00-212 topic 1 question 184 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Given the unsorted data set WORK.ORDERS"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0014700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following three programs are submitted:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02386/0014700002.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which program will create a list of unique Customer_ID values in the WORK.ORDERS data set?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only programs 2 and 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Only programs 1 and 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Programs 1, 2, and 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Only programs 1and 2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

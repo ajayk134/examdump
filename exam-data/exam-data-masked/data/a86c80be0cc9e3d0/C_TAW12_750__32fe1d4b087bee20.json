@@ -1,0 +1,815 @@
+{
+  "C_TAW12_750__32fe1d4b087bee20": {
+    "Question #: 1": {
+      "Title": "Exam C_TAW12_750 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A screen has the following PAI flow logic:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PROCESS AFTER INPUT."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FIELD A MODULE check_A."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FIELD B MODULE check_B."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHAIN."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FIELD: C,D."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MODULE check_CD."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ENDCHAIN."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CHAIN."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FIELD: C,B."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MODULE check_CB."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ENDCHAIN."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What happens if the application sends a type E message during the check_CB module processing?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The screen is displayed again without processing the PBO flow logic. All fields are ready for input."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The screen is NOT displayed again. Processing terminates and the user must restart the ABAP program."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The screen is displayed again and the PBO flow logic is processed. Only fields B and C are ready for input."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The screen is displayed again without processing the PBO flow logic. Only fields B and C are ready for input."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam C_TAW12_750 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are the reasons to use modularization? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Easier maintenance"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Promotes reusability"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Portability across DBMS"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Improved transparency"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Improved performance"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam C_TAW12_750 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have created the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 A class with an event definition"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 A handler class with a method ON_EVT that handles this event"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 A report that instantiates the handler class"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 A message statement that raises an exception"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, the report does not react to the event."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How do you analyze this issue? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Check if the implementation of the handler method ON_EVT contains the desired logic."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Check if the handler method ON_EVT is defined in a subroutine of the report."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Check if the handler method is registered to the correct event."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Check if the event is triggered by setting a breakpoint at the RAISE EVENT statement."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Check if the event is triggered by setting a breakpoint at the MESSAGE ... RAISING ... statement."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam C_TAW12_750 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are the advantages of defining text symbols in executable programs? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The text of the text symbol can be changed at runtime."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They can store up to 256 characters."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They facilitate multilingual functionality."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They are easier to maintain than literals."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam C_TAW12_750 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An ABAP program processes the following expression: r = a/b + c."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the following data declarations would cause the runtime environment to use fixed-point arithmetic for the above expression to calculate the value of \"r\"? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. DATA: r TYPE p DECIMALS 2,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "a TYPE i VALUE 201,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "b TYPE i VALUE 200,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "c TYPE f."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. DATA: r type p,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "a type i VALUE 201,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "b type i VALUE 200,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "c type i."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DATA: r TYPE p DECIMALS 2,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "a TYPE i VALUE 201,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "b TYPE i VALUE 200,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "c TYPE p."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. DATA: r TYPE f,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "a TYPE i VALUE 201,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "b TYPE i VALUE 200,"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "c TYPE f."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam C_TAW12_750 topic 2 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which database objects can you create in the ABAP Dictionary? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Foreign key relationships"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Views"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Logical databases"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Indexes"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam C_TAW12_750 topic 2 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You create a domain in the ABAP Dictionary."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can you use this domain? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. To define technical properties of data elements"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To describe the value range of a table field or structure component"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. To define data objects in ABAP programs"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. To define the data type of a table field or structure component"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "BD",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam C_TAW12_750 topic 3 question 67 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which of the following source code blocks can you define local data objects? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Function module"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Subroutine"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. PBO module"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. LOAD-OF-PROGRAM"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Static method"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABE",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam C_TAW12_750 topic 3 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following statements correctly define a data object with the type of data element s_conn_id? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CONSTANTS gc_id TYPE s_conn_id VALUE '0400'."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. DATA gv_id TYPE REF TO s_conn_id."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DATA gv_id TYPE s_conn_id."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. PARAMETERS pa_id TYPE s_conn_id."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. DATA gv_id LIKE s_conn_id."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    }
+  }
+}

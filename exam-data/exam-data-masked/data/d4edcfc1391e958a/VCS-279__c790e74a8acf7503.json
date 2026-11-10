@@ -1,0 +1,236 @@
+{
+  "VCS-279__c790e74a8acf7503": {
+    "Question #: 1": {
+      "Title": "Exam VCS-279 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A file system on a server that has different files changing daily becomes corrupt, and a restore is required. The system is being backed up using True Image Restore with move detection enabled."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The most recent backups of this file system are displayed below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Monday: A full backup -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Tuesday: A differential incremental backup"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Wednesday: A cumulative incremental backup"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Thursday: A differential incremental backup"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Friday: A differential incremental backup"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the minimum number of backup images that will be used to fully restore the server to its most current state?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. one"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. two"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. three"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. four"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. five"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam VCS-279 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has a master server named master1. When the administrator runs the bpclntcmd -pn command on the client, the administrator receives the following output: bpclntcmd -pn expecting response from master2 client_01.domain.com client_01 192.168.0.30 3815"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is a possible cause for this output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The host file needs to be changed on the master server."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The client has lost connectivity to the master server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The SAN connection to the master server needs to be configured."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The bp.conf of the client needs to be updated."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam VCS-279 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which supported step should an administrator perform to ensure all operating system logs are sent from an appliance to a central logging server running Linux?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. configure access to the appliance logs with the share open command"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. configure syslog forwarding in the appliance CLISH"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. configure syslog forwarding in OpsCenter"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. configure a cron job on the appliance to copy the logs"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    }
+  }
+}

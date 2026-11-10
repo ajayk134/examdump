@@ -1,0 +1,6155 @@
+{
+  "300-135__8ded89a8ebf47a2d": {
+    "Question #: 1": {
+      "Title": "Exam 300-135 topic 2 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been brought in to troubleshoot an EIGRP network. You have resolved the initial issue between routers R2 and R4, but another issue remains. You are to locate the problem and suggest solution to resolve the issue."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The customer has disabled access to the show running-config command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0003600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0003700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0003800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0003900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The network segment between R2 and R4 has become disconnected from the remainder of the network. How should this issue be resolved?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Change the autonomous system number in the remainder of the network to be consistent with R2 and R4."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Move the 192.168.24.0 network to the EIGRP 1 routing process in R2 and R4."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable the R2 and R4 router interfaces connected to the 192.168.24.0 network."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove the distribute-list command from the EIGRP 200 routing process in R2."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Remove the distribute-list command from the EIGRP 100 routing process in R2. B"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When issuing the \"show ip eigrp neighbor\" command (which is about the only command that it lets you do in this question) you will see that all other routers are configured for EIGRP AS 1. However, the 192.16824.0 network between R2 and R4 is incorrectly configured for EIGRP AS 100:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004300002.jpg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When issuing the \"show ip eigrp neighbor\" command (which is about the only command that it lets you do in this question) you will see that all other routers are configured for EIGRP AS 1. However, the 192.16824.0 network between R2 and R4 is incorrectly configured for EIGRP AS 100:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004300002.jpg"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 300-135 topic 3 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been asked by your customer to help resolve issues in their routed network. Their network engineer has deployed HSRP. On closer inspection HSRP doesn't appear to be operating properly and it appears there are other network problems as well. You are to provide solutions to all the network problems."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0004900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0005000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have received notification from network monitoring system that link between R1 and R5 is down and you noticed that the active router for HSRP group 1 has not failed over to the standby router for group 1. You are required to troubleshoot and identify the issue."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. There is an HSRP group track command misconfiguration"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. There is an HSRP group priority misconfiguration"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. There is an HSRP authentication misconfiguration"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. There is an HSRP group number mismatch"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. This is not an HSRP issue; this is routing issue. A"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When looking at the HSRP configuration of R1, we see that tracking has been enabled, but that it is not tracking the link to R5, only the link to R2:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0005100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "R1 should be tracking the Eth 0/1 link, not 0/0 to achieve the desired affect/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When looking at the HSRP configuration of R1, we see that tracking has been enabled, but that it is not tracking the link to R5, only the link to R2:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0005100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "R1 should be tracking the Eth 0/1 link, not 0/0 to achieve the desired affect/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 300-135 topic 3 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been asked by your customer to help resolve issues in their routed network. Their network engineer has deployed HSRP. On closer inspection HSRP doesn't appear to be operating properly and it appears there are other network problems as well. You are to provide solutions to all the network problems."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0005900001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the configuration on R4. The routing table shows no entries for 172.16.10.0/24 and 172.16.20.0/24. Identify which of the following is the issue preventing route entries being installed on R4 routing table?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. HSRP issue between R4 and R2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. This is an OSPF issue between R4 and R2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. This is a DHCP issue between R4 and R2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The distribute-list configured on R4 is blocking route entries"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The ACL configured on R4 is blocking inbound traffic on the interface connected to R2 D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If we look at the configuration on R4 we see that there is a distribute list applied to OSPF, which blocks the 172.16.20.0/24 and 172.16.10.0/24 networks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006400001.png"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "If we look at the configuration on R4 we see that there is a distribute list applied to OSPF, which blocks the 172.16.20.0/24 and 172.16.10.0/24 networks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006400001.png"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 300-135 topic 3 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been asked by your customer to help resolve issues in their routed network. Their network engineer has deployed HSRP. On closer inspection HSRP doesn't appear to be operating properly and it appears there are other network problems as well. You are to provide solutions to all the network problems."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006700001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006800001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0006900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You examine the configuration on R5 and discover that no routes are being learned from R4. Which issue prevents the route entries from being installed in the routing table?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. HSRP issue between R5 and R4"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. There is an OSPF issue between R5and R4"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. There is a DHCP issue between R5 and R4"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The distribute-list configured on R5 is blocking route entries"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The ACL configured on R5 is blocking traffic for the subnets advertised from R4."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If we issue the \"show ip route\" and \"show ip ospf neighbor\" commands on R5, we see that there are no learned OSPF routes and he has no OSPF neighbors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007000001.png"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "If we issue the \"show ip route\" and \"show ip ospf neighbor\" commands on R5, we see that there are no learned OSPF routes and he has no OSPF neighbors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007000001.png"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 300-135 topic 4 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A customer network engineer has edited their OSPF network configuration and now your customer is experiencing network issues. They have contacted you to resolve the issues and return the network to full functionality."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The OSPF neighbor relationship has been lost between R1 and R3. What is causing this problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The serial interface in R1 should be taken out of the shutdown state."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A neighbor statement needs to be configured in R1 and R3 pointing at each other."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The R1 network type should be changed to point-to-multipoint non-broadcast."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The hello, dead and wait timers on R1 need to be reconfigured to match the values on R3."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In order for two OSPF routers to become neighbors, they must have matching network types across the links. In this case, we see that R1 has been configured as non-broadcast and R3 is using point to point non-broadcast."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007900002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This can be seen by issuing the \"show running-config\" command on each router, or the \"show ip ospf interface\" command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0008000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0008100001.jpg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In order for two OSPF routers to become neighbors, they must have matching network types across the links. In this case, we see that R1 has been configured as non-broadcast and R3 is using point to point non-broadcast."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0007900002.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This can be seen by issuing the \"show running-config\" command on each router, or the \"show ip ospf interface\" command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0008000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0008100001.jpg"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 300-135 topic 4 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A customer network engineer has edited their OSPF network configuration and now your customer is experiencing network issues. They have contacted you to resolve the issues and return the network to full functionality."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After resolving the issues between R3 and R4. Area 2 is still experiencing routing issues. Based on the current router configurations, what needs to be resolved for routes to the networks behind R5 to be seen in the company intranet?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure R4 and R5 to use MD5 authentication on the Ethernet interfaces that connect to the common subnet."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure Area 1 in both R4 and R5 to use MD5 authentication."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add ip ospf authentication-key 7 BEST to the R4 Ethernet interface that connects to R5 and ip ospf authentication-key 7 BEST to R5 Ethernet interface that connects to R4."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add ip ospf authentication-key CISCO to R4 Ethernet 0/1 and add area 2 authentication to the R4 OSPF routing process. D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Here, we see from the running configuration of R5 that OSPF authentication has been configured on the link to R4:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, this has not been done on the link to R5 on R4:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009900001.png"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Here, we see from the running configuration of R5 that OSPF authentication has been configured on the link to R4:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, this has not been done on the link to R5 on R4:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0009900001.png"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 300-135 topic 4 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Scenario:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A customer network engineer has edited their OSPF network configuration and now your customer is experiencing network issues. They have contacted you to resolve the issues and return the network to full functionality."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010000001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010100001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010400001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010600001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The 6.6.0.0 subnets are not reachable from R4. How should the problem be resolved?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Edit access-list 46 in R6 to permit all the 6.6.0.0 subnets"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Apply access-list 46 in R6 to a different interface"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Apply access-list 1 as a distribute-list out under router ospf 100 in R4"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove distribute-list 64 out on R6"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Remove distribute-list 1 in ethernet 0/1 in R4"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Remove distribute-list 1 in ethernet 0/0 in R4 D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Here we see from the running configuration of R6 that distribute list 64 is being used in the outbound direction to all OSPF neighbors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, no packets will match the 6.6.0.0 in this access list because the first line blocks all 6.0.0.0 networks, and since the 6.6.0.0 networks will also match the first line of this ACL, these OSPF networks will not be advertised because they are first denied in the first line of the ACL."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Here we see from the running configuration of R6 that distribute list 64 is being used in the outbound direction to all OSPF neighbors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0010700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, no packets will match the 6.6.0.0 in this access list because the first line blocks all 6.0.0.0 networks, and since the 6.6.0.0 networks will also match the first line of this ACL, these OSPF networks will not be advertised because they are first denied in the first line of the ACL."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 300-135 topic 5 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Instructions -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The main screen consists of two parts; the Main scenario and the Topology tabs. The main scenario describes TSHOOT.com test bed. The Topology tabs allow you to display the appropriate and select the trouble ticket."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To complete the item, you will first need to familiarize yourself with the TSHOOT.com test bed by clicking on the master scenario first and then the topologies tabs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Once you are familiar with the test bed and the topologies, you should start evaluating the trouble ticket. You will be presented with a Trouble Ticket scenario that will describe the fault condition. You will need to determine on which device the fault condition is located, to which technology the fault condition is related, and the solution to each trouble ticket. This will be done by answering three questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ticket Selection -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 To begin, click on the Ticket on the Topology tabs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Some of the questions will require you to use the scroll bar to see all options."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Please note."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Fault Isolation -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Read the ticket scenario to understand the fault condition."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Open the appropriate topology, based upon the ticket scenario."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Open the console of the desired device by clicking on that device in the topology, based upon your troubleshooting methodology."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Use the supported show, ping and trace commands to begin your fault isolation process."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Move to other devices as need by clicking on those devices within the topology."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Fault Identification -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The trouble ticket will include three questions that you will need to answer:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Which device contains the fault"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Which technology the fault condition is related to"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. What is the solution to the issue"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 To advance to the next question within the ticket click on \"Next Question\"."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 When you click \"DONE\", the trouble ticket will turn RED and will no longer be accessible."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 You may also use the \"Previous Question\" button to review questions within that specific ticket."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 To complete a trouble ticket, answer all three questions and click \"DONE\". This will store your response to the questions. Do not click on \"DONE\" unless you have answered all questions within the ticket."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Item Completion -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Click the NEXT button on the bottom of the screen once a ticket is RED. This action moves you to the next item."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Scenario -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The company has created the test bed network shown in the layer 2 and layer 3 topology exhibits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This network consists of four routers, two layer 3 switches and two layer 2 switches."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the IPv4 layer 3 topology, R1, R2, R3, and R4 are running OSPF with an OSPF process number 1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DSW1, DSW2 and R4 are running EIGRP with an AS of 10. Redistribution is enabled where necessary."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "R1 is running a BGP AS with a number of 65001. This AS has an eBGP connection to AS 65002 in the ISP's network. Because the company's address space is in the private range, R1 is also providing NAT translations between the inside (10.1.0.0/16 & 10.2.0.0/16) networks and the outside (209.65.200.0/24) network."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ASW1 and ASW2 are layer 2 switches."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NTP is enabled on all devices with 209.65.200.226 serving as the master clock source."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The client workstations receive their IP address and default gateway via R4's DHCP server. The default gateway address of 10.2.1.254 is the IP address of HSRP group 10 which is running on DSW1 and DSW2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the IPv6 layer 3 topology R1, R2, and R3 are running OSPFv3 with an OSPF process number 6. DSW1, DSW2 and R4 are running RIPng process name"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RIP_ZONE. The two IPv6 routing domains, OSPF 6 and RIPng are connected via GRE tunnel running over the underlying IPv4 OSPF domain. Redistribution is enabled where necessary."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Recently the implementation group has been using the test bed to do a \"\u02dcproof-of-concept' on several implementations. This involved changing the configuration on one or more of the devices. You will be presented with a series of trouble tickets related to issues introduced during these configurations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0014200001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The implementation group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, and FHRP services, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolate the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the solution to the fault condition?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In configuration mode, using the interface range port-channel 23, port-channel 24, then configure switchport trunk allowed vlan none followed by commands. switchport trunk allowed vlan 10,20,200"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In configuration mode, using the interface range port-channel 13, port-channel 23, then configure switchport trunk allowed vlan none followed by commands. switchport trunk allowed vlan 10,200"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. In configuration mode, using the interface range port-channel 23, port-channel 24, then configure switchport trunk allowed vlan none followed by commands. switchport trunk allowed vlan 10,20,"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. In configuration mode, using the interface range port-channel 13, port-channel 23, then configure switchport trunk allowed vlan 10,200 followed by then no shutdown commands. interface Fastethernet 1/0/1, B"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Solution -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Steps need to follow as below:-1.When we check on client 1 & Client 2 desktop we are not receiving DHCP address from R4Ipconfig ----- Client will be getting"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "169.X.X.X2.On ASW1 port Fa1/0/ 1 & Fa1/0/2 access port VLAN 10 was assigned which is using IPaddress 10.2.1.0/24Sh run ------- & check for running config of int fa1/0/1 & fa1/0/2====================================================interface FastEthernet1/0/1switchport mode accessswitchport access vlan 10interface FastEthernet1/0/2switchport mode accessswitchport access vlan 10===================================================="
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3.We need to check on ASW 1 trunk port the trunk Po13 & Po23 were receiving VLAN 20 &200 but not VLAN 10 so that switch could not get DHCP IP address and was failing to reach IPaddress of Internet4."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Change required:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On ASW1 below change is required for switch-to-switch connectivity..int range portchannel13,portchannel23switchport trunk allowed vlan noneswitchport trunk allowed vlan 10,200"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Solution -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Steps need to follow as below:-1.When we check on client 1 & Client 2 desktop we are not receiving DHCP address from R4Ipconfig ----- Client will be getting"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "169.X.X.X2.On ASW1 port Fa1/0/ 1 & Fa1/0/2 access port VLAN 10 was assigned which is using IPaddress 10.2.1.0/24Sh run ------- & check for running config of int fa1/0/1 & fa1/0/2====================================================interface FastEthernet1/0/1switchport mode accessswitchport access vlan 10interface FastEthernet1/0/2switchport mode accessswitchport access vlan 10===================================================="
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3.We need to check on ASW 1 trunk port the trunk Po13 & Po23 were receiving VLAN 20 &200 but not VLAN 10 so that switch could not get DHCP IP address and was failing to reach IPaddress of Internet4."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Change required:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On ASW1 below change is required for switch-to-switch connectivity..int range portchannel13,portchannel23switchport trunk allowed vlan noneswitchport trunk allowed vlan 10,200"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 300-135 topic 7 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three features are benefits of using GRE tunnels in conjunction with IPsec for building site-to-site VPNs? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. allows dynamic routing over the tunnel"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. supports multi-protocol (non-IP) traffic over the tunnel"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. reduces IPsec headers overhead since tunnel mode is used"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. simplifies the ACL used in the crypto map"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. uses Virtual Tunnel Interface (VTI) to simplify the IPsec VPN configuration"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 300-135 topic 7 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which protocol does mGRE use to determine where packets are sent?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CEF"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. EIGRP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. NHRP"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. DMVPN"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.cisco.com/c/en/us/support/docs/security-vpn/ipsec-negotiation-ike-protocols/41940-dmvpn.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.cisco.com/c/en/us/support/docs/security-vpn/ipsec-negotiation-ike-protocols/41940-dmvpn.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 300-135 topic 7 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0029500001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. When troubleshooting an adjacency issue on router R1, you generated the given debug output. Which two values are mismatched between"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "R1 and its neighbor? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. hello timer settings"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. metric calculation mechanisms"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. authentication parameters"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. autonomous system numbers"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. hold timer settings BD"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 300-135 topic 7 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Drag the properties from the left onto their corresponding Unicast Reverse Path Forwarding mode on the right. Not all properties are used."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0029600001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0029600002.png"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 13": {
+      "Title": "Exam 300-135 topic 7 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0029900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. Your company security policy states you must use SSH on your network devices. Your attempt to SSH into SW3 is unsuccessful. What action must you take to correct the issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Change access-class 100 in to access-class 175 in."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Change access-class 100 in to access-class 150 in."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Change access-class 100 in to access-class 100 out."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Change transport inut ssh to transport input telnet A"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 300-135 topic 7 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to troubleshoot an OSPF adjacency issue. Which two tasks must you perform? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Issue the debug ip ospf nsf command to identify the cause."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Issue the debug ip ospf adj command to identify the cause."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Verify that the router IDs on the two routers match."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Verify that the subnet masks on the two routers match."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Verify that the process IDs on the two routers match. BD"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 300-135 topic 7 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three keywords are supported in the IP Header Option field of the extended ping command? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Type of Service"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Timeout"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Validate"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Record"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Strict"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Timestamp DEF"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 300-135 topic 7 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Drag and drop the valid tunnel modes from the left into the Valid column on the right. Order does not matter and not all options are used."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0030700001.jpg"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0030800001.jpg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 17": {
+      "Title": "Exam 300-135 topic 7 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0031300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. The NOC team uses a source address of 77.232.115.149 and requires access only during the hours of 6:00PM through 6:00AM. The configuration is implemented as shown, but the NOC is unable to access the network until midnight. Which configuration is required to fix the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. time-range Switch_Access periodic daily 18:01 to 5:59"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. time-range NOC_Access periodic daily 0:00 to 6:00 periodic daily 18:00 to 23:59"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. time-range NOC_Access periodic daily 18:01 to 5:59"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. time-range Switch_Access periodic daily 0:00 to 6:00 periodic daily 18:00 to 23:59"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 300-135 topic 7 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two site-to-site tunnel-based VPN technologies support routing, multicast and private IP addressing? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. IPsec VPN"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. GET VPN"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DMVPN"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. GRE"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. MPLS VPN CD"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 300-135 topic 7 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are deploying a new network that requires routing protocols that support TLVs and Fast Reroute. Which two routing protocols must you use? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. EIGRP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. RIPv2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. OSPF"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IS-IS"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. RIP CD"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 300-135 topic 7 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about extended traceroute options are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You can change the source port that the UDP probe messages use."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. You can change the datagram size to troubleshoot clocking problems on serial lines."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You can use the Strict IP header option"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You can change the minimum and maximum TTL"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. You can use the Verbose IP header option to specify the IP address of each hop that the packet takes."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 300-135 topic 7 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0031700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. Your company's security policy requires you to allow telnet access using tcp port 3033 only. You apply the configuration changes as shown and then test. Your telnet attempt fails. Which action would correct the issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. add rotary 33 to the VTY lines"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. add access-list 101 deny tcp any any eq 23 to the ACL"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. remove authorization exec ITCC from the VTY lines"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. remove transport input telnet from the VTY lines"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 300-135 topic 7 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0031900001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. Your client has asked you to replace telnet access with SSH and the configuration has failed. What is the root cause of this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The router memory needs to be upgraded"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The router IOS needs to be updated"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The Rommon firmware needs to be updated"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The configuration register is incorrect"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam 300-135 topic 7 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the output from R1. Interface FastEthernet0/0 is used for all management of the device. A client is able to connect to R1 on port 22, however, they are unable to connect on port 23."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the cause of the problem?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0032000001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Management Plane Protection (MPP) is enabled, which only allows SSH."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Telnet and SSH are not allowed at the same time."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Management Plane Protection (MPP) is enabled on the wrong interface."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Management Plane Protection (MPP) is enabled, however telnet is not allowed. D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 300-135 topic 7 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two primary components of a GRE tunnel? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. LLC header"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Ethernet header"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. GRE header"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IP header"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. payload packet"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam 300-135 topic 7 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which command securely encrypts the enable password on an IOS device?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. enable secret"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. enable secure"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. service password-encryption"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. enable password"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam 300-135 topic 7 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about extended ping options are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You can select the UDP destination port."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. You can change the minimum and maximum TTL."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You can use the Datagram size option to set the size of the ping in bytes."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You can use the Data pattern option to troubleshoot framing errors on serial lines."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. You can use the ToS bit to control fragmentation of the datagram."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam 300-135 topic 7 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You must connect two remote sites over the public Internet. Multicast support, security, and simplicity are required. Which tunneling technology should you consider?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. GET VPN"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IPsec"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. GRE over Ipsec"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. MPLS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam 300-135 topic 7 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two conditions can be used to filter the output of the debug crypto condition command? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. front-door VRF name"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. routing event filter"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. encryption algorithm"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ISAKMP profile name"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. destination IP address"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_vpnips/configuration/xe-3s/sec-sec-for-vpns-w-ipsec-xe-3s-book/sec-crypto-debug- sup.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_vpnips/configuration/xe-3s/sec-sec-for-vpns-w-ipsec-xe-3s-book/sec-crypto-debug- sup.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam 300-135 topic 7 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two features are supported with GRE-based tunnels? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. any-to-any connectivity"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. encryption"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. multicast traffic forwarding"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. on-demand runnels"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. data encapsulation"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam 300-135 topic 7 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. A client reports that all the password information appears in plain text when the show archive log config all command has been issued. Which command fixes the issue?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0032600001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. MASS-RTR(config)#aaa authentication arap"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. MASS-RTR(config-archive-log-cfg)#password encryption aes"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. MASS-RTR(config)#service password-encryption"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. MASS-RTR(config-archive-log-cfg)#hidekeys D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam 300-135 topic 7 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are troubleshooting a connection between a console port on one router and an AUX port on another router. Which cable type must be used for this connection?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Crossover cable"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Straight cable"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Rollover cable"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. DB-25 DCE cable"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam 300-135 topic 7 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. Which IP address should be configured as the tunnel source on the HQ router for maximum resiliency?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0032800001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 10.20.1.1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 10.30.1.1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 172.18.10.2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 192.168.10.1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam 300-135 topic 7 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the ping response to a transmitted echo that needed to be fragmented and fragmentation was not allowed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. U"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. M"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. \"\u00a6"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam 300-135 topic 7 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. A large number of TCP sessions attempting to connect to a router cause memory leakage and the router to hang. During troubleshooting the client configures a service policy and applies it to the control plane in the error shown. What is the root cause of this error message?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0032900001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The router license is missing in order to configure the policy map"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The bandwidth command is not supported for policy maps configured for CoPP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Cisco routers lack the support for protecting the control plane"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The service policy should be configured for the output direction B"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam 300-135 topic 7 question 49 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. Which statement indicates a cause for Tunnel0's connection failure?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0032900002.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The tunnel destination interface is flapping, which causes the tunnel to go up and down."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The tunnel source interface is in an up/down state and the tunnel destination is recursively routing as a result."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The tunnel is configured with the wrong encapsulation."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The tunnel destination is intermittently reachable via multiple routing protocols."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 36": {
+      "Title": "Exam 300-135 topic 7 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When troubleshooting recursive routing issues with GRE tunnels, which three actions resolve the issue? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Remove the configuration on the tunnel interface and reconfigure"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Perform shut and no shut commands on the tunnel interface"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add static routes for the tunnel source and destination"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove the network advertisements from the routing protocols"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Change the tunnel source or destination interface"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. If using OSPF to peer across the tunnel, use EIGRP instead"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam 300-135 topic 7 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What debug command is used to identify and troubleshoot IP Fragmentation and Path Maximum Transmission Unit Discovery issues?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. debug ip icmp"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. debug ip packet"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. debug ip policy"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. debug ip routing"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 38": {
+      "Title": "Exam 300-135 topic 7 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. Which outcome regarding a telnet connection to the router is valid?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0033100001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Telnet fails because of the missing AAA on the router"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Telnet fails because of the missing username/password on the router"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Telnet fails because of the missing enable secret on the router"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Telnet completes successfully"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 39": {
+      "Title": "Exam 300-135 topic 7 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. A NOC technician is troubleshooting an EIGRP connection between RouterC, IP address 192.168.1.1, and RouterD, IP address 192.168.1.2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Given the debug output on RouterC, which outcome is valid?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0033200001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. RouterC received a hello packet with mismatched authentication parameters"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. RouterC received a hello packet with mismatched hello timers"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. RouterC will form an adjacency with RouterD"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. RouterC will not form an adjacency with RouterD"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 40": {
+      "Title": "Exam 300-135 topic 7 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. PC-2 failed to establish a Telnet connection to the Terminal Server. Which solution allows PC-2 to establish the Telnet connection?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0033300001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Gateway-Router(config)#ipv6 access-list Default_Access Gateway-Router(config-ipv6-acl)#no sequence 20 Gateway-Router(config-ipv6-acl)#sequence 5 permit tcp host 2018:DB1:A:B::2 host 2018:DB1:A:C::1 eq telnet"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Gateway-Router(config)#ipv6 access-list Default_Access Gateway-Router(config-ipv6-acl)#permit tcp host 2018:DB1:A:B::2 host 2018:DB1:A:C::1 eq telnet"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Gateway-Router(config)#ipv6 access-list Default_Access Gateway-Router(config-ipv6-acl)#sequence 15 permit tcp host 2018:DB1:A:B::2 host 2018:DB1:A:C::1 eq telnet"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Gateway-Router(config)#ipv6 access-list Default_Access Gateway-Router(config-ipv6-acl)#sequence 25 permit tcp host 2018:DB1:A:B::2 host 2018:DB1:A:C::1 eq telnet"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 41": {
+      "Title": "Exam 300-135 topic 7 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which scenario would cause the tunnel interface on a router to show a status of down/down?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The source physical interface is in a down/down state"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The destination router's physical interface is shut down"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The shutdown command has been issued on the virtual interface"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The destination address is missing on the tunnel configuration A"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 42": {
+      "Title": "Exam 300-135 topic 7 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. How does the GRE keepalive configuration affect tunnel operation on these two routers?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0033500001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. R1 will not send keepalives until keepalives are configured on R2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. R1 will detect tunnel failures within 5 seconds"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. R1 will detect tunnel failures within 20 seconds"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. R1 will send keepalives, but R2 will not return them C"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 43": {
+      "Title": "Exam 300-135 topic 7 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. MTU has been configured as shown, and no MTU command has been configured on the tunnel interfaces. It has been found that fragmentation is occurring when tunneled packets are placed onto the IPv6 underlay network. Which configuration change will resolve this problem?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0033700001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set the MTU to 1476 on the tunnel interfaces"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Increase the MTU on the IPv6 network"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set the MTU to 1500 on the tunnel interfaces"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Increase the MTU on the IPv4 networks A"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 44": {
+      "Title": "Exam 300-135 topic 7 question 60 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. BR-PC1 (192.168.100.10) is unable to reach the Internet. Access to the Internet is routed through the HQ site and all NAT configurations have been applied and verified. The user on BR-PC1 has attempted to ping www.cisco.com and did not receive any responses. Which troubleshooting step will assist with root cause analysis by displaying a series of upstream connected devices?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0033900001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Check the physical link from HQ-Firewall to HQ-Sw1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Run an nslookup to www.cisco.com"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Check HQ-Firewall to see if it's blocking HTTP traffic"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Run a traceroute to www.cisco.com D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 45": {
+      "Title": "Exam 300-135 topic 7 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A syslog message from a router with a GRE tunnel reads: \"%TUN-5-RECURDOWN: Tunnel0 temporarily disabled due to recursive routing\". Which scenario would cause this error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The remote router's tunnel interface is not participating in the routing process."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The local tunnel mode does not match the tunnel mode configured on the remote router."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The shutdown command has been issued on the source physical interface."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The installed route to the tunnel destination has been learned via the tunnel interface. D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 46": {
+      "Title": "Exam 300-135 topic 7 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer is attempting to configure a secure connection to a device. During testing, the login is not working. Which statement describes the root cause?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only SSHv1 is allowed and you are trying to configure SSHv2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Domain name has been configured"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The transport input ssh command is missing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The old RSA key pair needs to be deleted first C"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 47": {
+      "Title": "Exam 300-135 topic 7 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer wants to verify the access control lists that are applied on interface gigabitethernet0/0. Which command provides the desired output?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. show ip access lists applied"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. show interface gigabitethernet 0/0"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. show ip access-lists interface gigabitethernet 0/0"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. show interface gigabitethernet 0/0 stats C"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 48": {
+      "Title": "Exam 300-135 topic 7 question 66 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit. PC A is able to ping its gateway but is unable to access resources in VLAN 200. Which statement describes the root cause?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0034200001.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Interface VLAN 300 needs also to be configured on Switch B."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. An ACL is needed on Switch A Gi0/1 to allow traffic to pass."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The subnet mask for interface VLAN 300 does not match the subnet mask for PC A."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. There needs to be a port channel between Switch A and Switch B to communicate properly."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 49": {
+      "Title": "Exam 300-135 topic 7 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0034500001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement about the INTERNET ACL is true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The denied entries will be logged because of the explicit deny ipv6 any any log line."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A packet with a source address of 2001:DB8:AD59:ACC0:2020:882:DB8:1125 will be denied."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. HTTPS traffic from the 2001:DB8:AD59:BA21::/64 subnet will automatically be permitted along with HTTP traffic."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A packet with a source address of 2001:DB80:AD59:BA21:101:CAB:64:38 destined to port 80 will be permitted."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 50": {
+      "Title": "Exam 300-135 topic 7 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0034600001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Multiple users are logging into R3 via Telnet and making changes at the same time. Which action will restrict the number of users logging into R3 simultaneously?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Apply the session-limit command to the VTY lines."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add the aaa authorization command to the global configuration."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Apply the access-class 175 in command on line con 0."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove all configured usernames other than the admin account. A"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 51": {
+      "Title": "Exam 300-135 topic 7 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0034800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The administrator has successfully logged into R1 but is unable to access privileged mode commands. Which configuration is causing the problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The aaa authorization reverse-access command is missing."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The username command uses password, not secret."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable secret or enable password must be configured."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The password on the VTY does not match the username password."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 52": {
+      "Title": "Exam 300-135 topic 7 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0035100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "R1 can ping the R3 fa0/1 interface. Why do the extended pings fail?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The maximum packet size accepted by the command is 1476 bytes."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. R3 is missing a return route to 10.99.69.0/30."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The DF bit has been set."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. R2 and R3 do not have an OSPF adjacency. C"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 53": {
+      "Title": "Exam 300-135 topic 7 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Drag the ping and traceroute extended command from the left onto the corresponding purpose on the right."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 54": {
+      "Title": "Exam 300-135 topic 7 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02722/0035400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which output will be displayed for Section 2 when the command no debug condition 1 is entered on the router R1?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. R1#show debug condition 1 Condition 2: username admin (0 flags triggered)"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. R1#show debug condition 1 Condition 1: interface Gi0/2 (1 flags triggered) Flags: Gi0/2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. R1#show debug condition 1 Condition 2: interface Gi0/2 (1 flag triggered) Flags: Gi0/2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. R1#show debug condition 1 Condition 1: username admin (0 flags triggered) Condition 2: interface Gi0/2 (1 flag triggered) Flags: Gi0/2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 55": {
+      "Title": "Exam 300-135 topic 8 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, and FHRP services, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The fault condition is related to which technology?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NTP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Switch-to-Switch Connectivity"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Access Vlans"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Port Security"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. VLAN ACL / Port ACL"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Switch Virtual Interface B"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Since the Clients are getting an APIPA we know that DHCP is not working. However, upon closer examination of the ASW1 configuration we can see that the problem is not with DHCP, but the fact that the trunks on the port channels are only allowing VLANs 1-9, when the clients belong to VLAN 10. VLAN 10 is not traversing the trunk on ASW1, so the problem is with switch to switch connectivity, specifically the trunk configuration on ASW1."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Since the Clients are getting an APIPA we know that DHCP is not working. However, upon closer examination of the ASW1 configuration we can see that the problem is not with DHCP, but the fact that the trunks on the port channels are only allowing VLANs 1-9, when the clients belong to VLAN 10. VLAN 10 is not traversing the trunk on ASW1, so the problem is with switch to switch connectivity, specifically the trunk configuration on ASW1."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 56": {
+      "Title": "Exam 300-135 topic 8 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, and FHRP services, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the solution to the fault condition?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In Configuration mode, using the interface port-channel 13 command, then configure switchport trunk allowed vlan none followed by switchport trunk allowed vlan 20,200 commands."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In Configuration mode, using the interface port-channel 13, port-channel 23, then configure switchport trunk none allowed vlan none followed by switchport trunk allowed vlan 10,200 commands."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. In Configuration mode, using the interface port-channel 23 command, then configure switchport trunk allowed vlan none followed by switchport trunk allowed vlan 20,200 commands."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. In Configuration mode, using the interface port-channel 23, port-channel, then configure switchport trunk allowed vlan none followed by switchport trunk allowed vlan 10,20,200 commands."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "We need to allow VLANs 10 and 200 on the trunks to restore full connectivity. This can be accomplished by issuing the \"switchport trunk allowed vlan 10,200\" command on the port channels used as trunks in DSW1."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "We need to allow VLANs 10 and 200 on the trunks to restore full connectivity. This can be accomplished by issuing the \"switchport trunk allowed vlan 10,200\" command on the port channels used as trunks in DSW1."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 57": {
+      "Title": "Exam 300-135 topic 9 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, layer 2 connectivity, FHRP services, and device security, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The fault condition is related to which technology?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NTP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IP DHCP Helper"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. IPv4 EIGRP Routing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IPv6 RIP Routing"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. IPv4 layer 3 security"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Switch-to-Switch Connectivity"
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. Loop Prevention"
+            }
+          ]
+        },
+        "H": {
+          "content": [
+            {
+              "type": "text",
+              "value": "H. Access Vlans"
+            }
+          ]
+        },
+        "I": {
+          "content": [
+            {
+              "type": "text",
+              "value": "I. Port Security"
+            }
+          ]
+        },
+        "J": {
+          "content": [
+            {
+              "type": "text",
+              "value": "J. VLAN ACL / Port ACL K. Switch Virtual Interface J"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On DSW1, VALN ACL, Need to delete the VLAN access-map test1 whose action is to drop access-list 10; specifically 10.2.1.3"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "On DSW1, VALN ACL, Need to delete the VLAN access-map test1 whose action is to drop access-list 10; specifically 10.2.1.3"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 58": {
+      "Title": "Exam 300-135 topic 9 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, layer 2 connectivity, FHRP services, and device security, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The fault condition is related to which technology?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Under the global configuration mode enter no access-list 10 command."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Under the global configuration mode enter no access-map vlan 10 command."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Under the global configuration mode enter no vlan access-map test1 10 command."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Under the global configuration mode enter no vlan filter test1 vlan-list 10 command."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On DSW1, VALN ACL, Need to delete the VLAN access-map test1 whose action is to drop access-list 10; specifically 10.2.1.3"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "On DSW1, VALN ACL, Need to delete the VLAN access-map test1 whose action is to drop access-list 10; specifically 10.2.1.3"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 59": {
+      "Title": "Exam 300-135 topic 12 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing schemes, DHCP services, NTP services, layer 2 connectivity, FHRP services, and device security, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolate the cause of this fault and answer the following question."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the solution to the fault condition?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Under the global configuration, delete the no ip dhcp use vrf connected command."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Under the IP DHCP pool configuration, delete the default -router 10.2.1.254 command and enter the default-router 10.1.4.5 command."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Under the IP DHCP pool configuration, delete the network 10.2.1.0 255.255.255.0 command and enter the network 10.1.4.0 255.255.255.0 command."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Under the IP DHCP pool configuration, issue the no ip dhcp excluded-address 10.2.1.1 10.2.1.253 command and enter the ip dhcp excluded-address 10.2.1.1 10.2.1.2 command. D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On R4 the DHCP IP address is not allowed for network 10.2.1.0/24 which clearly shows the problem lies on R4 & the problem is with DHCP"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "On R4 the DHCP IP address is not allowed for network 10.2.1.0/24 which clearly shows the problem lies on R4 & the problem is with DHCP"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 60": {
+      "Title": "Exam 300-135 topic 13 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementation group has been using the test bed to do an IPv6 'proof-of-concept1. After several changes to the network addressing and routing schemes, a trouble ticket has been opened indicating that the loopback address on R1 (2026::111:1) is not able to ping the loopback address on DSW2 (2026::102:1)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolate the cause of this fault and answer the following question."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The fault condition is related to which technology?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NTP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IPv4 OSPF Routing"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. IPv6 OSPF Routing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IPv4 layer 3 security"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Since we are unable to ping the IPv6 address, the problem is with IPv6 OSPF Routing."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Since we are unable to ping the IPv6 address, the problem is with IPv6 OSPF Routing."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 61": {
+      "Title": "Exam 300-135 topic 16 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, layer 2 connectivity, FHRP services, and device security, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the solution to the fault condition?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. R1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. R2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. R3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. R4"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. DSW1"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. DSW2"
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. ASW1"
+            }
+          ]
+        },
+        "H": {
+          "content": [
+            {
+              "type": "text",
+              "value": "H. ASW2 G"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The problem here is that VLAN 10 is not configured on the proper interfaces on switch ASW1."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The problem here is that VLAN 10 is not configured on the proper interfaces on switch ASW1."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 62": {
+      "Title": "Exam 300-135 topic 16 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, layer 2 connectivity, FHRP services, and device security, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the solution to the fault condition?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In Configuration mode, using the interface range Fastethernet 1/0/1 \"\" 2, then switchport mode access vlan 10 command."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In Configuration mode, using the interface range Fastethernet 1/0/1 \"\" 2, then switchport access mode vlan 10 command."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. In Configuration mode, using the interface range Fastethernet 1/0/1 \"\" 2, then switchport vlan 10 access command."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. In Configuration mode, using the interface range Fastethernet 1/0/1 \"\" 2, then switchport access vlan 10 command. D"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: Explanation \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The problem here is that VLAN 10 is not configured on the proper interfaces on switch ASW1."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The problem here is that VLAN 10 is not configured on the proper interfaces on switch ASW1."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 63": {
+      "Title": "Exam 300-135 topic 20 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, layer 2 connectivity, FHRP services, and device security, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On which device is the fault condition located?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. R1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. R2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. R3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. R4"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. DSW1"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. DSW2"
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. ASW1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On R1, we need to permit IP 209.65.200.222/30 under the access list."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "On R1, we need to permit IP 209.65.200.222/30 under the access list."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 64": {
+      "Title": "Exam 300-135 topic 20 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, layer 2 connectivity, FHRP services, and device security, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The fault condition is related to which technology?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. BGP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. NTP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. IP NAT"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IPv4 OSPF Routing"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. IPv4 OSPF Redistribution"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. IPv6 OSPF Routing"
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. IPv4 layer 3 security"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: G \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On R1, we need to permit IP 209.65.200.222/30 under the access list."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "On R1, we need to permit IP 209.65.200.222/30 under the access list."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 65": {
+      "Title": "Exam 300-135 topic 20 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The implementations group has been using the test bed to do a \"\u02dcproof-of-concept' that requires both Client 1 and Client 2 to access the WEB Server at"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "209.65.200.241. After several changes to the network addressing, routing scheme, DHCP services, NTP services, layer 2 connectivity, FHRP services, and device security, a trouble ticket has been opened indicating that Client 1 cannot ping the 209.65.200.241 address."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the supported commands to isolated the cause of this fault and answer the following questions."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the solution to the fault condition?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Under the interface Serial0/0/1 enter the ip access-group edge_security out command."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Under the ip access-list extended edge_security configuration add the permit ip 209.65.200.224 0.0.0.3 any command."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Under the ip access-list extended edge_security configuration delete the deny ip 10.0.0.0.0 0.255.255.255 any command."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Under the interface Serial0/0/0 configuration delete the ip access-group edge_security in command and enter the ip access-group edge_security out command."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On R1, we need to permit IP 209.65.200.222/30 under the access list."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "On R1, we need to permit IP 209.65.200.222/30 under the access list."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 66": {
+      "Title": "Exam 300-135 topic 24 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have the followings commands on your Cisco Router:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ip ftp username admin"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ip ftp password backup"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have been asked to switch from FTP to HTTP. Which two commands will you use to replace the existing commands?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ip http username admin"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ip http client username admin"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ip http password backup"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ip http client password backup"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Configuring the HTTP Client -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Perform this task to enable the HTTP client and configure optional client characteristics."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The standard HTTP 1.1 client and the secure HTTP client are always enabled. No commands exist to disable the HTTP client. For information about configuring optional characteristics for the HTTPS client, see the HTTPS-HTTP Server and Client with SSL 3.0, Release 12.2(15)T, feature module."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SUMMARY STEPS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. enable"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. configure terminal"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. ip http client cache {ager interval minutes | memory {file file-size-limit | pool pool-size-limit}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. ip http client connection {forceclose | idle timeout seconds | retry count | timeout seconds}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5. ip http client password password"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "6. ip http client proxy-server proxy-name proxy-port port-number"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "7. ip http client response timeout seconds"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "8. ip http client source-interface type number"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "9. ip http client username username"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Configuring the HTTP Client -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Perform this task to enable the HTTP client and configure optional client characteristics."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The standard HTTP 1.1 client and the secure HTTP client are always enabled. No commands exist to disable the HTTP client. For information about configuring optional characteristics for the HTTPS client, see the HTTPS-HTTP Server and Client with SSL 3.0, Release 12.2(15)T, feature module."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SUMMARY STEPS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. enable"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. configure terminal"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. ip http client cache {ager interval minutes | memory {file file-size-limit | pool pool-size-limit}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. ip http client connection {forceclose | idle timeout seconds | retry count | timeout seconds}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5. ip http client password password"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "6. ip http client proxy-server proxy-name proxy-port port-number"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "7. ip http client response timeout seconds"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "8. ip http client source-interface type number"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "9. ip http client username username"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 67": {
+      "Title": "Exam 300-135 topic 24 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You enabled CDP on two Cisco Routers which are connected to each other. The Line and Protocol status for the interfaces on both routers show as UP but the routers do not see each other a CDP neighbors. Which layer of the OSI model does the problem most likely exist?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Physical"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Session"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Application"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Data-Link"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CDP is a protocol that runs over Layer 2 (the data link layer) on all Cisco routers, bridges, access servers, and switches. CDP allows network management applications to discover Cisco devices that are neighbors of already known devices, in particular, neighbors running lower-layer, transparent protocols. With CDP, network management applications can learn the device type and the SNMP agent address of neighboring devices. This feature enables applications to send"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SNMP queries to neighboring devices. In this case, the line protocol is up which means that the physical layer is operational (layer 1) but the data link layer is not."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "CDP is a protocol that runs over Layer 2 (the data link layer) on all Cisco routers, bridges, access servers, and switches. CDP allows network management applications to discover Cisco devices that are neighbors of already known devices, in particular, neighbors running lower-layer, transparent protocols. With CDP, network management applications can learn the device type and the SNMP agent address of neighboring devices. This feature enables applications to send"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SNMP queries to neighboring devices. In this case, the line protocol is up which means that the physical layer is operational (layer 1) but the data link layer is not."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 68": {
+      "Title": "Exam 300-135 topic 24 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the shown below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%LINK-3-UPDOWN: Interface Serial0/0, changed state to up"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%LINEPROTO-5-UPDOWN: Line protocol on Interface Serial0/0, changed state to up"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What statement is correct regarding the output shown in the graphic?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. These two log messages will not have a severity level. They are not errors but are just informational messages."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The first log message is categorized as a warning message."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. These messages regarding interface status are normal output and will always be displayed when you exit config mode."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The first log message is an error message with a severity level of 3."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Answer Corrected"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Answer Corrected"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

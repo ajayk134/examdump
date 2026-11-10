@@ -1,0 +1,1607 @@
+{
+  "SnowPro Advanced Administrator__4ec8e90bbaa0d81f": {
+    "Question #: 1": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which authentication methods are available when connecting to Snowflake using the SQL API? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. OAuth"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Key pair"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Username and password"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. External browser"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Single Sign-On (SSO) with an external Identity Provider (IdP)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What role or roles should be used to properly create the object required to setup OAuth 2.0 integration?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Any role with GRANT USAGE on SECURITY INTEGRATION"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ACCOUNTADMIN and SYSADMIN"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ACCOUNTADMIN and SECURITYADMIN"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ACCOUNTADMIN only"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When a role is dropped, which role inherits ownership of objects owned by the dropped role?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The SYSADMIN role"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The role above the dropped role in the RBAC hierarchy"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The role executing the command"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The SECURITYADMIN rote"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Snowflake account is configured with SCIM provisioning for user accounts and has bi-directional synchronization for user identities. An Administrator with access to SECURITYADMIN uses the Snowflake UI to create a user by issuing the following commands:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/snowpro-advanced-administrator/image10.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The new user named PTORRES successfully logs in, but sees a default role of PUBLIC in the web UI. When attempted, the following command fails: use DEVELOPER_ROLE;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why does this command fail?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The DEVELOPER_ROLE needs to be granted to SYSADMIN before user PTORRES will be able to use the role."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The new role can only take effect after USERADMIN has logged out."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. USERADMIN needs to explicitly grant the DEVELOPER_ROLE to the new USER."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The new role will only take effect once the identity provider has synchronized by way of SCIM with the Snowflake account."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Snowflake Administrator configured access to table DB.S1.T1 to Role A leveraging the role inheritance with Role B. However, the users report that they cannot select from the table DB.S1.T1 when using Role A."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Review the following SHOW GRANTS output:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/snowpro-advanced-administrator/image11.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What could be the reason?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Role B is missing the USAGE privilege on schema DB.S1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Role A inherits Role B."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Role A should also be granted Role C."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Role B inherits Role A."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user has built a view named DB.VWS.TEST_VIEW in Snowflake which only allows users having ROLE_XYZ to retrieve data from the view."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Roles Setup:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GRANT USAGE ON DATABASE DB TO ROLE ROLE_ALPHA;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GRANT USAGE ON SCHEMA DB.VWS TO ROLE ROLE_ALPHA;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GRANT SELECT ON VIEW TEST_VIEW IN SCHEMA DB.VWS TO ROLE ROLE_ALPHA;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GRANT ROLE ROLE_ALPHA TO ROLE ROLE_XYZ;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GRANT ROLE ROLE_XYZ TO ROLE ROLE_BETA;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GRANT ROLE ROLE_ALPHA TO USER USER1;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GRANT ROLE ROLE_BETA TO USER USER2;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "GRANT ROLE ROLE_XYZ TO USER USER3;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "View definition:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE VIEW DB.VWS.TEST_VIEW AS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "("
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SELECT * FROM TEST TABLE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WHERE IS_ROLE_IN_SESSION('ROLE_XYZ')=TRUE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": ") ;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which user and current role combination can retrieve data from the view? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. USER1 and ROLE_ALPHA"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. USER2 and ROLE_BETA"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. USER3 and ROLE_XYZ"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. USER1 and ROLE_XYZ"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. USER3 and ROLE_ALPHA"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The following exhibit is the output of the FUTURE GRANTS set in the database named DB:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/snowpro-advanced-administrator/image12.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The output of the FUTURE GRANTS as configured in the schema, DB.S1 is shown below:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/snowpro-advanced-administrator/image13.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A Snowflake Administrator creates a table in the schema DB.S1:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "USE ROLE SYSADMIN;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE TABLE DB.S1.T1 (C1 INT);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following command is run:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SHOW GRANTS ON TABLE DB.S1.T1;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will be the outcome?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Privilege OWNERSHIP is granted to Role A"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Privilege SELECT is granted to Role B"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Privilege OWNERSHIP is granted to role SYSADMIN"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Privilege SELECT is granted to Role A"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Privilege OWNERSHIP is granted to Role A"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Privilege SELECT is granted to Role A"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Privilege OWNERSHIP is granted to role SYSADMIN"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Privilege SELECT is granted to Role B"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Snowflake Administrator created a role ROLE_MANAGED_ACCESS and a schema SCHEMA_MANAGED_ACCESS as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/snowpro-advanced-administrator/image14.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Administrator now wants to disable the managed access on the schema."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can this be accomplished?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ALTER SCHEMA SCHEMA_MANAGED_ACCESS DISABLE MANAGED ACCESS;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. USE ROLE ROLE_MANAGED_ACCESS;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "DROP SCHEMA WORK.SCHEMA_MANAGED_ACCESS;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "CREATE SCHEMA SCHEMA_MANAGED_ACCESS;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Then recreate all needed objects."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. REVOKE SELECT, INSERT ON FUTURE TABLES IN SCHEMA SCHEMA_MANAGED_ACCESS FROM"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ROLE MANAGED ACCESS;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "ALTER SCHEMA SCHEMA_MANAGED_ACCESS DISABLE MANAGED ACCESS;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. USE ROLE ROLE_MANAGED_ACCESS;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "DROP SCHEMA WORK.SCHEMA_MANAGED_ACCESS;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "CREATE SCHEMA SCHEMA_MANAGED_ACCESS WITHOUT MANAGED ACCESS;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Then recreate all needed objects."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are characteristics of Dynamic Data Masking? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A masking policy that is currently set on a table can be dropped."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A single masking policy can be applied to columns in different tables."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A masking policy can be applied to the VALUE column of an external table."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The role that creates the masking policy will always see unmasked data in query results."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A single masking policy can be applied to columns with different data types."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 3,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What roles can be used to create network policies within Snowflake accounts? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SYSADMIN"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SECURITYADMIN"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ACCOUNTADMIN"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ORGADMIN"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Any role with the global permission of CREATE NETWORK POLICY"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Any rote that owns the database where the network policy is created"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCE",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam SnowPro Advanced Administrator topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "For Snowflake network policies, what will occur when the account_level and user_level network policies are both defined?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The account_level policy will override the user_level policy."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The user_level policy will override the account_level policy."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The user_level network policies will not be supported."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A network policy error will be generated with no definitions provided."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam SnowPro Advanced Administrator topic 2 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are benefits of using Snowflake organizations? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Administrators can change Snowflake account editions on-demand based on need."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Administrators can monitor and understand usage across all accounts in the organization."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Administrators can simplify data movement across all accounts within the organization."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. User administration is simplified across all accounts within the organization."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Administrators have the ability to create accounts in any available cloud provider or region."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam SnowPro Advanced Administrator topic 2 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A resource monitor named MONTHLY_FINANCE_LIMIT has been created and applied to two virtual warehouses (fin_wh1 and fin_wh2) using the following SQL:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/snowpro-advanced-administrator/image26.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On December 23rd, the combined total of credits consumed by fin_wh1 and fin_wh2, including cloud services, reaches 800 credits and both warehouses are suspended."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statements should the ACCOUNTADMIN execute to allow both warehouses to be resumed? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. alter warehouse fin_wh1 resume:"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "alter warehouse fin_wh2 resume;"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. alter warehouse fin_wh1 unset resource monitor MONTHLY_FINANCE_LIMIT; alter warehouse fin_wh2 unset resource monitor MONTHLY_FINANCE_LIMIT;"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. alter resource monitor MONTHLY_FINANCE_LIMIT set credit_quota = 1500;"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. alter resource monitor MONTHLY_FINANCE_LIMIT reset;"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. alter warehouse fin_wh1 unset resource_monitor;"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "alter warehouse fin_wh2 unset resource_monitor;"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CE",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam SnowPro Advanced Administrator topic 2 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are benefits of creating and maintaining resource monitors in Snowflake? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The cost of running a resource monitor is only 10% of a credit, per day of operation."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Multiple resource monitors can be applied to a single virtual warehouse."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Resource monitors add no additional load to virtual warehouse compute."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Multiple triggers can be configured across various virtual warehouse thresholds."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Resource monitor governance is tightly controlled and monitors can only be created by the ACCOUNTADMIN role or users with the CREATE MONITOR privilege."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Resource monitors can be applied to more than one virtual warehouse."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CDF",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam SnowPro Advanced Administrator topic 3 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is a characteristic of Snowflake's transaction locking and concurrency modeling?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A deadlock cannot occur in Snowflake, since concurrently executed queries and DML statements do not block one another."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. If two queries are concurrently executed against the same table, one of the two queries will be blocked until the other query completes."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Transaction locking in Snowflake is enforced exclusively at the row and table levels."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Queries executed within a given transaction see that transaction's uncommitted changes."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam SnowPro Advanced Administrator topic 4 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What session parameter can be used to test the integrity of secure views based on the account that is accessing that view?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. MIMIC_CONSUMER_ACCOUNT"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. TEST_ACCOUNT_ID"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. PRODUCER_TEST_ACCT"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SIMULATED_DATA_SHARING_CONSUMER"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam SnowPro Advanced Administrator topic 4 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Company A uses Snowflake to manage audio files of call recordings. Company A hired Company B, who also uses Snowflake, to transcribe the audio files for further analysis."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Company A's Administrator created a share."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What object should be added to the share to allow Company B access to the files?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A secure view with a column for file URLs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A secure view with a column for pre-signed URLs."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A secure view with a column for METADATA$FILENAME."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A secure view with a column for the stage name and a column for the file path."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam SnowPro Advanced Administrator topic 5 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are characteristics of data replication in Snowflake? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The ALTER DATABASE ... ENABLE REPLICATION TO ACCOUNTS command must be issued from the primary account."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Users must be granted REPLICATIONADMIN privileges in order to enable replication."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. To start replication run the ALTER DATABASE ... REFRESH command on the account where the secondary database resides."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Replication can only occur within the same cloud provider."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Databases created from shares can be replicated."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Users can have unlimited primary databases and they can be replicated to an unlimited number of accounts if all accounts are within the same organization."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ACE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "ACF",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

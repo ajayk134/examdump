@@ -1,0 +1,321 @@
+{
+  "Certified MuleSoft Integration Architect I__4df4577849d50747": {
+    "Question #: 1": {
+      "Title": "Exam Certified MuleSoft Integration Architect I topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Refer to the exhibits."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An Order microservice and a Fulfillment microservice are being designed to communicate with their clients through message-based integration (and NOT through API invocations)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Order microservice publishes an Order message (a kind of command message) containing the details of an order to be filled. The intent is that Order messages are only consumed by one Mule application: the Fulfillment microservice."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Fulfillment microservice consumes Order messages, fills the orders described therein, and then publishes a Fulfillment message (a kind of event message). Each Fulfillment message can be consumed by any interested Mule application, and the Order microservice is one such Mule application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the recommended choice of message broker(s) and message destination(s) in this scenario?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://img.examtopics.com/certified-mulesoft-integration-architect-i/image1.png"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Order messages are sent to a JMS queue."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Fulfillment messages are sent to a JMS topic."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Both microservices interact with the same JMS provider (message broker) instance, which must therefore scale to support the load of both microservices."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/certified-mulesoft-integration-architect-i/image2.png"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Order messages are sent directly to the Fulfillment microservice."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Fulfillment messages are sent directly to the Order microservice."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "The order microservice interacts with one Advanced Message Queuing Protocol (AMQP)- compatible message broker and the Fulfillment microservice interacts with a different AMQP-compatible message broker so that both message brokers can be chosen and scaled to best support redelivery to each microservice and future auditing and integrations."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/certified-mulesoft-integration-architect-i/image3.png"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Order messages are sent to an Anypoint MQ exchange."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Fulfillment messages are sent to an Anypoint MQ queue."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Both microservices interact with Anpoint MQ as the message broker, which must therefore scale to support the load of both microservices."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/certified-mulesoft-integration-architect-i/image4.png"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Order messages are sent to a JMS topic."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "Fulfillment messages are sent to a JMS queue."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "The Order microservice interacts with one JMS provider (message broker) and the Fulfillment microservice interacts with a different JMS provider so that both message brokers can be chosen and scaled to best support the load of each microservice."
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "image",
+              "src": "https://img.examtopics.com/certified-mulesoft-integration-architect-i/image5.png"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam Certified MuleSoft Integration Architect I topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Why would an Enterprise Architect use a single enterprise-wide canonical data model (CDM) when designing an integration solution using Anypoint Platform?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. To reduce dependencies when integrating multiple systems that use different data formats"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To remove the need to perform data transformation when processing message payloads in Mule applications"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. To leverage a data abstraction layer that shields existing Mule applications from non-backward compatible changes to the model\u2019s data structure"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. To automate AI-enabled API implementation generation based on normalized backend databases from separate vendors"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam Certified MuleSoft Integration Architect I topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A manufacturing company wants to share inventory updates with dealers D1 and D2 asynchronously and concurrently via Queues Q1 and Q2. Dealer D1 must consume the messages from the Queue Q1, and Dealer D2 must consume the messages from the Queue Q2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dealer D1 has implemented a retry mechanism to reprocess the transaction. In case of any errors while processing the inventory updates. Dealer D2 has not implemented any retry mechanism."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How should the dealers acknowledge the message to avoid message loss and minimize impact on the current implementation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Dealer D1 and Dealer D2 must use AUTO acknowledgement and acknowledge the message after successful processing"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Dealer D1 can use AUTO acknowledgement and Dealer D2 can use IMMEDIATE acknowledgement and acknowledge the message after successful processing"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Dealer D1 can use AUTO acknowledgement and Dealer D2 must use MANUAL acknowledgement and acknowledge the message after successful processing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Dealer D2 must use AUTO acknowledgement and Dealer D1 can use MANUAL acknowledgement and acknowledge the message after successful processing"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3389 @@
+{
+  "C9510-418__a6e364c3a83abafa": {
+    "Question #: 1": {
+      "Title": "Exam C9510-418 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming there are no custom properties defined in current plugin-cfg.xml file, what should be done before running the GenPluginCfg command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Delete the global plugin-cfg.xml in the <profile_root>/config/cells directory."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Delete the current plugin-cfg.xml in the <profile_root>/config/cells directory."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Clear the Enable automated web server configuration processing option in the web server plugin configuration service."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use either the Integrated Solutions Console or the ConfigurewebServerDefinition.jacl script to create a web server definition."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Delete the plugin-cfg.xml file in the profile_root/config/cells directory before you use the GenPluginCfg command. Otherwise, configuration changes do not persist to the plugin-cfg.xml file. However, do not delete the plugin-cfg.xml file if you have custom properties that you previously set in it that you need to persist."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: You can update the global plugin-cfg.xml file using the administrative console or running the GenPluginCfg command for all of the clusters in a cell."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, you must delete the config/cells/plugin-cfg.xml file before you update the global plugin-cfg.xml file. If you do not delete the config/cells/plugin-cfg.xml file, only the new properties and their values are added to the global plugin-cfg.xml file. Any updates to existing plug-in property values are not added to the global plugin-cfg.xml file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/rxml_genplugincfg1.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Delete the plugin-cfg.xml file in the profile_root/config/cells directory before you use the GenPluginCfg command. Otherwise, configuration changes do not persist to the plugin-cfg.xml file. However, do not delete the plugin-cfg.xml file if you have custom properties that you previously set in it that you need to persist."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: You can update the global plugin-cfg.xml file using the administrative console or running the GenPluginCfg command for all of the clusters in a cell."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, you must delete the config/cells/plugin-cfg.xml file before you update the global plugin-cfg.xml file. If you do not delete the config/cells/plugin-cfg.xml file, only the new properties and their values are added to the global plugin-cfg.xml file. Any updates to existing plug-in property values are not added to the global plugin-cfg.xml file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/rxml_genplugincfg1.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam C9510-418 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator installs IBM WebSphere Application Server and an HTTP server, but when configuring the environment, the administrator finds that the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WebSphere Plug-in is missing."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which tool can be used to fix this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Customization Tool Box"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IBM Installation Manager"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Profile Management Tool"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Integrated Solutions Console"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the WebSphere Integrated Solutions Console, the web server is represented as a specific server type, and you can view or modify all of the configuration properties used in the plugin-cfg.xml file for the web server plug-in from the WebSphere Integrated Solutions Console."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSHRKX_8.0.0/plan/plan_ihs.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In the WebSphere Integrated Solutions Console, the web server is represented as a specific server type, and you can view or modify all of the configuration properties used in the plugin-cfg.xml file for the web server plug-in from the WebSphere Integrated Solutions Console."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSHRKX_8.0.0/plan/plan_ihs.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam C9510-418 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator notices that the Message Driven Beans (MDBs) are slow to complete, and decides to increase the \"\u02dcMaximum concurrent MDB invocations per endpoint'."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which thread pool should be tuned to ensure it can run the maximum number of MDBs without waiting?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Default"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. WebContainer"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SIBJMSRAThreadPool"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. WMQJCAResourceAdapter"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The thread pool WMQJCAResourceAdapter is referenced by the WebSphere MQ (WMQ) resource adapter inbound delivery to MDB's. When WebSphere MQ resource adapter is used in conjunction with the activation specs, the resource adapter's Work Manager uses the values defined for the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WMQJCAResourceAdapter for utilizing the total number of threads defined."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ideally the default values provides for the WMQJCAResourceAdapter will be sufficient for the resource adapter. But in case there is an heavy load on the system processing huge number of messages, you can increase the maximum number of threads the thread pool can hold."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/docview.wss?uid=swg21383363"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The thread pool WMQJCAResourceAdapter is referenced by the WebSphere MQ (WMQ) resource adapter inbound delivery to MDB's. When WebSphere MQ resource adapter is used in conjunction with the activation specs, the resource adapter's Work Manager uses the values defined for the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WMQJCAResourceAdapter for utilizing the total number of threads defined."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Ideally the default values provides for the WMQJCAResourceAdapter will be sufficient for the resource adapter. But in case there is an heavy load on the system processing huge number of messages, you can increase the maximum number of threads the thread pool can hold."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www-01.ibm.com/support/docview.wss?uid=swg21383363"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam C9510-418 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When setting up high availability settings for the web server, at what level should an administrator configure the custom properties?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. cell"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. node"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. server"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. nodeagent"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/xrun_jvm.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/xrun_jvm.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam C9510-418 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Through what protocol can a Java client directly access EJBs running on an application server?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. JDBC"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. RMI/IIOP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SOAP/JMS"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SOAP/HTTP"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Provided that it uses the correct protocols (SOAP, HTTP, WSDL), any web service client can access a stateless session bean, whether or not the client is written in the Java programming language. The client doesn't even \"know\" what technology implements the service: stateless session bean, JAX-WS, or some other technology. In addition, enterprise beans and web components can be clients of web services. This flexibility enables you to integrate Java EE applications with web services."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/javaee/6/tutorial/doc/gipjf.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Provided that it uses the correct protocols (SOAP, HTTP, WSDL), any web service client can access a stateless session bean, whether or not the client is written in the Java programming language. The client doesn't even \"know\" what technology implements the service: stateless session bean, JAX-WS, or some other technology. In addition, enterprise beans and web components can be clients of web services. This flexibility enables you to integrate Java EE applications with web services."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/javaee/6/tutorial/doc/gipjf.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam C9510-418 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two methods are used for communicating session linkages between the client and the server? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Cookies"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. LTPA Token"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Rest Services"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. URL Rewriting"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. HTTP Response codes"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Representational State Transfer (REST) is a lightweight framework for designing applications that use HTTP to make calls. REST uses HTTP to perform the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create, Read, Update, and Delete (CRUD) operations between client and server. Applications interact with the services by using HTTP, POST, PUT, GET, and"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DELETE operations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSZLC2_7.0.0/com.ibm.commerce.webservices.doc/concepts/cwvrest.htm"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Representational State Transfer (REST) is a lightweight framework for designing applications that use HTTP to make calls. REST uses HTTP to perform the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Create, Read, Update, and Delete (CRUD) operations between client and server. Applications interact with the services by using HTTP, POST, PUT, GET, and"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DELETE operations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSZLC2_7.0.0/com.ibm.commerce.webservices.doc/concepts/cwvrest.htm"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam C9510-418 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to verify an IBM WebSphere Application Server installation by examining the installation's directory structure. In this example,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "<WAS_installation_directory> indicates the installation's root directory."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is one directory tree structure that indicates a successful installation of the product files?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <WAS_installation_directory>/web"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <WAS_installation_directory>/bin"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <WAS_installation_directory>/profiles"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <WAS_installation_directory>/installableApps"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Application Server Version 8.5.5 for Network Deployment:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/QIBM/UserData/WebSphere/AppServer/V85/ND/profiles/wp_profile/PortalServer"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSYJ99_8.5.0/reference/wpsdirstr.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Application Server Version 8.5.5 for Network Deployment:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "/QIBM/UserData/WebSphere/AppServer/V85/ND/profiles/wp_profile/PortalServer"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSYJ99_8.5.0/reference/wpsdirstr.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam C9510-418 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A system administrator has just enabled HPEL in the environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can the administrator examine the logged data?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the ViewLog command."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the administrative console."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use a text editor to open the systemOut.log file."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the IBM Support Assistant to analyze the text log."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "High Performance Extensible Logging (HPEL) is a log and trace facility that is provided as a part of WebSphere\u00c2\u00ae Application Server. HPEL provides a log data repository, a trace data repository, and a text log file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The HPEL LogViewer is an easy-to-use, command-line tool provided for HPEL users to work with the log data and trace data repositories."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the following command to view the full contents of your log and trace repositories:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[Windows] (Windows) logViewer.bat"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[AIX HP-UX Solaris] (Unix- full profile) logViewer.sh"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[AIX HP-UX Solaris] (Unix- Liberty profile) logViewer"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/rtrb_logviewer.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "High Performance Extensible Logging (HPEL) is a log and trace facility that is provided as a part of WebSphere\u00c2\u00ae Application Server. HPEL provides a log data repository, a trace data repository, and a text log file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The HPEL LogViewer is an easy-to-use, command-line tool provided for HPEL users to work with the log data and trace data repositories."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Use the following command to view the full contents of your log and trace repositories:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[Windows] (Windows) logViewer.bat"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[AIX HP-UX Solaris] (Unix- full profile) logViewer.sh"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[AIX HP-UX Solaris] (Unix- Liberty profile) logViewer"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/rtrb_logviewer.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam C9510-418 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How can an administrator configure Web services security?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Customize WS-Security policy set and bindings and attach to Web services."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure global security with LDAP authentication and map the configuration to Web services."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Request application developer to use Web Services Security API to achieve Web services security."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable the Web Services Metadata Exchange (WS-MetadataExchange) protocol to enable message-level security."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Web Services Security specification provides a flexible framework for building secure web services to implement message content integrity and confidentiality."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Web Services Security service programming model supports this flexible framework by providing extension points to integrate new token formats, and methods to obtains keys needed for message protection. The application server programming model provides Web Services Security programming application programming interfaces (WSS API) for securing SOAP messages."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: WS-Security is a message-level standard that is based on securing SOAP messages through XML digital signature, confidentiality through XML encryption, and credential propagation through security tokens. The Web services security specification defines the facilities for protecting the integrity and confidentiality of a message and provides mechanisms for associating security-related claims with the message."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/container_wssec_top.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The Web Services Security specification provides a flexible framework for building secure web services to implement message content integrity and confidentiality."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The Web Services Security service programming model supports this flexible framework by providing extension points to integrate new token formats, and methods to obtains keys needed for message protection. The application server programming model provides Web Services Security programming application programming interfaces (WSS API) for securing SOAP messages."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: WS-Security is a message-level standard that is based on securing SOAP messages through XML digital signature, confidentiality through XML encryption, and credential propagation through security tokens. The Web services security specification defines the facilities for protecting the integrity and confidentiality of a message and provides mechanisms for associating security-related claims with the message."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/container_wssec_top.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam C9510-418 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is using the Guided Troubleshooter in the IBM Support Assistant to troubleshoot IBM WebSphere Application Server issues. After going through data collection and analysis, no reliable solution is found."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the administrator's best next step?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Call in a new PMR with IBM and upload Troubleshooter data to ECuREP."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Open a new PMR with IBM and upload SystemOut.log from the IBM WebSphere Application Server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Submit results to the IBM WebSphere Application Server forum for a quick response from other forum users."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the Guided Troubleshooter to open a service request with IBM, so all the troubleshooting data analyzed so far is uploaded automatically."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam C9510-418 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which is true when an administrator properly updates a single file within an application?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The administrator can use a partial application update."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The administrator must redeploy the full application file."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The administrator can manually update the file on the file system."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The administrator must uninstall the application, and then, reinstall with the updated application file."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam C9510-418 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In addition to logging changes, what can Cross Component Trace capture?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The user agent of the browser that has initiated the request."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The last time that the component was updated by a code deploy."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The time that the component was started in the application server."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Data snapshots that store entire request and response bodies on the file system."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Cross Component Trace (XCT) annotates the logs so that log entries that are related to a request that is serviced by more than one thread, process, or even server are identified as belonging to the same unit of work."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "XCT log records are typically added to the logs to:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 demarcate the beginning and ending of work for a particular request on a particular thread."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 demarcate when work is about to be transferred to another thread or process, or to indicate when work returned from another thread or process."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 demarcate when work moves from major component to major component, even if work continues on the same thread; for example to show transfer of control from application server code to application code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/ctrb_XCTOverview.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Cross Component Trace (XCT) annotates the logs so that log entries that are related to a request that is serviced by more than one thread, process, or even server are identified as belonging to the same unit of work."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "XCT log records are typically added to the logs to:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 demarcate the beginning and ending of work for a particular request on a particular thread."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 demarcate when work is about to be transferred to another thread or process, or to indicate when work returned from another thread or process."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 demarcate when work moves from major component to major component, even if work continues on the same thread; for example to show transfer of control from application server code to application code."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/ctrb_XCTOverview.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam C9510-418 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following can be queried to get PMI data?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Server Cell"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. JMX Connectors"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. MBean ObjectNames"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Application ServerNames"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PMI data can be gathered from the J2EE managed object MBeans or the WebSphere Application Server PMI Perf MBean."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/cprf_pmi_datacol.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "PMI data can be gathered from the J2EE managed object MBeans or the WebSphere Application Server PMI Perf MBean."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/cprf_pmi_datacol.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam C9510-418 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is true about a request made from a browser for a jsp running in an application server?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The HTTP server plug-in loaded with the embedded HTTP server within the application server forwards the request to the application server."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The plug-in configuration file loaded with the embedded HTTP server within the application server forwards the request to the application server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The HTTP server plug-in loaded with the HTTP server forwards the request to the embedded HTTP server within the application server. The embedded server forwards the request into the web container."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The plug-in configuration file loaded with the HTTP server forwards the request to the embedded HTTP server within the application server. The embedded server forwards the request into the web container."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When IBM HTTP Server receives a request for a JSP file, it passes the request to WebSphere Application Server - Express's servlet engine, which calls the JSP processor. The JSP processor is an internal servlet which converts a JSP file into Java source code and compiles it. The servlet that implements the JSP processor is org.apache.jasper.runtime.JspServlet."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When IBM HTTP Server receives a request for a JSP file, it passes the request to WebSphere Application Server - Express's servlet engine, which calls the JSP processor. The JSP processor is an internal servlet which converts a JSP file into Java source code and compiles it. The servlet that implements the JSP processor is org.apache.jasper.runtime.JspServlet."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam C9510-418 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What can an administrator use to remotely manage multiple stand-alone (unfederated) application servers?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Job Manager"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Administrative agent"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Deployment manager"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. remoteServer.jacl script"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Administering nodes remotely using the job manager"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In a flexible management environment, you can asynchronously submit and administer jobs for large numbers of stand-alone application servers, deployment managers, and host computers over a geographically dispersed area. At the remote machines, you can use jobs to manage applications, modify the product configuration, or do general purpose tasks such as run a script."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/tagt_jobmgr.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Administering nodes remotely using the job manager"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In a flexible management environment, you can asynchronously submit and administer jobs for large numbers of stand-alone application servers, deployment managers, and host computers over a geographically dispersed area. At the remote machines, you can use jobs to manage applications, modify the product configuration, or do general purpose tasks such as run a script."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/tagt_jobmgr.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam C9510-418 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When administrative security is enabled, what is the minimum administrative role needed to create a resource, install, and uninstall an application?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Monitor"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Operator"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configurator"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Administrator"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "An individual or group that uses the configurator role has the monitor privilege plus the ability to change the WebSphere Application Server configuration. The configurator can perform all the daily configuration tasks. For example, a configurator can complete the following tasks:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Create a resource."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Map an application server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Install and uninstall an application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Deploy an application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Assign users and groups-to-role mapping for applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Set up Java 2 security permissions for applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: An individual or group that uses the monitor role has the least amount of privileges. A monitor can complete the following tasks:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 View the WebSphere Application Server configuration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 View the current state of the Application Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, D: Not minimal roles."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/rsec_adminroles.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An individual or group that uses the configurator role has the monitor privilege plus the ability to change the WebSphere Application Server configuration. The configurator can perform all the daily configuration tasks. For example, a configurator can complete the following tasks:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Create a resource."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Map an application server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Install and uninstall an application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Deploy an application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Assign users and groups-to-role mapping for applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Set up Java 2 security permissions for applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: An individual or group that uses the monitor role has the least amount of privileges. A monitor can complete the following tasks:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 View the WebSphere Application Server configuration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 View the current state of the Application Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, D: Not minimal roles."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.doc/ae/rsec_adminroles.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam C9510-418 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator configures an IBM DB2data source at cell scope. The environment variable DB2UNIVERSAL_JDBC_DRIVER_PATH is configured at cluster scope. The data source test connection on one node succeeds, but fails on the other node with java.lang.ClassNotFoundException:com.ibm.db2.jcc.DB2ConnectionPoolDataSource."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which of the below is the likely cause for the exception?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The data source is configured at cell scope."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Multiple driver JARs are installed on the second node."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DB2UNIVERSAL_JDBC_DRIVER_PATH is configured at cluster scope."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A different version of the JDBC driver JAR does not exist on the second node."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Check that the variable is correctly defined at the scope where the JDBCProvider/DataSource is defined."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: At runtime, WebSphere Application Server invokes a physical data source by resolving the appropriate variable at a level where one of the following criteria exists:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The scope of the variable can contain the data source configuration; that is, the variable has the larger scope."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The variable and the data source have identical scopes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Application Server meets these conditions by attempting to resolve the variable at each level of the scope spectrum. That is, the product tries to resolve the variable in the server scope, then the cluster scope, then the node scope, and lastly the cell scope."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/SSAW57_8.0.0/com.ibm.websphere.nd.doc/info/ae/ae/cdat_testcon.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Check that the variable is correctly defined at the scope where the JDBCProvider/DataSource is defined."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: At runtime, WebSphere Application Server invokes a physical data source by resolving the appropriate variable at a level where one of the following criteria exists:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The scope of the variable can contain the data source configuration; that is, the variable has the larger scope."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The variable and the data source have identical scopes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Application Server meets these conditions by attempting to resolve the variable at each level of the scope spectrum. That is, the product tries to resolve the variable in the server scope, then the cluster scope, then the node scope, and lastly the cell scope."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/SSAW57_8.0.0/com.ibm.websphere.nd.doc/info/ae/ae/cdat_testcon.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam C9510-418 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the behavior of the default application class loader?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Classes from the parent are excluded."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Classes are loaded from the parent first."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Classes are loaded from the application first."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Classes are compared between parent and application."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam C9510-418 topic 1 question 76 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is true about executing the Installation Verification Tool?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Installation Verification Tool creates profile1."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The Installation Verification Tool starts the application server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The Installation Verification Tool restarts the application server."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The Installation Verification Tool starts the administrative console."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam C9510-418 topic 1 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When server1 is running profile1, in which folder would the application logs be found?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <install_root>\\profiles\\server1\\logs"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <install_root>\\profiles\\profile1\\logs"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <install_root>\\profiles\\profile1\\logs\\server1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <install_root>\\profiles\\server1\\logs\\profile1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSZJPZ_11.7.0/com.ibm.swg.im.iis.found.admin.common.doc/topics/wsadmin_was_log_files.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSZJPZ_11.7.0/com.ibm.swg.im.iis.found.admin.common.doc/topics/wsadmin_was_log_files.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam C9510-418 topic 1 question 78 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is true when an administrator issues the following command? addNode localhost 8879 \"\"includeapps"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The running application server is stopped and the application is overwritten in the new environment."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The running application server continues to run and the application is overwritten in the new environment."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The running application server is stopped and the same version of the application starts in the new environment."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The running application server continues to run and the same version of the application starts in the new environment."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/rxml_addnode.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/rxml_addnode.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam C9510-418 topic 1 question 80 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the maximum number of heap dumps that can exist at once in the IBM WebSphere Application Server home directory?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 10"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 20"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. No limit"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. As many as allowed by disk space"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam C9510-418 topic 1 question 84 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What state must an application edition be in before it can be started?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Active"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Inactive"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Validation"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Deactivated"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/twve_appedact.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/twve_appedact.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam C9510-418 topic 1 question 85 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the purpose of setting the JVM custom property com.ibm.websphere.nodeagent.bootstrap.maxthreadpool = 5 on the node agent?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Start five application server processes in parallel."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use five threads to process parallel requests on node agent."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create five threads to communicate with application servers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create five threads to communicate with deployment manager."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/xrun_jvm.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/support/knowledgecenter/en/SSAW57_8.5.5/com.ibm.websphere.nd.multiplatform.doc/ae/xrun_jvm.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam C9510-418 topic 1 question 91 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What must be done to uninstall an application using the monitored directory functionality?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Put a file named ApplicationName_delete in the monitored directory."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add a version of the application with no files inside of it to the monitored directory."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add a <delete> tag to the web.xml of the application, and add the file to the monitored directory."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add a properties file that has DELETE=true in the header of the properties sections, and add it to the monitored directory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam C9510-418 topic 1 question 95 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What information must the system administrator have to successfully tune a connection pool?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The requests per second that occur during a peak."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The MaxConnections and WaitingCount values."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The number of concurrent requests waiting for a connection."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. How long the database takes to respond to SELECT operations only."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ftp://ftp.software.ibm.com/software/iea/content/com.ibm.iea.was_v6/waspdguide/6.0/Configuration/SW5706G09_ConnectionPool.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ftp://ftp.software.ibm.com/software/iea/content/com.ibm.iea.was_v6/waspdguide/6.0/Configuration/SW5706G09_ConnectionPool.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam C9510-418 topic 1 question 97 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What does the \"Update all\" selection install by default if no further action is taken?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All updates are installed for all installed package groups."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. All updates for only the selected package group are installed."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Only recommended updates for all installed package groups are installed."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Only recommended updates for the selected package groups are installed."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam C9510-418 topic 1 question 99 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following describes how communication occurs when a Web Services client sends a request to an application server?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Through SOAP over HTTP and passing through the web services engine"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Through SOAP over JMS and passing through the embedded HTTP server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Through RMI over IIOP communication directly to the messaging engine within the application server"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Through SOAP over JMS communications directly to the messaging engine within the application server"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam C9510-418 topic 1 question 102 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When using wsadmin to install an application, what is important to do before trying to issue additional configuration commands against that application?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Check the deployment status."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Check the application has started."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Check the application shared libraries."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Check the application has received a request."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam C9510-418 topic 1 question 108 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which is true statement regarding the Administrative security role and its purpose?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Admin Security Manager has the ability to map other users to applications."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The Admin Security Manager has the ability to map other users to administrative roles."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The Integrated Solutions Console administrator has ability to map other users to applications."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The Integrated Solutions Console administrator has ability to map other users to administrative roles."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam C9510-418 topic 1 question 110 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When installing applications to IBM WebSphere Application Server, what is one important difference between RAR files and SAR, WAR, EAR, and JAR files?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They contain no Java code."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They are deployed to the web server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They can be installed at different scopes."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They use a different compression protocol."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam C9510-418 topic 1 question 111 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is one of the steps to enable single sign-on (SSO) between multiple IBM WebSphere Application Servers?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Retrieve an LTPA key file from IBM Support."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Generate an LTPA key file from IBM Rational Application Developer."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Retrieve the LTPA key file from the installation media, and import into the WebSphere Integrated Solutions Console."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Export an LTPA key and password from one of the IBM WebSphere Application Server cells, and import it into other cells that are participating in SSO."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam C9510-418 topic 1 question 116 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator configured Web authentication for a Web module deployed in an application server to protect the URL. After this configuration, application users could not load images that are protected on the web page."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In addition to configuring com.ibm.wsspi.security.web.webAuthReq as a JVM custom property, which two property values can an administrator set to resolve the problem? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. lazy"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. eager"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. always"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. transient"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. persisting"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam C9510-418 topic 1 question 118 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement describes an administrative request to start a server in a cell topology?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The admin application running on the node forwards the request."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The request is sent to the web server running on the node agent."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The request is sent to the admin service running on the node agent."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The admin service running on the application server forwards the request."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam C9510-418 topic 1 question 119 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which tool can be used to analyze and tune performance for memory leak detection?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Thread monitor"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configuration validation"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Performance and Diagnostic Advisor"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. IBM Tivoli Performance Viewer advisor"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/developerworks/websphere/techjournal/1208_hare/1208_hare.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/developerworks/websphere/techjournal/1208_hare/1208_hare.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 36": {
+      "Title": "Exam C9510-418 topic 1 question 121 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which of the following is a valid step in the process to update a single file in a deployed enterprise application using the monitored directory?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Modify the property file to set the time when the file should be deployed to the application."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Modify the property file to set the email address of the administrator to email when the file is updated."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Modify the property file to set the URL to the location where the file can be retrieved from the internet."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Modify the property file to set the type of the operation, the location of the file, and the location within the deployed application where the file will go."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam C9510-418 topic 1 question 128 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator upgrades the IBM DB2 JDBC driver. The test connection operation fails. On checking the System.Out log the administrator finds that the JVM is still using the old JDBC driver."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What could be the possible reason for the failure?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. No driver JARs exist."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The driver upgrade failed."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. There are multiple drivers in the provider classpath."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. DB2UNIVERSAL_JDBC_DRIVER_PATH was NULL."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

@@ -1,0 +1,6487 @@
+{
+  "1z0-134__191f9bbca0c054c9": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-134 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "I am configuring the security policy for my JMS module. I am specifying some security conditions for the module."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two security conditions are valid in this context? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The JMS module can be accessed only between 1 pm and 6 pm."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The JMS module should throw a custom security exception on invalid access."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The JMS module can process only 50 messages at a time."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The JMS module can be accessed only by users belonging to the Operators group."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The JMS module can be accessed in a receive-only mode."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "There are two security conditions:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* time-constrained"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* By Group or User"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/html/E24401_02/taskhelp/jms_modules/modules/ConfigureJMSModuleSecurityPolicies.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "There are two security conditions:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* time-constrained"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* By Group or User"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/html/E24401_02/taskhelp/jms_modules/modules/ConfigureJMSModuleSecurityPolicies.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-134 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are creating and configuring a production WebLogic Server (WLS) domain that is highly available. Which three WebLogic Server features allow you to best accomplish this requirement? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Multiple standalone managed servers"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Load Balancer"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Cluster"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. DNS caching"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Whole-server migration"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Machine migration"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B Load balancing is the even distribution of jobs and associated communications across the computing and networking resources in your environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: In a WebLogic Server cluster, application processing can continue when a server instance fails."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Migration in WebLogic Server is the process of moving a clustered WebLogic Server instance or a component running on a clustered instance elsewhere if failure occurs. This is called Whole-server migration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E23943_01/core.1111/e10106/aa.htm#ASHIA4083"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "B Load balancing is the even distribution of jobs and associated communications across the computing and networking resources in your environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: In a WebLogic Server cluster, application processing can continue when a server instance fails."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Migration in WebLogic Server is the process of moving a clustered WebLogic Server instance or a component running on a clustered instance elsewhere if failure occurs. This is called Whole-server migration."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E23943_01/core.1111/e10106/aa.htm#ASHIA4083"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-134 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "My JMS file store size has grown very large and is using up a significant chunk of the disk. I need to reduce the file size during the maintenance window without impacting any relevant information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which utility enables me to do this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. weblogic.store.Compacter"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. weblogic.store.Admin"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. weblogic.store.Reducer"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. weblogic.file.FileUtil"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To open the persistent store administration utility from a Java command line, type the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "> java weblogic.store.Admin"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Here is an example of using the compact command to compact the space occupied by a file store in the mystores directory."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "> storeadmin->compact -dir c:\\mystores -tempdir c:\\tmp"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/middleware/1212/wls/CNFGD/store.htm#CNFGD275"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To open the persistent store administration utility from a Java command line, type the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "> java weblogic.store.Admin"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Here is an example of using the compact command to compact the space occupied by a file store in the mystores directory."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "> storeadmin->compact -dir c:\\mystores -tempdir c:\\tmp"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/middleware/1212/wls/CNFGD/store.htm#CNFGD275"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-134 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your WebLogic Server (WLS) environment consists of multiple domains."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which is a true statement about WLS domains? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Multiple domains can use the same or separate WLS installation while running on the same machine."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Domains require a minimum of one managed server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Multiple domains require separate WLS installations while running on the same machine."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Multiple domains require individual Node Managers while running on the same machine."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Multiple domains can share the same administration server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can use a single Oracle WebLogic Server installation to create and run multiple domains, or you can use multiple installations to run a single domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Domains include a special WebLogic Server instance called the Administration Server, which is the central point from which you configure and manage all resources in the domain. Usually, you configure a domain to include additional WebLogic Server instances called Managed Servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: A single WLS installation can have multiple domains."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02273/0000800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: By specifying multiple domains in the nodemanager.domains file, you can configure a single, machine-scoped Node Manager process which manages server instances belonging to multiple WebLogic domains."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Each domain requires its own Administration Server for performing management activities."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E12839_01/web.1111/e13716/understand_domains.htm#DOMCF116"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can use a single Oracle WebLogic Server installation to create and run multiple domains, or you can use multiple installations to run a single domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Domains include a special WebLogic Server instance called the Administration Server, which is the central point from which you configure and manage all resources in the domain. Usually, you configure a domain to include additional WebLogic Server instances called Managed Servers."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: A single WLS installation can have multiple domains."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02273/0000800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: By specifying multiple domains in the nodemanager.domains file, you can configure a single, machine-scoped Node Manager process which manages server instances belonging to multiple WebLogic domains."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Each domain requires its own Administration Server for performing management activities."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E12839_01/web.1111/e13716/understand_domains.htm#DOMCF116"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-134 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are asked to configure Node Manager for your production environment. You are considering whether to use the Java version or the script-based version of"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Node Manager."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement correctly describes the difference between the two versions?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. If you are installing WebLogic Server on a Windows system, you must use the Java version of Node Manager."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The script-based version of Node Manager can be used in conjunction with inetd on supported UNIX systems."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The script-based version of Node Manager requires a larger footprint than the Java version."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. When Node Manager is used for consensus leasing, you may see faster performance with the script-based version."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Java-based Node Manager runs within a Java Virtual Machine (JVM) process. It is recommended that you run it as a Windows service on Windows platforms and as an operating system service on UNIX platforms."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For UNIX and Linux systems, WebLogic Server provides a script-based version of Node Manager."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E12839_01/web.1111/e13740/overview.htm#NODEM113"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Java-based Node Manager runs within a Java Virtual Machine (JVM) process. It is recommended that you run it as a Windows service on Windows platforms and as an operating system service on UNIX platforms."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For UNIX and Linux systems, WebLogic Server provides a script-based version of Node Manager."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E12839_01/web.1111/e13740/overview.htm#NODEM113"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-134 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your organization is using a Multi data source (MDS) on WebLogic Server to support applications connecting to an Oracle RAC database. You have been tasked with configuring a new callback handler for the MDS."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true concerning related MDS options and behavior? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Callback handlers are optional when using the Failover MDS Algorithm."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. If the Failover Callback Handler attribute is set on the MDS, the Test Frequency attribute is no longer used."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Callback handlers are called for both failover and failback decisions."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You can register only one callback handler for each WebLogic server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: A callback handler used to control the failover and failback within a multi data source must include an implementation of the weblogic.jdbc.extensions.ConnectionPoolFailoverCallback interface."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: You can register a callback handler with WebLogic Server that controls when a multi data source with the Failover algorithm fails over connection requests from one JDBC data source in the multi data source to the next data source in the list."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Frequency of these tests is controlled by the Test Frequency Seconds attribute of the multi source. The default value for Test Frequency is 120 seconds, so if you do not specifically set a value for the option, the multi data source will test disabled data sources every 120 seconds."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E23943_01/web.1111/e13737/jdbc_multidatasources.htm#JDBCA223"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "C: A callback handler used to control the failover and failback within a multi data source must include an implementation of the weblogic.jdbc.extensions.ConnectionPoolFailoverCallback interface."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: You can register a callback handler with WebLogic Server that controls when a multi data source with the Failover algorithm fails over connection requests from one JDBC data source in the multi data source to the next data source in the list."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Frequency of these tests is controlled by the Test Frequency Seconds attribute of the multi source. The default value for Test Frequency is 120 seconds, so if you do not specifically set a value for the option, the multi data source will test disabled data sources every 120 seconds."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E23943_01/web.1111/e13737/jdbc_multidatasources.htm#JDBCA223"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-134 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are managing and monitoring durable subscribers for your JMS topics to ensure that all the subscribers would receive persistent messages."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "However, JMS connections are currently restricted, so only one connection with the same client ID could exist in the scope of your cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On which page of the Administration Console can you set Client ID Policy to unrestricted in order to lift this restriction? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Topic > Monitoring > Durable Subscribers"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Connection Factory > Configuration > Client"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Topic > Configuration > Thresholds and Quotas"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Topic > Configuration > Overrides"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Topic > Configuration > Durable Subscribers"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. JMS Server > Configuration > Durable Subscribers"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can find help on Client ID Policy configuration through the following path:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "OTN Home > Oracle WebLogic Server 12.1.1.0 Documentation > Administration Console Online Help > JMS Connection Factory: Configuration: Client"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E24329_01/apirefs.1211/e24401/pagehelp/JMSjmsconnectionjmsconnectionfactoryconfigclientparamstitle.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can find help on Client ID Policy configuration through the following path:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "OTN Home > Oracle WebLogic Server 12.1.1.0 Documentation > Administration Console Online Help > JMS Connection Factory: Configuration: Client"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E24329_01/apirefs.1211/e24401/pagehelp/JMSjmsconnectionjmsconnectionfactoryconfigclientparamstitle.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-134 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the domain diagram:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02273/0001100001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the correct path within the configuration hierarchy to the MBean that contains the log rotation parameters for server04? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. /Servers/server04/Log/server04"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. /server04/log/rotation"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /Cluster01/server04/log"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /Machine02/server04/log"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. /Logs/server04"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. /TestDomain/server04/log"
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. /server04/log"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-134 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two automatic migration scenarios require node manager for all migratable services? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Consensus leasing"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Database leasing with no pre and post migration scripts"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Database leasing with pre and post migration scripts"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Synchronous leasing"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When using automatic service migration, the Node Manager is required to get health monitoring information about the member servers involved, as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Consensus leasing Node Manager must be running on every machine hosting managed servers within the cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Database leasing Node Manager must be running on every machine hosting managed servers within the cluster only if pre/post-migration scripts are defined. If pre/post-migrations are not defined, then Node manager is not required."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs103/cluster/service_migration.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When using automatic service migration, the Node Manager is required to get health monitoring information about the member servers involved, as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Consensus leasing Node Manager must be running on every machine hosting managed servers within the cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Database leasing Node Manager must be running on every machine hosting managed servers within the cluster only if pre/post-migration scripts are defined. If pre/post-migrations are not defined, then Node manager is not required."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs103/cluster/service_migration.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-134 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are trying to set up a JMS Session with a specified acknowledgment mode. You want the application that receives the message to explicitly take care of the acknowledgment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option represents a valid choice for the acknowledgment mechanism that you can use? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. AUTO_ACKNOWLEDGE"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. CLIENT_ACKNOWLEDGE"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. DUPS_OK_ACKNOWLEDGE"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. DEFAULT_ACKNOWLEDGE"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "With CLIENT_ACKNOWLEDGE the Session object relies on the application to call an acknowledge method on a received message. Once the method is called, the session acknowledges all messages received since the last acknowledge."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: With CLIENT_ACKNOWLEDGE the Session object acknowledges receipt of a message once the receiving application method has returned from processing it."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: With DUPS_OK_ACKNOWLEDGE the Session object acknowledges receipt of a message once the receiving application method has returned from processing it; duplicate acknowledges are permitted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: There is no acknowledge mode named DEFAULT_ACKNOWLEDGE."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E12840_01/wls/docs103/jms/fund.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "With CLIENT_ACKNOWLEDGE the Session object relies on the application to call an acknowledge method on a received message. Once the method is called, the session acknowledges all messages received since the last acknowledge."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: With CLIENT_ACKNOWLEDGE the Session object acknowledges receipt of a message once the receiving application method has returned from processing it."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: With DUPS_OK_ACKNOWLEDGE the Session object acknowledges receipt of a message once the receiving application method has returned from processing it; duplicate acknowledges are permitted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: There is no acknowledge mode named DEFAULT_ACKNOWLEDGE."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E12840_01/wls/docs103/jms/fund.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-134 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a multithreaded application that looks up the WebLoqic JMS ConnectionFactory object from the JNDI tree."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is correct in this scenario? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is not permitted. A multithreaded application cannot access the ConnectionFactory object."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The access to ConnectionFactory object MUST be synchronized."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The ConnectionFactory object can be referenced in a multithreaded application without any special considerations."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Multiple threads trying to use the ConnectionFactory object simultaneously will throw an exception."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. In a multithreaded scenario, connection objects cannot be safely created from the ConnectionFactory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A connection factory supports concurrent use, enabling multiple threads to access the object simultaneously."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A session and its message producers and consumers can only be accessed by one thread at a time (i.e. the access must be synchronized). Their behavior is undefined if multiple threads access them simultaneously."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A, E: A connection factory supports concurrent use, enabling multiple threads to access the object simultaneously."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, D: A session and its message producers and consumers can only be accessed by one thread at a time. Their behavior is undefined if multiple threads access them simultaneously."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E12840_01/wls/docs103/jms/fund.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A connection factory supports concurrent use, enabling multiple threads to access the object simultaneously."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A session and its message producers and consumers can only be accessed by one thread at a time (i.e. the access must be synchronized). Their behavior is undefined if multiple threads access them simultaneously."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A, E: A connection factory supports concurrent use, enabling multiple threads to access the object simultaneously."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, D: A session and its message producers and consumers can only be accessed by one thread at a time. Their behavior is undefined if multiple threads access them simultaneously."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E12840_01/wls/docs103/jms/fund.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-134 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are planning to use WebLogic JMS for implementing my enterprise messaging architecture. Which messaging paradigm is invalid in this context? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Point to Point messaging"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Publish Subscribe messaging"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Datagram messaging"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Persistent messaging"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A, B: JMS supports two messaging models: point-to-point (PTP) and publish/subscribe (pub/sub)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: As per the \"Message Delivery Mode\" section of the JMS Specification, messages can be specified as persistent or non-persistent."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E12840_01/wls/docs103/jms/fund.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A, B: JMS supports two messaging models: point-to-point (PTP) and publish/subscribe (pub/sub)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: As per the \"Message Delivery Mode\" section of the JMS Specification, messages can be specified as persistent or non-persistent."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E12840_01/wls/docs103/jms/fund.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-134 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You need to make sure that a JMS Message never expires."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What value should you set for the JMSExpiration header? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 999"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1000"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "WebLogic JMS calculates the JMSExpiration value as the sum of the application's time-to-live and the current GMT. If the application specifies time-to-live as 0,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JMSExpiration is set to 0, which means the message never expires."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs90/jms/fund.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "WebLogic JMS calculates the JMSExpiration value as the sum of the application's time-to-live and the current GMT. If the application specifies time-to-live as 0,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JMSExpiration is set to 0, which means the message never expires."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs90/jms/fund.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-134 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What does the WLST command pwd() do?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Displays the current location in the configuration or runtime bean hierarchy."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Displays the location in the file system where the current WLST session was launched."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Initiates an operation to change the current WLST user\u2019s password."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Prints the name of the current domain."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Prints the name of the current server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The pwd command displays the current location in the configuration or runtime bean hierarchy."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This command is useful when you have turned off the prompt display of the path information using the prompt command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs92/config_scripting/reference.html#wp1175219"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The pwd command displays the current location in the configuration or runtime bean hierarchy."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This command is useful when you have turned off the prompt display of the path information using the prompt command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs92/config_scripting/reference.html#wp1175219"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-134 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "For some reason, servers in your domain are failing. The host machines are pingable and the WebLogic JVM processes are running but the getState() method on the ServerRuntimeMBean reports FAILED."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the future, when this happens, you want these failed servers to be shut down and then restarted automatically without human intervention. At the same time, you want to constrain how much time will be spent restarting those servers and how many restart attempts will be made."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Pick the two options that would help with this situation. (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. For each server (or cluster), set RestartInterval to an appropriate positive integer."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. When starting Node Manager, use the WLST nmStart command and pass in a WLST properties object with RestartMax set to an appropriate positive integer."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Start the servers by executing the restartManagedWebLogic.sh script in the domain\u2019s /bin directory."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Make sure all managed servers are members of a cluster with ReplicationGroupsEnabled set to true."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam 1z0-134 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which are three valid actions of the Post Domain Creation process? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Import LDAP data from XML files."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Run pack and unpack commands for managed servers on remote machines."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Run any SQL scripts to generate database artifacts."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use WLST to run the postdomain.py script."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Run the root.sh script."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Assign DNS names to all the hosts."
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. Run the RCU utility for each hosted application."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CEG \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: Following installation of your product, you need to run the root.sh script as the root user. The root.sh script detects settings of environment variables and enables you to enter the full path of the local bin directory."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "G: RCU is a Fusion Middleware tool which creates database-based repositories. Oracle Data Service Integrator does not have a repository by itself, but it relies on some Fusion Middleware schemas for WebLogic Server and JCF when using a full domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.oracle.com/technetwork/database/availability/maa-fmwsharedstoragebestpractices-402094.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "E: Following installation of your product, you need to run the root.sh script as the root user. The root.sh script detects settings of environment variables and enables you to enter the full path of the local bin directory."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "G: RCU is a Fusion Middleware tool which creates database-based repositories. Oracle Data Service Integrator does not have a repository by itself, but it relies on some Fusion Middleware schemas for WebLogic Server and JCF when using a full domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.oracle.com/technetwork/database/availability/maa-fmwsharedstoragebestpractices-402094.pdf"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABC",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam 1z0-134 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three Weblogic server entities can be set up for service level migration? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. JMS Server"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. JOLT Service"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. JTA Transaction Recovery Service"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. User Defined Singleton Service"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. JDBC Service"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. JNDI Service"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ACD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "AC: WebLogic Server migration framework provides infrastructure and facilities to perform the manual or automatic migration of JMS-related services and the JTA"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Transaction Recovery Service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: WebLogic Server supports the automatic migration of user-defined singleton services."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Automatic singleton service migration allows the automatic health monitoring and migration of singleton services. A singleton service is a service operating within a cluster that is available on only one server at any given time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E17904_01/web.1111/e13709/service_migration.htm#CLUST373"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "AC: WebLogic Server migration framework provides infrastructure and facilities to perform the manual or automatic migration of JMS-related services and the JTA"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Transaction Recovery Service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: WebLogic Server supports the automatic migration of user-defined singleton services."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Automatic singleton service migration allows the automatic health monitoring and migration of singleton services. A singleton service is a service operating within a cluster that is available on only one server at any given time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E17904_01/web.1111/e13709/service_migration.htm#CLUST373"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACD",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam 1z0-134 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You intend to introduce ordering in message processing for your JMS destination by creating a destination key."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the JMS Destination Key configuration? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A JMS Destination Key cannot be specified using WLST."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A JMS Destination Key cannot be used to sort messages in a Last In First Out order."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A JMS Destination Key allows a user-defined sort key."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A Destination Key can be applied to the message body."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The WebLogic Server Administration Console enables you to configure, modify, target, and delete destination key resources in a system module."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: As messages arrive on a specific destination, by default they are sorted in FIFO (first-in, first-out) order, which sorts ascending based on each message's unique JMSMessageID. However, you can use a destination key to configure a different sorting scheme for a destination, such as LIFO (last-in, first-out)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: Attribute Sort Key: The message sort key or the name of a message header field on which to sort. Message header field keys start with the letters JMS and ignore the key type setting."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Valid values only (user-defined sort key not possible):"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSMessageID"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSTimestamp"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSCorrelationID"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSPriority"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSExpiration"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSType"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSRedelivered"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSDeliveryTime"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs90/jms_admin/basic_config.html#1105573"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The WebLogic Server Administration Console enables you to configure, modify, target, and delete destination key resources in a system module."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: As messages arrive on a specific destination, by default they are sorted in FIFO (first-in, first-out) order, which sorts ascending based on each message's unique JMSMessageID. However, you can use a destination key to configure a different sorting scheme for a destination, such as LIFO (last-in, first-out)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: Attribute Sort Key: The message sort key or the name of a message header field on which to sort. Message header field keys start with the letters JMS and ignore the key type setting."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Valid values only (user-defined sort key not possible):"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSMessageID"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSTimestamp"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSCorrelationID"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSPriority"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSExpiration"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSType"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSRedelivered"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 JMSDeliveryTime"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs90/jms_admin/basic_config.html#1105573"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam 1z0-134 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You need to ensure that when a failed admin server instance is restarted on another machine with a different IP address, the managed server is able to establish connection with the newly started instance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which technique will ensure that the connection can be made? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure a DNS name for AdminServer which maps to multiple IP addresses and specify this DNS name during managed server startup."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Specify multiple admin server IP addresses during managed server startup."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use WLST to update the AdminServer IP address for a running managed server."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Update the host file for a running managed server instance."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can change the network configuration of Oracle HTTP Server and Oracle Web Cache by using the following command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(UNIX) ORACLE_HOME/chgip/scripts/chpiphost.sh"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Windows) ORACLE_HOME\\chgip\\scripts\\chpiphost.bat"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The format of the command is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "chgiphost.sh | chgiphost.bat"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[-noconfig] [-version] [-help]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[ -oldhost old_host_name -newhost new_host_name]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[-oldip old_IP_address -newip new_IP_address]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-instanceHome Instance_path"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E28280_01/core.1111/e10105/host.htm#ASADM10317"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can change the network configuration of Oracle HTTP Server and Oracle Web Cache by using the following command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(UNIX) ORACLE_HOME/chgip/scripts/chpiphost.sh"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Windows) ORACLE_HOME\\chgip\\scripts\\chpiphost.bat"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The format of the command is:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "chgiphost.sh | chgiphost.bat"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[-noconfig] [-version] [-help]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[ -oldhost old_host_name -newhost new_host_name]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "[-oldip old_IP_address -newip new_IP_address]"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-instanceHome Instance_path"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E28280_01/core.1111/e10105/host.htm#ASADM10317"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam 1z0-134 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Some of the messages entering a JMS queue are expiring and are being removed from the queue. You need better insight regarding these expired messages."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which mechanism helps achieve this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set the \"Log Expired Message\" attribute to true for the queue."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Associate an ExpirationEventHandler object for the queue."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable Message Life Cycle logging for the JMS Queue."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure an Expiration Event Handler for the JMS Queue which logs the expired message properties."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam 1z0-134 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The administration server is a major component of a WebLogic domain. I need to make available a standby administration server in case the main administration server in the domain crashes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which utility will help me in doing this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configuration Wizard"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Domain Template Builder"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. pack/unpack"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enterprise Manager"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E24628_01/install.121/e24089/appdx_standby_oms.htm#EMADV13364"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E24628_01/install.121/e24089/appdx_standby_oms.htm#EMADV13364"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam 1z0-134 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In your production environment, you have deployed an application that is accessing a registered Java EE shared library as well as an application deployment plan."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In addition, both the library and the application annotations for some of their configuration properties. You are attempting to understand the current state of the properties that have been used in this deployment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "From greatest to least, what is the correct order of precedence that is used by WebLogic Server when applying configuration properties during deployment?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Deployment Plan, Application descriptors, Library descriptors, Application annotations, Library annotations"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Deployment Plan, Application annotations, Library annotations, Application descriptors, Library descriptors"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Deployment Plan, Library descriptors, Application descriptors, Library annotations, Application annotations"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Deployment Plan, Application descriptors, Application annotations, Library descriptors, Library annotations"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Deployment Plan, Library descriptors, Library annotations, Application descriptors, Application annotations"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The elements of the Enterprise application's descriptor itself have precedence over all elements in the library descriptors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The deployment descriptor can still override values defined in the annotation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, E: The elements of the Enterprise application's descriptor itself have precedence over all elements in the library descriptors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E21764_01/web.1111/e13706/libraries.htm#WLPRG355"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The elements of the Enterprise application's descriptor itself have precedence over all elements in the library descriptors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The deployment descriptor can still override values defined in the annotation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, E: The elements of the Enterprise application's descriptor itself have precedence over all elements in the library descriptors."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E21764_01/web.1111/e13706/libraries.htm#WLPRG355"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam 1z0-134 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "My JMS Server uses a persistent file store. I need to ensure that the size of the persistent store does not exceed 1GB."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option can I use to configure this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set the weblogic.store.FileSize to 1GB."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set the weblogic.store.MaxFileSize to 1GB."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set the weblogic.store.TotalFileSize to 1GB."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The file size limit must be configured at the operating system level."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 24": {
+      "Title": "Exam 1z0-134 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your domain is experiencing some intermittent problems that you are not able to figure out on your own. You have opened a case with Oracle Support to help you figure out the problem. The support engineer would like to use the WebLogic Diagnostic Framework (WLDF) to obtain an overall view of your WebLogic Server environment to try to narrow the problem to a particular subsystem."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What WLDF data does the support engineer request from you? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Diagnostic image snapshot"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Java Flight Recording of the JVM"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Instrumentation log"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Specific harvested metrics"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Diagnostic Image Capture gathers the most common sources of the key server state used in diagnosing problems. It packages that state into a single artifact, the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Diagnostic Image."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/middleware/1212/core/ASADM/diagnostics.htm#ASADM11145"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Diagnostic Image Capture gathers the most common sources of the key server state used in diagnosing problems. It packages that state into a single artifact, the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Diagnostic Image."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/middleware/1212/core/ASADM/diagnostics.htm#ASADM11145"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 25": {
+      "Title": "Exam 1z0-134 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Review the diagram below. It depicts the following:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A WebLogic domain that consists of two WebLogic clusters that are each included in a Coherence cluster"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The Coherence cluster includes a configuration for Coherence*Web HTTP session storage"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 An application deployed on cluster 1 that is configured to use Coherence*Web"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 A client is using a web browser to interact with the application on cluster 1 (via a proxy)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The clients HTTP session is stored by Coherence*Web on the Server in the upper right-hand corner"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The server where the clients HTTP session is stored crashes"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02273/0004200006.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02273/0004300001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Assuming the next request for an HTTP session attribute is a new attribute that is not stored in a near-cache, the clients session attribute is fetched from the remaining storage-enabled server in cluster 2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why is the session attribute retrieved from this other servers cache? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Coherence*Web stores sessions in a distributed cache on the back end and the request fails over to the new location after partition re-balancing takes place."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Coherence*Web stores sessions in a replicated cache on the back end and the request fails over to the new location automatically."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Coherence*Web stores sessions in a shared disk cache on the back end and Coherence*Web automatically load balances requests."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Coherence*Web stores sessions in a cache that is backed by a database cache loader. The data is fetched from the database and placed into the cache on the new server."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E15357_01/coh.360/e15829/cweb_wls.htm#COHCW279"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E15357_01/coh.360/e15829/cweb_wls.htm#COHCW279"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam 1z0-134 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "I want to configure automatic migration of pinned services from an unhealthy server to another target in the cluster. I wish to configure consensus leasing for this purpose."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true in this scenario? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set the cluster \"Migration Basis\" policy to Consensus."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Migratable server should be associated with a node manager."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set the server \"Migration Basis\" policy to Consensus."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A high availability database must be configured to manage consensus leasing information."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 4,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 27": {
+      "Title": "Exam 1z0-134 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are implementing leasing functionality within your environment to ensure exclusive ownership of a cluster-wide entity."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which type of leasing requires that Node Manager is configured and running? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. high-availability database leasing"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. high-consensus leasing"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. non-database consensus leasing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. high-availability in-memory leasing"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Setting Migration Basis to Consensus leasing means that the member servers maintain leasing information in-memory, which removes the requirement of having a high-availability database to use leasing. This version of leasing requires that you use Node Manager to control servers within the cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs103/cluster/service_migration.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Setting Migration Basis to Consensus leasing means that the member servers maintain leasing information in-memory, which removes the requirement of having a high-availability database to use leasing. This version of leasing requires that you use Node Manager to control servers within the cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs103/cluster/service_migration.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 28": {
+      "Title": "Exam 1z0-134 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are monitoring a WebLogic JDBC data source and have decided to drop some connections because an earlier peak usage condition has now ended. In addition, this data source has not been enabled for automatic shrinking."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What will occur once you execute the shrink() method on that JDBCDataSourceRuntimeMBean?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The number of connections in the pool will be reduced to the greater of either the current number of connections in use or to the minCapacity property setting."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The number of connections in the pool will be reduced to the current number of connections in use regardless of the minCapacity property setting."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The number of connections in the pool will be reduced to the minCapacity property setting regardless of the current number of connections in use."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The number of unused connections in the pool will be reduced by half."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "When you shrink a data source, WebLogic Server reduces the number of connections in the pool to the greater of either the initial capacity or the number of connections currently in use."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs92/jdbc_admin/manage.html#wp1048129"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When you shrink a data source, WebLogic Server reduces the number of connections in the pool to the greater of either the initial capacity or the number of connections currently in use."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs92/jdbc_admin/manage.html#wp1048129"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam 1z0-134 topic 1 question 57 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an application already deployed in a production environment that needs a modification to one of its tuning parameters. Currently, that tuning parameter has a default value since there was neither a deployment descriptor used nor a deployment plan included with the application deployment. You now attempt to use the Administration Console web application to make a dynamic modification to that parameter."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A new deployment plan will be generated and saved at the indicated location."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The modification attempt will fail because there is no deployment descriptor included within the application."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The modification attempt will fail because there is no existing deployment plan associated with the application."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A new skeleton plan.xml will be generated if a plan folder is detected with the deployed application."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Defining tuning parameters is not required in order to successfully deploy an application. If an applications deployment descriptors and deployment plan do not define tuning parameters, WebLogic Server uses default values. The Administration Console automatically uses a deployment plan named plan.xml in the \\plan subdirectory of an application root directory if one is available."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E11035_01/wls100/deployment/config.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Defining tuning parameters is not required in order to successfully deploy an application. If an applications deployment descriptors and deployment plan do not define tuning parameters, WebLogic Server uses default values. The Administration Console automatically uses a deployment plan named plan.xml in the \\plan subdirectory of an application root directory if one is available."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E11035_01/wls100/deployment/config.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam 1z0-134 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are tasked with creating an Extension Template for an existing domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are three options that are presented during the extension creation process? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use Domain as a Source"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use Template as a Source"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Scripts and Files"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SQL Script Files"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Company Name"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Revision Number"
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. Creation Date"
+            }
+          ]
+        },
+        "H": {
+          "content": [
+            {
+              "type": "text",
+              "value": "H. Operating System requirement"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "AB: The Select a Template Configuration Source window prompts you to choose the application template or domain directory from which you want to create an extension template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: The Import SQL Scripts window prompts you to add SQL scripts for each database that you expect to be used with the domains created from this template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13196_01/platform/docs81/confgwiz/appbuild.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "AB: The Select a Template Configuration Source window prompts you to choose the application template or domain directory from which you want to create an extension template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: The Import SQL Scripts window prompts you to add SQL scripts for each database that you expect to be used with the domains created from this template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13196_01/platform/docs81/confgwiz/appbuild.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 31": {
+      "Title": "Exam 1z0-134 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the file extension for a domain extension template? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. .jar"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. .zip"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. .ext"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. .tpl"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. .war"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. .ear"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The WebLogic Server Default Domain Extension Template filename is wls_default.jar. It extends the Basic WebLogic Server domain with a web application designed to guide new users through an introduction to WebLogic Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13179_01/common/docs102/tempref/tempref.html#wp1215064"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The WebLogic Server Default Domain Extension Template filename is wls_default.jar. It extends the Basic WebLogic Server domain with a web application designed to guide new users through an introduction to WebLogic Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13179_01/common/docs102/tempref/tempref.html#wp1215064"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam 1z0-134 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three statements correctly describe a relationship between Node Manager and Administration Server? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. An Administration Server can be under Node Manager control: You can start it, monitor it, and restart it using Node Manager."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. An Administration Server can be a Node Manager client: When you start or stop Managed Servers from the Administration Console, you are accessing Node Manager using the Administration Server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An Administration Server supports the process of starting up a Managed Server with Node Manager: When you start a Managed Server with Node Manager, the Managed Server contacts the Administration Server to obtain outstanding configuration updates."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. By default, the Administration Server starts a Node Manager with the startNM script in the domain\u2019s bin folder."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. By default, the Administration Server starts a Node Manager with the startNodeManager script in the domain\u2019s config folder."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Node Manager requires an Administration Server to be running before it can start any Managed Servers."
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. A Node Manager can be a client of an Administration Server When Node Manager needs to monitor Managed Servers, it uses the Administration Servers runtime MBeans."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABC",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 33": {
+      "Title": "Exam 1z0-134 topic 1 question 64 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are using the Domain Template Builder to create a new template using an existing domain as the source."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two directories are included by default? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. bin directory"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. lib directory"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. servers directory"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. common directory"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. logs directory"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. replication directory"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If you selected a domain as the source for your new template, then the bin and lib directories are included by default:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E21764_01/web.1111/e14139/tempbuild.htm#WLDTB114"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "If you selected a domain as the source for your new template, then the bin and lib directories are included by default:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://docs.oracle.com/cd/E21764_01/web.1111/e14139/tempbuild.htm#WLDTB114"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 34": {
+      "Title": "Exam 1z0-134 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your development team is considering several different types of new applications. You have been asked to advise them concerning which types can be deployed in WebLogic Server leveraging the Production Redeployment feature."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which application deployment type is NOT supported for Production Redeployment? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. enterprise applications (EAR) that contain a Coherence Grid Archive (GAR) module"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. web service applications that are conversational or that use reliable messaging"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. standalone Enterprise Java Bean (EJB) applications"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. enterprise applications (EAR) that are accessed by inbound JMS messages"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Production redeployment only supports HTTP clients and RMI clients."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, D: Enterprise Applications can contain any of the supported Java EE module types. Enterprise Applications can also include application-scoped JMS and JDBC modules."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs100/programming/versioning.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: Production redeployment only supports HTTP clients and RMI clients."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, D: Enterprise Applications can contain any of the supported Java EE module types. Enterprise Applications can also include application-scoped JMS and JDBC modules."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs100/programming/versioning.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 35": {
+      "Title": "Exam 1z0-134 topic 1 question 66 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "<ORACLE_HOME> is the Oracle home directory that you specified when installing WebLogic Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the file system location and command for starting the Domain Template Builder? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. <ORACLE_HOME>\\oracle_common\\common\\bin and config_builder.sh"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. <ORACLE_HOME>\\oracle_common\\common\\bin and temp_builder.sh"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. <ORACLE_HOME>\\oracle_common\\bin and config_builder.sh"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. <ORACLE_HOME>\\oracle_common\\bin and temp_builder.sh"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Starting the Domain Template Builder on UNIX Platforms"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Log in to the target system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Open a command shell."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Go to the common/bin subdirectory of the product installation directory. For example: cd BEA_HOME/wlserver_10.0/common/bin"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. Invoke the following script:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "sh config_builder.sh"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13179_01/common/docs102/tempbuild/starttb.html#wp1068226"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Starting the Domain Template Builder on UNIX Platforms"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Log in to the target system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2. Open a command shell."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3. Go to the common/bin subdirectory of the product installation directory. For example: cd BEA_HOME/wlserver_10.0/common/bin"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4. Invoke the following script:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "sh config_builder.sh"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13179_01/common/docs102/tempbuild/starttb.html#wp1068226"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 36": {
+      "Title": "Exam 1z0-134 topic 1 question 67 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are deploying an application."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two are common processes for all three staging modes? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The target server receives the deployment command, performs its internal preparation of the deployment, and performs the actual deployment."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The administration server executes the deployment process on all targeted servers."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The administration server copies all the files to each of the targeted servers."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The administration server copies all the files to the appdeploy directory for the targeted servers."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The administration server executes the unarchive process in each of the targeted servers."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: WebLogic Server provides three different options for staging files: stage mode, nostage mode, and external_stage mode."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In stage mode, the Administration Server copies the deployment files from their original location on the Administration Server machine to the staging directories of each target server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In nostage mode, the Administration Server does not copy the archive files from their source location. Instead, each target server must access the archive files from a single source directory for deployment. The staging directory of target servers is ignored for nostage deployments."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* External_stage mode is similar to stage mode, in that target servers deploy using local copies of the deployment files. However, the Administration Server does not automatically copy the deployment files to targeted servers in external_stage mode; instead, you must copy the files to the staging directory of each target server before deployment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, D: In the external_stage and Nostage mode the Administration Server does not copy deployment files."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs81/deployment/concepts.html#1001124"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Note: WebLogic Server provides three different options for staging files: stage mode, nostage mode, and external_stage mode."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In stage mode, the Administration Server copies the deployment files from their original location on the Administration Server machine to the staging directories of each target server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In nostage mode, the Administration Server does not copy the archive files from their source location. Instead, each target server must access the archive files from a single source directory for deployment. The staging directory of target servers is ignored for nostage deployments."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* External_stage mode is similar to stage mode, in that target servers deploy using local copies of the deployment files. However, the Administration Server does not automatically copy the deployment files to targeted servers in external_stage mode; instead, you must copy the files to the staging directory of each target server before deployment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C, D: In the external_stage and Nostage mode the Administration Server does not copy deployment files."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs81/deployment/concepts.html#1001124"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 37": {
+      "Title": "Exam 1z0-134 topic 1 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three types of information can an Extension Template contain? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. JMS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. JDBC"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. sample application"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. servers"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. clusters"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. machines"
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. administration username and password"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Optionally, you can define parameters for Java Message Service (JMS) in the Extension Template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Optionally, you can customize the Java Database Connectivity (JDBC) settings in the Extension Template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can review and modify, if desired, the list of applications to be included in your extension template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13196_01/platform/docs81/confgwiz/appbuild.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Optionally, you can define parameters for Java Message Service (JMS) in the Extension Template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Optionally, you can customize the Java Database Connectivity (JDBC) settings in the Extension Template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can review and modify, if desired, the list of applications to be included in your extension template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13196_01/platform/docs81/confgwiz/appbuild.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 38": {
+      "Title": "Exam 1z0-134 topic 1 question 70 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a versioned application deployed in your production environment. You have been asked to troubleshoot why the most recent production redeployment appeared to allow the older version to retire too quickly."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this case, the application had active RMI clients, but their subsequent calls were directed to the newer version immediately rather than waiting for the expected five minutes defined by the retirement timeout argument. The script command was: java weblogic.Deployer adminurl http://localhost:7001 user weblogic"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-password Welcome1 redeploy name myDeployment"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-source /myDeployments/myApplication/appX"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-retiretimeout 300"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You expected the older version to remain active (when there are active RMI clients) for five minutes after executing the production redeployment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which modification should have been made to this command to ensure the older version remains active? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. java weblogic.Deployer adminurl http://localhost:7001 user weblogic -password Welcome1 redeploy name myDeployment -source /myDeployments/myApplication/appX -retiretimeout 300 rmigraceperiod 300"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. java weblogic.Deployer adminurl http://localhost:7001 user weblogic -password Welcome1 redeploy name myDeployment -source /myDeployments/myApplication/appX -retiretimeout 300 -keepsessions"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. java weblogic.Deployer adminurl http://localhost:7001 user weblogic -password Welcome1 redeploy name myDeployment -source /myDeployments/myApplication/appX -retiretimeout 300 timeout 300"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. java weblogic.Deployer adminurl http://localhost:7001 user weblogic -password Welcome1 redeploy name myDeployment -source /myDeployments/myApplication/appX -retiretimeout 300 remote"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The remote argument indicates that weblogic.Deployer is not running on the same machine as the Administration Server, and that source paths specified in the command are valid for the Administration Server machine itself. If you do not use the -remote option, weblogic.Deployer assumes that all source paths are valid paths on the local machine."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "weblogic.Deployer does not have arguments named rmigraceperiod, -keepsessions, or timeout."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs90/deployment/wldeployer.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The remote argument indicates that weblogic.Deployer is not running on the same machine as the Administration Server, and that source paths specified in the command are valid for the Administration Server machine itself. If you do not use the -remote option, weblogic.Deployer assumes that all source paths are valid paths on the local machine."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "weblogic.Deployer does not have arguments named rmigraceperiod, -keepsessions, or timeout."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs90/deployment/wldeployer.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 39": {
+      "Title": "Exam 1z0-134 topic 1 question 71 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are managing a WebLogic domain that has the default built-in diagnostic module configured for each server in the domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have the following requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 You want to capture metrics that are not collected by any of the built-in diagnostic modules."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 You want to continue capturing the metrics that are already captured by the existing built-in module."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 You want your configuration to persist after the server is restarted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are two approaches you can apply to achieve this result? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Clone the built-in module, add now metrics to it, deactivate the existing module, and activate your new module."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Leave the built-in module, create a new module and add metrics to it, and activate your new module alongside the built-in module."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Leave the built-in module, create an external resource descriptor module and add metrics to it, and activate your new module alongside the built-in module."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove the built-in module, create an external resource descriptor module and add built-in and new metrics to it, and activate your new module alongside the built-in module."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In a given domain, you can create multiple diagnostic system modules with distinct configurations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can target multiple diagnostic system modules to any given server or cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: To configure and use the Instrumentation, Harvester, and Watch and Notification components at the server level, you must first create a system resource called a diagnostic system module, which will contain the configurations for all those components. The configuration of diagnostic system module is defined in a resource descriptor. A resource descriptor can be either configured or external."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/middleware/1213/wls/WLDFC/understand_wldf_config.htm#WLDFC139"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a given domain, you can create multiple diagnostic system modules with distinct configurations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can target multiple diagnostic system modules to any given server or cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note: To configure and use the Instrumentation, Harvester, and Watch and Notification components at the server level, you must first create a system resource called a diagnostic system module, which will contain the configurations for all those components. The configuration of diagnostic system module is defined in a resource descriptor. A resource descriptor can be either configured or external."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/middleware/1213/wls/WLDFC/understand_wldf_config.htm#WLDFC139"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 40": {
+      "Title": "Exam 1z0-134 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the domain diagram:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02273/0005800001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are asked to write a WLST scrip that will print the current available heap size for server04."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Assuming:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 all servers are running"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 you have just started an offline, interactive WLST session"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 a domain-scoped node manager is running on each machine, listening o port :5556"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 the username/password \"weblogic/Welcome1\" maps to a valid domain administrator and Node Manager client"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two code options will accomplish this task? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. connect(weblogic,Welcome1,host00.acme.com:7001) domainRuntime() x = getMBean(/ServerRuntimes/server04/JVMRuntime/server04) print x.getHeapFreeCurrent()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. connect(weblogic,Welcome1,host02.acme.com:7201) serverRuntime() x = getMBean(/JVMRuntime/server04) print x.getHeapFreeCurrent()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. connect(weblogic,Welcome1,host00.acme.com:7001) serverRuntime() x = getMBean(/JVMRuntime/server04) print x.getHeapFreeCurrent()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. nmConnect(weblogic,Welcome1,host02.acme.com:5556) serverRuntimes() x=getMBean(/server04/JVMRuntime/server04) print x.getHeapFreeCurrent()"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. nmConnect(weblogic,Welcome1,host00.acme.com:5556) domainRuntime() x=getMBean(/ServerRuntimes/server04/JVMRuntime/server04) print x.getHeapFreeCurrent()"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: We can connect to AdminServer through host00.acme.com:7001 with the connect command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The domainRuntime()command navigates to the last MBean to which you navigated in the domain Runtime hierarchy or to the root of the hierarchy,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DomainRuntimeMBean. This read-only hierarchy stores the runtime MBeans that represent your current domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: The nmConnect connects WLST to Node Manager to establish a session. After connecting to Node Manager, you can invoke any Node Manager commands via WLST. We should use DomainRuntime() not serverRuntime() as the node manager is domain-scoped."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: We must connect to AdminServer through host00.acme.com:7001, not through host02.acme.com:7201"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: We should use DomainRuntime() not serverRuntime() as the node manager is domain-scoped."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: We should use DomainRuntime() not serverRuntime() as the node manager is domain-scoped."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs100/config_scripting/reference.html#wp1068902"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: We can connect to AdminServer through host00.acme.com:7001 with the connect command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The domainRuntime()command navigates to the last MBean to which you navigated in the domain Runtime hierarchy or to the root of the hierarchy,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DomainRuntimeMBean. This read-only hierarchy stores the runtime MBeans that represent your current domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: The nmConnect connects WLST to Node Manager to establish a session. After connecting to Node Manager, you can invoke any Node Manager commands via WLST. We should use DomainRuntime() not serverRuntime() as the node manager is domain-scoped."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Incorrect Answers:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: We must connect to AdminServer through host00.acme.com:7001, not through host02.acme.com:7201"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: We should use DomainRuntime() not serverRuntime() as the node manager is domain-scoped."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "D: We should use DomainRuntime() not serverRuntime() as the node manager is domain-scoped."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs100/config_scripting/reference.html#wp1068902"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AE",
+          "vote_count": 1,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 41": {
+      "Title": "Exam 1z0-134 topic 1 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In order to leverage replication and high availability features of your back-end database, among other benefits, you are configuring a JDBC TLOG store to persist transaction logs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Since something went wrong during the setup of the TLOG, you are reviewing the configuration considerations for TLOG."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two guidelines are true for configuring JDBC TLOG stores? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only one JDBC TLOG store can be configured per WebLogic Server."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. JDBC TLOG stores should only be configured for RAC databases."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Only globally-scoped (not application-scoped) data sources can be targeted to a JDBC TLOG store."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Multiple WebLogic Servers can share the same JDBC TLOG store."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: Only one JDBC TLOG store can be configured per WebLogic Server. Conversely, multiple WebLogic Servers can not share a JDBC TLOG store."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: Only globally-scoped (not application-scoped) data sources can be targeted to a JDBC TLOG store."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E24329_01/web.1211/e24432/store.htm#CNFGD290"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: Only one JDBC TLOG store can be configured per WebLogic Server. Conversely, multiple WebLogic Servers can not share a JDBC TLOG store."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C: Only globally-scoped (not application-scoped) data sources can be targeted to a JDBC TLOG store."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E24329_01/web.1211/e24432/store.htm#CNFGD290"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 42": {
+      "Title": "Exam 1z0-134 topic 1 question 74 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two objects can be considered potential clients of a Node Manager? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. an administration server"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a WLST session"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. an HTTP server"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. any other Node Manager"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. a remote JMS client"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. the weblogic.Deployer utility"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A Node Manager client can be local or remote to the Node Managers with which it communicates. You access either version of Node Managerthe Java version or the script-based (SSH) versionfrom the following clients:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: an administration server -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: WLST commands and scriptsWLST offline serves as a Node Manager command-line interface that can run in the absence of a running Administration"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E28280_01/web.1111/e13740/overview.htm#NODEM119"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Node Manager client can be local or remote to the Node Managers with which it communicates. You access either version of Node Managerthe Java version or the script-based (SSH) versionfrom the following clients:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: an administration server -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B: WLST commands and scriptsWLST offline serves as a Node Manager command-line interface that can run in the absence of a running Administration"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E28280_01/web.1111/e13740/overview.htm#NODEM119"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 43": {
+      "Title": "Exam 1z0-134 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are creating a new domain with WLST."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Identify three parameters that can be customized with the setOption command. (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. the JDK that will be used to start the domain"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. the domain name"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. whether or not the domain will run in production mode"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the default persistent store type for the domain"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. whether or not to automatically start the Node Manager"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. the default diagnostic profile for the domain"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "setOption sets options related to a domain creation or update."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Syntax: setOption(optionName, optionValue)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Option names include:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* JavaHomeHome directory for the JVM to be used when starting the server. The default for this option depends on the platform on which you install WebLogic"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Server. Update JavaHome to point to the jre directory for the JDK that you are using for WebLogic Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* DomainNameName of the domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* ServerStartModeMode to use when starting the server for the newly created domain. This value can be dev (development) or prod (production). This option defaults to dev."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs100/config_scripting/reference.html#wp1258774"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "setOption sets options related to a domain creation or update."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Syntax: setOption(optionName, optionValue)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Option names include:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* JavaHomeHome directory for the JVM to be used when starting the server. The default for this option depends on the platform on which you install WebLogic"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Server. Update JavaHome to point to the jre directory for the JDK that you are using for WebLogic Server."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* DomainNameName of the domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* ServerStartModeMode to use when starting the server for the newly created domain. This value can be dev (development) or prod (production). This option defaults to dev."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs100/config_scripting/reference.html#wp1258774"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ABC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 44": {
+      "Title": "Exam 1z0-134 topic 1 question 80 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your clients are connected to distributed destinations to consume messages sent to various JMS topics."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Recently, JMS connections got interrupted due to a network failure and your clients dropped their connections as well."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How would you ensure seamless failover for your clients when a distributed destination fails? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. No action should be needed at the client\u2019s level if the failover is being handled properly at the cluster level."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set the \u04411ientReconnectOptions parameter to Automatic in the Administration Console under the destination configuration general page."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Implement an automatic reconnect mechanism in the client exception handler."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Set AutomaticClientReconnect to Enabled in the Administration Console under the destination configuration general page."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A simple way to failover a client connected to a failed distributed destination is to write reconnect logic in the client code to connect to the distributed destination after catching onException."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs90/jms/dds.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A simple way to failover a client connected to a failed distributed destination is to write reconnect logic in the client code to connect to the distributed destination after catching onException."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/cd/E13222_01/wls/docs90/jms/dds.html"
+          }
+        ]
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 45": {
+      "Title": "Exam 1z0-134 topic 1 question 115 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are using the administration console to monitor messages in a queue."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three tasks can be performed while doing this monitoring? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a new message in the queue."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Duplicate a message."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Monitor the content of a message."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Delete the message from the queue."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Merge two messages."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Alter the ordering of the messages."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2563 @@
+{
+  "1z0-448__0db84e5021c7a2ed": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-448 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have been tasked with designing a Mapping that must perform an initial load and incremental updates using the same transformation logic. How should you proceed? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a single Mapping with two Physical Designs: one for the initial load and one for the incremental updates."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a single Mapping with a single Physical Design and modify it appropriately when an initial load is required or when an incremental update is required."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create two Mappings: one for the initial load and one for the incremental updates. Duplicate the transformation logic."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a single Mapping and use variables in the Logical Design to do an initial load when required or an incremental update otherwise."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/mappings.htm#ODIDG1614)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/mappings.htm#ODIDG1614)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-448 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How are the ODI repositories upgraded? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. by using Opatch"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. by using ODI Studio"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. by using the import/export utilities"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. by using Upgrade Assistant"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://odibeginnertutorials.blogspot.in/2013/12/odi-12c-installation-and-odi-12c.html)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://odibeginnertutorials.blogspot.in/2013/12/odi-12c-installation-and-odi-12c.html)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-448 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your customer wants a project in ODI, which contains a user function, to translate commands with different syntax for different technologies but with the same functionality."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can you achieve this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The project must be explicitly mapped within an ODI mapping."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A customize knowledge module is needed."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An ODI procedure must be associated with it."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It can be defined for every technology listed in the topology."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://docs.oracle.com/cd/E23943_01/integrate.1111/e12643/procedures.htm#ODIDG464)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://docs.oracle.com/cd/E23943_01/integrate.1111/e12643/procedures.htm#ODIDG464)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-448 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to ensure that the Physical Mapping Design cannot be modified even if the Logical Design of the Mapping is changed. What sequence of steps must you follow to achieve this? (Choose the best answer)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Go to the Physical tab, select the Fixed Design check box of the Physical Mapping Design."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Go to the Physical tab, select the Is Frozen check box of the Physical Mapping Design."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Go to the Physical tab, select the Read-only check box of the Physical Mapping Design."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Go to the Physical tab, deselect the Modify check box of the Physical Mapping Design."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/mappings.htm#ODIDG1560)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/mappings.htm#ODIDG1560)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-448 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about the Oracle Data Integrator Software Development Kit (ODI SDK)? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It enables developers to execute most ODI operations through a Java program."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It can be used to embed ODI processes into another product."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is used to load data between Teradata and Oracle."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It must be used by ETL developers to develop ODI processes."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://foursconsultancy.wordpress.com/odi/oracle-data-integrator-12c-components/)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://foursconsultancy.wordpress.com/odi/oracle-data-integrator-12c-components/)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-448 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When Oracle Data Integrator (ODI) and Oracle GoldenGate are used together, which option represents the phases of an ELT process that Oracle GoldenGate performs? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. transform only"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. load and transform"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. extract and load"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. extract and transform"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://www.oracle.com/us/products/middleware/data-integration/oracle-goldengate-realtime-access-2031152.pdf)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://www.oracle.com/us/products/middleware/data-integration/oracle-goldengate-realtime-access-2031152.pdf)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-448 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You create two mappings that both use the same changed data and run at different times. One runs every 15 minutes and the other runs once every day."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What must you do to ensure that the Mapping that gets executed more often does not consume the changed data required by the other Mapping? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use Consistent CDC, do not perform a purge of the journal data when the first Mapping gets executed, and manually change the JRN_SUBSCRIBER column in the corresponding J$ table to keep the changed data present for the second Mapping."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a third mapping to copy the changed data to a staging table, which is used as the source of the second Mapping."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Duplicate the source data store for each Mapping."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create two distinct subscribers for each Mapping."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://odiexperts.com/changed-data-capture-cdc/)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://odiexperts.com/changed-data-capture-cdc/)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-448 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You need to create a package that automatically sends an alert to users in case the third step fails."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option represents the steps to accomplish this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add an OdiSendMail step to My Package and link the My Third Package step to it by using a green OK arrow."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add an OdiSendMail step to My Package and link the My Last Package step to it by using a red KO arrow."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add an OdiReadMail step to My Package and link the My Third Package step to it by using a red KO arrow."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add an OdiSendMail step to My Package and link the My Third Package step to it by using a red KO arrow."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://gurcanorhan.wordpress.com/2012/11/30/odi-alert-mechanism/)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://gurcanorhan.wordpress.com/2012/11/30/odi-alert-mechanism/)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-448 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "As part of your QA process you want to view code at the Step level in Operator. How must you proceed? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is only possible to see code at the Session level."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is only possible to view code at the Task level."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Depending on the audit level declared when running the execution, some of the generated code at the step level can be viewed."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. All generated code can be viewed together at the step level, with a complete list of executed code."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/debugging.htm#ODIDG1641)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/debugging.htm#ODIDG1641)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-448 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about using ODI and Oracle GoldenGate together? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Oracle GoldenGate primarily performs aggregations for ODI."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Oracle GoldenGate and ODI are used together primarily for running weekly batch jobs."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Oracle GoldenGate provides non-invasive changed data capture capabilities to ODI."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ODI starts and stops Oracle GoldenGate processes automatically during a Mapping execution."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. ODI and Oracle GoldenGate enable real-time business intelligence."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://www.oracle.com/us/products/middleware/data-integration/oracle-goldengate-realtime-access-2031152.pdf)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://www.oracle.com/us/products/middleware/data-integration/oracle-goldengate-realtime-access-2031152.pdf)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-448 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are working on notifications in a package and you must send an email containing an error message in case a Package step fails."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which odiRef method do you use to access the error message? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. odiRef.getSession()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. odiRef.getInfo()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. odiRef.getPrevStepLog()"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. odiRef.getStep()"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIKD/odiref_reference.htm#ODIKD1147)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIKD/odiref_reference.htm#ODIKD1147)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-448 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to add a new CDC subscriber in ODI after you have started the journal process. Which option represents the steps to use this new subscriber? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add a new subscriber and edit the default Journalizing filter in your Mappings."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Drop the journal, add a new subscriber, start the journal, and edit the default Journalizing filter in your Mappings."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Drop the journal, remove existing subscribers, add a new subscriber, start the journal, and edit the default Journalizing filter in your Mappings."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add a new subscriber, start the journal, and remove the default Journalizing filter in your Mappings."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/data_capture.htm#ODIDG285)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/data_capture.htm#ODIDG285)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-448 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify two correct statements about reusable Mappings. (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They can have generic input and output signatures."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They contain both a Logical and Physical Mapping design."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They can be used within regular Mappings."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They can be executed directly."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. They can be shared across projects."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/mappings.htm#ODIDG1617)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/mappings.htm#ODIDG1617)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-448 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You must modify the order in which data stores are being journalized in a model. What sequence of steps do you follow to achieve this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Open the model, go to the Journalizing tab, and modify the order there."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Right-click Datastore, select Changed Data Capture, and then select Order."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Open the model, go to the Journalized tables tab, and modify the order there."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Open the data stores, go to the Journalizing tab, and modify the order there."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/data_capture.htm#ODIDG271)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/data_capture.htm#ODIDG271)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-448 topic 1 question 34 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You need to troubleshoot the execution of a Mapping and visualize the data contained in the ODI Staging tables while the Mapping is being executed. How must you proceed? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Start a Mapping in Debug mode and use breakpoints and the Get Data feature to query the data contained in the Staging tables."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Modify a Knowledge Module to dump the Staging tables\u2019 data into log files for review."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use variables in a Package to query the Staging tables and evaluate the variable values."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Reverse engineer the Staging tables in a Model and review the data contained in it."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIKD/rkm.htm#ODIKD909)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIKD/rkm.htm#ODIKD909)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 1z0-448 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are defining a data store in ODI metadata and want to add a primary key even if it does not physically exist on the related database catalog."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can you accomplish this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You can add a primary key even if it does not physically exist on the related database catalog, by adding constraints on the data store."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. You can add a primary key even if it does not physically exist on the related database catalog, by adding constraints to the data store diagram."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You cannot add a primary key if it does not physically exist on the related database catalog. You can flag only non-null conditions to be checked."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You cannot add a primary key if it does not physically exist on the related database catalog. You can reverse engineer only the existing constraints."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIKM/teradata.htm#ODIKM1061)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIKM/teradata.htm#ODIKM1061)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 1z0-448 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which are the two correct statements about Work repositories? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. They contain project and security information."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. They contain data models and execution information."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. They contain data and security information."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. They contain data models and project information."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/admin_reps.htm#ODIDG155)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/admin_reps.htm#ODIDG155)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 1z0-448 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are designing a load plan in which you must create multiple branches based on the value of a variable. How do you accomplish this by using Load Plan"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Editor? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add a case step and drag the variable into the case step."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a scenario from the variable and add the scenario to the load plan to create a case step."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add a case step in the load plan and select a variable in the wizard."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Drag the variable into the load plan and define a case step."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1213/odi/develop/loadplans.htm#ODIDG1356)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1213/odi/develop/loadplans.htm#ODIDG1356)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 1z0-448 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You must monitor and manage a co-located stand-alone agent, OracleDIAgent1, by using the ODI plug-in for Enterprise Manager Cloud Control. Which is the correct command to start this agent on Linux? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ./agent.sh \u2013NAME=OracleDIAgent1 \u2013PORT=20910"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ./agent.sh \u2013NAME=OracleDIAgent1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ./startComponent.sh OracleDIAgent1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ./startComponent.sh OracleDIAgent1 \u2013PORT=20910"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://community.oracle.com/thread/3780742?start=0&tstart=0)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://community.oracle.com/thread/3780742?start=0&tstart=0)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 1z0-448 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to modify the code generated by a failed Task and restart the session. How must you proceed? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Open the Task in Operator, go to Code, click Edit, use Pre-execution Code to edit the code, and save it."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is not possible to modify the code once it has been generated."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Open the Step in Operator, edit the code, and save it."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Open the Task in Operator, go to Code, click Query/Execution Plan to edit the code, and save it."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://www.odigurus.com/2011/05/using-operator.html)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://www.odigurus.com/2011/05/using-operator.html)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 1z0-448 topic 1 question 42 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The source and target data stores are located on the same data server. Which statement is correct about the need for a Loading Knowledge Module to load the data on the target? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Only an Integration Knowledge Module single-technology is required."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Only an Integration Knowledge Module multitechnology is required."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A loading Knowledge Module multitechnology and an Integration Knowledge Module single-technology are required."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Both a Loading Knowledge Module multitechnology and an Integration Knowledge Module multitechnology are required."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://docs.oracle.com/cd/E21764_01/integrate.1111/e12643/interfaces.htm#ODIDG1059)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://docs.oracle.com/cd/E21764_01/integrate.1111/e12643/interfaces.htm#ODIDG1059)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 1z0-448 topic 1 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You must split a model with many database tables into multiple sub-models based on their names. How must you proceed? (Choose the best answer)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create new submodels and drag data stores individually to each submodel."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use automatic distribution feature at the models level to automatically create the submodels and move the data stores based on their names."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create new submodels and leverage the automatic distribution feature at the submodels level to automatically move the data stores based on their names."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create new models, drag the data stores individually to each model and then drag the models to the parent model to create submodels."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/organizing_documenting.htm#ODIDG524)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/organizing_documenting.htm#ODIDG524)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam 1z0-448 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about ODI web-based components? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ODI Console allows administrators to edit users\u2019 information."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enterprise Manager Cloud Control provides access to ODI data servers\u2019 settings."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ODI sessions can be monitored in Enterprise Manager Cloud Control."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ODI Console provides access to project and mapping details."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://www.oracle.com/technetwork/middleware/data-integrator/overview/oracledi-architecture-1-129425.pdf)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://www.oracle.com/technetwork/middleware/data-integrator/overview/oracledi-architecture-1-129425.pdf)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 1z0-448 topic 1 question 48 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are designing a load plan in which you must run Mappings A and B one after the other while running Mapping C at the same time. Which option represents the steps to accomplish this? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Add a parallel step, add three serial steps underneath it, then add A to the first parallel step, B to the second one, and C to the last one."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a scenario from the variable and add the scenario to the load plan to create a case step."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Add a parallel step, add two parallel steps underneath it, then add A and B to one parallel step, and C to the other."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add a parallel step, add two serial steps underneath it, then add A and B to one serial step, and C to the other."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/loadplans.htm#ODIDG1356)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/loadplans.htm#ODIDG1356)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam 1z0-448 topic 1 question 50 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify two constraints that can be used to ensure uniqueness in ODI. (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. conditions"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. foreign keys"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. primary keys"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. alternate keys"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. not null"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/intro.htm#ODIDG113)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/intro.htm#ODIDG113)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam 1z0-448 topic 1 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You must send the same message in multiple packages to several email addresses stored in the same database table. How do you accomplish this by using a reusable package step? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a procedure and add two tasks. The first one must have a Command on Source that reads the email addresses from the database table and stores them in a bind variable, and the second must have a Command on Target that uses OdiSendMail to send the email by using the bind variable defined in the first task."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a Knowledge Module. Add a task with a Command on Source that reads the email addresses from the database table and stores them in a bind variable, and a Command on Target that uses OdiSendMail to send the email using the bind variable defined in the Command on Source."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a counter variable that gets the total number of email addresses stored in the database table. Next, create another variable that selects the email addresses from the database table. Then, create a loop in the packages by using the variables and an OdiSendMail step."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a procedure. Add a task with a Command on Source that reads the email addresses from the database table and stores them in a bind variable, and a"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://docs.oracle.com/cd/E21764_01/integrate.1111/e12643/procedures.htm#ODIDG408)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://docs.oracle.com/cd/E21764_01/integrate.1111/e12643/procedures.htm#ODIDG408)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam 1z0-448 topic 1 question 53 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are designing a Mapping. How are target and source tables defined? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Their definition is imported with a reverse-engineering process directly from databases and other sources, but you must manually define all keys and constraints existing on the database."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Their definition is imported with a reverse-engineering process directly from databases and other sources."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. For every load the definition of the tables used, their columns and constraints must be manually built."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. An external engine must be run to describe what metadata is needed for a Mapping."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/create_rev_model.htm#ODIDG234)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/create_rev_model.htm#ODIDG234)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam 1z0-448 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are setting up the topology for an infrastructure with three different environments: Dev, QA, and Prod. How must you create Logical Schemas? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create one Logical Schema per Physical Schema."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create one Logical Schema per Physical Schema that stores the same type of data."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create one Logical Schema per Data Server."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create one Logical Schema per Context."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1213/odi/develop/setup_topology.htm#ODIDG174)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1213/odi/develop/setup_topology.htm#ODIDG174)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam 1z0-448 topic 1 question 57 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your project requires a loop through the same package logic 24/7. You must be able to purge those executions when required. How do you accomplish this?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Link the last step of the package to its first step to create an infinite loop."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a scenario from the package, add the scenario as the last step in the package, run it asynchronously, and then save and regenerate this scenario."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a scenario from the package, add the scenario as the last step in the package, run it asynchronously, and then save."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Drag the package to the last step in the package, run it asynchronously, and then save."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://www.rittmanmead.com/2015/04/di-tips-odi-convert-to-flow/)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://www.rittmanmead.com/2015/04/di-tips-odi-convert-to-flow/)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam 1z0-448 topic 1 question 60 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What must you set on the Definition tab of a variable to protect the variable value from being displayed in the Operator logs? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Select the Secure Value check box."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Select the Hide Value check box."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set the Keep History field to No History."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Leave the Default Value field empty."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/procedures.htm#ODIDG464)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/procedures.htm#ODIDG464)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam 1z0-448 topic 1 question 62 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You must ensure that your Mappings do not run into connectivity issues when moving data from server A to server B by using an AGT agent that is running on server B."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How must you test this by using ODI Studio running on machine C? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use OdiPingAgent in a package to ping AGT agent."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In Topology, test the connections to servers A and B by using the AGT agent."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. In Topology, test the connections to the AGT agent."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. In Topology, test the connections to servers A and B by using Local (No Agent)."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://www.ateam-oracle.com/how-to-understand-and-diagnose-odi-connectivity-issues/) as per this link even choice A is right as its alternative/additional method for testing connectivity"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://www.ateam-oracle.com/how-to-understand-and-diagnose-odi-connectivity-issues/) as per this link even choice A is right as its alternative/additional method for testing connectivity"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam 1z0-448 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is true about the IKM SQL Control Append that creates an intermediate integration table prefixed with I$? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The intermediate integration table prefixed with I$ is required to determine which records must be inserted."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. If Flow Control is not necessary, an I$ table is not created."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The intermediate integration table prefixed with I$ is created because the flow control is mandatory when doing an initial load."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Neither the LKM nor the IKM create intermediate tables. Most of their work is performed in the ODI Agent memory."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(http://www.oracle.com/us/products/middleware/data-integration/odi-performance-guide-wp-2147067.pdf)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(http://www.oracle.com/us/products/middleware/data-integration/odi-performance-guide-wp-2147067.pdf)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam 1z0-448 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How do you provide a timeout value for an exception step? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. by using a custom Groovy script"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. by using a variable"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. by using the Timeout filed"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. by using a Timeout knowledge module"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/loadplans.htm#CHDGFEGJ)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/loadplans.htm#CHDGFEGJ)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam 1z0-448 topic 1 question 73 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You need to implement security mechanisms that allow only user \"A\" to view all the Mappings contained in a specific project named \"P1.\" How must you proceed?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Go to Security, assign the NG DESIGNER profile to user \"A.\" Next, drag project \"P1\" to user \"A\" and finally set View privileges to Active for the Mapping objects."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Go to Security, assign the DESIGNER profile to user \"A.\" Next, drag project \"P1\" to user \"A\" and finally set View privileges to Active for the Mapping objects."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Go to Security, assign the NG DESIGNER profile to user \"A.\" Next, drag project \"P1\" to user \"A\" and finally set View privileges to Active for the Project, Folder, and Mapping objects."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Go to Security, assign the DESIGNER profile to user \"A.\" Next, drag project \"P1\" to user \"A\" and finally set View privileges to Active for the Project, Folder, and"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/cd/B12037_01/network.101/b10777/protdata.htm#1006312)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/cd/B12037_01/network.101/b10777/protdata.htm#1006312)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam 1z0-448 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Identify the correct variable step type to use when assigning a value to a variable with an SQL query. (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Evaluate Variable"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set Variable"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Declare Variable"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Refresh Variable"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 36": {
+      "Title": "Exam 1z0-448 topic 1 question 77 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How would a Knowledge Module, that is required to perform an aggregation in a Mapping, generate the correct code? (Choose the best answer.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The Knowledge Module must be customized because business rules and the physical implementation are strictly interlayed in ODI."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The Knowledge Module must be customized only for aggregation functions."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The Knowledge Module need not be customized because aggregation code is generated automatically by ODI according to the Mapping logic."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The Knowledge Module need not be customized, but a variable must be used in the aggregate expression to generate the correct sum."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/mappings.htm#ODIDG1625)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "(https://docs.oracle.com/middleware/1212/odi/ODIDG/mappings.htm#ODIDG1625)"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

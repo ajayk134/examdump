@@ -1,0 +1,4767 @@
+{
+  "1z0-067__c31e1733f2cdd93d": {
+    "Question #: 1": {
+      "Title": "Exam 1z0-067 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A complete database backup to media is taken for your database every day. Which three actions would you take to improve backup performance?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set the backup_tape_io_slaves parameter to true."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Set the dbwr_io_slaves parameter to a nonzero value if synchronous I/O is in use."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure large pool if not already done."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Remove the rate parameter, if specified, in the allocate channel command."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Always use RMAN compression for tape backups rather than the compression provided by media manager."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Always use synchronous I/O for the database."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BCD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam 1z0-067 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "For which three pieces of information can you use the RMAN list command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. stored scripts in the recovery catalog"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. available archived redo log files"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. backup sets and image copies that are obsolete"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. backups of tablespaces"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. backups that are marked obsolete according to the current retention policy"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 1z0-067 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three statements are true about a job chain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It can contain a nested chain of jobs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It can be used to implement dependency-based scheduling."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It cannot invoke the same program or nested chain in multiple steps in the chain."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It cannot have more than one dependency."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It can be executed using event-based or time-based schedules."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 1z0-067 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Because of logical corruption of data in a table, you want to recover the table from an RMAN backup to a specified point in time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the steps to recover this table from an RMAN backup:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1.Determine which backup contains the table that needs to be recovered."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2.Issue the recover table RMAN command with an auxiliary destination defined and the point in time specified."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3.Import the Data Pump export dump file into the auxiliary instance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4.Create a Data Pump export dump file that contains the recovered table on a target database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Identify the required steps in the correct order."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1, 4, 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1, 2"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1, 4, 3, 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1, 2, 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/database/121/BRADV/rcmresind.htm#BRADV689"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "https://docs.oracle.com/database/121/BRADV/rcmresind.htm#BRADV689"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 1z0-067 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> RECOVER DATABASE USING BACKUP CONTROLFILE UNTIL CANCEL;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In which two scenarios is this command required?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The current online redo log file is missing."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A data file belonging to a noncritical tablespace is missing."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All the control files are missing."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The database backup is older than the control file backup."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. All the data files are missing."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://searchoracle.techtarget.com/answer/Recover-database-using-backup-controlfile-until-cancel"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "http://searchoracle.techtarget.com/answer/Recover-database-using-backup-controlfile-until-cancel"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 1z0-067 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two are prerequisites for setting up Flashback Data Archive?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Fast Recovery Area should be defined."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Undo retention guarantee should be enabled."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Supplemental logging should be enabled."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Automatic Undo Management should be enabled."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. All users using Flashback Data Archive should have unlimited quota on the Flashback Data Archive tablespace."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. The tablespace in which the Flashback Data Archive is created should have Automatic Segment Space Management (ASSM) enabled."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 1z0-067 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You wish to create jobs to satisfy these requirements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1. Automatically bulk load data from a flat file."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2.Rebuild indexes on the SALES table after completion of the bulk load."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How would you create these jobs?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create both jobs by using Scheduler raised events."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create both jobs using application raised events."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create one job to rebuild indexes using application raised events and another job to perform bulk load using Scheduler raised events."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create one job to rebuild indexes using Scheduler raised events and another job to perform bulk load by using events raised by the application."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 1z0-067 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In your database, the tbs percent used parameter is set to 60 and the tbs percent free parameter is set to 20."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two storage-tiering actions might be automated when using Information Lifecycle Management (ILM) to automate data movement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The movement of all segments to a target tablespace with a higher degree of compression, on a different storage tier, when the source tablespace exceeds tbs percent used"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Setting the target tablespace to read-only after the segments are moved"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The movement of some segments to a target tablespace with a higher degree of compression, on a different storage tier, when the source tablespace exceeds T3S percent used"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Taking the target tablespace offline after the segments are moved"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The movement of some blocks to a target tablespace with a lower degree of compression, on a different storage tier, when the source tablespace exceeds tbs"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 1z0-067 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You create a table with the period for clause to enable the use of the Temporal Validity feature of Oracle Database 12c."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the table definition:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "create table employees"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(empno number, salary number,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "deptid number, name varchar2(100),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "period for employee_time);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three statements are true concerning the use of the Valid Time Temporal feature for the EMPLOYEES table?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The valid time columns employee_time_start and employee_time_end are automatically created."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The same statement may filter on both transaction time and valid temporal time by using the AS OF TIMESTAMP and PERIOD FOR clauses."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The valid time columns are not populated by the Oracle Server automatically."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The valid time columns are visible by default when the table is described."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Setting the session valid time using DBMS_FLASHBACK_ARCHIVE.ENABLE_AT_VALID_TIME sets the visibility for data manipulation language (DML), data"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ABE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A: To implement Temporal Validity(TV), 12c offers the option to have two date columns in that table which is having TV enabled using the new clause Period For in the Create Table for the newly created tables or in the Alter Table for the existing ones. The columns that are used can be defined while creating the table itself and will be used in the Period For clause or you can skip having them in the tables definition in the case of which, the Period For clause would be creating them internally."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: ENABLE_AT_VALID_TIME Procedure"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This procedure enables session level valid time flashback."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A: To implement Temporal Validity(TV), 12c offers the option to have two date columns in that table which is having TV enabled using the new clause Period For in the Create Table for the newly created tables or in the Alter Table for the existing ones. The columns that are used can be defined while creating the table itself and will be used in the Period For clause or you can skip having them in the tables definition in the case of which, the Period For clause would be creating them internally."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "E: ENABLE_AT_VALID_TIME Procedure"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "This procedure enables session level valid time flashback."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 1z0-067 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true when row-archival management is enabled?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Visibility of the ORA_ARCHIVE_STATE column is controlled by the row archival visibility session parameter."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The ORA_ARCHIVE_STATE column is updated manually or by a program that can reference activity tracking columns, to indicate that a row is no longer considered active."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The row archival visibility session parameter defaults to all rows."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The ORA_ARCHIVE_STATE column is visible if it is referenced in the select list of a query."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The ORA_ARCHIVE_STATE column is updated automatically by the database based on activity tracking columns, to indicate that a row is no longer"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 1z0-067 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three types of failures are detected by the Data Recovery Advisor (DRA)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. loss of a non-critical data file"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. loss of a control file"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. physical data block corruption"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. logical data block corruption"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. loss of an archived redo log file"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 1z0-067 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the RMAN command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RMAN> SET ENCRYPTION IDENTIFIED BY <password> ON FOR ALL TABLESPACES; RMAN> BACKUP DATABASE PLUS ARCHIVELOG;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which type of encryption is used for the backup performed by using this command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. password-mode encryption"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. dual-mode encryption"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. transparent encryption"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. default encryption"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 1z0-067 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your database is running in archivelog mode. Examine the parameters for your database instance:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LOG_ARCHIVE_DEST_l ='LOCATION=/disk1/arch MANDATORY'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LOG_ARCHIVE_DEST_2 ='LOCATION=/disk2/arch'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LOG_ARCHIVE_DEST_3 ='LOCATIO=/disk3/arch'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LOG_ARCHIVE_DEST _4 ='LOCATIONs/disk4/arch'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LOG_ARCHIVE _MIN_SUCCEED_DEST = 2"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While the database is open, you notice that the destination set by the log_archive_dest_1 parameter is not available. All redo log groups have been used."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What happens at the next log switch?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The database instance hangs and the redo log files are not overwritten."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The archived redo log files are written to the fast recovery area until the mandatory destination is made available."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The database instance is shutdown immediately."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The destination set by the log_archive_dest parameter is ignored and the archived redo log files are created in the next two available locations to guarantee"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 1z0-067 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about recovering logically corrupted tables or table partitions from an RMAN backup?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Tables or table partitions can be recovered by using an auxiliary instance only."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Tables or table partitions with a foreign key cannot be recovered."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Tables or table partitions can be recovered only when the database is in mount state."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Tables or table partitions from the system and sysauxtablespaces cannot be recovered."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Tables with not null constraints cannot be recovered."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 1z0-067 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After implementing full Oracle Data Redaction, you change the default value for the number data type as follows:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> SELECT NUMBER_VALUE FROM REDACTION_VALUES_FOR_TYPE_FULL; NUMBER_VALUE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-------------------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> EXEC DBMS_REDACT.UPDATE_FULL_REDACTI0N_VALUES(-1)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PL/SQL procedure successfully completed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> select number_value from redaction_values_for_type_full;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NUMBER VALUE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "------------------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After changing the value, you notice that FULL redaction continues to redact numeric data with a zero."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What must you do to activate the new default value for numeric full redaction?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Re-enable redaction policies that use FULL data redaction."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Re-create redaction policies that use FULL data redaction."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Re-connect the sessions that access objects with redaction policies defined on them."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Flush the shared pool."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Restart the database instance."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: E \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "About Altering the Default Full Data Redaction Value"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can alter the default displayed values for full Data Redaction polices. By default, 0 is the redacted value when Oracle Database performs full redaction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(DBMS_REDACT.FULL) on a column of the NUMBER data type. If you want to change it to another value (for example, 7), then you can run the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DBMS_REDACT.UPDATE_FULL_REDACTION_VALUES procedure to modify this value. The modification applies to all of the Data Redaction policies in the current database instance. After you modify a value, you must restart the database for it to take effect."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "About Altering the Default Full Data Redaction Value"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can alter the default displayed values for full Data Redaction polices. By default, 0 is the redacted value when Oracle Database performs full redaction"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(DBMS_REDACT.FULL) on a column of the NUMBER data type. If you want to change it to another value (for example, 7), then you can run the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DBMS_REDACT.UPDATE_FULL_REDACTION_VALUES procedure to modify this value. The modification applies to all of the Data Redaction policies in the current database instance. After you modify a value, you must restart the database for it to take effect."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 1z0-067 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your database has a table customers that contains the columns cust_name, amt_due, and old_status."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the commands executed and their output:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>UPDATEcustomersSETamt_due=amt_due+amt_due*l. 1WHEREcust_name='JAMES';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1row updated."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> ALTER TABLE customers DROP COLUMN old_status;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Table Altered -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> UPDATE customers SET amt_due=amt_due+amt_due*1.5 WHERE cust_r.ame='JAMES';"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1 row updated."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> COMMIT;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> SELECT versions_xid AS XID, versior.s_startscr. AS START_SCN, versions_er.cscn AS END_SCN, versior.s_operatior. AS OPERATION', amt_due"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FROM customers VERSIONS BETWEEN SCN MINVALULEAND MAXVALUE WHERE custname='JAMES';."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "XIDSTART_SCNEND_SCNOPERATIONAMT_DUE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-------------------------- ----------------------- ------------------- ------------------- ------------------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "07002f00cl03000017063371706337 U3300"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Why is it that only one update is listed by the Flashback Version Query?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Supplemental logging is not enabled for the database."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The undo data that existed for versions of rows before the change to the table structure is invalidated."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The db_flash3ACK_reteni:on_target parameter is set to a lower value and the undo data pertaining to the first transaction is flushed out."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Undo retention guarantee is not enabled."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Flashback Data Archive is full after the first update statement."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 1z0-067 topic 1 question 52 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to back up a database such that only formatted blocks are backed up. Which statement is true about this backup operation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The backup must be performed in mount state."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The tablespace must be taken offline."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All files must be backed up as backup sets."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The database must be backed up as an image copy."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 1z0-067 topic 1 question 54 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your database instance is started using an SPFILE. You are connected to cdb$root, as a DBA. You issue:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> ALTER SYSTEM SET STATISTICS_LEVEL=ALL SCOPE=BOTH;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true about the statistics level parameter?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It is immediately set to all in the SPFILE and the CDB instance."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is immediately set to all in only those pluggable databases (PDBs) where the value is set to typical."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is immediately set to all only for cd3Sroot."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is immediately set to all in all PDBs where the statistics_level parameter is not set."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It is set to all for all PDBs only in the SPFILE."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 1z0-067 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are administering a multitenant container database (CDB)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Identify two ways to access a pluggable database (PDB) that is open in read-only mode."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. by using the connect statement as a local user having only the set container privilege"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. by using easy connect"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. by using external authentication"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. as a common user with the set container privilege"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. by executing the alter session set container command as a local user"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 1z0-067 topic 1 question 56 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which situation can you use Flashback Database?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. when undoing a shrink data file operation"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. when retrieving a dropped tablespace"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. when returning to a point in time before the restoration or re-creation of a control file"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. when returning to a point in time before the most recent open resetlogs operation"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 1z0-067 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Users report this error message when inserting rows into the orders table:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ERROR atline1:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ORA-01654f:unable to extend index USERS.ORDERS_IND by 8in tablespace INDEXES"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You determine that the indexes tablespace is out of space and there is no free space on the filesystem used by the Oracle database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two must you do to fix this problem without affecting currently executing queries?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. drop and re-create the index"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. coalesce the orders\u201eind index"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. coalesce the indexes tablespace"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. perform an on line table rebuild using dbns_redefir.ition."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. rebuild the index online moving it to another tablespace that has enough free space for the index"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 1z0-067 topic 1 question 64 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Evaluate these statements:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATE TABLE purchase_orders -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(po_idNUMBER(4),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "po_dateTIMESTAMP,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "supplier_idNUM8ER(6),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "po_totalNUMBER(8,2), CONSTRAINT order_pk PRIMARY KEY(po_id))"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PARTITIONBYRANGE(po_date)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(PARTITIONQ1 VALUESLESSTHAN (TO_DATE('01-apr-2007','dd-mon-yyyy')), PARTITIONQ2VALUESLESSTHAN(TO_DATE('01-jul-2007','dd-mon-yyyy')),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PARTITIONQ3VALUESLESSTHAN (TO~DATE('01-oct-2007','dd-non-yyyy')), PARTITIONQ4VALUESLESSTHAN (TO_DATE('Ol-jan-2008','dd-non-yyyy' )));"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CREATETABLEpurchase_order_items -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(po_idNUM3ER(4)NOTNULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "product_idNUMBER(6)NOTNULL,"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "unit_prlceNUMBER(8,2),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "quantity NUMBER(8),"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "CONSTRAINTpo_items_f k -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FOREIGNKEY(po_id)REFERENCESpurchase_orders(po_id) )"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PARTITIONBYREFERENCE(po_items_fk);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Partitions of purchase_order_items are assigned unique names based on a sequence."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The purchase_orders and purchase_order_items tables are created with four partitioneach."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. purchase_order_items table partitions exist in the same tablespaces as the purchase_orders table partitions."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The purckase_order_:teks table inherits the partitioning key by duplicating the key columns from the parent table."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Partition maintenance operations on the purchase_order_items table require disabling the foreign key constraint."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam 1z0-067 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which four actions are possible during an Online Datafile Move operation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Creating and dropping tables in the datafile being moved"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Performing file shrink of the data file being moved"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Querying tables in the datafile being moved"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Performing Block Media Recovery for a data block in the datafile being moved"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Flashing back the database"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Executing DML statements on objects stored in the datafile being moved"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ACEF \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can now move On line Datafile without hove to stop Monoged Recovery and manually copy and rename Files. This can even be used to move Datafiles from or to ASM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- New in Oracle Database 12c: FROM METAUNK. Physical Standby Database is in Active Data Guard Mode (opened READ ONLY and Managed Recovery is running):"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "It is now possible to online move a Datafile while Managed Recovery is running, ie. the Physical Standby Database is in Active Data Guard Mode. You con use this Command to move the Datafile"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- A flashback operation does not relocate a moved data file to its previous location. If you move a data file online from one location to another and later flash back the database to a point in time before the move, then the Data file remains in the new location, but the contents of the Data file ore changed to the contents at the time specified in the flashback. Oracle0 Database Administrator's Guide 12c Release 1 (12.1)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You can now move On line Datafile without hove to stop Monoged Recovery and manually copy and rename Files. This can even be used to move Datafiles from or to ASM."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- New in Oracle Database 12c: FROM METAUNK. Physical Standby Database is in Active Data Guard Mode (opened READ ONLY and Managed Recovery is running):"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "It is now possible to online move a Datafile while Managed Recovery is running, ie. the Physical Standby Database is in Active Data Guard Mode. You con use this Command to move the Datafile"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "- A flashback operation does not relocate a moved data file to its previous location. If you move a data file online from one location to another and later flash back the database to a point in time before the move, then the Data file remains in the new location, but the contents of the Data file ore changed to the contents at the time specified in the flashback. Oracle0 Database Administrator's Guide 12c Release 1 (12.1)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 1z0-067 topic 1 question 68 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are administering a multitenant container database (CDB) cdb1 that is running in archivelog mode and contains pluggable databases (PDBs), pdb_i and pdb_2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While opening pdb_1, you get an error:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> alter pluggable database pdb_1 open;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ORA-011S7:cannotidentify/lockdatafile11-seeDBWRtracefile"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ORA-01110:data file 11:'/u01/app/oracle/oradata/cdb1/pcb_1/example01.dbf'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To repair the failure, you open an RMAN session for the target database CDBSROOT. You execute the following as the first command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RMAN>REPAIRFAILURE;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement describes the consequence of the command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The command performs the recovery and closes the failure."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The command produces an error because RMAN is not connected to the target database pdb_1."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The command produces an error because the advise failure command was not executed before the REPAIRFAILUER command."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The command executes successfully, performs recovery, and opens PDB_1."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam 1z0-067 topic 1 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What can be automatically implemented after the SQL Tuning Advisor is run as part of the Automated Maintenance Task?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. statistics recommendations"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SQL profile recommendations"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SQL statement restructure recommendations"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. creation of materialized views to improve query performance"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam 1z0-067 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A telecom company wishes to generate monthly bills to include details of customer calls, listed in order of time of call."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which table organization allows for generating the bills with minimum degree of row sorting?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a hash cluster"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. an index cluster"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a partitioned table"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a sorted hash cluster"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. a heap table with a rowid column"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam 1z0-067 topic 1 question 74 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your multitenant container database (CDB) cdb1 that is running in archivelog mode contains two pluggable databases (PDBs), pdb2_1 and pdb2_2, both of which are open. RMAN is connected to the target database pdb2_1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RMAN> BACKUP DATABASE PLUS ARCHIVELOG DELETE INPUT;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of this command to back up the database?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All data files belonging to pdb2_1 are backed up and all archive log files are deleted."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. All data files belonging to pdb2_1 are backed up along with the archive log files."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Only the data files belonging to pdb2_ are backed up."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. This command gives an error because archive log files can be backed up only when RMAN is connected to the root database."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam 1z0-067 topic 1 question 75 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You notice that the performance of your production 24/7 Oracle 12c database has significantly degraded. Sometimes you are not able to connect to the instance because it hangs. You do not want to restart the database instance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can you detect the cause of the degraded performance?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Enable Memory Access Mode, which reads performance data from SGA."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use emergency monitoring to fetch data directly from SGA for analysis."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Run Automatic Database Diagnostic Monitor (ADDM) to fetch information from the latest Automatic Workload Repository (AWR) snapshots."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use Active Session History (ASH) data and hang analysis in regular performance monitoring,"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Run ADDM in diagnostic mode."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* In most cases, ADDM output should be the first place that a DBA looks when notified of a performance problem."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Performance degradation of the database occurs when your database was performing optimally in the past, such as 6 months ago, but has gradually degraded to a point where it becomes noticeable to the users. The Automatic Workload Repository (AWR) Compare Periods report enables you to compare database performance between two periods of time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While an AWR report shows AWR data between two snapshots (or two points in time), the AWR Compare Periods report shows the difference between two periods (or two AWR reports with a total of four snapshots). Using the AWR Compare Periods report helps you to identify detailed performance attributes and configuration settings that differ between two time periods."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "* In most cases, ADDM output should be the first place that a DBA looks when notified of a performance problem."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* Performance degradation of the database occurs when your database was performing optimally in the past, such as 6 months ago, but has gradually degraded to a point where it becomes noticeable to the users. The Automatic Workload Repository (AWR) Compare Periods report enables you to compare database performance between two periods of time."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While an AWR report shows AWR data between two snapshots (or two points in time), the AWR Compare Periods report shows the difference between two periods (or two AWR reports with a total of four snapshots). Using the AWR Compare Periods report helps you to identify detailed performance attributes and configuration settings that differ between two time periods."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam 1z0-067 topic 1 question 80 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "$expdp SYSTEM FULL=YES DUMPFILE=dpump_dir1:fulll%U.dmp, dpump_dir2:full2% U.dmp, dpump_dir3:full3%U.djnp FILESIZE=400M PARALLEL=3"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "JOB_NAME=expfull -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of the command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It fails because the log file parameter is not specified."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It fails because no absolute path is specified for the log file and dump file."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It succeeds and exports the full database, simultaneously creating three copies of dump files at three different locations."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It succeeds and exports the full database, simultaneously creating three dump files at three different locations, but the total number of dump files can exceed"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam 1z0-067 topic 1 question 81 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You notice that the performance of your production 24x7 Oracle 12c database has significantly degraded. Sometimes, you are not able to connect to the database instance because it hangs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can you detect the cause of the degraded performance?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. by performing emergency monitoring using Real-Time Automatic Database Diagnostic Monitor (ADDM) to fetch data directly from SGA for analysis"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. by running ADDM to fetch information from the latest Automatic Workload Repository (AWR) snapshots"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. by using Active Session History (ASH) data and performing hang analysis"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. by running ADDM in diagnostic mode"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam 1z0-067 topic 1 question 82 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Automatic Shared Memory Management (ASMm) is enabled for your database instance, but parameters for the managed components are not defined."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You execute this command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> ALTER SYSTEM SET DB_CACHE_SIZE = 100M;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The minimum size for the standard buffer cache is 100 MB."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The maximum size for the standard buffer cache is 100 MB."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The minimum space guaranteed in the buffer cache for any server process is 100 MB."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The maximum space in the buffer cache that can be released for dynamic distribution is 100 MB."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The minimum size for all buffer caches is 100 MB."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam 1z0-067 topic 1 question 84 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true regarding the Oracle Data Pump export and import operations?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You cannot export data from a remote database."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. You can rename tables during import."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You can overwrite existing dump files during export."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You can compress data but not metadata during export."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam 1z0-067 topic 1 question 87 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your multitenant container database (CDB) cdb1 that is running in archivelog mode contains two pluggable databases (PDBs), pdb2_1 and pdb2_2. RMAN is connected to the target database pdb2_1."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the command executed to back up pdb2_1:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RMAN> BACKUP DATABASE PLUS ARCHIVELOG;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement is true about the execution of this command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It fails because archive log files cannot be backed up using a connection to a PDB."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It succeeds but only the data files belonging to the pdb2_i pluggable database are backed up."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It succeeds and all data files belonging to PD32_i are backed up along with the archive log files."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It fails because the pluggable clause is missing."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam 1z0-067 topic 1 question 88 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "View the Exhibit showing steps to create a database resource manager plan."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>executedbms_resource_manager.create_pendingarea();"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PL/SQLproceduresuccessfully completed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3QL>execdbms_resource_manager,create_consumergroup (consumer_group=>OLTP,,comment=>,onlineuser)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PL/SQLproceduresuccessfullycompleted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>execdbras_resource_raanager.create_plan(plan=>PRIU3ER3',comment=>'dssprio);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL>exec -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Dbms_resource_manager.create_plan_directive(plan=>PRIU3ER3,group_or_subplan=>'OLTP,comraent=>'onlinegrp'CPU_Pl=>60);"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PL/3QLproceduresuccessfullycompleted."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "After execting the steps in the exhibit you execute this procedure, which results in an error:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> EXECUTEdbms_resource_manager. validate_pending_area ();"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the reason for the error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The pending area is automatically submitted when creating plan directives."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The procedure must be executed before creating any plan directive."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The sys_group group is not included in the resource plan."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The other_groups group is not included in the resource plan."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Pending areas can not be validated until submitted."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam 1z0-067 topic 1 question 90 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You execute the RMAN commands:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RMAN> BACKUP VALIDATE DATABASE;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RMAN> RECOVER CORRUPTION LIST;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which task is performed by these commands?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Corrupted blocks, if any, are repaired in the backup created."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Only those data files that have corrupted blocks are backed up."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Corrupted blocks in the data files are checked and repaired before performing the database backup."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The database is checked for physically corrupt blocks and any corrupted blocks are repaired."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 36": {
+      "Title": "Exam 1z0-067 topic 1 question 91 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are connected to a pluggable database (PDB) as a common user with the sysdba privilege. The PDB is open and you issue the shutdown immediate command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the outcome?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The PDB is closed."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The PDB is placed in mount state."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The command executes only if the common user is granted the set container privilege for the PDB."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The command results in an error because the PDB can be shut down only by a local user."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam 1z0-067 topic 1 question 92 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three statements are true about the SQL*Loader utility?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It can be used to load data from multiple external files into multiple tables."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It can be used to extract and reorganize data from external files, and then load it into a table."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It can be used to load data from external files using direct path only."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It can be used to create tables using data that is stored in external files."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It can be used to generate unique sequential values in specified columns while loading data."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ADE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 38": {
+      "Title": "Exam 1z0-067 topic 1 question 93 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "While performing database backup to tape via the media manager interface, you notice that tape streaming is not happening because RMAN is not sending data blocks fast enough to the tape drive."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two actions would you take for tape streaming to happen during the backup?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure backup optimization."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure the channel to increase maxopenfiles."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure a backup policy by using incremental backups."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure the channel to increase capacity with the rate parameter."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Configure the channel to adjust the tape buffer size by using the 3LKSIZE option."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Configure large_pool, if not done already. Alternatively, you can increase the size of"
+            }
+          ]
+        },
+        "G": {
+          "content": [
+            {
+              "type": "text",
+              "value": "G. LARGE_POOL."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 39": {
+      "Title": "Exam 1z0-067 topic 1 question 96 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to consolidate databases for the CRM, ERP, and SCM applications by migrating them to pluggable databases (PDBs)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have already created a test system to support the consolidation of databases in a multitenant container database (CDB) that has multiple PDBs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the easiest way to perform capacity planning for consolidation?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. capturing the most resource-intensive SQL statements in a SQL Tuning Set on the production system and using the SQL Performance Analyzer on the test system"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. capturing the workload on the production system and replaying the workload for one PDB at a time on the test system"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. capturing the workload on the production system and using Consolidated Database Replay to replay the workload of all production systems simultaneously for all PDBs"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. capturing the most resource-intensive SQL statements in a SQL Tuning Set on the production system and using the SQL Tuning Advisor on the test system"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 40": {
+      "Title": "Exam 1z0-067 topic 1 question 99 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your database is running in archivelog mode. Examine the initialization parameters you plan to set for your database instance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LOG_ARCHIVE_DEST_1 = 'LOCATION=/disk1/arch'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LOG_ARCHIVE_DEST_2 = 'L0CATI0N=/disk2/3rch'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "LOG_ARCHIVE_DEST_3 = 'LOCATION=/disk3/arch'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "L0G_ARCHIVE_DEST_4 = 'L0CATI0N=/disk4/3rch MANDATORY'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Identify the statement that correctly describes these settings."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. An online redo log file is not allowed to be overwritten if the archived log file cannot be created in any of the log_archive_dest_.n destinations."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Optional destinations cannot use the fast recovery area."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An online redo log file is not allowed to be overwritten if the archived log file cannot be created in the location specified for log_archive_dest_4."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. These settings work only if log__archive_min_succeed_dest is set to a value of 4."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 41": {
+      "Title": "Exam 1z0-067 topic 1 question 100 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three statements correctly describe the relationship amongst jobs, programs, and schedules within the Oracle Job Scheduler?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A job is specified as part of a program definition."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A program can be used in the definition of multiple jobs."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A program and job can be specified as part of a schedule definition."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A program and schedule can be specified as part of a job definition."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A program and window can be specified as part of a job definition."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BCD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 42": {
+      "Title": "Exam 1z0-067 topic 1 question 101 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements describe the relationship between a window, a resource plan, and a job class?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A window specifies a resource plan that will be activated when that window becomes active."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A window specifies a job class that will be activated when that window becomes active."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A job class specifies a window that will be open when that job class becomes active."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A window in association with a resource plan controls a job class allocation."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A window in association with a job class controls a resource allocation."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 43": {
+      "Title": "Exam 1z0-067 topic 1 question 111 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to reduce fragmentation and reclaim unused space for the sales table but not its dependent objects. During this operation, you want to ensure the following: i.Long-running queries are not affected. ii.No extra space is used. iii.Data manipulation language (DML) operations on the table succeed at all times throughout the process. iv.Unused space is reclaimed both above and below the high water mark."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which alter TABLE option would you recommend?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. DEALLOCATE UNUSED"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SHRINK SPACE CASCADE"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SHRINK SPACE COMPACT"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ROW STORE COMPRESS BASIC"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 44": {
+      "Title": "Exam 1z0-067 topic 1 question 113 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "For which two requirements would you use the Database Resource Manager?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. limiting the CPU used per database call"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. specifying the maximum number of concurrent sessions allowed for a user"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. specifying the amount of private space a session can allocate in the shared pool of the SGA"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. limiting the degree of parallelism of operations performed by a user or group of users"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. specifying an idle time limit that applies to sessions that are idle and blocking other sessions"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 45": {
+      "Title": "Exam 1z0-067 topic 1 question 115 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about the Automatic Diagnostic Repository (ADR)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The ADR base is shared across multiple instances."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The ADR base keeps all diagnostic information in binary format."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The ADR can be used to store statspack snapshots to diagnose database performance issues."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The ADR can be used for problem diagnosis even when the database instance is down."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The ADR is used to store Automatic Workload Repository (AWR) snapshots."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 46": {
+      "Title": "Exam 1z0-067 topic 1 question 117 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about a common user?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A common user connected to a pluggable database (PDB) can exercise privileges across other PDBs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A common user with the create user privilege can create other common users, as well as local users."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A common user can be granted only a common role."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A common user can have a local schema in a PDB."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A common user always uses the global temporary tablespace that is defined at the CDB level as the default temporary tablespace."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 47": {
+      "Title": "Exam 1z0-067 topic 1 question 121 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "RMAN is connected to the target database prod1 and an auxiliary instance in nomount state. Examine the command to create a duplicate database:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RMAN> DUPLICATE TARGET DATABASE TO dup1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FROM ACTIVE DATABASE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOFILENAMECHECK -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "PASSWORD FILE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SPFILE;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true about the execution of the duplicate command?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All archive redo log files are automatically copied to the duplicate database."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The duplicate database has the same directory structure as the source database."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The duplicate database is created by using the backups created during the execution of"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. the duplicate command."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The password file and SPFILE for the duplicate database dup1 are created in their respective default locations."
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. The duplicate database is created without using RMAN backups and prod: is allowed to remain open during duplication."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 48": {
+      "Title": "Exam 1z0-067 topic 1 question 122 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user issues a query on the sales table and receives the following error:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ERROR at line 1:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ORA-01565: error in identifying file '/u0l/app/oracle/oradata/ORCL/temp01.dbf'"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "ORA-27037: unable to obtain file status"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two actions would you take to recover the temporary tablespace?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Drop the tenpOi.dbf file, and then re-create the temp file."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add a new temp file to the temporary tablespace and drop the tempOi.dbf file."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Shut down the database instance, start up the database instance in mount state, create a new temporary tablespace, and then open the database."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Take the temporary tablespace offline, recover the missing temp file, and then bring the temporary tablespace online."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Create a new temporary tablespace and assign it as the default to the user."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 49": {
+      "Title": "Exam 1z0-067 topic 1 question 123 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your database supports an online transaction processing (OLTP) workload in which one of the applications creates a temporary table for a session and performs transactions on it. This consumes a lot of undo tablespace and is affecting undo retention."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two actions would you take to solve this problem?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Enable temporary undo for the database."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable undo retention guarantee."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Increase the size of the redo log buffer."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Enable Automatic Memory Management (AMM)."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Increase the size of the temporary tablespace."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: DE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 50": {
+      "Title": "Exam 1z0-067 topic 1 question 124 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true about service creation for pluggable databases (PDBs)?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. When a PDB is created, a service is automatically started in the instance with the same name as the PDB."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The default service that is automatically created by a database at the time of PDB creation can be dropped, provided a new additional service is created."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A database managed by Oracle Restart can have additional services created or existing services modified by using the srvctl utility for each PDB."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Only a common user can create additional services for a PDB."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. When a PDB is created, a service with the same name as the PDB is created in the PDB."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 51": {
+      "Title": "Exam 1z0-067 topic 1 question 125 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to move your existing recovery catalog to another database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Examine the steps:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "1)Export the catalog data by using the Data Pump Export utility in the source database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2) Create a recovery catalog user and grant the necessary privileges in the target database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3) Create a recovery catalog by using the create catalog command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "4)Import the catalog data into the new recovery catalog by using the Data Pump Import utility in the target database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "5)Import the source recovery catalog schema by using the import catalog command."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "6)Connect to the destination database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "7) Connect as catalog to the destination recovery catalog schema."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Identify the option with the correct sequence for moving the recovery catalog."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1, 6, 4"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2, 3, 7, 5"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1, 2, 6, 4"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1, 2, 3, 6, 5"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 52": {
+      "Title": "Exam 1z0-067 topic 1 question 126 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Examine the command and its output:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> DROP TABLE EMPLOYEE;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> SELECT object_name AS recycle_name, original_name, type FROM recyclebin;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RECYCLE_NAMEORIGINAL_NAMETYPE -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-------------------------------------------------------------------------------------------------------------- binsgk31sj/3akk5hg3j21kl5j3d==$0EMPLOYEE TABLE"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You then successfully execute the command:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> FLASHBACK TABLE \"BINSgk31sj/3akk5hg3j21kl5j3d==$0\" TO BEFORE DROP;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It flashes back the employee table and all the constraints associated with the table."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It automatically flashes back all the indexes on the employes table."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It automatically flashes back any triggers defined on the table."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It flashes back only the structure of the table and not the data."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. It flashes back the data from the recycle bin and the existing data in the original table is permanently lost."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 53": {
+      "Title": "Exam 1z0-067 topic 1 question 131 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your database supports an OLTP workload. Examine the output of the query:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "SQL> SSLECT target_mttr, estimated_mttr"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FROM v$instance_recovery -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Target_mttrestimated_mttr -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "---------------------- ---------------------------"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To ensure faster instance recovery, you set the fast_start_mttrjtargh:t initialization parameter to"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "30."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the effect of this setting on the database?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Automatic checkpoint tuning is disabled."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The frequency of log switches is increased."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The overhead on database performance is increased because of frequent writes to disk."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The MTTR advisor is disabled."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

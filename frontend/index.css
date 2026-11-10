@@ -1,0 +1,146 @@
+/* exam.css — responsive & touch-friendly updates (dropdown positioning fixed) */
+
+/* root variables */
+:root{
+  --bg: #f6fbff;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --accent: #0ea5e9;
+  --accent-2: #0b69b7;
+  --glass: rgba(255,255,255,0.65);
+  --glass-2: rgba(10,20,40,0.04);
+  --radius: 12px;
+  --shadow-lg: 0 12px 30px rgba(15,23,42,0.08);
+  --shadow-sm: 0 6px 18px rgba(15,23,42,0.06);
+  --gap: 18px;
+  --tap: 14px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* fluid base font */
+html { font-size: 16px; }
+body { font-size: clamp(14px, 1.4vw, 18px); margin:0; background: linear-gradient(180deg, #f9fdff 0%, #eef8ff 100%); color:#0f172a; }
+
+/* container */
+.app { display:flex; flex-direction:column; min-height:100vh; max-width:1200px; margin: calc(var(--gap)) auto; padding: 18px; }
+
+/* topbar */
+.topbar {
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:14px; background: linear-gradient(90deg, rgba(14,165,233,0.06), rgba(11,105,183,0.02));
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+}
+.brand { display:flex; align-items:center; gap:14px; }
+.brand h1 { margin:0; font-size: clamp(18px, 2.4vw, 22px); }
+.subtitle { margin:2px 0 0 0; font-size: 0.95rem; color:var(--muted); }
+
+/* header actions simplified for responsive */
+.header-actions { display:flex; gap:8px; align-items:center; }
+
+/* main layout */
+.single-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,1));
+  border-radius: 16px;
+  padding: 32px 42px;
+  box-shadow: var(--shadow-lg);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .single-card {
+    padding: 24px;
+    margin: 0 4px;
+  }
+}
+
+/* label & hint */
+.control-label { font-size: 0.94rem; font-weight:700; color:#0f172a; }
+.hint { font-size:0.92rem; color:var(--muted); }
+
+/* custom select */
+.custom-select {
+  position:relative; border-radius:10px; overflow:visible; background: var(--card);
+  border:1px solid var(--glass-2); display:flex; align-items:center;
+}
+.custom-select input[type="search"] {
+  width:100%; padding:12px 14px; border:0; outline:none; font-size:1rem; background:transparent; border-radius:10px;
+}
+.custom-select .caret { border:0; background:transparent; padding:10px 12px; cursor:pointer; color:var(--accent-2); font-weight:700; font-size:16px; }
+
+/* dropdown options — positioned absolutely relative to the select */
+.custom-select .options {
+  position:absolute; left:8px; right:8px; top: calc(100% + 8px); max-height:260px; overflow:auto;
+  background:var(--card); border-radius:12px; box-shadow: 0 18px 40px rgba(2,6,23,0.08); display:none; z-index:160; padding:8px;
+}
+
+/* ensure options display above everything and don't cause page overflow */
+.custom-select .options::-webkit-scrollbar { height:6px; width:6px; }
+
+/* option */
+.option-item { display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px; border-radius:8px; cursor:pointer; transition: background .12s ease, transform .08s ease; }
+.option-item:focus, .option-item:hover { background: linear-gradient(90deg, rgba(14,165,233,0.04), rgba(11,105,183,0.02)); transform: translateY(-2px); }
+
+/* mobile: keep absolute positioning but increase max-height to fit */
+@media (max-width:600px){
+  .custom-select .options {
+    left: 8px;
+    right: 8px;
+    top: calc(100% + 8px);
+    max-height: 50vh;
+    padding:12px;
+    box-shadow: 0 30px 70px rgba(2,6,23,0.18);
+  }
+  .controls { position: static; }
+}
+
+/* disabled state */
+.custom-select.disabled { opacity:.74; filter:grayscale(.01); pointer-events:auto; }
+.custom-select.disabled input { cursor:not-allowed; }
+
+/* primary buttons */
+.primary-btn, .ghost-btn {
+  padding:12px 14px; border-radius:10px; font-weight:700; cursor:pointer; border:0; transition: transform .12s ease, box-shadow .12s ease;
+}
+.primary-btn { background: linear-gradient(90deg,var(--accent),var(--accent-2)); color:#fff; box-shadow: 0 8px 28px rgba(14,165,233,0.12); }
+.ghost-btn { background: transparent; color:var(--accent-2); border:1px solid rgba(11,105,183,0.08); }
+
+/* exams list */
+.exams-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; overflow:auto; padding-bottom: 24px; }
+.exam-row { display:flex; align-items:center; justify-content:space-between; gap:16px; background: linear-gradient(180deg, #f8fbfb, #ffffff); border-radius:12px; padding:14px; box-shadow: 0 8px 22px rgba(11,105,183,0.04); cursor:pointer; transition: transform .12s ease, box-shadow .12s ease; border: 1px solid #eef2f6; }
+.exam-row:hover { transform: translateY(-4px); box-shadow: 0 14px 36px rgba(11,105,183,0.08); }
+.exam-left { display:flex; gap:12px; align-items:center; flex: 1; min-width: 0; }
+.exam-title { word-break: break-word; overflow-wrap: anywhere; }
+.exam-icon { width:56px; height:56px; border-radius:10px; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:#fff; font-size:20px; }
+.exam-meta .exam-title { font-weight:700; font-size:15px; }
+.open-small { background: linear-gradient(90deg,var(--accent),var(--accent-2)); color:#fff; border-radius:10px; padding:8px 12px; border:0; cursor:pointer; font-weight:700; }
+
+/* empty state */
+.empty-state { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; padding:40px; color:var(--muted); border-radius:12px; text-align:center; }
+
+/* footer */
+.footer { margin-top:24px; text-align:center; color:var(--muted); font-size:0.94rem; }
+
+/* accessible focus */
+.option-item:focus, .primary-btn:focus, .ghost-btn:focus, .open-small:focus {
+  outline: 3px solid rgba(14,165,233,0.18);
+  outline-offset: 3px;
+}
+
+/* mobile specific wrapping */
+@media (max-width: 600px) {
+  .exam-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .exam-right {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+/* utilities */
+.hidden { display:none !important; }
+.sr-only { position:absolute; left:-99999px; top:auto; width:1px; height:1px; overflow:hidden; }

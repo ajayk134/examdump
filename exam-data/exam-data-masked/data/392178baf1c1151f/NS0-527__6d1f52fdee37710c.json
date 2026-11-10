@@ -1,0 +1,2161 @@
+{
+  "NS0-527__6d1f52fdee37710c": {
+    "Question #: 1": {
+      "Title": "Exam NS0-527 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have an AFF A800 system serving SAN LUNs to an SAP HANA database. You are configuring NetApp SnapCenter backups and are asked to replicate all data to the public cloud using NetApp SnapMirror technology."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which replication destination satisfies this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Cloud Volumes Service with Cloud Sync service"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Azure NetApp Files with Cloud Sync service"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Cloud Volumes ONTAP with cloud tiering"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. on-premises FAS8700 with ONTAP S3"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam NS0-527 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are asked to replicate data from site A to two separate disaster recovery sites at remote locations B and C. You want the data at the destinations to be as up-to-date as possible with the source site, in case of an outage."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which two configurations satisfy the objective? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a cascade deployment consisting of a SnapMirror Synchronous relationship from site A to site B to site C"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a fan-out deployment consisting of a SnapMirror Synchronous relationship from site A to site B, and an asynchronous relationship to site C"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a fan-out deployment consisting of a SnapMirror Synchronous relationship from site A to sites B and C"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a cascade deployment of a SnapMirror Synchronous relationship from site A to site B, and an asynchronous relationship from site B to site C"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam NS0-527 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer wants to implement a transparent application failover for a mission-critical SAN application between a primary data center and a secondary data center. The application consists of two LUNs: one LUN for data files and one LUN for log files. Each of the LUNs are located in different flexible volumes. The customer owns a data center with NetApp AFF A250 hardware running the application and another data center with an available AFF A250 storage system. The customer wants to implement a SnapMirror Business Continuity (SM-BC) solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which two statements are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The administrator must implement a dedicated network path between the data centers."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The administrator must implement a SAN that has accessibility to both data centers."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The administrator must add the flexible volumes of the LUNs to the same consistency group."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The administrator must move the LUNs to the same flexible volume."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam NS0-527 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are asked to install software that provides application-consistent backups that can then be archived to tape for your VMware vSphere and NetApp ONTAP environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which two solutions satisfy the requirements? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NetApp Active IQ Unified Manager"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Commvault Complete Backup & Recovery"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. NetApp SnapCenter software"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Veeam Backup & Replication"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam NS0-527 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have enabled a Snapshot policy on your Azure NetApp Files volume."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which statement is true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Space consumed by Azure NetApp Files snapshots reduce the available space in the volume."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Azure NetApp Files snapshots are extremely efficient and do not consume any additional space."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Space consumed by Azure NetApp Files snapshots reduce the unallocated space in the capacity pool."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Space consumed by Azure NetApp Files snapshots reduce the available space in the object store."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam NS0-527 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are asked to deploy a solution for business continuity in which applications are able to automatically fail over and resume immediately in the event of a disaster at one site. You decide to use SnapMirror Business Continuity (SM-BC) as your solution."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which three elements are required to satisfy the requirements? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a SnapMirror Synchronous relationship between consistency groups at each site"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. NetApp storage VM configured to only support file protocols at each site"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. an HA pair of AFF or All SAN Array (ASA) storage systems at each site"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. an SnapMirror Synchronous relationship between failover groups at each site"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. NetApp storage VM configured to only support block protocols at each site"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACE",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "CDE",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam NS0-527 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are administering an ONTAP 9.8 cluster. You have configured an hourly snapshot schedule for the volumes of a storage VM. One of the databases on a host that stores multiple databases in the same LUN is accidentally deleted. Users want to restore only this particular database."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, how would satisfy this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Perform a SnapMirror resync from the most recent Snapshot copy."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Perform a volume restore from a Snapshot copy."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Perform a single file restore from a Snapshot copy."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Perform a partial file restore from a Snapshot copy."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam NS0-527 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which NetApp ONTAP feature allows for the mirroring of data at the aggregate level?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. RAID 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SyncMirror"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SnapMirror Synchronous"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SnapMirror Business Continuity"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam NS0-527 topic 1 question 10 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer wants to replicate storage between two data centers that have hosts FC-attached LUNs. The primary and secondary data centers are approximately 50 km apart. Each site has two Cisco Nexus 3232C switches that are cabled to the Ethernet ISLs that connect to the other site. The customer requires the entire NetApp ONTAP 9.7 cluster at the primary site to be mirrored to ensure continuous availability with zero data loss for business-critical applications. The customer does not want to purchase new equipment, if possible."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which solution satisfies the requirements?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SnapMirror Synchronous"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SnapMirror Business Continuity"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. MetroCluster IP"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. MetroCluster FC"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam NS0-527 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are asked to encrypt data to satisfy a requirement for FIPS 140-2 Level 2."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What would satisfy the requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure NetApp Volume Encryption and NetApp Aggregate Encryption with an onboard key manager."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure NetApp Aggregate Encryption and SED drives with an onboard key manager."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure NetApp Aggregate Encryption and NSE drives with an external key manager."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Configure NetApp Volume Encryption and SED drives with an external key manager."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam NS0-527 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a 2-node AFF A400 cluster running ONTAP 9.8 software. You have a storage VM (SVM) that serves both SMB and NFSv3 data sets to users. You are asked to protect the SVM root volume in the event of a node outage or failover. Client access must remain accessible without administrator intervention."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which SnapMirror type satisfies this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. DP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. TDP"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. XDP"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. LS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam NS0-527 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about cross-region replication of Azure NetApp Files volumes are true? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Replication is supported between designated regional non-pairs."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Replication is supported between two volumes in the same region."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Replication is supported between designated regional pairs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Replication is supported between any two Azure regions."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam NS0-527 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You want to take Snapshot copies of your Azure NetApp Files volumes at regular intervals."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements are correct in this scenario? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure a Snapshot policy within ONTAP System Manager."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use cron and an Azure CLI command to schedule the Snapshot copies."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The Azure NetApp Files service automatically schedules Snapshot copies."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the Snapshot policies feature within the Azure portal."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam NS0-527 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have detected a potential ransomware attack."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two observations led you to this conclusion? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. You noticed a large change in the size of the Snapshot copy."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. You noticed a decrease in storage efficiencies such as deduplication and compression."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. You noticed an increase in deduplication savings but a decrease in compression savings."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. You noticed an increase in storage efficiencies such as deduplication and compression."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam NS0-527 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are a storage administrator managing an environment that is configured for SnapMirror Business Continuity (SM-BC) between two remote data centers. After a network outage at one site, you notice that the applications that are configured for failover have not automatically resumed as expected."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, what is the reason for the failure?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. By default, a network outage will not trigger automated failover for applications."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The defined failover groups did not include the correct volumes for failover."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The ONTAP mediator node is currently unavailable to trigger automated failover for applications."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The defined failover groups did not include the correct LUNs for failover."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam NS0-527 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about SnapMirror throttling are true when setting a new throttle? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Transfers in progress use the new throttle."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Transfers in progress must be restarted to use the new throttle."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Throttles are set in kilobytes per second."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Throttles are set in megabytes per second."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam NS0-527 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are asked to implement an archive solution for a subset of your data which currently resides on an AFF ASA A250 with a single storage VM. A new ONTAP cluster consisting of a FAS500f system has been deployed as a target for this data in the same data center."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Using the ONTAP System Manager UI, which two configurations must be completed in this scenario? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SnapMirror Local"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Backup to Cloud"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Snapshot copies"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SnapMirror Remote"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam NS0-527 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are configuring NetApp Cloud Backup in a multicloud environment. The destination object storage that you configure must allow for both volume and file-based restores to your on-premises NetApp ONTAP system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which two object storage solutions would satisfy this requirement? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NetApp StorageGRID"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. IBM Cloud"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Azure Blob"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Amazon S3"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam NS0-527 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A Windows user is unable to restore data in the Windows client. The user wants to perform self-service file restorations using the previous versions in Explorer."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which action accomplishes this task?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the volume modify command to set the -snap-dir option to true."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Unlock the vsadmin account on the storage VM."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the volume modify command to set the -security-style option to NTFS."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add the user's Active Directory account to the backup-operators group on the storage VM."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam NS0-527 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You must protect all data within a storage VM (SVM) serving NAS data, with the requirements shown below."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- All volumes within the SVM must be protected."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- The source and destination SVMs are on the same subnet."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- The source SVM contains volumes for multiple applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- DR testing of an individual application is required without disrupting other applications."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which data protection solution satisfies these requirements?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use SyncMirror."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use SVM DR with identity-preserve set to true."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use SM-BC with the ONTAP Mediator."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use SVM DR with identity-preserve set to false."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam NS0-527 topic 1 question 25 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer has been running ONTAP Select to implement vNAS capabilities at two remote office sites. They now have a requirement for high availability around their software-defined storage (SDS) deployment. The customer wants to use MetroCluster SDS to provide high availability between the remote sites."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which two conditions must be satisfied before the MetroCluster SDS is deployed? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The distance between sites must be no more than 10 km."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The distance between sites must be no more than 20 km."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Layer 3 connectivity is required between each of the participating sites."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Layer 2 connectivity is required between each of the participating sites."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam NS0-527 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are the administrator of your company's NetApp ONTAP clusters. You are asked to protect the data during replication over the wire from one ONTAP cluster to another, to prevent malicious man-in-the middle attacks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which feature satisfies this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NetApp Volume Encryption"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. cluster peer encryption"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. NetApp Storage Encryption"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SMB encryption"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam NS0-527 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three replication topologies are supported in NetApp Cloud Manager? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ONTAP to ONTAP"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Azure to Element"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. AWS to ONTAP"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. AWS to GCP"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. ONTAP to SANtricity"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ACD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 24": {
+      "Title": "Exam NS0-527 topic 1 question 28 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In your organization, you are asked to protect your users' home directory volume by keeping one monthly Snapshot copy for twelve months, one weekly Snapshot copy for 26 weeks, and one daily Snapshot copy for 30 days."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two statements describe how you would accomplish this task? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create separate job schedules for monthly, weekly, and daily."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a snapshot policy to include the new job schedules."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create one job schedule that includes monthly, weekly, and daily."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a snapshot policy for each: weekly, monthly, and daily."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 25": {
+      "Title": "Exam NS0-527 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You need to configure a data protection relationship using the SnapMirror Cloud license for your NetApp ONTAP 9.8 system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which two solutions would be a destination for this relationship? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. a NetApp StorageGRID system"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. NetApp Cloud Volumes Service in Google Cloud"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a NetApp ONTAP-based system with the S3 protocol enabled"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a NetApp Cloud Volumes ONTAP instance in Amazon AWS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 26": {
+      "Title": "Exam NS0-527 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have three LUNs in a single volume serving three separate databases. You have SnapVault configured to protect this volume. Your users are reporting corruption on one of the databases."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, how would you restore the corrupted database without impacting the other two databases?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the volume snapshot restore command to restore the volume to a previous Snapshot copy and copy the contents back to the original LUN."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the volume snapshot restore command to restore only the corrupted database to a previous version."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a volume clone from the SnapVault destination, map the LUN to the host, and copy the contents back to the original LUN."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. From the database host copy a previous version of the database from the .snapshot folder."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 27": {
+      "Title": "Exam NS0-527 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "NetApp MetroCluster software uses which technology to achieve zero RPO at the cluster level?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ONTAP Mediator"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Cloud Sync service"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SyncMirror"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SnapMirror Synchronous"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 28": {
+      "Title": "Exam NS0-527 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your primary site is protected using SVM DR with the identity-preserve option set to true. A network disruption is preventing a large number of SMB shares from being accessed at the primary site. You must fail over to the DR site to restore file services to end users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two actions must be performed to accomplish this task? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Update the SnapMirror relationship."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create new file shares at the DR site."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Break the SnapMirror relationship."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Stop the storage VM at the primary site."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam NS0-527 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A customer has deployed ONTAP 9.8 and is planning to use NetApp SnapMirror technology. They have a policy to enforce near-zero RPO for data recovery in an unplanned disaster. They also require that backups exist in multiple remote locations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, what would satisfy the customer's requirements?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. an asynchronous SnapMirror cascade"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. a fan-out design with multiple synchronous SnapMirror relationships"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. a synchronous SnapMirror cascade"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. a fan-out design with a single synchronous and additional asynchronous relationships"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam NS0-527 topic 1 question 36 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Ransomware has infected the files in your users' home directories that reside on Azure NetApp Files."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, what are two ways to recover from this event? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Revert the volume to a previous snapshot."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Restore the data using Windows Backup."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Restore the data from Azure Backup."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Restore from a snapshot to a new volume."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 31": {
+      "Title": "Exam NS0-527 topic 1 question 37 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "As part of a hybrid cloud strategy, you are planning on deploying some of your workloads in Google Cloud. Your current infrastructure consists of an ONTAP 9.8 cluster serving LUNs to database servers using the FC protocol."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, which method would enable you to transfer your data to the cloud, and begin working with it?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a SnapMirror relationship to a Cloud Volumes ONTAP system, and serve the data using FCoE."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the NetApp Cloud Sync service to replicate the data to Cloud Volumes Service in Google Cloud."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a SnapMirror relationship to a Cloud Volumes ONTAP system, and serve the data using iSCSI."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a SnapMirror Cloud relationship from ONTAP to Google Cloud Standard storage."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam NS0-527 topic 1 question 38 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are currently replicating several volumes using SnapMirror. You want to convert these relationships to a storage VM replication relationship."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which action must be performed to accomplish this task?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Verify that the source volumes are offline."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Verify that the source and destination volume names are unique."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Verify that the source and destination volume names are the same."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Verify that the destination volumes are offline."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 33": {
+      "Title": "Exam NS0-527 topic 1 question 40 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are concerned that the transfers of one of your SnapMirror relationships are consuming too much network bandwidth. The network administrator asks that you decrease the amount of bandwidth being used. The SnapMirror transfers for that relationship average about 500 MB in size. There is only a one-hour window in which the SnapMirror transfer can be performed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In this scenario, what is the minimum level to which SnapMirror transfer throttling should be set to accomplish this task?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 125 KBps"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 175 KBps"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 150 KBps"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 200 KBps"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

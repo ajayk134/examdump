@@ -1,0 +1,4248 @@
+{
+  "2V0-622__81fd3d6e4d712945": {
+    "Question #: 1": {
+      "Title": "Exam 2V0-622 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two reasons why a datastore in a Storage DRS cluster cannot enter maintenance mode? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Storage latency is too high to allow Storage DRS initiate Storage vMotion."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Storage DRS is configured for a VMFS3 datastore."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Storage DRS is disabled on the virtual disk."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Rules prevent Storage DRS from making migration recommendations."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.troubleshooting.doc%2FGUID-91D4FBBC-0677-44DA-B0F2-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "43A3504F8CA0.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.troubleshooting.doc%2FGUID-91D4FBBC-0677-44DA-B0F2-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "43A3504F8CA0.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 2V0-622 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A vSphere content library administrator is attempting to unpublish the content library, but the option is grayed out as shown in the Exhibit."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0000200001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement identifies the reason for not being able to unpublish?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The content library is optimized for syncing over HTTP."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A synchronization operation is in progress with this content library."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. There are active subscriptions on this content library."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Underlying storage for this content library is not accessible."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Since the underlying storage is not accessible for this content library, the option will be greyed out because the storage is unavailable."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Since the underlying storage is not accessible for this content library, the option will be greyed out because the storage is unavailable."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 2V0-622 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What two methods are used to configure VMware vSphere Storage I/O Control shares and limits? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Assign shares and limits to VM virtual disks."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Assign shares and limits to datastores."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Assign shares and limits to Storage DRS clusters."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Assign shares and limits using VM storage policies."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-55/index.jsp?topic=%2Fcom.vmware.vsphere.resmgmt.doc%2FGUID-25C3D9FE-3A9D-4739-AC75-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "16A9E0A3D9F0.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-55/index.jsp?topic=%2Fcom.vmware.vsphere.resmgmt.doc%2FGUID-25C3D9FE-3A9D-4739-AC75-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "16A9E0A3D9F0.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 2V0-622 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Assuming a mirrored (RAID-1) object configuration, how many hosts must contribute storage in a non-stretched VMware vSAN cluster to satisfy the \"Number of failures to tolerate\" policy option? value for all options."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 2n+2"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 2n"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 2n+1"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 3n"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If fault domains are configured, 2n+1 fault domains with hosts contributing capacity are required. A host, which is not part of any fault domain is considered its own single-host fault domain"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "If fault domains are configured, 2n+1 fault domains with hosts contributing capacity are required. A host, which is not part of any fault domain is considered its own single-host fault domain"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam 2V0-622 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator must change the statistics level for short-term performance monitoring and wants to collect metrics for all counters, excluding minimum and maximum rollup values."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What would be the statistics level?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Level 3"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Level 1"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Level 2"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Level 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.monitoring.doc_50%2FGUID-25800DE4-68E5-41CC-82D9-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "8811E27924BC.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.monitoring.doc_50%2FGUID-25800DE4-68E5-41CC-82D9-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "8811E27924BC.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 6": {
+      "Title": "Exam 2V0-622 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which network is used by vSphere HA when VMware vSAN is enabled?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Management network"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vSphere Replication network"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vMotion network"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. VSAN network"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0000700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://docs.vmware.com/en/VMware-vSphere/6.0/virtual-san-62-administration-guide.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0000700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://docs.vmware.com/en/VMware-vSphere/6.0/virtual-san-62-administration-guide.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 2V0-622 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A vSphere Administrator observes that the Primary VM configured with Fault Tolerance is executing slowly. After further investigation, it is determined that the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Secondary VM is on an overcommitted ESXi host."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What two methods will correct the problem? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use Storage vMotion to migrate the Secondary VM to another datastore."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use vMotion to migrate the Secondary VM to a different ESXi host."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Configure a CPU limit on the Primary VM which will also apply to the Secondary VM."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Turn off and turn on FT in order to recreate the Secondary VM on a different datastore."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-4-esx-vcenter/index.jsp?topic=/com.vmware.vsphere.availability.doc_40/c_ft_ts_perf.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-4-esx-vcenter/index.jsp?topic=/com.vmware.vsphere.availability.doc_40/c_ft_ts_perf.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 8": {
+      "Title": "Exam 2V0-622 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to enable proactive HA by moving virtual machines automatically if a hardware alert is triggered."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are the three required settings? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set vSphere DRS Automation to Partially Automated."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Turn on Proactive HA."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set the Proactive HA Automation Level to Manual."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Set the Proactive HA Automation Level to Automated."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Turn on vSphere HA and vSphere DRS."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select Turn on Proactive HA."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Click Proactive HA Failures and Responses."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select from the following configuration options."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0001000001.png"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Select Turn on Proactive HA."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Click Proactive HA Failures and Responses."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select from the following configuration options."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0001000001.png"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 9": {
+      "Title": "Exam 2V0-622 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "If vCenter Server 5.5 installation has one or more services deployed remotely, which three services are relocated to vCenter Server 6.5 on upgrade? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vCenter Inventory Services"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vSphere Authentication Proxy"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vSphere Web Client"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vSphere ESXi Dump Collector"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. vSphere Syslog Collector"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CDE \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-65/index.jsp?topic=%2Fcom.vmware.vsphere.upgrade.doc%2FGUID-4BFB12D8-9FCA-4AB1-A44F-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2986966F0AD5.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-65/index.jsp?topic=%2Fcom.vmware.vsphere.upgrade.doc%2FGUID-4BFB12D8-9FCA-4AB1-A44F-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2986966F0AD5.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 10": {
+      "Title": "Exam 2V0-622 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What two debugging levels can a virtual machine be configured to? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Verbose"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Debugging"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Statistics"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Trivia"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The two debugging level that a virtual machine can be configured to are debugging and statistics."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.vm_admin.doc%2FGUID-942AD723-2989-4753-A478-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C67FC73CD653.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The two debugging level that a virtual machine can be configured to are debugging and statistics."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.vm_admin.doc%2FGUID-942AD723-2989-4753-A478-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "C67FC73CD653.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 11": {
+      "Title": "Exam 2V0-622 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How can failback of a recovered virtual machine in vSphere Replication be performed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. No action required, because failback is automatically performed to the source site."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure a new replication in the reverse direction at the target site."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Disable or Stop virtual machine replication on the source site."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Power off and unregister the virtual machine on the target site."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.replication_admin.doc%2FGUID-0594C104-1381-4EE7-8C6A-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A44E9F380AAB.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.replication_admin.doc%2FGUID-0594C104-1381-4EE7-8C6A-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A44E9F380AAB.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 12": {
+      "Title": "Exam 2V0-622 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "After upgrading the vSphere infrastructure and VMware Tools to version 6.5, the \"Upgrade VM Compatibility\" option is grayed out in the vSphere Web Client. (See"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Exhibit.)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0001300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What must the administrator do to enable the VM compatibility upgrade?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. VMware Tools should be upgraded last."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Restart the ESXi server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Uninstall VMware Tools."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Power off the virtual machine."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If Upgrade VM compatibility is grayed out, it is because VMware tools are not installed or they are running the current version. For that you have to restart ESXi server. This way VMware tools will be upgraded or it will ask you to install it."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "If Upgrade VM compatibility is grayed out, it is because VMware tools are not installed or they are running the current version. For that you have to restart ESXi server. This way VMware tools will be upgraded or it will ask you to install it."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 13": {
+      "Title": "Exam 2V0-622 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What availability mode does vCenter HA provide?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Active-Passive"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Active-Standby"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Active-Active"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Load-balanced"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1024051"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1024051"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 14": {
+      "Title": "Exam 2V0-622 topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Upgrading vCenter Server with Microsoft SQL database fails with the following error message:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The DB User entered does not have the required permissions needed to install and configure vCenter Server with the selected DB. Please correct the following error(s): %s"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What could cause this error?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. incorrect ports open on SQL Server"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. incorrect database on the SQL server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. incorrect compatibility mode on the SQL server"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. incorrect permission on SQL Server database"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.install.doc_50%2FGUID-5AA32F87-270C-4171-8896-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "41A607F8F997.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.install.doc_50%2FGUID-5AA32F87-270C-4171-8896-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "41A607F8F997.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 15": {
+      "Title": "Exam 2V0-622 topic 1 question 27 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A vSphere Administrator is in the process of configuring replication for a virtual machine, but is not able to select the Recovery Point Objective (RPO) value of 5 minutes."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0001700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement could explain why the RPO value cannot be lower than 15 minutes?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The OS quiescing option is selected for Replication options."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The virtual machine hardware version is not compatible."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The target and source sites use different types of datastores."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The target and source sites are not using VMFS 6.0 datastore."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://pubs.vmware.com/vsphere-replication-61/index.jsp?topic=%2Fcom.vmware.vsphere.replication-admin.doc%2FGUID-9E17D567-A947-49CD-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "8A84-8EA2D676B55A.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://pubs.vmware.com/vsphere-replication-61/index.jsp?topic=%2Fcom.vmware.vsphere.replication-admin.doc%2FGUID-9E17D567-A947-49CD-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "8A84-8EA2D676B55A.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 16": {
+      "Title": "Exam 2V0-622 topic 1 question 30 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are two requirements to enable EVC in vSphere DRS cluster? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. CPUs must be from the same vendor."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. EVC must use the lowest possible baseline supported by the hardware."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. CPUs must be in the same family and of the same speed."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. No VMs may be running in the cluster."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-60/index.jsp#com.vmware.vsphere.vcenterhost.doc/GUID-FEC87C0B-7276-4152-8EAA-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "915305E64FED.html"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "#GUID-FEC87C0B-7276-4152-8EAA-915305E64FED"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-60/index.jsp#com.vmware.vsphere.vcenterhost.doc/GUID-FEC87C0B-7276-4152-8EAA-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "915305E64FED.html"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "#GUID-FEC87C0B-7276-4152-8EAA-915305E64FED"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 17": {
+      "Title": "Exam 2V0-622 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which method is supported for backing up the virtual machine that contains vCenter Server?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. differential"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. incremental"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. full image"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. individual disks"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-60/index.jsp?topic=%2Fcom.vmware.vsphere.install.doc%2FGUID-539B47B4-114B-49BC-9736-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F14058127ECA.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-60/index.jsp?topic=%2Fcom.vmware.vsphere.install.doc%2FGUID-539B47B4-114B-49BC-9736-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F14058127ECA.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 18": {
+      "Title": "Exam 2V0-622 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the minimum number of hosts that must contribute capacity to a non-ROBO single site VMware vSAN cluster?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 64"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 3"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 2"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A minimum of three hosts must contribute capavity to non-ROBO single site."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A minimum of three hosts must contribute capavity to non-ROBO single site."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 19": {
+      "Title": "Exam 2V0-622 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two storage configurations on the source server are unsupported with VMware Converter? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Linux LVM"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. software RAID"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. GPT/MBR hybrid disks"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Windows basic volumes"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Windows dynamic volumes"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1016330"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1016330"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 20": {
+      "Title": "Exam 2V0-622 topic 1 question 46 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements about vCenter HA are correct? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ESXi 5.5 or later is required."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vCenter HA network latency between nodes must be less than 50 ms."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. NFS datastore is supported."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It must be deployed on a 3 ESXi host cluster with DRS enabled."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0002700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.avail.doc/GUID-8FD87389-8CC9-4298-8B08-A1526FB44524.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0002700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.avail.doc/GUID-8FD87389-8CC9-4298-8B08-A1526FB44524.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 21": {
+      "Title": "Exam 2V0-622 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two types of iSCSI adapters require VMkernel networking configuration? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. dependent hardware"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. in-guest"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. software"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. independent hardware"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-55/index.jsp?topic=%2Fcom.vmware.vsphere.storage.doc%2FGUID-C476065E-C02F-47FA-A5F7-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3B3F2FD40EA8.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-55/index.jsp?topic=%2Fcom.vmware.vsphere.storage.doc%2FGUID-C476065E-C02F-47FA-A5F7-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "3B3F2FD40EA8.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 22": {
+      "Title": "Exam 2V0-622 topic 1 question 61 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Storage capabilities be populated in what two ways? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The administrator can use tags to describe capabilities."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Default capabilities are provided by vCenter Server."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Datastores can advertise their capabilities through VAAI."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Datastores can advertise their capabilities through VASA."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://cormachogan.com/2015/02/17/vsphere-6-0-storage-features-part-5-virtual-volumes/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://cormachogan.com/2015/02/17/vsphere-6-0-storage-features-part-5-virtual-volumes/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 23": {
+      "Title": "Exam 2V0-622 topic 1 question 63 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How can a vSphere administrator ensure that a set of virtual machines run on different hosts in a DRS cluster?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use a VM-Host affinity rule."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Add the VMs to a vApp."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use a VM-VM affinity rule."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Place the VMs in different folders."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A VM-VM affinity rule specifies whether selected individual virtual machines should run on the same host or be kept on separate hosts. This type of rule is used to create affinity or anti-affinity between individual virtual machines that you select."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.resmgmt.doc%2FGUID-94FCC204-115A-4918-9533-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BFC588338ECB.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A VM-VM affinity rule specifies whether selected individual virtual machines should run on the same host or be kept on separate hosts. This type of rule is used to create affinity or anti-affinity between individual virtual machines that you select."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.resmgmt.doc%2FGUID-94FCC204-115A-4918-9533-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "BFC588338ECB.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 24": {
+      "Title": "Exam 2V0-622 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "vCenter Server Appliance Instance can be backed up using which Client Interface?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vSphere Client Interface"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vSphere Web Client Interface"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. VMware Host Client Interface"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Virtual Appliance Management Interface"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-60/index.jsp?topic=%2Fcom.vmware.vsphere.install.doc%2FGUID-539B47B4-114B-49BC-9736-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F14058127ECA.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-60/index.jsp?topic=%2Fcom.vmware.vsphere.install.doc%2FGUID-539B47B4-114B-49BC-9736-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "F14058127ECA.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 25": {
+      "Title": "Exam 2V0-622 topic 1 question 67 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What tool can capture network traffic at the uplinks, or vSwitch, or virtual port levels?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. tcpdump-uw"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. wireshark"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. pktcap-uw"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. pcap"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.vmwarearena.com/how-to-capture-network-trafficpacket-on-esxi-hosts/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.vmwarearena.com/how-to-capture-network-trafficpacket-on-esxi-hosts/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 26": {
+      "Title": "Exam 2V0-622 topic 1 question 85 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which is the block size on the VMFS6 datastore?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. All small and large file blocks are 8MB."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. All small and large file blocks are 1MB."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Small file blocks are 512KB. large file blocks are 64MB."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Small file blocks are 1MB, large file blocks are 512MB."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "File Block Format -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "VMFS-6 introduces two new block sizes, referred to as small file block (SFB) and large file block (LFB)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While the SFB size can range from 64KB to 1MB for future use-cases, VMFS-6 in vSphere 6.5 is utilizing an SFB size of 1MB only. The LFB size is set to 512MB."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.google.pl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwiF__u8zs7VAhUGYVAKHThiBlUQFggrMAE&url=https%3A%2F%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2Fstoragehub.vmware.com%2Fexport_to_pdf%2Fvsphere-6-5-storage&usg=AFQjCNGb1qDx-rz8FwAZsuVr5d9fB-i1Yg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "File Block Format -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "VMFS-6 introduces two new block sizes, referred to as small file block (SFB) and large file block (LFB)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "While the SFB size can range from 64KB to 1MB for future use-cases, VMFS-6 in vSphere 6.5 is utilizing an SFB size of 1MB only. The LFB size is set to 512MB."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.google.pl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwiF__u8zs7VAhUGYVAKHThiBlUQFggrMAE&url=https%3A%2F%"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2Fstoragehub.vmware.com%2Fexport_to_pdf%2Fvsphere-6-5-storage&usg=AFQjCNGb1qDx-rz8FwAZsuVr5d9fB-i1Yg"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 27": {
+      "Title": "Exam 2V0-622 topic 1 question 91 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two situations could cause a virtual machine to appear with (orphaned) appended to its name? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. if a host failover is unsuccessful"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. if a virtual machine was removed from vCenter Server's inventory"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. if a virtual machine was deployed from template, and the template has been deleted"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. if a virtual machine is unregistered directly on the host"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Virtual machines can become orphaned if a host failover is unsuccessful, or when the virtual machine is unregistered directly on the host. If this situation occurs, move the orphaned virtual machine to another host in the datacenter that has access to the datastore on which the virtual machine files are stored."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.troubleshooting.doc_50%2FGUID-BFD8C9BC-30FB-4A92-AFEC-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2FC9FF387920.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Virtual machines can become orphaned if a host failover is unsuccessful, or when the virtual machine is unregistered directly on the host. If this situation occurs, move the orphaned virtual machine to another host in the datacenter that has access to the datastore on which the virtual machine files are stored."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.troubleshooting.doc_50%2FGUID-BFD8C9BC-30FB-4A92-AFEC-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "2FC9FF387920.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 28": {
+      "Title": "Exam 2V0-622 topic 1 question 95 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In vSphere Data Protection 6.1, which is the function of a Backup Verification job?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. None. Backup Verification job is not a feature of vSphere Data Protection"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It is a manual task - Power it on - Verify the guest OS - Check started applications"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It is an automatic process - Restore a virtual machine - Power it on - Verify that the guest OS is booted by communicating with the Backup Verification agent"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It is an automatic process - Restore a virtual machine - Power it on"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/vsphere/vmware-vspheredata-protection-overview.pdf (page 11)"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference: http://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/vsphere/vmware-vspheredata-protection-overview.pdf (page 11)"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 29": {
+      "Title": "Exam 2V0-622 topic 1 question 96 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which three requirements are needed to apply RAID 5 or RAID 6 erasure coding on a vSAN 6.2 or 6.5 object? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. on Disk Format 3.0"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Hybrid vSAN"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. All Flash vSAN"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vSAN Advanced License"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Stretched Cluster Configurations"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: ACD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RAID 5 or RAID 6 Design Considerations for Virtual SAN:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RAID 5 or RAID 6 erasure coding is available only on all-flash disk groups."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On-disk format version 3.0 or later is required to support RAID 5 or RAID 6."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Need valid license to enable RAID 5/6 on a cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RAID 5/6 is not supported on stretched VSAN clusters."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Enable deduplication and compression on the Virtual SAN cluster to achieve additional space savings."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "RAID 5 or RAID 6 Design Considerations for Virtual SAN:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RAID 5 or RAID 6 erasure coding is available only on all-flash disk groups."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On-disk format version 3.0 or later is required to support RAID 5 or RAID 6."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Need valid license to enable RAID 5/6 on a cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "RAID 5/6 is not supported on stretched VSAN clusters."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Enable deduplication and compression on the Virtual SAN cluster to achieve additional space savings."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 30": {
+      "Title": "Exam 2V0-622 topic 1 question 98 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator sees the following error in the log files:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0005700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two events could be the source of the error message? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vCenter Server failure"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VXLAN failure"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Disk array failure"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Network failure"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. ESXi host failure"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To determine why the heartbeat, I/O operations never complete:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note the date/time when the lost access to volume message was reported and check the ESXi host logs for related information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Verify that there are no connectivity issues between the ESXi host and the storage device."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2136081"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "To determine why the heartbeat, I/O operations never complete:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Note the date/time when the lost access to volume message was reported and check the ESXi host logs for related information."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Verify that there are no connectivity issues between the ESXi host and the storage device."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2136081"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 31": {
+      "Title": "Exam 2V0-622 topic 1 question 106 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which CLI command shows the physical uplink status for a vmnic?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. esxcli network ip connection list"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. esxcli network ip neighbor list"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. esxcli network nic get"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. esxcli network nic list"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://vdc-repo.vmware.com/vmwb-repository/dcr-public/26334f54-ee84-47c2-b2f3-901f51cbc98a/d3f55719-4d3f-47c4-a3c5-fe9c7e5a67f6/doc/ esxcli_network.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://vdc-repo.vmware.com/vmwb-repository/dcr-public/26334f54-ee84-47c2-b2f3-901f51cbc98a/d3f55719-4d3f-47c4-a3c5-fe9c7e5a67f6/doc/ esxcli_network.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 32": {
+      "Title": "Exam 2V0-622 topic 1 question 117 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator sets the Failover Capacity for both CPU and Memory at 25%."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Based on the Exhibit below, how much of the clusters total CPU resources are still available to power on additional virtual machines?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02441/0006800001.jpg"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 45%"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 25%"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 70%"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 60%"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.avail.doc_50%2FGUID-FAFEFEFF-56F7-4CDF-A682-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FC3C62A29A95.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.avail.doc_50%2FGUID-FAFEFEFF-56F7-4CDF-A682-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "FC3C62A29A95.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 33": {
+      "Title": "Exam 2V0-622 topic 1 question 120 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "The storage vendor recommends adjusting the Fibre Channel HBA queue depth to resolve a performance problem."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which esxcli namespace can a vSphere Administrator use to adjust the queue depth?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. esxcli system module parameters"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. esxcli storage core device"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. esxcli system module set"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. esxcli storage core adapter"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.virten.net/2016/11/vmware-esxi-6-5-esxcli-command-reference/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.virten.net/2016/11/vmware-esxi-6-5-esxcli-command-reference/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 34": {
+      "Title": "Exam 2V0-622 topic 1 question 128 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which is the correct sequence to upgrade a vSphere infrastructure?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vCenter Server>ESXi host> VMware Tools>VM compatibility"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ESXi host>vCenter Server> VMware Tools>VM compatibility"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vCenter host> ESXi host> VM compatibility> VMware Tools"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ESXi host>vCenter Server> VM compatibility>VMware Tools"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/s/article/1010675"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/s/article/1010675"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 35": {
+      "Title": "Exam 2V0-622 topic 1 question 129 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has a large boot from SAN cluster and wants to ensure consistent configuration by using host profiles."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What special considerations are required for boot from SAN hosts?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Change the \"Device is shared clusterwide\" setting to \"false\" in the host profile."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Verify that the boot LUN is correctly identified as the boot device in the host profile."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The boot from SAN device must report as a local device."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Host profiles are incompatible with boot from SAN hosts."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 36": {
+      "Title": "Exam 2V0-622 topic 1 question 131 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Restoration of the vCenter Server Appliance is accomplished using which interface?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vSphere Web Client"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vSphere Client"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vCenter Server ApplianceManagement Interface"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vCenter Server ApplianceGUI Installer"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Explanation -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can also perform a restore operation by deploying a new vCenter Server Appliance and using the vCenter Server Appliance management interface to copy the data from the file-based backup to the new appliance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.install.doc/GUID-3EAED005-B0A3-40CF-B40D-85AD247D7EA4.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Explanation -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You can also perform a restore operation by deploying a new vCenter Server Appliance and using the vCenter Server Appliance management interface to copy the data from the file-based backup to the new appliance."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.install.doc/GUID-3EAED005-B0A3-40CF-B40D-85AD247D7EA4.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 37": {
+      "Title": "Exam 2V0-622 topic 1 question 134 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What two services run on all nodes in a vCenter Server HA cluster? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vmware-vmon"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vmware-vpostgres"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vmare-rbd-watchdog"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vmware-vcha"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 38": {
+      "Title": "Exam 2V0-622 topic 1 question 135 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true regarding Auto Deploy in version 6.5? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Auto Deploy can be configured and managed via PowerCLI."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Auto Deploy can be configured and managed via the vSphere Client."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Auto Deploy can be configured and managed via the vSphere Web Client."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Auto Deploy can be configured and managed via vCLI commands."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.vstellar.com/2017/07/28/auto-deploy-configuration-in-vsphere-6/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://www.vstellar.com/2017/07/28/auto-deploy-configuration-in-vsphere-6/"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 39": {
+      "Title": "Exam 2V0-622 topic 1 question 137 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When will vSphere Data Protection delete the expired backup image of a Platform Service Controller?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Immediately after the retention period has expired."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. After the expired backup image is restored."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. During the next backup window following expiry."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. During the next maintenance window following expiry."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 40": {
+      "Title": "Exam 2V0-622 topic 1 question 138 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two storage technologies are supported for MSCS? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. NFS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VAAI"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. iSCSI"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. FC"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 41": {
+      "Title": "Exam 2V0-622 topic 1 question 139 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When upgrading a VMware vSAN cluster to version 6.5, which two tasks must be completed to comply with upgrade requirements and VMware-recommended best practices? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use RVC to upgrade the hosts."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the latest available ESXi version."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Back up all VMs."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use only the \"Full data migration\" maintenance mode option."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 42": {
+      "Title": "Exam 2V0-622 topic 1 question 141 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Group A has permission to download files in Content Library."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Group B does not have permission to download files in Content Library."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "If a user is a member of both groups, what will be the result?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The user cannot download file from Content Library."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The user can download file from Content Library."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The user cannot access Content Library."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The user can access Content Library."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 43": {
+      "Title": "Exam 2V0-622 topic 1 question 147 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A vSphere Administrator must ensure that vCenter Server service is running in a domain user account rather than Local System Account."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To accomplish this, the user account should have which two permissions? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Log on as a service."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Act as part of the operating system."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Log on as a batch job."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Log on locally."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On each system that is running vCenter Server, verify that the domain user account has these permissions:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Member of the Administrators group"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Act as part of the operating system"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Log on as a service"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/s/article/2052334"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "On each system that is running vCenter Server, verify that the domain user account has these permissions:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Member of the Administrators group"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Act as part of the operating system"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Log on as a service"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://kb.vmware.com/s/article/2052334"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 44": {
+      "Title": "Exam 2V0-622 topic 1 question 157 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two choices are applicable to vSphere Availability? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Heartbeat Datastores"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VM Startup/Shutdoown"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Power Management"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Admission Control"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/vsphere-esxi-vcenter-server-65-availability-guide.pdf"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.vmware.com/en/VMware-vSphere/6.5/vsphere-esxi-vcenter-server-65-availability-guide.pdf"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 45": {
+      "Title": "Exam 2V0-622 topic 1 question 158 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user is a member of groups A and B."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-VM10 and VM20 are in VM Folder."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-Group A is assigned permission \"Read-only\" on VM Folder."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What two configurations will allow the user to edit the settings for only VM10? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Assign group B permission \"virtual machine power user\" to VM10."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Assign group B permission \"virtual machine console user\" to VM10."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Assign group A permission \"virtual machine console user\" to VM10."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Assign group A permission \"virtual machine power user\" to VM10."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

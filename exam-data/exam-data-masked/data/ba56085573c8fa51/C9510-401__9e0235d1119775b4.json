@@ -1,0 +1,293 @@
+{
+  "C9510-401__9e0235d1119775b4": {
+    "Question #: 1": {
+      "Title": "Exam C9510-401 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A system administrator ran the backup Config command to backup the configuration using the -nostop option. The administrator changed the properties for the service integration environment by modifying the sib.properties file. During testing the administrator noticed Service Integration Bus related errors and wanted to restore the service integration environment. The administrator used the restore config command, but the tuning properties for the service integration environment were not restored."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can the administrator prevent this issue?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use full repository checkpoints for both the backup and the restore."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the restore config command with -nostop for the restore."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the manage profiles command for both the backup and the restore."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the backup config command without -nostop for the backup Use the restore config command without -nostop for the restore."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam C9510-401 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A system administrator has created a Python script that will run in WebSphere Network cell where administrative security is enabled. This script is named doUpdate.py and will be run by using the following: wsadmin -connType RMI -f doUpdate.py"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can the administrator suppress a user/password prompt from appearing when this script is run?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Set the user and password in the:"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. sas.client.props file."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ssl.client.props file."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. soap.client.props file."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. wsadmin.properties file."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam C9510-401 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A system administrator runs a Python script that creates and configures several servers and realizes that the script fails before completing. Although many tasks succeeded, they are rolled back when the script fails."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Before running the script again, what can the administrator add to the script after each task so the completed tasks are committed even if other tasks fail?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. AdminApp.update ()"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. AdminConfig.save()"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. AdminControl.invoke(server, 'sync\u2019)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. AdminTask.backupJobManager('server')"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam C9510-401 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In a test environment, a system administrator has configured an external HTTP server in the DMZ that is routing to a cluster of application servers. The administrator wants to achieve higher performance when routing and prioritizing incoming requests to the back-end cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "How can the system administrator achieve this task?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Configure a cluster of external HTTP servers."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Enable the prefer local option on the cluster members."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set up a Caching Proxy server between the external web server and the application server."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Place an On Demand Router (ODR) between the external web server and the application servers."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/developerworks/websphere/techjournal/1206_alcott/1206_alcott.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "References:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://www.ibm.com/developerworks/websphere/techjournal/1206_alcott/1206_alcott.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

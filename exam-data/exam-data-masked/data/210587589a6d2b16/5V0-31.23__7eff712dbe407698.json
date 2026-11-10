@@ -1,0 +1,3672 @@
+{
+  "5V0-31.23__7eff712dbe407698": {
+    "Question #: 1": {
+      "Title": "Exam 5V0-31.23 topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is evaluating the options to leverage HCI Mesh within the existing VMware Cloud Foundation (VCF) environment. This will help them consume data center resources efficiently by enabling cross-cluster use of remote datastore capacity in their workload domains (WLD)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two scenarios are valid when using HCI Mesh with VCF? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A VCF-created cluster in WLD1 providing remote storage to another VCF-created cluster in WLD2 via HCI Mesh"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A VCF-created stretched cluster in WLD1 providing remote storage to another VCF-created cluster in WLD1 via HCI Mesh"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A VCF Management WLD leveraging HCI mesh as a supplementary storage"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A VCF-created cluster in WLD1 providing remote storage to another VCF-created cluster in WLD1 via HCI Mesh"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A VCF-created cluster in WLD1 providing remote storage to another non VCF-created cluster via HCI Mesh"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "CD",
+          "vote_count": 9,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam 5V0-31.23 topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has been tasked with deploying an additional VI Workload Domain, WLD03."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The following information has been provided about the existing VMware Cloud Foundation (VCF) environment:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 There are two existing VI Workload Domains, WLD01 and WLD02."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 WLD01 is configured to use vSphere Lifecycle Manager Baselines."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 WLD02 is configured to use vSphere Lifecycle Manager Images."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "To minimize the Management Workload Domain resources required to deploy WLD03, the administrator has decided to configure the environment so that WLD03 shares the NSX Manager of WLD02."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What impact does this decision have on the VCF solution?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. WLD03 must be configured to use vSphere Lifecycle Manager Images."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. WLD02 must be configured to use vSphere Lifecycle Manager Baselines."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. WLD01 must be configured to use vSphere Lifecycle Manager Images."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. WLD01 must be configured to share the same NSX Manager as WLD02 and WLD03."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam 5V0-31.23 topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An application is being deployed into a VMware Cloud Foundation (VCF) environment. Due to the constraints of the application, the architect has requested two edge clusters deployed with the following configuration:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 One Edge VM cluster to host the Tier-0 gateway"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2022 Another Edge VM cluster to host the Tier-1 gateway"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What deployment approach should be followed to achieve this requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the SDDC Manager to deploy the Tier-1 Gateway Edge VM cluster only and assign it"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use the NSX Manager to deploy the Edge VM clusters and assign the Tier-0 and Tier-1 gateways"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the NSX Manager to deploy the Edge VM clusters then assign the gateways through the SDDC Manager"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the SDDC Manager to deploy the Edge VM clusters and assign the Tier-0 and Tier-1 gateways"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam 5V0-31.23 topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to create a new VI Workload Domain with a dedicated NSX instance. The environment already consists of one existing VI Workload Domain and the Management Domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Where will the NSX Managers be deployed for the new VI Workload Domain?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. In the Management Domain"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. In the first VI Workload Domain"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. In the newly created VI Workload Domain"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Administrator can choose where to deploy"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam 5V0-31.23 topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which component in VMware Cloud Foundation (VCF) can be updated using vSphere Lifecycle Manager?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. ESXi Host"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vCenter Server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. NSX Manager"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SDDC Manager"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam 5V0-31.23 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has been tasked with deleting an existing Workload Domain but needs to ensure all virtual machines continue to run during the process."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which action, if any, must be performed to meet the requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Migrate virtual machines to other workload domains manually"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Virtual machines will be automatically migrated to other workload domains and no further action is required"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Deploy and use VMware HCX to migrate virtual machines using bulk migration to other workload domains"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Backup all virtual machines and restore in other workload domains"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam 5V0-31.23 topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to manage certificates of various SDDC Components."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What are the two components certificates an SDDC manager can manage? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. VMware Aria Operations"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VMware Aria Suite Lifecycle"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. ESXi Host"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vCenter Server"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. VMware Aria Automation"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 5,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam 5V0-31.23 topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the correct sequence to upgrade VMware Cloud Foundation (VCF) components?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Aria Suite Lifecycle"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. NSX Data Center"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. ESXi"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. vCenter Server"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. ESXi"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. NSX Data Center"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. Aria Suite Lifecycle"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Aria Suite Lifecycle"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. NSX Data Center"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. ESXi"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. Aria Suite Lifecycle"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. NSX Data Center"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. ESXi"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. SDDC Manager"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 7,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 9": {
+      "Title": "Exam 5V0-31.23 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "When deploying a new VMware Cloud Foundation (VCF) environment, what are the two supported platforms to deploy the VMware Cloud Builder Virtual Appliance? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A system running Red Hat Enterprise Linux OS"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. An ESXi host not designated for the Management Domain"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. An ESXi host designated for the Management Domain"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A system running VMware Workstation or VMware Fusion connected to the Management network"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A system running Microsoft Windows OS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BD",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AB",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 10": {
+      "Title": "Exam 5V0-31.23 topic 1 question 11 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A VMware Cloud Foundation (VCF) administrator wants to download the install bundles to deploy a new VI Workload Domain. The SDDC Manager is currently not connected to the internet."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two methods can the VCF administrator use to download the install bundles? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the Bundle Transfer Utility"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use a proxy in the SDDC Manager"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use a custom ESXi image"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use the Async Patch tool"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Use a proxy in the Aria Suite Lifecycle"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 7,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AB",
+          "vote_count": 5,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 11": {
+      "Title": "Exam 5V0-31.23 topic 1 question 12 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to implement password rotation as a security measure in VMware Cloud Foundation (VCF)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which statement regarding password rotation in VCF is true?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The parameters of password rotation can be manually changed to customize the generated passwords."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. To retrieve passwords for an entity in VCF, run the lookup_passwords command, but user credentials do not need to be entered."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Scheduled password rotation is available for ESXi Hosts, and it runs every 30 days by default."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Password rotation generates randomized passwords with a minimum length of 20 characters, at least one uppercase letter, one number, and one special character."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 12": {
+      "Title": "Exam 5V0-31.23 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator wants to deploy a VMware Cloud Foundation (VCF) VI Workload Domain (WLD). The WLD will use a vSAN stretched cluster across availability zones."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What configuration step meets the requirements?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a single host overlay network per availability zone with a DHCP scope"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a single host overlay network per availability zone with an IP Pool"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a site for the vSAN Witness by placing a single node ESXi host in the VI WLD"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a site for the vSAN Witness by placing a single node ESXi host in the management WLD"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 6,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 4,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 13": {
+      "Title": "Exam 5V0-31.23 topic 1 question 14 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two are true regarding vSphere Namespaces in a Workload Management-enabled VI Workload Domain? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. A vSphere Namespace can support Role Based Access Control for a directly integrated Active Directory."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A vSphere Namespace is an extension of a vSphere resource pool."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. A vSphere Namespace is a resource boundary that can only contain Kubernetes clusters."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A vSphere Namespace\u2019s primary function is to run workloads."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A vSphere Namespace requires its own license."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AB \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AC",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 14": {
+      "Title": "Exam 5V0-31.23 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is experiencing issues with NTP during a pre-check before performing an upgrade of VMware Cloud Foundation (VCF). As a precaution the administrator would like to check if NTP is synchronized properly between the SDDC Manager and the ESXi hosts by using the SoS utility."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command option should the administrator use?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. --esxi-ntp-health"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. --ntp-health"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. --get-ntp-health"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. --check-ntp-health"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 15": {
+      "Title": "Exam 5V0-31.23 topic 1 question 16 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which order does a VI Workload Domain with Workload Management enabled need to be upgraded?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. NSX"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Workload Management"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. ESXi"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. ESXi"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. NSX"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Workload Management"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. Workload Management"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. ESXi"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. NSX"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. NSX"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. ESXi"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Workload Management"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 16": {
+      "Title": "Exam 5V0-31.23 topic 1 question 17 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "How would an administrator remove an unused certificate from SDDC Manager?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use the SDDC Manager User Interface"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Unused certificates are automatically removed"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use the SDDC Manager command line"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Revoke the unused certificates from the certificate authority"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 17": {
+      "Title": "Exam 5V0-31.23 topic 1 question 18 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has been tasked with increasing the available capacity within an existing VMware Cloud Foundation (VCF) environment to support the deployment of production workloads. The VCF environment consists of a single VI Workload Domain (which is using vSphere Lifecycle Manager images as the update method) with only a single vSAN Cluster called Prod-01. Two new hosts have been added to SDDC Manager inventory for the capacity expansion. The new hosts have identically configured CPU and RAM to the hosts in Prod-01. VMFS on FC is the required principal storage option."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which process must the administrator complete to increase the available capacity without the need for additional management components?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a new network pool in the existing Workload Domain to support vSAN"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Create a new vSphere Cluster within a new workload domain"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Create a new vSphere Cluster within the existing VI Workload Domain"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Expand the existing Prod-01 cluster by adding the additional hosts"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 4,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 18": {
+      "Title": "Exam 5V0-31.23 topic 1 question 19 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator has discovered that not all DNS PTR records are created and would like to perform a health check with the SoS utility if this is the case for more components."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which command option should the administrator use?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. --get-dns-health"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. --dns-health"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. --get-dns-forward-reverse-health"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. --dns-forward-reverse-health"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 5,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 19": {
+      "Title": "Exam 5V0-31.23 topic 1 question 20 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A vSphere administrator is tasked with deploying VMware Aria Operations for Logs in the company\u2019s VMware Cloud Foundation (VCF) environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two are valid Application Virtual Network (AVN) options for Aria Operations for Logs? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Region-A - Overlay backed segment"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Region-A - VLAN backed segment"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. X-Region - VLAN backed segment"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. X-Region - Overlay backed segment"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. A vSphere distributed Port Group in the Management Domain"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AB",
+          "vote_count": 4,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 20": {
+      "Title": "Exam 5V0-31.23 topic 1 question 21 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A company\u2019s vSphere administrator is deploying Aria Suite Lifecycle through SDDC Manager."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "On which Application Virtual Network (AVN) is the appliance deployed?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. On the region AVN in the VI Workload Domain"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. On the cross-region AVN in a non-federated NSX environment"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. On the cross-region AVN in a federated NSX environment"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. On the region AVN in the Management Domain"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 4,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 21": {
+      "Title": "Exam 5V0-31.23 topic 1 question 22 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An architect wants more compute resources in the Production cluster of a Production Workload Domain (WLD). As a design decision the architect decided to expand this cluster by adding more ESXi hosts."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the right method to add these ESXi hosts in this cluster?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. Deploy ESXi Hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Access SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Commission those Hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Access Production WLD"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. Add Hosts"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. Access SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Commission these Hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Access Production WLD"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Access Production Cluster"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. Add Hosts"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. Prepare ESXi Hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Access vSphere Client"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Add these in Production cluster"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. Prepare ESXi Hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Commission Hosts using SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Access Production WLD"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Access Production Cluster"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. Add Hosts"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 4,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 22": {
+      "Title": "Exam 5V0-31.23 topic 1 question 23 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A company\u2019s vSphere administrator is assigned a password rotation task for the company\u2019s VMware Cloud Foundation (VCF) environment."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For which three VCF components are passwords being managed by SDDC Manager? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. VMware Aria Operations"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. SDDC Manager backup user"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SDDC Manager view user"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. NSX Manager"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. vCenter Server Appliance"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. Cloud Builder Appliance"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BDE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "ADE",
+          "vote_count": 2,
+          "is_most_voted": false
+        },
+        {
+          "voted_answers": "ABD",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 23": {
+      "Title": "Exam 5V0-31.23 topic 1 question 26 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is tasked with deploying a new VMware Cloud Foundation (VCF) 5.0 environment based on the consolidated VCF architecture model."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which type of principal storage would the administrator configure for the environment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. VMFS on FC Datastore"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vSAN Original Storage Architecture (OSA)"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vSAN Express Storage Architecture (ESA)"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vSAN Remote Datastore (HCI Mesh)"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 4,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 24": {
+      "Title": "Exam 5V0-31.23 topic 1 question 29 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator needs to deploy a new VMware Cloud Foundation (VCF) environment. Due to the lack of physical space within the co-located data center, the administrator is looking to deploy VCF with the minimum amount of hardware needed to start migrating workloads and then plans to scale out the environment at a later date."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which type of Workload Domain must the administrator deploy first to support the requirement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Management Domain"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Consolidated Domain"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Virtual Infrastructure Workload Domain"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Isolated Virtual Infrastructure Workload Domain"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 4,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 25": {
+      "Title": "Exam 5V0-31.23 topic 1 question 31 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is tasked with upgrading a VMware Cloud Foundation (VCF) infrastructure having two VCF instances running across two sites with NSX federation."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should be considered regarding the NSX Managers upgrade order in this environment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. Upgrade all NSX Local Managers at both sites manually"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Upgrade active NSX Global Managers via SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Upgrade standby NSX Global Managers via SDDC Manager"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. Upgrade all NSX Local Managers at both sites via SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Upgrade standby NSX Global Managers manually"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Upgrade active NSX Global Managers manually"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. Upgrade all NSX Local Managers at both sites manually"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Upgrade standby NSX Global Managers via SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Upgrade active NSX Global Managers via SDDC Manager"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. Upgrade all NSX Local Managers at both sites via SDDC Manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Upgrade active NSX Global Managers manually"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Upgrade standby NSX Global Managers manually"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 26": {
+      "Title": "Exam 5V0-31.23 topic 1 question 33 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is planning the IP addressing before deploying the Workload Management solution to a new Workload Domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What is the correct minimum subnet mask for the ingress network following VMware best practices?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. /24"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. /27"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. /22"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. /18"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 27": {
+      "Title": "Exam 5V0-31.23 topic 1 question 35 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "In which order does the VMware Cloud Foundation (VCF) Management need to be upgraded?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. VMware Cloud Foundation config drift"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. SDDC Manager and VMware Cloud Foundation services"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Aria Suite Lifecycle, Aria Suite products, and Workspace ONE Access"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. NSX"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "6. ESXi"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. SDDC Manager and VMware Cloud Foundation services"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. VMware Cloud Foundation config drift"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Aria Suite Lifecycle, Aria Suite products, and Workspace ONE Access"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. NSX"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "6. ESXi"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. SDDC Manager and VMware Cloud Foundation services"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. VMware Cloud Foundation config drift"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Aria Suite Lifecycle, Aria Suite products, and Workspace ONE Access"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. ESXi"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "6. NSX"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. Aria Suite Lifecycle, Aria Suite products, and Workspace ONE Access"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. SDDC Manager and VMware Cloud Foundation services"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. VMware Cloud Foundation config drift"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. NSX"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "6. ESXi"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 28": {
+      "Title": "Exam 5V0-31.23 topic 1 question 39 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is tasked with deploying an existing VMware Cloud Foundation (VCF) instance into a federated VCF environment. The administrator needs to stretch a segment between the two VCF instances."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which task must be completed first?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Delete the existing Tier-1 Gateway in the additional VCF instance"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Delete the existing Tier-0 Gateway in the additional VCF instance"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Connect the additional VCF instance to the cross-instance Tier-0 Gateway"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Add the additional VCF instance as a location to the cross-instance Tier-1 Gateway"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 29": {
+      "Title": "Exam 5V0-31.23 topic 1 question 41 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A VMware Cloud Foundation (VCF) administrator deployed a VI Workload Domain for the purpose of a required vSphere with Tanzu environment. When deploying the NSX Edge cluster, the administrator needs to select an NSX Edge VM form factor."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which is the minimal NSX Edge VM form factor that the VCF administrator should select?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Medium"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Extra Large"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Small"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Large"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 30": {
+      "Title": "Exam 5V0-31.23 topic 1 question 43 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A VMware Cloud Foundation (VCF) administrator wants to add a host with more than two physical NICs to an existing cluster within a VI Workload Domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which tool should the administrator use to accomplish this task?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. vSphere Client"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Aria Suite Lifecycle API"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. SDDC Manager API"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SDDC Manager UI"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 31": {
+      "Title": "Exam 5V0-31.23 topic 1 question 44 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the reason to use a custom profile type when deploying an NSX Edge cluster via SDDC Manager?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. If the environment requires the OSPF routing protocol."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. If the NSX Edges need to be deployed to a workload domain with Workload Management enabled."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. If the environment requires that the NSX Edge\u2019s utilize load balancing."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. If the environment requires a Bidirectional Forwarding Detection (BFD) configuration."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 32": {
+      "Title": "Exam 5V0-31.23 topic 1 question 45 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two steps would an administrator complete to upgrade the components of a VMware Cloud Foundation (VCF) aware Aria Suite? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Upgrade Aria Suite components through Aria Suite Lifecycle"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Upgrade Aria Suite components directly and then refresh the SDDC Manager repository"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Upgrade Aria Suite Lifecycle through the SDDC Manager"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Upgrade Aria Suite Lifecycle directly since it is an independent component"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Upgrade Aria Suite components through the SDDC Manager"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AD",
+          "vote_count": 2,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "AC",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 33": {
+      "Title": "Exam 5V0-31.23 topic 1 question 47 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "For which three products can SDDC Manager manage the certificates? (Choose three.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. VMware Horizon products"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VMware vCenter Server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. VMware Cloud Director"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. VMware Aria Suite products"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. VMware SDDC Manager"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. VMware NSX Manager"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BEF \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "BEF",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 34": {
+      "Title": "Exam 5V0-31.23 topic 1 question 51 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A vSphere administrator has changed a VMware Cloud Foundation (VCF) managed password at the component level and wants to update the respective credentials in the SDDC manager."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What steps are required to accomplish this?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. Log into the SDDC manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Go to the workload domain section"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Select the component for which the password was changed"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Select the update option"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. Log in to SDDC manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Go to the password management section"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Select the component user for which the password was changed"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Select the remediate option"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. Log in to SDDC manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Go to the password management section"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Select the component for which the password was changed"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Select the rotate now option"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. Log in to SDDC manager"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Go to the password management section"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Select the component for which the password was changed"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Select the update option"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 35": {
+      "Title": "Exam 5V0-31.23 topic 1 question 55 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A new devops team has been created to conduct a Proof of Concept using vSphere with Tanzu for large scale app deployment. The administrator must use SDDC Manager to deploy the Workload Management solution to a newly created workload domain."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which option is required for the Workload Management solution to deploy correctly?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The SDDC Manager must have the vSphere with Tanzu license applied."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. A Workload Management ready NSX Edge cluster must be deployed to the Management Domain."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The ESXi Hosts must have the vSphere with Tanzu license applied."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. A new Workload Management ready NSX Manager cluster must be deployed to the Workload Domain."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 36": {
+      "Title": "Exam 5V0-31.23 topic 1 question 58 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Management has asked the cloud administration team to investigate transitioning to the VMware Cloud Foundation+ (VCF+) licensing model. The cloud administration team found there are workload domain limitations."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "For VMware Cloud Foundation 5.0 + licensing, which maximum Workload Domain deployment architecture is supported?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 4 Workload Domains"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 8 additional Workload Domains beyond the Management Domain"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 4 additional Workload Domains beyond the Management Domain"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 8 Workload Domains"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "D",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 37": {
+      "Title": "Exam 5V0-31.23 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two prerequisites must be met before an NSX Edge cluster can be deployed through SDDC Manager in a VI Workload Domain? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Host overlay and Edge overlay networks must be routable"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. vMotion and Edge overlay networks must be routable"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The NSX Edge nodes must be configured through an LDAP provider"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. SSH must be enabled on the NSX Edge nodes"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The FQDN of the NSX Edge nodes must be resolvable through DNS"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "AE",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 38": {
+      "Title": "Exam 5V0-31.23 topic 1 question 60 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A VMware Cloud Foundation (VCF) administrator is adding a new cluster to an existing VI Workload Domain. There are currently two existing clusters in the VI Workload Domain where each ESXi host uses four physical NICs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Where should the administrator specify the licenses for vSphere and vSAN?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. SDDC Manager"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. VMware Host Client"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. JSON Specification File"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. vSphere Client"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 3,
+          "is_most_voted": true
+        },
+        {
+          "voted_answers": "D",
+          "vote_count": 1,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 39": {
+      "Title": "Exam 5V0-31.23 topic 1 question 62 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which step must be performed before commissioning the hosts for a new Workload Domain that is going to use NFS as the principal storage?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Create a new network pool in SDDC Manager"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Configure the NFS VMkernel network adapter"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Expand the network pool for the Management Domain"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Deploy a virtual distributed switch using vSphere Client"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: B \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 40": {
+      "Title": "Exam 5V0-31.23 topic 1 question 65 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the maximum supported roundtrip latency between VMware Cloud Gateway and VMware SDDC Manager?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 300 ms"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 350 ms"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 30 ms"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 160 ms"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    },
+    "Question #: 41": {
+      "Title": "Exam 5V0-31.23 topic 1 question 66 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What is the correct order of steps required to deploy a new Workload Domain in a VMware Cloud Foundation (VCF) environment?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. 1. Install the ESXi hypervisor"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Commission hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Create a network pool"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Assign permissions on the newly deployed vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. Deploy Workload Domain"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. 1. Commission hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Install the ESXi hypervisor"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Create a network pool"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Deploy Workload Domain"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. Assign permissions on the newly deployed vCenter Server"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. 1. Install the ESXi hypervisor"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Create a network pool"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Commission hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Deploy Workload Domain"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. Assign permissions on the newly deployed vCenter Server"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. 1. Install the ESXi hypervisor"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "2. Commission hosts"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "3. Assign permissions on the newly deployed vCenter Server"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "4. Create a network pool"
+            },
+            {
+              "type": "break"
+            },
+            {
+              "type": "text",
+              "value": "5. Deploy Workload Domain"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 2,
+          "is_most_voted": false
+        }
+      ]
+    }
+  }
+}

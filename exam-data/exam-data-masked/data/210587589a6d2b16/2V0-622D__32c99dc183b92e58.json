@@ -1,0 +1,465 @@
+{
+  "2V0-622D__32c99dc183b92e58": {
+    "Question #: 1": {
+      "Title": "Exam 2V0-622D topic 1 question 24 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which two statements are true for Predictive DRS? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. It balances resource utilization for virtual machines with unpredictable utilization patterns."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. It integrates DRS with vRealize Operations Manager to balance workloads for virtual machines before resource utilization spikes occur."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. It balances resource utilization based on a threshold's algorithm that runs each night."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. It determines the best placement and balance of virtual machines based on a threshold's algorithm that runs each night in vCenter Server 6.5 Database."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Predictive DRS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Predictive DRS is a new feature that leverages the predictive analytics of vRealize Operations Manager with the powerful resource scheduler algorithm of vSphere"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DRS. Together, these two products enable workload balancing for certain VMs before resource utilization spikes occur, potentially eliminating a great amount of resource contention that might have occurred in the past. vRealize Operations Manager runs its dynamic thresholds algorithm nightly against the VMs on which it collects data. These dynamic thresholds create forecasted metrics for the future utilization of the VMs. The metrics are then passed to vSphere DRS to determine the best placement and balance of VMs before resource utilization spikes occur. Predictive DRS helps prevent resource contention on hosts that run VMs with predictable utilization patterns."
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Predictive DRS -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Predictive DRS is a new feature that leverages the predictive analytics of vRealize Operations Manager with the powerful resource scheduler algorithm of vSphere"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "DRS. Together, these two products enable workload balancing for certain VMs before resource utilization spikes occur, potentially eliminating a great amount of resource contention that might have occurred in the past. vRealize Operations Manager runs its dynamic thresholds algorithm nightly against the VMs on which it collects data. These dynamic thresholds create forecasted metrics for the future utilization of the VMs. The metrics are then passed to vSphere DRS to determine the best placement and balance of VMs before resource utilization spikes occur. Predictive DRS helps prevent resource contention on hosts that run VMs with predictable utilization patterns."
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 2V0-622D topic 1 question 88 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An administrator is attempting to enable Fault Tolerance on a virtual machine but the operation does not complete successfully."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which could be two reasons for this? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. The virtual machine has more than 1 vCPU."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The virtual machine has uncommitted snapshots."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. vSphere HA is disabled for this virtual machine."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The virtual machine is located on vSAN storage."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. The virtual machine has over 32GB of memory assigned."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "A number of validation checks are performed on a virtual machine before Fault Tolerance can be turned on."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 SSL certificate checking must be enabled in the vCenter Server settings."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The host must be in a VMware HA cluster or a mixed VMware HA and DRS cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The host must have ESX/ESXi 4.0 or greater installed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The virtual machine must not have multiple vCPUs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The virtual machine must not have snapshots."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The virtual machine must not be a template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The virtual machine must not have VMware HA disabled."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03401/0004900007.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.avail.doc_50%2FGUID-83FE5A45-8260-436B-A603-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B8CBD2A1A611.html"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A number of validation checks are performed on a virtual machine before Fault Tolerance can be turned on."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 SSL certificate checking must be enabled in the vCenter Server settings."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The host must be in a VMware HA cluster or a mixed VMware HA and DRS cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The host must have ESX/ESXi 4.0 or greater installed."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The virtual machine must not have multiple vCPUs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The virtual machine must not have snapshots."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 The virtual machine must not be a template."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The virtual machine must not have VMware HA disabled."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03401/0004900007.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference: https://pubs.vmware.com/vsphere-50/index.jsp?topic=%2Fcom.vmware.vsphere.avail.doc_50%2FGUID-83FE5A45-8260-436B-A603-"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "B8CBD2A1A611.html"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 2V0-622D topic 1 question 120 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What are limits of vCenter Libraries in vSphere 6.5?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Total items 2000, Biggest item size 1TB, total libraries per VC 1000, total items per library 1000 and max number of syncs 16"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Total items 4000, Biggest item size 512TB, total libraries per VC 2000, total items per library 2000 and max number of syncs 24"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Total items 1000, Biggest item size 1TB, total libraries per VC 1000, total items per library 1000 and max number of syncs 16"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Total items 2000, Biggest item size 1TB, total libraries per VC 1000, total items per library 1000 and max number of syncs 32"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 2V0-622D topic 1 question 127 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "What two enhancements are in VMFS6 but not in VMFS5? (Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Support for 4k native disks"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Support for 512e disks"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. GPT storage device partitioning"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Automatic space reclamation"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BD \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "http://virtualization24x7.blogspot.com/2018/01/vmfs5-vs-vmfs6.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Virtualization24x7+"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%28Virtualization24x7%29"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "http://virtualization24x7.blogspot.com/2018/01/vmfs5-vs-vmfs6.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Virtualization24x7+"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "%28Virtualization24x7%29"
+          }
+        ]
+      },
+      "Vote_count": []
+    }
+  }
+}

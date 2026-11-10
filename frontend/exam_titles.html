@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=b6a01e7e-a96d-494d-a571-b9733c7a3989
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Exam Questions</title>
+  <link rel="stylesheet" href="exam_viewer.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <h1 id="examTitle">Exam</h1>
+  </div>
+
+  <main
+    id="questionsContainer"
+    aria-live="polite">
+  </main>
+
+  <div
+    id="error"
+    style="max-width:1000px;margin:18px auto;color:#c00;display:none;">
+  </div>
+
+  <script src="exam_titles.js" defer></script>
+</body>
+</html>

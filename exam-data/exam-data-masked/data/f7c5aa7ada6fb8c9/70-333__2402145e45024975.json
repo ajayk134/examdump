@@ -1,0 +1,706 @@
+{
+  "70-333__2402145e45024975": {
+    "Question #: 1": {
+      "Title": "Exam 70-333 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a Skype for Business Server 2015 environment. All users are enabled for Enterprise Voice. You have a Microsoft Exchange Server 2013 organization that contains one server named EX01."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You plan to implement Unified Messaging (UM). From Skype for Business Management Shell, you run the following commands:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "New-UMDialPlan-Name UMDialPlan-UriType \"SipName\" \"\"VoipSecurity Secured \"\"NumberOfDigitsInExtension 4 ExchUCUtil.ps1"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "From Event Viewer, you discover the following error message when Skype for Business Server 2015 attempts to transfer a call to UM: \"Attempts to route servers in an Exchange UM Dialplan failed. No server in the dialplan UMDialPlan accepted the call with id [03b5ba2bf7ec4663bc43e8e49c246634]."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Cause: Dialplan is not configured properly.\""
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that the Enterprise Voice users can receive voice mail."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two actions should you perform? Each correct answer presents part of the solution."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. From the Exchange Management Shell, run the following command: New-UmAutoAttendant -name LyncAa -UmDialPlan LyncUMDialPlan -Status Enabled"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. From the Exchange Management Shell, run the following command: Set-UmCallRouterSettings EX01 -UmStartupMode Tls -DialPlans \"UMDialPlan\""
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Change the value of the VoipSecurity of the UMDialPlan from Secured to SipSecured."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. From the Exchange Management Shell, run the following command: Set-UmService EX01 -UmStartupMode Tls -DialPlans \"UMDialPlan\""
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Change the value of the UriType property of the UMDialPlan from SipName to E.164."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: AD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam 70-333 topic 1 question 13 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a Skype for Business Server 2015 infrastructure that has Enterprise Voice enabled."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that users can place a call on hold, and can then retrieve the call later by dialing a number from any phone. The solution must ensure that if a call is on hold for four minutes, the call is automatically forwarded to the receptionist."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two action should you perform? Each correct answer presents part of the solution."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Modify the global dial plan."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Modify the Call Park settings."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Modify the global voice policy."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Create a Call Park orbit."
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. Create a static route."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CD \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam 70-333 topic 1 question 32 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Your company purchases a subscription to Microsoft Office 365."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The company has a strict firewall and an Internet usage policy. Only required ports are open between the internal network and the Internet."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Users report that they can use the following Office 365 features:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Access email by using Outlook Web App."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "\u2711 Establish chat sessions by using instant messaging (IM)."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "The users also report that they fail to join online audio conferences and online video conferences."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to open outbound ports on the firewall to ensure that the users can join online audio and video conferences."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which two ports or port ranges should you open? Each correct answer presents part of the solution."
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. TCP 5223"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. UDP 5223"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. TCP 50,000 to 59,999"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. UDP 50,000 to 59,999"
+            }
+          ]
+        },
+        "E": {
+          "content": [
+            {
+              "type": "text",
+              "value": "E. UDP 3478"
+            }
+          ]
+        },
+        "F": {
+          "content": [
+            {
+              "type": "text",
+              "value": "F. TCP 3478"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: CE \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam 70-333 topic 1 question 59 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "DRAG DROP -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Your network contains a Skype for Business Server 2015 infrastructure and a Microsoft Exchange Server 2013 organization."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You have three distribution groups. The groups are configured as shown in the following table."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03224/0016300001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that all of the users on Team1 and Team2 can answer calls that are in the same queue. Users must be able to choose when they want to participate in the queue."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Select and Place:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03224/0016300002.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03224/0016400001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/enterprise-voice-solution/response-group"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/skypeforbusiness/plan-your-deployment/enterprise-voice-solution/response-group"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 5": {
+      "Title": "Exam 70-333 topic 1 question 69 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Contoso recently completed a migration to Exchange Online and would like to enable Unified Messaging integration with their on-premises deployment of Skype for Business Server 2015."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Outlook Web App Instant Messaging integration is already working, and Exchange Online users are able to schedule Skype meetings from Outlook Web App."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to identify the first step to be performed on both Exchange Online and Skype for Business Server 2015 to enable Unified Messaging capabilities for all users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the table below, identify the action that must be taken in each service."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "NOTE: Make only one selection in each column. Each correct answer is worth one point."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03224/0017600001.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03224/0017700001.png"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://blogs.technet.microsoft.com/nagshettykadwadi/2017/10/18/integrate-skype-for-business-server-with-exchange-online-unified-messaging-in-hybrid- scenario/"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://blogs.technet.microsoft.com/nagshettykadwadi/2017/10/18/integrate-skype-for-business-server-with-exchange-online-unified-messaging-in-hybrid- scenario/"
+          }
+        ]
+      },
+      "Vote_count": "N/A"
+    },
+    "Question #: 6": {
+      "Title": "Exam 70-333 topic 1 question 72 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You have a Skype for Business Server 2015 infrastructure and a Microsoft Exchange Server 2013 Organization."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Unified Messaging (UM) integration is enabled."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to prevent the use of call answering rules."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which Exchange Management Shell cmdlet should you run?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Set-UMDialPlan"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Remove-UMCallAnsweringRule"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Set-CSVoicePolicy"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Set-CSDialPlan"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Set-UMDialPlan with the -CallAnsweringRulesEnabled parameter specifies whether Call Answering Rules are enabled for UM-enabled users associated with the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "UM dial plan."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/set-umdialplan?view=exchange-ps"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Set-UMDialPlan with the -CallAnsweringRulesEnabled parameter specifies whether Call Answering Rules are enabled for UM-enabled users associated with the"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "UM dial plan."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Reference:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "https://docs.microsoft.com/en-us/powershell/module/exchange/unified-messaging/set-umdialplan?view=exchange-ps"
+          }
+        ]
+      },
+      "Vote_count": []
+    },
+    "Question #: 7": {
+      "Title": "Exam 70-333 topic 3 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "HOTSPOT -"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You need to ensure that the Miami users can use a five-digit extension when they call the Los Angeles users."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What should you include in the normalization rule? To answer, configure the appropriate match pattern and translation pattern in the dialog box in the answer area."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Hot Area:"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03224/0002900001.png"
+          }
+        ]
+      },
+      "Choices": {},
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer:"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/03224/0002900002.jpg"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": "N/A"
+    }
+  }
+}

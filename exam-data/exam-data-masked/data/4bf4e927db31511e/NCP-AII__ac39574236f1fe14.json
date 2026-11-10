@@ -1,0 +1,524 @@
+{
+  "NCP-AII__ac39574236f1fe14": {
+    "Question #: 1": {
+      "Title": "Exam NCP-AII topic 1 question 1 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A system engineer needs to set the vGPU scheduling behavior for all GPUs to share the scheduling equally with the default time slice length."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What command should be used?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. esxcli system module parameters set -m nvidia -p \u201cNVreg_RegistryDwords=RmPVMRL=0x00\u201d"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. esxcli system module parameters set -m nvidia -p \u201cNVreg_RegistryDwords=RmPVMRL=0x@1\""
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. esxcli graphics module parameters set -m nvidia -p \u201cNVreg_RegistryDwords=RmPVMRL=0x01\u201d"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. esxcli system module parameters set -m nvidia -p \u201cNVreg_RegistryDwords=FRL=@x01\u201d"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 2": {
+      "Title": "Exam NCP-AII topic 1 question 2 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "During a multi-day NeMo burn-in, intermittent \u201cGPU fell off bus\u201d errors occur."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which diagnostic approach isolates hardware faults?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Run DCGM diagnostics alongside burn-in to monitor GPU health metrics"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Switch from BERT to GPT models for simpler computations"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enable HPL_USE_NVSHMEM for alternative memory sharing"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Reduce blocksize to 500MB to lower memory pressure"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 3": {
+      "Title": "Exam NCP-AII topic 1 question 3 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer needs to verify the current firmware versions of all components (ATF, BSP, NIC, UEFI) on a BlueField-3 DPU\u2019s BMC."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which Redfish API command provides this information?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. mstflint \u2013d <PCI_ID> query full"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. curl \u2013k \u2013u root:<password> \u2013X GET https://<DPU-BMC-IP>/redfish/v1/UpdateService/FirmwareList"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. curl \u2013k \u2013u root:<password> \u2013X GET https://<DPU-BMC-IP>/redfish/v1/UpdateService/FirmwareInventory"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. mlxconfig \u2013d <dev> q"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 4": {
+      "Title": "Exam NCP-AII topic 1 question 4 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer needs to verify NVLink isolation on a single node with 8 GPUs."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which NCCL test configuration stresses switch bisection bandwidth?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use NCCL_TESTS_SPLIT= \u201cDIV 8\u201d with point-to-point tests"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Use all_reduce_perf \u2013b 8 \u2013e 16G \u2013f2 \u2013g 8 with NCCL_TESTS_SPLIT= \u201cAND 0x1\u201d"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Use all_reduce_perf \u2013b 8 \u2013e 16G \u2013f2 \u2013g 8 without splits"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Use reduce_scatter_pref \u2013b 8 \u2013e 16G \u2013f2 \u2013g 4"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 5": {
+      "Title": "Exam NCP-AII topic 1 question 5 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "You are validating the environment of an NVIDIA GPU-accelerated data center during post-deployment checks."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which one action is essential to confirm that power and cooling are sufficient for the stable operation of NVIDIA DGX H100 systems?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Use NVSM to disable unused PCle devices to reduce overall system heat output."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Review the system BIOS to ensure GPU overclocking is enabled for maximum performance."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Verify that each DGX system is connected to redundant, properly rated PDUs and that all power supplies are reporting nominal input."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Confirm the system fans are running at 100% under all workloads to prevent overheating."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 6": {
+      "Title": "Exam NCP-AII topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An engineer needs to validate 400G DAC cable signal integrity in a DGX cluster."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which CVT metric best identifies marginal cables needing replacement?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Effective BER > 1.5E-254 during a \u22646-hour monitoring window."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Transceiver model matching QSFP-DD specifications."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Temperature fluctuations > 5\u00b0C during validation."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Lane power variance < 3dB across all transceivers."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "A",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 7": {
+      "Title": "Exam NCP-AII topic 1 question 7 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "A user encounters \u201cpermission denied\u201d errors when running GPU-accelerated containers on a Secure Boot-enabled system."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What resolves this?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Disable SELinux to relax unnecessary security policies."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Reinstall Docker without the NVIDIA runtime."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Enroll the MOK and sign NVIDIA kernel modules."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Run Docker with sudo for elevated privileges."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "C",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    },
+    "Question #: 8": {
+      "Title": "Exam NCP-AII topic 1 question 8 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "An InfiniBand administrator needs to run performance benchmarks on new devices added to the fabric."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What tool should be used to check the latency?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. tcpdump"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. ib_write_lat"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. perfmon"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. ibdiagnet"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": []
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": [
+        {
+          "voted_answers": "B",
+          "vote_count": 1,
+          "is_most_voted": true
+        }
+      ]
+    }
+  }
+}

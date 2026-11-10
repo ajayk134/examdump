@@ -1,0 +1,961 @@
+{
+  "JN0-643__a40f0aad267961a3": {
+    "Question #: 1": {
+      "Title": "Exam JN0-643 topic 1 question 6 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which CoS feature avoids congestion in a device by limiting traffic on ingress interfaces?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. rewrite rule"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. scheduler"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. drop profile"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. policer"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: A \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 2": {
+      "Title": "Exam JN0-643 topic 1 question 9 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "R1 and R2 are ASBRs in the same area, each with an equal cost external path to the same external network prefix. R1 advertises an external route into OSPF with a Type 1 metric. R2 advertises an external route into OSPF with a Type 2 metric."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Which route would be preferred?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. R1's route is preferred because Type 1 metrics take into account the external cost only."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. R1's route is preferred because Type 1 metrics take into account the internal and external cost."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. R2's route is preferred because Type 2 metrics take into account the internal and external cost."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. R2's route is preferred because Type 2 metrics take into account the external cost only."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: D \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 3": {
+      "Title": "Exam JN0-643 topic 1 question 15 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Which statement is true about using an OSPF import policy?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Import policies are not allowed in OSPF, applying the policy will do nothing."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. Applying an import policy to OSPF may block normal LSA flooding."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Import policies are allowed only for external route types."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. Applying this policy will cause a commit failure."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 4": {
+      "Title": "Exam JN0-643 topic 2 question 99 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "-- Exhibit --"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "user@router> show configuration routing-options autonomous-system"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "65550;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "user@router> show configuration protocols bgp"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "group ibgp {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "type internal;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "neighbor 10.0.3.5;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "group ibgpv6 {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "type internal;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "local-address 2001:ffff::3:4;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "neighbor 2001:ffff::3:5;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "group as65010 {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "family inet {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "unicast;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "family inet6 {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "unicast;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "export as65010-out;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "peer-as 65010;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "neighbor 172.16.0.6;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "user@router> show configuration policy-options"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "policy-statement as65010-out {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "term locally-originated {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "from as-path local-only;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "then {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "metric 7000;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "term from-as65222 {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "from as-path as65222-orig;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "then as-path-prepend \"65550 65550 65550 65550\";"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "term transit-as701 {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "from as-path transit-as701;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "then {"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "metric 6;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "then accept;"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "}"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "as-path local-only \"(.*)\";"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "as-path as65222-orig \".* 65222\";"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "as-path transit-as701 \".* 701 .*\";"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "user@router> show route advertising-protocol bgp 172.16.0.6"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "inet.0: 43 destinations, 47 routes (43 active, 0 holddown, 0 hidden)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Prefix Nexthop MED Lclpref AS path"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.2.0/30 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.2.4/30 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.2.8/30 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.2.16/30 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.3.3/32 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.3.4/32 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.3.5/32 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.4.8/30 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.8.8/30 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.0.9.9/32 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 10.255.255.1/32 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 64.142.88.0/24 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 130.130.0.0/16 Self 6 65222 46375 701 14203 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 131.131.131.0/24 Self 6 65222 46375 701 14203 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 132.132.0.0/25 Self 6 65222 46375 701 32934 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 133.133.0.0/25 Self 6 65222 46375 701 32934 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 134.134.0.0/25 Self 65222 46375 14203 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 135.135.0.0/25 Self 65222 46375 14203 14203 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 172.16.0.4/30 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 172.16.0.12/30 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 172.16.200.0/30 172.16.0.6 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 192.0.2.0/24 172.16.0.6 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 192.168.50.0/24 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 192.168.253.0/24 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 200.200.0.0/16 172.16.0.6 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 200.200.0.1/32 172.16.0.6 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 200.200.1.1/32 172.16.0.6 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 200.200.200.200/32 172.16.0.6 7000 I inet6.0: 23 destinations, 28 routes (23 active, 0 holddown, 0 hidden)"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Prefix Nexthop MED Lclpref AS path"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* ::172.16.0.4/126 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 2001:1:1::/64 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 2001:1:2::/64 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 2001:ffff::3:3/128 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 2001:ffff::3:4/128 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 2001:ffff::3:5/128 Self 7000 I"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "* 2001:ffff::9:7/128 Self 7000 I user@router>"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- Exhibit --"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Click the Exhibit button."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "You are configuring an EBGP peer in a transit environment. You must advertise routes learned from other EBGP peers in your AS. Any routes originated from within your AS should have a MED of 7000 set. Any routes that originate in AS65222 should be prepended four times. Any routes that transit AS701 should have a"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "MED set to 6. This scenario results in the unintended advertisement of internal 10.0.0.0/8 networks to your peer."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "What caused the accidental advertisement of internal networks to your EBGP peer?"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Your AS number of 65550 is a private AS number."
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. The BGP group as65010 is configured for both family inet unicast and family inet6 unicast protocol families."
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. The export policy as65010-out is misconfigured."
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. The as-path local-only includes a misconfigured regular expression."
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: C \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    },
+    "Question #: 5": {
+      "Title": "Exam JN0-643 topic 2 question 111 discussion - ExamTopics",
+      "Question": {
+        "content": [
+          {
+            "type": "text",
+            "value": "-- Exhibit"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "image",
+            "src": "https://www.examtopics.com/assets/media/exam-media/02095/0019000001.jpg"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "-- Exhibit --"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "Click the Exhibit button."
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "In the topology shown in the exhibit, which two BGP attributes can AS1 manipulate to influence the path that AS4 takes to reach prefixes originated by AS1?"
+          },
+          {
+            "type": "break"
+          },
+          {
+            "type": "text",
+            "value": "(Choose two.)"
+          }
+        ]
+      },
+      "Choices": {
+        "A": {
+          "content": [
+            {
+              "type": "text",
+              "value": "A. Local Preference"
+            }
+          ]
+        },
+        "B": {
+          "content": [
+            {
+              "type": "text",
+              "value": "B. AS Path"
+            }
+          ]
+        },
+        "C": {
+          "content": [
+            {
+              "type": "text",
+              "value": "C. Origin"
+            }
+          ]
+        },
+        "D": {
+          "content": [
+            {
+              "type": "text",
+              "value": "D. MED"
+            }
+          ]
+        }
+      },
+      "Answer": {
+        "content": [
+          {
+            "type": "text",
+            "value": "Suggested Answer: BC \ud83d\uddf3\ufe0f"
+          }
+        ]
+      },
+      "Explanation": {
+        "content": []
+      },
+      "Vote_count": []
+    }
+  }
+}

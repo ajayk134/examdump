@@ -1,0 +1,14 @@
+# Ignore quarantine directories with original repo histories
+.quarantine/
+# Ignore local dev vars (never commit secrets)
+.dev.vars
+# Ignore node modules
+node_modules
+# Ignore Wrangler local state
+.wrangler
+# Ignore log files
+*.log
+# Ignore lock files
+*.lock
+# Ignore dist outputs
+dist
